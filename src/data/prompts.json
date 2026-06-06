@@ -1,0 +1,10 @@
+{
+  "menu_recommendation": "지역 {{region}}, 예산 {{budget}}, 업종 {{business_type}}, 선호 메뉴 {{preferred_menu}}에 맞는 F&B 창업 메뉴 3개를 JSON으로 추천하라.",
+  "cost_comment": "선택 메뉴 {{selected_menu}}의 원가 구조, 배달 수수료, 손익분기 판매량을 창업자가 이해하기 쉽게 요약하라.",
+  "brand_generation": "선택 메뉴 {{selected_menu}}와 {{region}} 상권에 맞는 브랜드 콘셉트 3개를 생성하라.",
+  "interior_prompt": "딥그린, 우드, 오프화이트 무드의 소형 덮밥 매장 인테리어 이미지를 생성할 프롬프트를 작성하라.",
+  "hiring": "부산 대학가 덮밥 매장의 주방보조 및 홀 파트타임 공고문을 작성하라.",
+  "delivery_copy": "우삼겹 덮밥 배달앱 소개문, 리뷰 이벤트, 배달 안내 문구를 작성하라.",
+  "shortform": "15초 릴스/쇼츠 홍보안을 훅, 메뉴 비주얼, 가격/혜택, CTA로 나누어 작성하라.",
+  "groupbuy": "우삼겹 덮밥 재료의 공동구매 후보와 예상 절감 효과를 추천하라."
+}

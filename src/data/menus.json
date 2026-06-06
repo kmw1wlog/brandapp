@@ -1,0 +1,218 @@
+[
+  {
+    "id": "menu_001",
+    "name": "우삼겹 덮밥",
+    "category": "덮밥",
+    "target_area_type": [
+      "university",
+      "office",
+      "delivery"
+    ],
+    "target_customer": [
+      "대학생",
+      "직장인",
+      "1인 식사 고객"
+    ],
+    "description": "우삼겹을 빠르게 볶아 밥 위에 올리는 고기 덮밥 메뉴",
+    "recommended_price": 8900,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": [
+      "우삼겹",
+      "쌀",
+      "양파",
+      "대파",
+      "덮밥소스"
+    ],
+    "required_packaging": [
+      "덮밥용기",
+      "뚜껑",
+      "수저세트",
+      "배달봉투"
+    ],
+    "required_equipment": [
+      "가스레인지",
+      "웍",
+      "보온밥솥",
+      "냉동고"
+    ],
+    "difficulty_score": 3,
+    "delivery_fit_score": 9,
+    "rotation_score": 9,
+    "recommended_reason": [
+      "대학가 점심 수요에 적합",
+      "조리 시간이 짧음",
+      "배달 전환이 쉬움"
+    ]
+  },
+  {
+    "id": "menu_002",
+    "name": "불백 정식",
+    "category": "한식 정식",
+    "target_area_type": [
+      "university",
+      "office",
+      "residential"
+    ],
+    "target_customer": [
+      "점심 식사 고객",
+      "남성 직장인",
+      "가성비 한식 선호 고객"
+    ],
+    "description": "불고기, 밥, 국, 반찬을 세트로 제공하는 정식 메뉴",
+    "recommended_price": 9500,
+    "target_food_cost_rate": 0.33,
+    "main_ingredients": [
+      "돼지고기",
+      "불고기소스",
+      "쌀",
+      "김치",
+      "국거리"
+    ],
+    "required_packaging": [
+      "정식 도시락용기",
+      "국용기",
+      "반찬용기",
+      "수저세트"
+    ],
+    "required_equipment": [
+      "불판",
+      "보온밥솥",
+      "국솥",
+      "냉장고"
+    ],
+    "difficulty_score": 5,
+    "delivery_fit_score": 7,
+    "rotation_score": 7,
+    "recommended_reason": [
+      "대중성이 높음",
+      "객단가 상승 가능",
+      "매장 식사와 배달 모두 가능"
+    ]
+  },
+  {
+    "id": "menu_003",
+    "name": "고기국수",
+    "category": "면/국물",
+    "target_area_type": [
+      "university",
+      "residential",
+      "tourism"
+    ],
+    "target_customer": [
+      "해장 수요",
+      "한 끼 식사 고객",
+      "지역 특색 메뉴 선호 고객"
+    ],
+    "description": "진한 육수와 고기 고명을 활용한 국수 메뉴",
+    "recommended_price": 8500,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": [
+      "면",
+      "돼지고기",
+      "육수",
+      "대파",
+      "김치"
+    ],
+    "required_packaging": [
+      "국물용기",
+      "면용기",
+      "반찬용기",
+      "수저세트"
+    ],
+    "required_equipment": [
+      "국솥",
+      "면삶는기",
+      "냉장고"
+    ],
+    "difficulty_score": 5,
+    "delivery_fit_score": 6,
+    "rotation_score": 7,
+    "recommended_reason": [
+      "재구매가 가능한 국물 메뉴",
+      "지역 특색 부여 가능",
+      "점심·저녁 모두 대응 가능"
+    ]
+  },
+  {
+    "id": "menu_004",
+    "name": "제육 덮밥",
+    "category": "덮밥",
+    "target_area_type": [
+      "university",
+      "office",
+      "delivery"
+    ],
+    "target_customer": [
+      "가성비 점심 고객",
+      "매운맛 선호 고객"
+    ],
+    "description": "제육볶음을 밥 위에 올린 고회전 덮밥 메뉴",
+    "recommended_price": 7900,
+    "target_food_cost_rate": 0.31,
+    "main_ingredients": [
+      "돼지고기",
+      "고추장소스",
+      "양파",
+      "쌀"
+    ],
+    "required_packaging": [
+      "덮밥용기",
+      "뚜껑",
+      "수저세트"
+    ],
+    "required_equipment": [
+      "가스레인지",
+      "웍",
+      "보온밥솥"
+    ],
+    "difficulty_score": 3,
+    "delivery_fit_score": 9,
+    "rotation_score": 9,
+    "recommended_reason": [
+      "가격 저항이 낮음",
+      "조리 표준화가 쉬움",
+      "대학가 수요가 안정적"
+    ]
+  },
+  {
+    "id": "menu_005",
+    "name": "닭갈비 덮밥",
+    "category": "덮밥",
+    "target_area_type": [
+      "university",
+      "office",
+      "delivery"
+    ],
+    "target_customer": [
+      "매운맛 선호 고객",
+      "고기 덮밥 고객"
+    ],
+    "description": "닭갈비 양념을 활용한 매콤한 덮밥 메뉴",
+    "recommended_price": 8500,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": [
+      "닭정육",
+      "닭갈비소스",
+      "양배추",
+      "쌀"
+    ],
+    "required_packaging": [
+      "덮밥용기",
+      "뚜껑",
+      "수저세트"
+    ],
+    "required_equipment": [
+      "웍",
+      "보온밥솥",
+      "냉장고"
+    ],
+    "difficulty_score": 4,
+    "delivery_fit_score": 8,
+    "rotation_score": 8,
+    "recommended_reason": [
+      "원재료 단가 관리가 쉬움",
+      "맛의 개성이 강함",
+      "배달 메뉴화가 쉬움"
+    ]
+  }
+]

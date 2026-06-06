@@ -1,0 +1,2094 @@
+아래는 Codex가 바로 구현에 넣을 수 있는 기획·데이터·프롬프트 패키지다.
+가격, 단가, 매출 수치는 전부 데모용 추정값으로 두고, 실제 서비스 전에는 공급처·상권·시세 검증으로 교체하면 된다.
+
+AI 기반 F&B 창업 실행 리포트 웹앱
+
+1차 데모용 데이터 스키마·Mock JSON·메뉴 데이터
+
+---
+
+0. 대표 데모 시나리오
+
+{
+  "demo_scenario": {
+    "region": "부산 대학가",
+    "budget": 50000000,
+    "business_type": "배달+매장 혼합",
+    "target_monthly_sales": 30000000,
+    "preferred_menu": "고기 덮밥",
+    "startup_experience": "없음",
+    "selected_menu": "우삼겹 덮밥"
+  }
+}
+
+---
+
+1. 데이터 스키마
+
+1-1. suppliers
+
+{
+  "id": "supplier_food_beef_001",
+  "name": "string",
+  "category": "food | packaging | equipment | delivery | marketing | hiring | interior",
+  "sub_category": "string",
+  "region": "string",
+  "url": "string",
+  "keywords": ["string"],
+  "delivery_type": ["냉동배송", "냉장배송", "상온배송", "화물배송", "방문수령"],
+  "min_order": {
+    "value": 10,
+    "unit": "kg | box | ea | pack"
+  },
+  "estimated_price": {
+    "value": 15800,
+    "unit": "원/kg",
+    "range_min": 14500,
+    "range_max": 17500,
+    "note": "데모용 추정값"
+  },
+  "referral_available": false,
+  "source_type": "manual_mock | public | user_collected | partner | api",
+  "source_url": "string",
+  "memo": "string",
+  "confidence_score": 0.7
+}
+
+---
+
+1-2. menus
+
+{
+  "id": "menu_001",
+  "name": "우삼겹 덮밥",
+  "category": "덮밥",
+  "target_area_type": ["university", "office", "delivery"],
+  "description": "빠른 조리와 높은 배달 적합성을 가진 고기 덮밥 메뉴",
+  "recommended_price": 8900,
+  "target_food_cost_rate": 0.32,
+  "delivery_fit_score": 9,
+  "difficulty_score": 3,
+  "rotation_score": 9,
+  "recommended_reason": ["대학가 점심 수요에 적합", "빠른 조리 가능", "배달 전환이 쉬움"],
+  "required_equipment": ["가스레인지", "웍", "보온밥솥", "냉동고", "포스기"],
+  "required_packaging": ["덮밥용기", "뚜껑", "수저세트", "배달봉투"]
+}
+
+---
+
+1-3. ingredients
+
+{
+  "id": "ingredient_beef_woosam_001",
+  "name": "우삼겹",
+  "category": "meat",
+  "keywords": ["우삼겹", "냉동 우삼겹", "수입산 소고기", "차돌박이 대체"],
+  "unit": "g",
+  "estimated_price_per_unit": {
+    "value": 18.5,
+    "unit": "원/g",
+    "base_price": 18500,
+    "base_unit": "원/kg"
+  },
+  "supplier_keywords": ["우삼겹", "냉동소고기", "수입산소고기", "정육 도매"],
+  "memo": "데모용 추정 단가. 실제 공급처 확인 필요"
+}
+
+---
+
+1-4. menu_ingredients
+
+{
+  "menu_id": "menu_001",
+  "ingredient_id": "ingredient_beef_woosam_001",
+  "amount_per_serving": 120,
+  "unit": "g",
+  "cost_estimate": 2220,
+  "required": true,
+  "memo": "1인분 기준 우삼겹 120g"
+}
+
+---
+
+1-5. brand_references
+
+{
+  "id": "brand_ref_001",
+  "brand_name": "참고 브랜드 A",
+  "category": "덮밥/한식",
+  "concept": "1인 식사, 빠른 회전, 배달 병행",
+  "main_menu": ["고기 덮밥", "제육 덮밥"],
+  "startup_cost": {
+    "min": 40000000,
+    "max": 90000000,
+    "note": "데모용 참고 범위"
+  },
+  "average_sales": {
+    "monthly": null,
+    "note": "실제 정보공개서 또는 수동 조사 필요"
+  },
+  "store_count": null,
+  "target_customer": ["대학생", "직장인", "1인 식사 고객"],
+  "color_mood": ["딥그린", "우드", "오프화이트"],
+  "interior_style": "빠른 회전형 소형 매장",
+  "source": "manual_reference",
+  "memo": "직접 복제 금지. 콘셉트 참고용"
+}
+
+---
+
+1-6. group_buys
+
+{
+  "id": "groupbuy_001",
+  "item_name": "수입산 우삼겹",
+  "region": "부산",
+  "target_buyers": 10,
+  "current_buyers": 7,
+  "target_quantity": 200,
+  "unit": "kg",
+  "estimated_discount_rate_min": 0.08,
+  "estimated_discount_rate_max": 0.15,
+  "related_menus": ["우삼겹 덮밥", "우삼겹 구이", "고기국수"],
+  "supplier_candidates": ["supplier_food_beef_001", "supplier_food_beef_002"],
+  "status": "recruiting",
+  "memo": "실제 결제 없이 관심 등록만 받는 데모용 공동구매"
+}
+
+---
+
+2. Mock JSON 샘플
+
+2-1. suppliers.json
+
+[
+  {
+    "id": "supplier_food_beef_001",
+    "name": "미트플러스",
+    "category": "food",
+    "sub_category": "정육/수입산 소고기",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": ["우삼겹", "수입산 소고기", "냉동소고기", "정육도매"],
+    "delivery_type": ["냉동배송"],
+    "min_order": { "value": 10, "unit": "kg" },
+    "estimated_price": {
+      "value": 15800,
+      "unit": "원/kg",
+      "range_min": 14500,
+      "range_max": 17500,
+      "note": "데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "우삼겹 덮밥 대표 공급처 후보",
+    "confidence_score": 0.65
+  },
+  {
+    "id": "supplier_food_beef_002",
+    "name": "글로벌미트",
+    "category": "food",
+    "sub_category": "정육/냉동육",
+    "region": "부산 배송 가능",
+    "url": "TODO_REAL_URL",
+    "keywords": ["우삼겹", "불고기용 소고기", "냉동육"],
+    "delivery_type": ["냉동배송"],
+    "min_order": { "value": 5, "unit": "kg" },
+    "estimated_price": {
+      "value": 16200,
+      "unit": "원/kg",
+      "range_min": 15000,
+      "range_max": 18000,
+      "note": "데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "소량 주문 가능 후보",
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_food_rice_001",
+    "name": "대성미곡상사",
+    "category": "food",
+    "sub_category": "쌀/곡물",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": ["업소용 쌀", "20kg 쌀", "식당 쌀"],
+    "delivery_type": ["상온배송"],
+    "min_order": { "value": 20, "unit": "kg" },
+    "estimated_price": {
+      "value": 32000,
+      "unit": "원/20kg",
+      "range_min": 29000,
+      "range_max": 38000,
+      "note": "데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "덮밥류 공통 핵심 재료",
+    "confidence_score": 0.7
+  },
+  {
+    "id": "supplier_food_veg_001",
+    "name": "프레시팜",
+    "category": "food",
+    "sub_category": "채소",
+    "region": "부산 배송 가능",
+    "url": "TODO_REAL_URL",
+    "keywords": ["양파", "대파", "상추", "식자재 채소"],
+    "delivery_type": ["냉장배송", "새벽배송"],
+    "min_order": { "value": 5, "unit": "kg" },
+    "estimated_price": {
+      "value": 1450,
+      "unit": "원/kg",
+      "range_min": 1000,
+      "range_max": 2200,
+      "note": "양파 기준 데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "채소류 통합 공급 후보",
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_food_sauce_001",
+    "name": "푸드코리아",
+    "category": "food",
+    "sub_category": "소스",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": ["덮밥소스", "불고기소스", "간장소스", "업소용 소스"],
+    "delivery_type": ["상온배송"],
+    "min_order": { "value": 1, "unit": "kg" },
+    "estimated_price": {
+      "value": 5800,
+      "unit": "원/kg",
+      "range_min": 4500,
+      "range_max": 8500,
+      "note": "데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "덮밥류 소스 공급 후보",
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_packaging_001",
+    "name": "에코팩",
+    "category": "packaging",
+    "sub_category": "덮밥용기/포장재",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": ["덮밥용기", "도시락용기", "배달용기", "PP용기"],
+    "delivery_type": ["상온배송"],
+    "min_order": { "value": 200, "unit": "ea" },
+    "estimated_price": {
+      "value": 198,
+      "unit": "원/개",
+      "range_min": 150,
+      "range_max": 280,
+      "note": "용기 단가 데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "배달 포장비 계산에 사용",
+    "confidence_score": 0.7
+  },
+  {
+    "id": "supplier_equipment_001",
+    "name": "다온주방",
+    "category": "equipment",
+    "sub_category": "주방기기",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": ["가스레인지", "웍", "보온밥솥", "냉동고", "업소용 주방"],
+    "delivery_type": ["화물배송", "방문수령"],
+    "min_order": { "value": 1, "unit": "ea" },
+    "estimated_price": {
+      "value": 298000,
+      "unit": "원/개",
+      "range_min": 200000,
+      "range_max": 800000,
+      "note": "품목별 상이. 데모용 대표값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "주방기기 카테고리 대표 공급처",
+    "confidence_score": 0.55
+  },
+  {
+    "id": "supplier_delivery_001",
+    "name": "부산 배달대행 파트너 A",
+    "category": "delivery",
+    "sub_category": "배달대행",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": ["배달대행", "음식점 배달", "부산 배달"],
+    "delivery_type": ["지역 배달"],
+    "min_order": { "value": 1, "unit": "store" },
+    "estimated_price": {
+      "value": 3000,
+      "unit": "원/건",
+      "range_min": 2500,
+      "range_max": 4500,
+      "note": "거리별 상이. 데모용 추정값"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "배달 운영안 연결용",
+    "confidence_score": 0.5
+  },
+  {
+    "id": "supplier_marketing_001",
+    "name": "부산 맛집 릴스 제작자 A",
+    "category": "marketing",
+    "sub_category": "릴스/쇼츠 외주",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": ["릴스 제작", "맛집 홍보", "숏폼", "인스타 홍보"],
+    "delivery_type": ["온라인 납품", "현장 촬영"],
+    "min_order": { "value": 1, "unit": "video" },
+    "estimated_price": {
+      "value": 150000,
+      "unit": "원/편",
+      "range_min": 50000,
+      "range_max": 300000,
+      "note": "데모용 추정값"
+    },
+    "referral_available": true,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "홍보센터 공급자 등록 대상으로 전환 가능",
+    "confidence_score": 0.5
+  },
+  {
+    "id": "supplier_hiring_001",
+    "name": "알바 공고 플랫폼 A",
+    "category": "hiring",
+    "sub_category": "구인",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": ["알바", "주방보조", "홀서빙", "구인공고"],
+    "delivery_type": ["온라인"],
+    "min_order": { "value": 1, "unit": "post" },
+    "estimated_price": {
+      "value": 0,
+      "unit": "원",
+      "range_min": 0,
+      "range_max": 100000,
+      "note": "무료/유료 노출 옵션 혼재"
+    },
+    "referral_available": false,
+    "source_type": "manual_mock",
+    "source_url": "TODO_REAL_URL",
+    "memo": "직원 공고문 생성 후 연결",
+    "confidence_score": 0.55
+  }
+]
+
+---
+
+3. 메뉴 20개 데이터
+
+[
+  {
+    "id": "menu_001",
+    "name": "우삼겹 덮밥",
+    "category": "덮밥",
+    "target_area_type": ["university", "office", "delivery"],
+    "target_customer": ["대학생", "직장인", "1인 식사 고객"],
+    "description": "우삼겹을 빠르게 볶아 밥 위에 올리는 고기 덮밥 메뉴",
+    "recommended_price": 8900,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": ["우삼겹", "쌀", "양파", "대파", "덮밥소스"],
+    "required_packaging": ["덮밥용기", "뚜껑", "수저세트", "배달봉투"],
+    "required_equipment": ["가스레인지", "웍", "보온밥솥", "냉동고"],
+    "difficulty_score": 3,
+    "delivery_fit_score": 9,
+    "rotation_score": 9,
+    "recommended_reason": ["대학가 점심 수요에 적합", "조리 시간이 짧음", "배달 전환이 쉬움"]
+  },
+  {
+    "id": "menu_002",
+    "name": "불백 정식",
+    "category": "한식 정식",
+    "target_area_type": ["university", "office", "residential"],
+    "target_customer": ["점심 식사 고객", "남성 직장인", "가성비 한식 선호 고객"],
+    "description": "불고기, 밥, 국, 반찬을 세트로 제공하는 정식 메뉴",
+    "recommended_price": 9500,
+    "target_food_cost_rate": 0.33,
+    "main_ingredients": ["돼지고기", "불고기소스", "쌀", "김치", "국거리"],
+    "required_packaging": ["정식 도시락용기", "국용기", "반찬용기", "수저세트"],
+    "required_equipment": ["불판", "보온밥솥", "국솥", "냉장고"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 7,
+    "rotation_score": 7,
+    "recommended_reason": ["대중성이 높음", "객단가 상승 가능", "매장 식사와 배달 모두 가능"]
+  },
+  {
+    "id": "menu_003",
+    "name": "고기국수",
+    "category": "면/국물",
+    "target_area_type": ["university", "residential", "tourism"],
+    "target_customer": ["해장 수요", "한 끼 식사 고객", "지역 특색 메뉴 선호 고객"],
+    "description": "진한 육수와 고기 고명을 활용한 국수 메뉴",
+    "recommended_price": 8500,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": ["면", "돼지고기", "육수", "대파", "김치"],
+    "required_packaging": ["국물용기", "면용기", "반찬용기", "수저세트"],
+    "required_equipment": ["국솥", "면삶는기", "냉장고"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 6,
+    "rotation_score": 7,
+    "recommended_reason": ["재구매가 가능한 국물 메뉴", "지역 특색 부여 가능", "점심·저녁 모두 대응 가능"]
+  },
+  {
+    "id": "menu_004",
+    "name": "제육 덮밥",
+    "category": "덮밥",
+    "target_area_type": ["university", "office", "delivery"],
+    "target_customer": ["가성비 점심 고객", "매운맛 선호 고객"],
+    "description": "제육볶음을 밥 위에 올린 고회전 덮밥 메뉴",
+    "recommended_price": 7900,
+    "target_food_cost_rate": 0.31,
+    "main_ingredients": ["돼지고기", "고추장소스", "양파", "쌀"],
+    "required_packaging": ["덮밥용기", "뚜껑", "수저세트"],
+    "required_equipment": ["가스레인지", "웍", "보온밥솥"],
+    "difficulty_score": 3,
+    "delivery_fit_score": 9,
+    "rotation_score": 9,
+    "recommended_reason": ["가격 저항이 낮음", "조리 표준화가 쉬움", "대학가 수요가 안정적"]
+  },
+  {
+    "id": "menu_005",
+    "name": "닭갈비 덮밥",
+    "category": "덮밥",
+    "target_area_type": ["university", "office", "delivery"],
+    "target_customer": ["매운맛 선호 고객", "고기 덮밥 고객"],
+    "description": "닭갈비 양념을 활용한 매콤한 덮밥 메뉴",
+    "recommended_price": 8500,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": ["닭정육", "닭갈비소스", "양배추", "쌀"],
+    "required_packaging": ["덮밥용기", "뚜껑", "수저세트"],
+    "required_equipment": ["웍", "보온밥솥", "냉장고"],
+    "difficulty_score": 4,
+    "delivery_fit_score": 8,
+    "rotation_score": 8,
+    "recommended_reason": ["원재료 단가 관리가 쉬움", "맛의 개성이 강함", "배달 메뉴화가 쉬움"]
+  },
+  {
+    "id": "menu_006",
+    "name": "곱창전골",
+    "category": "전골/주점",
+    "target_area_type": ["residential", "night", "delivery"],
+    "target_customer": ["저녁 고객", "술안주 고객", "2인 이상 주문 고객"],
+    "description": "곱창, 채소, 육수를 활용한 배달·매장 겸용 전골 메뉴",
+    "recommended_price": 24000,
+    "target_food_cost_rate": 0.36,
+    "main_ingredients": ["곱창", "육수", "양배추", "대파", "당면"],
+    "required_packaging": ["전골용기", "육수팩", "반찬용기"],
+    "required_equipment": ["대형냄비", "냉동고", "가스레인지"],
+    "difficulty_score": 7,
+    "delivery_fit_score": 6,
+    "rotation_score": 5,
+    "recommended_reason": ["객단가가 높음", "저녁·야식 수요 대응 가능", "공동구매 효과가 큼"]
+  },
+  {
+    "id": "menu_007",
+    "name": "마라탕 토핑형 메뉴",
+    "category": "중식/마라",
+    "target_area_type": ["university", "downtown", "delivery"],
+    "target_customer": ["20대 여성", "마라 선호 고객", "토핑 선택 고객"],
+    "description": "마라탕 베이스에 토핑을 선택하는 메뉴",
+    "recommended_price": 11000,
+    "target_food_cost_rate": 0.35,
+    "main_ingredients": ["마라소스", "육수", "숙주", "분모자", "고기토핑"],
+    "required_packaging": ["국물용기", "토핑용기", "수저세트"],
+    "required_equipment": ["육수기", "쇼케이스", "냉장고"],
+    "difficulty_score": 6,
+    "delivery_fit_score": 8,
+    "rotation_score": 6,
+    "recommended_reason": ["토핑 업셀링 가능", "20대 수요가 강함", "공동구매 품목이 많음"]
+  },
+  {
+    "id": "menu_008",
+    "name": "대학가 컵밥",
+    "category": "분식/간편식",
+    "target_area_type": ["university", "station", "takeout"],
+    "target_customer": ["대학생", "저가 점심 고객", "테이크아웃 고객"],
+    "description": "작은 용기에 밥과 토핑을 담아 빠르게 제공하는 메뉴",
+    "recommended_price": 5900,
+    "target_food_cost_rate": 0.3,
+    "main_ingredients": ["쌀", "김가루", "계란", "햄", "소스"],
+    "required_packaging": ["컵밥용기", "숟가락", "비닐봉투"],
+    "required_equipment": ["보온밥솥", "인덕션", "냉장고"],
+    "difficulty_score": 2,
+    "delivery_fit_score": 7,
+    "rotation_score": 10,
+    "recommended_reason": ["저가 진입 가능", "회전율이 매우 높음", "소형 매장에 적합"]
+  },
+  {
+    "id": "menu_009",
+    "name": "병원 앞 죽/도시락",
+    "category": "죽/도시락",
+    "target_area_type": ["hospital", "residential"],
+    "target_customer": ["환자 보호자", "간편식 고객", "고령층"],
+    "description": "병원가 수요에 맞춘 죽과 부드러운 도시락 메뉴",
+    "recommended_price": 9000,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": ["쌀", "닭고기", "야채", "육수"],
+    "required_packaging": ["죽용기", "도시락용기", "수저세트"],
+    "required_equipment": ["죽솥", "보온기", "냉장고"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 8,
+    "rotation_score": 6,
+    "recommended_reason": ["입지와 메뉴 적합성이 강함", "재구매 가능성 높음", "프랜차이즈 대안으로 설명 가능"]
+  },
+  {
+    "id": "menu_010",
+    "name": "샐러드/주스 세트",
+    "category": "건강식",
+    "target_area_type": ["office", "university", "fitness"],
+    "target_customer": ["다이어트 고객", "직장인", "여성 고객"],
+    "description": "샐러드와 착즙/블렌딩 주스를 묶은 건강식 세트",
+    "recommended_price": 11900,
+    "target_food_cost_rate": 0.37,
+    "main_ingredients": ["채소믹스", "닭가슴살", "드레싱", "과일", "주스원액"],
+    "required_packaging": ["샐러드볼", "주스컵", "빨대", "캐리어"],
+    "required_equipment": ["쇼케이스", "블렌더", "냉장고"],
+    "difficulty_score": 6,
+    "delivery_fit_score": 8,
+    "rotation_score": 6,
+    "recommended_reason": ["건강식 트렌드에 적합", "세트 객단가 구성 가능", "브랜드화가 쉬움"]
+  },
+  {
+    "id": "menu_011",
+    "name": "저가 커피",
+    "category": "카페",
+    "target_area_type": ["university", "office", "station"],
+    "target_customer": ["등교/출근 고객", "저가 커피 수요"],
+    "description": "아메리카노 중심의 고회전 저가 커피 모델",
+    "recommended_price": 2000,
+    "target_food_cost_rate": 0.28,
+    "main_ingredients": ["원두", "컵", "뚜껑", "얼음", "빨대"],
+    "required_packaging": ["테이크아웃컵", "뚜껑", "빨대", "캐리어"],
+    "required_equipment": ["에스프레소머신", "그라인더", "제빙기"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 4,
+    "rotation_score": 10,
+    "recommended_reason": ["회전율이 높음", "등교·출근 동선에 적합", "공급처 표준화가 쉬움"]
+  },
+  {
+    "id": "menu_012",
+    "name": "프리미엄 주스",
+    "category": "음료",
+    "target_area_type": ["office", "fitness", "commercial"],
+    "target_customer": ["건강 지향 고객", "여성 고객", "운동 고객"],
+    "description": "과일과 채소를 활용한 고마진 음료 메뉴",
+    "recommended_price": 6500,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": ["과일", "채소", "주스컵", "얼음"],
+    "required_packaging": ["PET컵", "돔뚜껑", "빨대", "캐리어"],
+    "required_equipment": ["블렌더", "냉장고", "쇼케이스"],
+    "difficulty_score": 4,
+    "delivery_fit_score": 6,
+    "rotation_score": 8,
+    "recommended_reason": ["브랜딩이 쉬움", "건강식과 세트 구성 가능", "원재료 관리가 중요"]
+  },
+  {
+    "id": "menu_013",
+    "name": "1인 고기 도시락",
+    "category": "도시락",
+    "target_area_type": ["office", "university", "delivery"],
+    "target_customer": ["혼밥 고객", "직장인", "배달 고객"],
+    "description": "고기 반찬과 밥, 간단한 반찬을 구성한 1인 도시락",
+    "recommended_price": 9900,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": ["돼지고기", "쌀", "반찬", "소스"],
+    "required_packaging": ["도시락용기", "반찬용기", "수저세트"],
+    "required_equipment": ["웍", "보온밥솥", "냉장고"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 9,
+    "rotation_score": 7,
+    "recommended_reason": ["배달 최적화", "객단가 확보 가능", "재료 공동구매 효과가 큼"]
+  },
+  {
+    "id": "menu_014",
+    "name": "고기국밥",
+    "category": "국밥",
+    "target_area_type": ["residential", "office", "night"],
+    "target_customer": ["든든한 식사 고객", "해장 고객", "남성 고객"],
+    "description": "육수와 고기를 활용한 국밥 메뉴",
+    "recommended_price": 9000,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": ["돼지고기", "육수", "쌀", "대파"],
+    "required_packaging": ["국물용기", "밥용기", "수저세트"],
+    "required_equipment": ["육수솥", "보온밥솥", "냉장고"],
+    "difficulty_score": 6,
+    "delivery_fit_score": 7,
+    "rotation_score": 7,
+    "recommended_reason": ["안정적인 식사 수요", "재구매 가능", "운영 표준화 필요"]
+  },
+  {
+    "id": "menu_015",
+    "name": "소고기 갈빗살 구이",
+    "category": "고깃집",
+    "target_area_type": ["residential", "night", "commercial"],
+    "target_customer": ["저녁 외식 고객", "회식 고객", "가족 고객"],
+    "description": "소고기 갈빗살을 중심으로 한 고깃집 메뉴",
+    "recommended_price": 14900,
+    "target_food_cost_rate": 0.38,
+    "main_ingredients": ["소고기 갈빗살", "쌈채소", "소스", "반찬"],
+    "required_packaging": ["매장 중심", "포장 시 고기용기"],
+    "required_equipment": ["불판", "환기시설", "냉장고", "숯/가스 설비"],
+    "difficulty_score": 8,
+    "delivery_fit_score": 3,
+    "rotation_score": 5,
+    "recommended_reason": ["공급 단가 절감 효과가 큼", "매장 경험이 중요", "초기 투자비 검토 필요"]
+  },
+  {
+    "id": "menu_016",
+    "name": "닭강정",
+    "category": "치킨/간식",
+    "target_area_type": ["university", "station", "delivery"],
+    "target_customer": ["간식 고객", "야식 고객", "학생 고객"],
+    "description": "닭튀김에 소스를 버무린 간식·배달 메뉴",
+    "recommended_price": 12000,
+    "target_food_cost_rate": 0.33,
+    "main_ingredients": ["닭정육", "튀김가루", "소스", "식용유"],
+    "required_packaging": ["치킨박스", "꼬치/포크", "소스컵"],
+    "required_equipment": ["튀김기", "보온기", "냉동고"],
+    "difficulty_score": 6,
+    "delivery_fit_score": 8,
+    "rotation_score": 7,
+    "recommended_reason": ["배달·포장에 적합", "소스 차별화 가능", "유지비 관리 필요"]
+  },
+  {
+    "id": "menu_017",
+    "name": "분식 세트",
+    "category": "분식",
+    "target_area_type": ["university", "school", "residential"],
+    "target_customer": ["학생", "간식 고객", "가성비 고객"],
+    "description": "떡볶이, 튀김, 순대 등을 묶은 세트 메뉴",
+    "recommended_price": 8900,
+    "target_food_cost_rate": 0.32,
+    "main_ingredients": ["떡", "어묵", "고추장소스", "튀김류"],
+    "required_packaging": ["떡볶이용기", "튀김봉투", "수저세트"],
+    "required_equipment": ["떡볶이판", "튀김기", "냉장고"],
+    "difficulty_score": 5,
+    "delivery_fit_score": 8,
+    "rotation_score": 8,
+    "recommended_reason": ["대학가·주거지 모두 가능", "세트 업셀링 가능", "원재료 표준화가 쉬움"]
+  },
+  {
+    "id": "menu_018",
+    "name": "수제버거",
+    "category": "양식/버거",
+    "target_area_type": ["university", "commercial", "delivery"],
+    "target_customer": ["20대 고객", "프리미엄 간편식 고객"],
+    "description": "패티와 번, 소스를 활용한 프리미엄 버거 메뉴",
+    "recommended_price": 8900,
+    "target_food_cost_rate": 0.36,
+    "main_ingredients": ["버거번", "패티", "치즈", "소스", "채소"],
+    "required_packaging": ["버거포장지", "박스", "감자튀김봉투"],
+    "required_equipment": ["그리들", "튀김기", "냉장고"],
+    "difficulty_score": 7,
+    "delivery_fit_score": 7,
+    "rotation_score": 6,
+    "recommended_reason": ["브랜딩이 쉬움", "객단가 확장 가능", "품질 표준화가 중요"]
+  },
+  {
+    "id": "menu_019",
+    "name": "샌드위치",
+    "category": "브런치/간편식",
+    "target_area_type": ["office", "university", "fitness"],
+    "target_customer": ["아침 고객", "직장인", "건강식 선호 고객"],
+    "description": "빵, 야채, 단백질 재료를 활용한 간편식 메뉴",
+    "recommended_price": 6500,
+    "target_food_cost_rate": 0.34,
+    "main_ingredients": ["식빵/치아바타", "햄", "치즈", "채소", "소스"],
+    "required_packaging": ["샌드위치 포장지", "투명 케이스", "스티커"],
+    "required_equipment": ["토스터", "냉장쇼케이스", "작업대"],
+    "difficulty_score": 4,
+    "delivery_fit_score": 7,
+    "rotation_score": 8,
+    "recommended_reason": ["아침·점심 수요 대응", "소형 매장 가능", "포장 디자인 중요"]
+  },
+  {
+    "id": "menu_020",
+    "name": "카페 디저트",
+    "category": "카페/디저트",
+    "target_area_type": ["university", "commercial", "residential"],
+    "target_customer": ["카페 고객", "디저트 고객", "20대 여성"],
+    "description": "커피와 함께 판매 가능한 케이크·쿠키·디저트 메뉴",
+    "recommended_price": 4800,
+    "target_food_cost_rate": 0.35,
+    "main_ingredients": ["밀가루", "버터", "크림", "초콜릿", "포장재"],
+    "required_packaging": ["디저트박스", "스티커", "종이봉투"],
+    "required_equipment": ["오븐", "쇼케이스", "냉장고"],
+    "difficulty_score": 7,
+    "delivery_fit_score": 6,
+    "rotation_score": 6,
+    "recommended_reason": ["브랜딩 요소가 강함", "커피와 세트 판매 가능", "제조 난이도 검토 필요"]
+  }
+]
+
+---
+
+4. 우삼겹 덮밥 상세 데이터
+
+4-1. menu_ingredients 상세
+
+{
+  "menu_id": "menu_001",
+  "menu_name": "우삼겹 덮밥",
+  "serving_basis": "1인분",
+  "currency": "KRW",
+  "ingredients": [
+    {
+      "ingredient_id": "ingredient_beef_woosam_001",
+      "name": "우삼겹",
+      "amount_per_serving": 120,
+      "unit": "g",
+      "unit_price": 18.5,
+      "unit_price_label": "18,500원/kg",
+      "cost_estimate": 2220,
+      "supplier_keywords": ["우삼겹", "냉동소고기", "수입산소고기"]
+    },
+    {
+      "ingredient_id": "ingredient_rice_001",
+      "name": "쌀",
+      "amount_per_serving": 200,
+      "unit": "g",
+      "unit_price": 1.8,
+      "unit_price_label": "1,800원/kg",
+      "cost_estimate": 360,
+      "supplier_keywords": ["업소용 쌀", "20kg 쌀"]
+    },
+    {
+      "ingredient_id": "ingredient_onion_001",
+      "name": "양파",
+      "amount_per_serving": 50,
+      "unit": "g",
+      "unit_price": 1.2,
+      "unit_price_label": "1,200원/kg",
+      "cost_estimate": 60,
+      "supplier_keywords": ["양파", "식자재 채소"]
+    },
+    {
+      "ingredient_id": "ingredient_green_onion_001",
+      "name": "대파",
+      "amount_per_serving": 10,
+      "unit": "g",
+      "unit_price": 3,
+      "unit_price_label": "3,000원/kg",
+      "cost_estimate": 30,
+      "supplier_keywords": ["대파", "식자재 채소"]
+    },
+    {
+      "ingredient_id": "ingredient_sauce_bowl_001",
+      "name": "덮밥소스",
+      "amount_per_serving": 30,
+      "unit": "g",
+      "unit_price": 5.8,
+      "unit_price_label": "5,800원/kg",
+      "cost_estimate": 174,
+      "supplier_keywords": ["덮밥소스", "불고기소스", "간장소스"]
+    }
+  ],
+  "packaging": [
+    {
+      "name": "덮밥용기",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 180
+    },
+    {
+      "name": "뚜껑",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 50
+    },
+    {
+      "name": "수저/냅킨",
+      "amount_per_serving": 1,
+      "unit": "set",
+      "cost_estimate": 12
+    },
+    {
+      "name": "배달봉투",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 70
+    }
+  ],
+  "cost_summary": {
+    "food_ingredient_cost": 2844,
+    "packaging_cost": 312,
+    "food_cost_rate_at_recommended_price": 0.3195,
+    "recommended_price": 8900,
+    "basic_gross_margin_before_delivery": 5744,
+    "basic_gross_margin_rate_before_delivery": 0.6454
+  },
+  "assumptions": {
+    "delivery_order_ratio": 0.6,
+    "delivery_platform_fee_rate": 0.1,
+    "weighted_delivery_fee_per_order": 534,
+    "labor_allocation_per_serving": 1100,
+    "rent_allocation_per_serving": 550,
+    "utility_and_misc_per_serving": 300
+  },
+  "profit_model": {
+    "recommended_price": 8900,
+    "food_ingredient_cost": 2844,
+    "packaging_cost": 312,
+    "weighted_delivery_fee_per_order": 534,
+    "variable_cost_before_labor_rent": 3690,
+    "contribution_margin_before_labor_rent": 5210,
+    "estimated_operating_margin_after_allocations": 3260,
+    "note": "인건비·임대료 배분은 매장 구조에 따라 크게 달라짐"
+  },
+  "breakeven_assumption": {
+    "monthly_fixed_cost": 3100000,
+    "contribution_margin_per_serving": 4050,
+    "breakeven_servings_per_month": 766,
+    "breakeven_servings_per_day": 25.5,
+    "note": "월 30일 영업 기준 데모 추정값"
+  },
+  "price_simulation": [
+    {
+      "price": 8500,
+      "food_cost_rate": 0.3346,
+      "basic_gross_margin_before_delivery": 5344
+    },
+    {
+      "price": 8900,
+      "food_cost_rate": 0.3195,
+      "basic_gross_margin_before_delivery": 5744,
+      "recommended": true
+    },
+    {
+      "price": 9300,
+      "food_cost_rate": 0.3058,
+      "basic_gross_margin_before_delivery": 6144
+    },
+    {
+      "price": 9500,
+      "food_cost_rate": 0.2994,
+      "basic_gross_margin_before_delivery": 6344
+    }
+  ]
+}
+
+---
+
+5. 공동구매 후보 10개
+
+[
+  {
+    "id": "groupbuy_001",
+    "item_name": "수입산 우삼겹",
+    "region": "부산",
+    "target_buyers": 10,
+    "current_buyers": 7,
+    "target_quantity": 200,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.08,
+    "estimated_discount_rate_max": 0.15,
+    "related_menus": ["우삼겹 덮밥", "우삼겹 구이", "고기국수"],
+    "supplier_candidates": ["supplier_food_beef_001", "supplier_food_beef_002"],
+    "status": "recruiting",
+    "memo": "대표 데모 공동구매"
+  },
+  {
+    "id": "groupbuy_002",
+    "item_name": "업소용 쌀 20kg",
+    "region": "부산",
+    "target_buyers": 20,
+    "current_buyers": 14,
+    "target_quantity": 1000,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.08,
+    "estimated_discount_rate_max": 0.12,
+    "related_menus": ["우삼겹 덮밥", "불백 정식", "제육 덮밥", "1인 고기 도시락"],
+    "supplier_candidates": ["supplier_food_rice_001"],
+    "status": "recruiting",
+    "memo": "덮밥/도시락 공통 품목"
+  },
+  {
+    "id": "groupbuy_003",
+    "item_name": "덮밥용기 500ml",
+    "region": "전국",
+    "target_buyers": 30,
+    "current_buyers": 23,
+    "target_quantity": 5000,
+    "unit": "ea",
+    "estimated_discount_rate_min": 0.12,
+    "estimated_discount_rate_max": 0.18,
+    "related_menus": ["우삼겹 덮밥", "제육 덮밥", "닭갈비 덮밥"],
+    "supplier_candidates": ["supplier_packaging_001"],
+    "status": "recruiting",
+    "memo": "포장재 공동구매"
+  },
+  {
+    "id": "groupbuy_004",
+    "item_name": "양파 국내산",
+    "region": "부산",
+    "target_buyers": 15,
+    "current_buyers": 9,
+    "target_quantity": 300,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.1,
+    "estimated_discount_rate_max": 0.16,
+    "related_menus": ["우삼겹 덮밥", "불백 정식", "제육 덮밥"],
+    "supplier_candidates": ["supplier_food_veg_001"],
+    "status": "recruiting",
+    "memo": "채소 공동구매"
+  },
+  {
+    "id": "groupbuy_005",
+    "item_name": "불고기/덮밥 소스",
+    "region": "전국",
+    "target_buyers": 12,
+    "current_buyers": 6,
+    "target_quantity": 120,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.07,
+    "estimated_discount_rate_max": 0.14,
+    "related_menus": ["우삼겹 덮밥", "불백 정식"],
+    "supplier_candidates": ["supplier_food_sauce_001"],
+    "status": "recruiting",
+    "memo": "소스 표준화 가능"
+  },
+  {
+    "id": "groupbuy_006",
+    "item_name": "수저/냅킨 세트",
+    "region": "전국",
+    "target_buyers": 25,
+    "current_buyers": 10,
+    "target_quantity": 10000,
+    "unit": "set",
+    "estimated_discount_rate_min": 0.1,
+    "estimated_discount_rate_max": 0.2,
+    "related_menus": ["전 메뉴"],
+    "supplier_candidates": ["supplier_packaging_001"],
+    "status": "recruiting",
+    "memo": "소모품 공동구매"
+  },
+  {
+    "id": "groupbuy_007",
+    "item_name": "주스컵/PET컵",
+    "region": "전국",
+    "target_buyers": 20,
+    "current_buyers": 8,
+    "target_quantity": 5000,
+    "unit": "ea",
+    "estimated_discount_rate_min": 0.1,
+    "estimated_discount_rate_max": 0.18,
+    "related_menus": ["저가 커피", "프리미엄 주스"],
+    "supplier_candidates": [],
+    "status": "planned",
+    "memo": "카페형 메뉴 공동구매 후보"
+  },
+  {
+    "id": "groupbuy_008",
+    "item_name": "닭정육 냉동",
+    "region": "부산",
+    "target_buyers": 10,
+    "current_buyers": 4,
+    "target_quantity": 200,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.08,
+    "estimated_discount_rate_max": 0.15,
+    "related_menus": ["닭갈비 덮밥", "닭강정"],
+    "supplier_candidates": [],
+    "status": "planned",
+    "memo": "닭고기 메뉴 공동구매 후보"
+  },
+  {
+    "id": "groupbuy_009",
+    "item_name": "마라소스/분모자 세트",
+    "region": "전국",
+    "target_buyers": 10,
+    "current_buyers": 3,
+    "target_quantity": 100,
+    "unit": "box",
+    "estimated_discount_rate_min": 0.06,
+    "estimated_discount_rate_max": 0.12,
+    "related_menus": ["마라탕 토핑형 메뉴"],
+    "supplier_candidates": [],
+    "status": "planned",
+    "memo": "마라 메뉴 전용"
+  },
+  {
+    "id": "groupbuy_010",
+    "item_name": "식용유 18L",
+    "region": "전국",
+    "target_buyers": 20,
+    "current_buyers": 11,
+    "target_quantity": 100,
+    "unit": "can",
+    "estimated_discount_rate_min": 0.07,
+    "estimated_discount_rate_max": 0.13,
+    "related_menus": ["닭강정", "분식 세트", "수제버거"],
+    "supplier_candidates": [],
+    "status": "recruiting",
+    "memo": "튀김류 공통 품목"
+  }
+]
+
+---
+
+6. 수집 우선순위
+
+6-1. 1차 수집: 데모 작동용
+
+우선순위| 수집 대상| 목표 개수| 용도
+1| 도매식품 공급처| 20개| 메뉴 재료 링크
+2| 포장재 공급처| 10개| 배달 원가 계산
+3| 주방기기 공급처| 5개| 창업 준비물
+4| 배달/물류 링크| 5개| 배달 운영안
+5| 릴스/홍보 외주자| 10개| 홍보센터
+6| 구인 플랫폼| 5개| 직원 공고문 연결
+7| 브랜드 참고 데이터| 30개| AI 브랜드 생성 참고
+8| 문제제기 기사| 10개| 홍보 콘텐츠
+
+6-2. 수집 방식 원칙
+
+- 무단 대량 크롤링 금지
+- 실제 링크는 수동 수집, 공공데이터, 사용자가 제공한 링크, 제휴 가능 업체 우선
+- 외부 플랫폼의 이미지·로고·유료 정보는 복제하지 않음
+- 가격은 "estimated_price.note"에 “추정값” 또는 “확인 필요” 표시
+- 실제 공급처 확인 전에는 "confidence_score"를 0.5~0.7 이하로 둠AI 프롬프트 묶음 + 화면별 문구
+
+---
+
+1. AI 프롬프트
+
+1-1. 메뉴 추천 프롬프트
+
+너는 F&B 창업 메뉴 기획자다.
+
+사용자 입력:
+- 지역: {{region}}
+- 예산: {{budget}}
+- 업종: {{business_type}}
+- 목표 월매출: {{target_monthly_sales}}
+- 선호 메뉴: {{preferred_menu}}
+- 창업 경험: {{startup_experience}}
+
+참고 데이터:
+- 메뉴 DB: {{menus}}
+- 상권 태그: {{area_tags}}
+- 브랜드 참고 데이터: {{brand_references}}
+
+목표:
+사용자 조건에 맞는 창업 메뉴 3개를 추천하라.
+
+출력 원칙:
+1. 추상적인 조언 금지.
+2. 각 메뉴마다 판매가, 목표 원가율, 예상 마진 구조, 조리 난이도, 배달 적합성, 회전율을 제시하라.
+3. 왜 이 상권과 예산에 맞는지 설명하라.
+4. 모르는 정보는 “추정값” 또는 “추가 확인 필요”로 표시하라.
+5. 최종 출력은 JSON과 사람이 읽는 요약을 함께 제공하라.
+
+출력 JSON 형식:
+{
+  "recommended_menus": [
+    {
+      "menu_id": "",
+      "menu_name": "",
+      "recommended_price": 0,
+      "target_food_cost_rate": 0,
+      "estimated_food_cost": 0,
+      "delivery_fit_score": 0,
+      "difficulty_score": 0,
+      "rotation_score": 0,
+      "recommended_reason": [],
+      "risks": [],
+      "next_action": ""
+    }
+  ],
+  "summary": ""
+}
+
+---
+
+1-2. 원가 분석 프롬프트
+
+너는 F&B 원가 분석 담당자다.
+
+선택 메뉴:
+{{selected_menu}}
+
+메뉴 재료 데이터:
+{{menu_ingredients}}
+
+공급처 단가 데이터:
+{{supplier_prices}}
+
+목표:
+선택 메뉴의 1인분 기준 원가와 수익성을 계산하라.
+
+반드시 포함할 항목:
+- 재료별 사용량
+- 재료별 단가
+- 재료별 원가
+- 식품 원재료비 합계
+- 포장비
+- 권장 판매가
+- 목표 원가율
+- 판매가별 원가율 시뮬레이션
+- 배달 수수료 반영 시 마진
+- 인건비/임대료 배분 가정
+- 손익분기 판매량
+
+주의:
+- 단가는 실제 확정값이 아니면 “추정값”으로 표시하라.
+- 계산식이 있으면 함께 설명하라.
+- 창업자가 바로 이해할 수 있게 너무 복잡한 회계 용어는 줄여라.
+
+출력 JSON 형식:
+{
+  "menu_name": "",
+  "recommended_price": 0,
+  "food_cost_total": 0,
+  "packaging_cost_total": 0,
+  "food_cost_rate": 0,
+  "gross_margin_before_delivery": 0,
+  "cost_breakdown": [],
+  "price_simulation": [],
+  "breakeven": {
+    "monthly_fixed_cost": 0,
+    "contribution_margin_per_serving": 0,
+    "servings_per_month": 0,
+    "servings_per_day": 0
+  },
+  "ai_comment": []
+}
+
+---
+
+1-3. 공급처 매칭 프롬프트
+
+너는 F&B 창업 공급처 매칭 담당자다.
+
+선택 메뉴:
+{{selected_menu}}
+
+필요 재료:
+{{ingredients}}
+
+공급처 DB:
+{{suppliers}}
+
+목표:
+메뉴에 필요한 재료와 물품에 맞는 공급처 후보를 매칭하라.
+
+매칭 기준:
+1. 재료 키워드와 공급처 keywords가 일치하는지
+2. 지역 배송 가능 여부
+3. 최소 주문 수량
+4. 예상 단가
+5. 배송 방식
+6. 신뢰도 점수
+7. 공동구매 가능성
+
+출력:
+- 카테고리별 공급처 후보
+- 추천 구매 조합
+- 공동구매 가능 품목
+- 추가 확인이 필요한 항목
+
+출력 JSON 형식:
+{
+  "matched_suppliers": [
+    {
+      "category": "",
+      "item_name": "",
+      "supplier_candidates": [
+        {
+          "supplier_id": "",
+          "supplier_name": "",
+          "estimated_price": "",
+          "delivery_type": [],
+          "min_order": "",
+          "match_reason": "",
+          "risk_note": ""
+        }
+      ]
+    }
+  ],
+  "recommended_bundle": [],
+  "groupbuy_candidates": [],
+  "missing_items": []
+}
+
+---
+
+1-4. 브랜드 생성 프롬프트
+
+너는 F&B 브랜드 기획자다.
+
+입력:
+- 선택 메뉴: {{selected_menu}}
+- 지역/상권: {{region}}
+- 타깃 고객: {{target_customer}}
+- 가격대: {{price_range}}
+- 매장 형태: {{business_type}}
+- 참고 브랜드 방향: {{brand_references}}
+
+목표:
+선택 메뉴와 상권에 맞는 브랜드 콘셉트 3개를 생성하라.
+
+각 브랜드마다 포함할 것:
+- 브랜드명
+- 슬로건
+- 한 줄 콘셉트
+- 타깃 고객
+- 컬러 무드
+- 로고 방향
+- 메뉴판 톤
+- 배달앱 소개문 톤
+- 네이버 지도 소개문 초안
+- 주의해야 할 차별화 포인트
+
+주의:
+- 기존 브랜드명과 혼동될 수 있는 이름은 피하라.
+- 상표권 등록 가능성은 확정하지 말고 “추가 확인 필요”로 표시하라.
+- 실제 창업자가 바로 볼 수 있게 구체적으로 작성하라.
+
+출력 JSON 형식:
+{
+  "brand_concepts": [
+    {
+      "brand_name": "",
+      "slogan": "",
+      "concept": "",
+      "target_customer": [],
+      "color_mood": [],
+      "logo_direction": "",
+      "menu_board_tone": "",
+      "naver_place_intro": "",
+      "delivery_app_intro": "",
+      "risk_note": ""
+    }
+  ]
+}
+
+---
+
+1-5. 인테리어 제안 프롬프트
+
+너는 소형 F&B 매장 인테리어 기획자다.
+
+입력:
+- 브랜드명: {{brand_name}}
+- 선택 메뉴: {{selected_menu}}
+- 상권: {{region}}
+- 예산: {{budget}}
+- 매장 형태: {{business_type}}
+- 예상 평수: {{store_size}}
+- 타깃 고객: {{target_customer}}
+
+목표:
+초기 창업자가 이해할 수 있는 인테리어 방향을 제안하라.
+
+포함 항목:
+- 매장 콘셉트
+- 컬러/마감재
+- 간판 방향
+- 좌석 구성
+- 주방 동선
+- 포장/픽업 동선
+- 조명
+- 메뉴판 배치
+- 필요한 집기
+- 이미지 생성 프롬프트
+
+주의:
+- 고비용 인테리어보다 빠른 오픈과 운영 효율을 우선하라.
+- 예산 초과 가능성이 있으면 경고하라.
+
+출력 JSON 형식:
+{
+  "interior_concept": {
+    "concept_name": "",
+    "mood": "",
+    "color_materials": [],
+    "signage_direction": "",
+    "seating_plan": "",
+    "kitchen_flow": "",
+    "pickup_flow": "",
+    "lighting": "",
+    "menu_board": "",
+    "required_fixtures": [],
+    "image_prompt": "",
+    "risk_note": ""
+  }
+}
+
+---
+
+1-6. 직원 공고문 생성 프롬프트
+
+너는 소상공인 구인 공고 작성 담당자다.
+
+입력:
+- 브랜드명: {{brand_name}}
+- 메뉴: {{selected_menu}}
+- 지역: {{region}}
+- 영업시간: {{operating_hours}}
+- 매장 형태: {{business_type}}
+- 필요 인원: {{required_staff}}
+- 예상 시급: {{hourly_wage}}
+
+목표:
+알바 구인 플랫폼에 바로 올릴 수 있는 공고문을 작성하라.
+
+포함 항목:
+- 공고 제목
+- 근무시간
+- 시급
+- 업무내용
+- 우대사항
+- 지원방법
+- 짧은 소개문
+- 주의사항
+
+출력 JSON 형식:
+{
+  "job_posting": {
+    "title": "",
+    "store_intro": "",
+    "working_hours": "",
+    "wage": "",
+    "tasks": [],
+    "preferred": [],
+    "apply_method": "",
+    "short_version": "",
+    "copy_ready_text": ""
+  }
+}
+
+---
+
+1-7. 배달앱 소개문 생성 프롬프트
+
+너는 배달앱 메뉴 등록 담당자다.
+
+입력:
+- 브랜드명: {{brand_name}}
+- 메뉴: {{selected_menu}}
+- 가격: {{price}}
+- 타깃 고객: {{target_customer}}
+- 메뉴 특징: {{menu_features}}
+- 포장 방식: {{packaging}}
+
+목표:
+배달앱에 바로 등록할 수 있는 가게 소개문, 메뉴 설명, 리뷰 이벤트 문구를 작성하라.
+
+출력 항목:
+- 가게 소개문
+- 대표 메뉴 설명
+- 메뉴명 개선안
+- 리뷰 이벤트 문구
+- 배달 안내 문구
+- 쿠폰 문구
+
+주의:
+- 과장 광고 금지.
+- 원산지, 효능, 건강효과 등 검증되지 않은 표현 금지.
+
+출력 JSON 형식:
+{
+  "delivery_copy": {
+    "store_intro": "",
+    "menu_description": "",
+    "menu_name_options": [],
+    "review_event": "",
+    "delivery_notice": "",
+    "coupon_copy": ""
+  }
+}
+
+---
+
+1-8. 릴스/쇼츠 홍보안 생성 프롬프트
+
+너는 F&B 숏폼 광고 기획자다.
+
+입력:
+- 브랜드명: {{brand_name}}
+- 메뉴: {{selected_menu}}
+- 가격: {{price}}
+- 지역: {{region}}
+- 타깃 고객: {{target_customer}}
+- 차별점: {{differentiation}}
+
+목표:
+15초 릴스/쇼츠 홍보안을 작성하라.
+
+포함 항목:
+- 영상 콘셉트
+- 0~3초 훅
+- 4~8초 메뉴 비주얼
+- 9~12초 가격/혜택
+- 13~15초 CTA
+- 자막 문구
+- 촬영 컷 리스트
+- 캡션
+- 해시태그
+- 외주자에게 줄 작업 지시문
+
+출력 JSON 형식:
+{
+  "shortform_plan": {
+    "concept": "",
+    "storyboard": [
+      { "time": "0-3s", "scene": "", "caption": "" },
+      { "time": "4-8s", "scene": "", "caption": "" },
+      { "time": "9-12s", "scene": "", "caption": "" },
+      { "time": "13-15s", "scene": "", "caption": "" }
+    ],
+    "shooting_list": [],
+    "caption_copy": "",
+    "hashtags": [],
+    "outsourcing_brief": ""
+  }
+}
+
+---
+
+1-9. 공동구매 후보 추천 프롬프트
+
+너는 F&B 공동구매 설계 담당자다.
+
+입력:
+- 선택 메뉴: {{selected_menu}}
+- 메뉴 재료: {{ingredients}}
+- 지역: {{region}}
+- 공급처 DB: {{suppliers}}
+- 기존 공동구매 DB: {{group_buys}}
+
+목표:
+선택 메뉴와 연결 가능한 공동구매 후보를 추천하라.
+
+선정 기준:
+1. 여러 메뉴에서 반복 사용되는 재료인가
+2. 최소 주문 수량이 큰 품목인가
+3. 보관이 가능한 품목인가
+4. 공동구매 시 절감률이 의미 있는가
+5. 배송/냉장/냉동 리스크가 관리 가능한가
+
+출력:
+- 추천 공동구매 품목
+- 예상 참여자 수
+- 목표 물량
+- 예상 절감률
+- 리스크
+- 관심 등록 CTA 문구
+
+출력 JSON 형식:
+{
+  "groupbuy_recommendations": [
+    {
+      "item_name": "",
+      "reason": "",
+      "target_buyers": 0,
+      "target_quantity": 0,
+      "unit": "",
+      "estimated_discount_rate": {
+        "min": 0,
+        "max": 0
+      },
+      "risks": [],
+      "cta": ""
+    }
+  ]
+}
+
+---
+
+2. 화면별 문구
+
+2-1. 창업 조건 입력
+
+{
+  "screen": "startup_input",
+  "main_title": "프랜차이즈 없이 시작하는 AI 창업 설계",
+  "subtitle": "입력하신 조건을 바탕으로 성공 가능성이 높은 창업안을 AI가 설계해 드립니다.",
+  "card_titles": [
+    "창업 조건을 입력해주세요",
+    "AI 창업 실행 리포트 미리보기"
+  ],
+  "buttons": [
+    "AI 창업안 만들기",
+    "입력 예시 보기"
+  ],
+  "helper_text": "정확한 입력일수록 더 정교한 AI 분석이 가능합니다.",
+  "warning_text": "분석 결과는 데모용 추정값이며 실제 창업 전 공급처·상권·비용 검증이 필요합니다.",
+  "empty_state": "아직 입력된 창업 조건이 없습니다.",
+  "success_state": "창업 조건이 저장되었습니다. 추천 메뉴를 생성합니다."
+}
+
+---
+
+2-2. 추천 메뉴
+
+{
+  "screen": "menu_recommendation",
+  "main_title": "AI가 추천한 창업 메뉴",
+  "subtitle": "입력한 조건에 맞춰 판매 가능성이 높은 메뉴를 추천합니다.",
+  "card_titles": [
+    "우삼겹 덮밥",
+    "불백 정식",
+    "고기국수",
+    "입력한 창업 조건 요약"
+  ],
+  "buttons": [
+    "이 메뉴로 진행하기",
+    "다른 메뉴 다시 추천",
+    "조건 수정하기"
+  ],
+  "helper_text": "상권 적합도, 배달 적합성, 조리 난이도를 함께 비교하세요.",
+  "warning_text": "추천 메뉴는 실제 매출을 보장하지 않으며, 상권 조사와 시식 검증이 필요합니다.",
+  "empty_state": "추천할 메뉴가 없습니다. 창업 조건을 먼저 입력해주세요.",
+  "success_state": "대표 메뉴가 선택되었습니다. 원가 분석으로 이동합니다."
+}
+
+---
+
+2-3. 원가 분석
+
+{
+  "screen": "cost_analysis",
+  "main_title": "우삼겹 덮밥 원가 분석",
+  "subtitle": "1인분 기준 원재료비와 예상 수익성을 계산했습니다.",
+  "card_titles": [
+    "권장 판매가",
+    "1인분 원재료비",
+    "목표 원가율",
+    "예상 마진",
+    "손익분기 판매량",
+    "1인분 원재료비 상세",
+    "비용 구성 비율",
+    "판매가 시뮬레이션",
+    "AI 수익성 코멘트"
+  ],
+  "buttons": [
+    "공급처 링크 보기",
+    "PDF 리포트 저장",
+    "판매가 다시 계산"
+  ],
+  "helper_text": "가격을 변경하면 원가율과 예상 마진이 함께 바뀝니다.",
+  "warning_text": "단가와 비용은 데모용 추정값입니다. 실제 거래처 견적 확인이 필요합니다.",
+  "empty_state": "원가 분석을 위한 재료 데이터가 없습니다.",
+  "success_state": "원가 분석이 완료되었습니다."
+}
+
+---
+
+2-4. 공급처 링크
+
+{
+  "screen": "supplier_links",
+  "main_title": "메뉴에 맞는 공급처 링크",
+  "subtitle": "우삼겹 덮밥에 필요한 재료와 물품을 바로 구매할 수 있는 공급처를 모았습니다.",
+  "card_titles": [
+    "정육",
+    "쌀/곡물",
+    "채소",
+    "소스",
+    "포장재",
+    "주방기기",
+    "추천 구매 조합",
+    "공동구매 가능 품목"
+  ],
+  "buttons": [
+    "링크 열기",
+    "공동구매 보기",
+    "즐겨찾기 저장",
+    "공급처 추가하기"
+  ],
+  "helper_text": "최소 주문 수량, 배송 방식, 예상 단가를 비교하세요.",
+  "warning_text": "외부 공급처 가격은 변동될 수 있으며, 실제 구매 전 재확인이 필요합니다.",
+  "empty_state": "매칭된 공급처가 없습니다. 공급처 DB를 추가해주세요.",
+  "success_state": "공급처 후보가 매칭되었습니다."
+}
+
+---
+
+2-5. 브랜드/인테리어
+
+{
+  "screen": "brand_interior",
+  "main_title": "브랜드와 인테리어 초안",
+  "subtitle": "선택한 메뉴와 상권에 맞는 브랜드 콘셉트와 매장 디자인을 제안합니다.",
+  "card_titles": [
+    "브랜드 콘셉트 제안",
+    "인테리어 콘셉트 제안",
+    "메뉴판 카피 예시",
+    "네이버 지도 소개 문구 예시",
+    "AI 디자인 패키지"
+  ],
+  "buttons": [
+    "이 브랜드 선택",
+    "다른 콘셉트 다시 생성",
+    "소개문 복사",
+    "이미지 프롬프트 복사"
+  ],
+  "helper_text": "브랜드와 인테리어는 이후에도 수정 및 재생성할 수 있습니다.",
+  "warning_text": "상호명은 실제 사용 전 상표권·상호 중복 확인이 필요합니다.",
+  "empty_state": "생성된 브랜드 콘셉트가 없습니다.",
+  "success_state": "브랜드 콘셉트가 선택되었습니다."
+}
+
+---
+
+2-6. 직원·배달·홍보
+
+{
+  "screen": "operation_promotion",
+  "main_title": "직원·배달·홍보 실행안",
+  "subtitle": "오픈 직후 바로 사용할 수 있는 운영 문서를 준비했습니다.",
+  "card_titles": [
+    "직원 공고문",
+    "배달 운영안",
+    "홍보 실행안",
+    "오픈 전 체크리스트"
+  ],
+  "buttons": [
+    "공고문 복사",
+    "배달 설정 저장",
+    "홍보처 연결하기",
+    "체크 완료하기"
+  ],
+  "helper_text": "공고문, 소개문, 릴스 기획안은 복사해서 바로 수정할 수 있습니다.",
+  "warning_text": "구인 조건과 시급은 지역 법규와 실제 노동 조건에 맞게 확인해야 합니다.",
+  "empty_state": "생성된 운영 문서가 없습니다.",
+  "success_state": "운영·홍보 실행안이 생성되었습니다."
+}
+
+---
+
+2-7. 공동구매
+
+{
+  "screen": "groupbuy",
+  "main_title": "공동구매로 원가 더 낮추기",
+  "subtitle": "같은 재료를 쓰는 점포가 모이면 더 싼 단가로 구매할 수 있습니다.",
+  "card_titles": [
+    "수입산 우삼겹",
+    "내 매장 참여 정보",
+    "참여 시 예상 절감액",
+    "다른 공동구매 후보 재료"
+  ],
+  "buttons": [
+    "공동구매 관심 등록",
+    "참여자에게 문의 보내기",
+    "관심 등록",
+    "마감 알림 받기"
+  ],
+  "helper_text": "관심 등록만으로 실제 결제가 진행되지는 않습니다.",
+  "warning_text": "공동구매 단가는 참여자 수, 물량, 배송 조건에 따라 달라질 수 있습니다.",
+  "empty_state": "현재 참여 가능한 공동구매가 없습니다.",
+  "success_state": "공동구매 관심 등록이 완료되었습니다."
+}
+
+---
+
+3. 대표 화면용 AI 출력 예시
+
+3-1. 브랜드 콘셉트 예시
+
+{
+  "brand_concepts": [
+    {
+      "brand_name": "고기한그릇",
+      "slogan": "한 그릇의 든든함, 매일의 만족",
+      "concept": "대학가 점심 수요를 겨냥한 빠른 회전형 고기 덮밥 브랜드",
+      "target_customer": ["대학생", "직장인", "혼밥 고객"],
+      "color_mood": ["딥그린", "우드", "오프화이트", "브라운"],
+      "logo_direction": "김이 올라오는 그릇 아이콘과 굵은 한글 로고",
+      "menu_board_tone": "메뉴 수를 줄이고 가격과 고기 양을 크게 강조",
+      "naver_place_intro": "불맛 가득한 우삼겹 덮밥 전문점, 고기한그릇. 빠르고 든든한 한 끼를 합리적인 가격에 제공합니다.",
+      "delivery_app_intro": "고기 듬뿍, 밥 든든한 우삼겹 덮밥을 빠르게 준비해드립니다.",
+      "risk_note": "상호명 사용 전 상표·상호 중복 확인 필요"
+    },
+    {
+      "brand_name": "덮밥상회",
+      "slogan": "정성 담은 덮밥, 일상의 상회",
+      "concept": "대중적인 한식 덮밥을 따뜻한 상회 느낌으로 풀어낸 브랜드",
+      "target_customer": ["대학생", "동네 주민", "점심 고객"],
+      "color_mood": ["네이비", "오렌지", "베이지"],
+      "logo_direction": "작은 간판형 엠블럼과 상회 느낌의 타이포그래피",
+      "menu_board_tone": "친근한 문구와 정식 느낌 강조",
+      "naver_place_intro": "든든한 한 끼가 필요한 순간, 덮밥상회가 따뜻한 덮밥을 준비합니다.",
+      "delivery_app_intro": "밥, 고기, 소스의 균형을 맞춘 든든한 덮밥을 집에서 만나보세요.",
+      "risk_note": "상호명 유사 브랜드 확인 필요"
+    },
+    {
+      "brand_name": "우삼집",
+      "slogan": "우삼겹이 맛있는 집",
+      "concept": "우삼겹을 중심으로 메뉴를 확장할 수 있는 고기 전문 미니 브랜드",
+      "target_customer": ["고기 선호 고객", "점심·저녁 혼밥 고객"],
+      "color_mood": ["브라운", "블랙", "크림"],
+      "logo_direction": "소고기/불판 이미지를 단순화한 엠블럼",
+      "menu_board_tone": "고기 양, 불맛, 직화 느낌 강조",
+      "naver_place_intro": "우삼겹의 고소함을 한 그릇에 담은 우삼집입니다.",
+      "delivery_app_intro": "우삼겹을 듬뿍 올린 든든한 한 끼를 빠르게 배달해드립니다.",
+      "risk_note": "고기 전문점 이미지가 강해 메뉴 확장성 검토 필요"
+    }
+  ]
+}
+
+3-2. 직원 공고문 예시
+
+{
+  "job_posting": {
+    "title": "[고기한그릇] 주방/홀 알바 모집",
+    "store_intro": "부산 대학가에 새롭게 오픈하는 고기 덮밥 전문점입니다. 빠르고 깔끔한 운영을 함께 만들어갈 분을 찾습니다.",
+    "working_hours": "평일 10:00~14:00 / 17:00~21:00, 주말 10:00~15:00 / 17:00~21:00, 요일·시간 협의 가능",
+    "wage": "시급 10,000원, 주휴수당 별도 확인 필요",
+    "tasks": ["주방 보조", "간단 조리 준비", "포장", "배식", "설거지", "홀 정리"],
+    "preferred": ["요식업 경험자", "밝고 성실한 분", "점심 피크 근무 가능자"],
+    "apply_method": "문자 지원: 이름/나이/가능 요일/가능 시간 기재",
+    "short_version": "부산 대학가 고기 덮밥집에서 주방/홀 알바를 모집합니다. 점심 피크 근무 가능자 우대.",
+    "copy_ready_text": "[고기한그릇] 주방/홀 알바 모집\n\n부산 대학가에 새롭게 오픈하는 고기 덮밥 전문점입니다.\n\n근무시간: 평일 10:00~14:00 / 17:00~21:00, 주말 협의\n시급: 10,000원\n업무: 주방 보조, 조리 준비, 포장, 배식, 홀 정리\n우대: 요식업 경험자, 점심 피크 근무 가능자\n지원: 문자로 이름/나이/가능 요일/가능 시간 보내주세요."
+  }
+}
+
+3-3. 릴스/쇼츠 홍보안 예시
+
+{
+  "shortform_plan": {
+    "concept": "8,900원에 고기 듬뿍 들어간 대학가 점심 한 끼",
+    "storyboard": [
+      {
+        "time": "0-3s",
+        "scene": "우삼겹이 팬 위에서 볶이는 장면",
+        "caption": "이 가격에 고기가 이렇게 많다고?"
+      },
+      {
+        "time": "4-8s",
+        "scene": "밥 위에 우삼겹을 듬뿍 올리는 클로즈업",
+        "caption": "불맛 가득 우삼겹 덮밥"
+      },
+      {
+        "time": "9-12s",
+        "scene": "메뉴판 가격과 덮밥 완성샷",
+        "caption": "8,900원 든든한 한 그릇"
+      },
+      {
+        "time": "13-15s",
+        "scene": "매장 입구 또는 포장 봉투 컷",
+        "caption": "부산 대학가, 오늘 점심은 여기"
+      }
+    ],
+    "shooting_list": ["팬 위 고기 볶는 컷", "소스 붓는 컷", "밥 위에 고기 올리는 컷", "한 숟가락 클로즈업", "가격 노출 컷", "매장 외관 컷"],
+    "caption_copy": "고기 듬뿍 우삼겹 덮밥, 8,900원. 든든한 한 끼가 필요할 때 고기한그릇.",
+    "hashtags": ["#부산대맛집", "#대학가점심", "#우삼겹덮밥", "#고기덮밥", "#가성비맛집"],
+    "outsourcing_brief": "15초 세로 영상. 고기 양과 가격이 바로 보이게 촬영. 첫 3초에 팬 위 고기 비주얼과 가격 후킹 문구 필수."
+  }
+}홍보 콘텐츠 + Codex 전달용 최종 산출물
+
+---
+
+1. 홍보 콘텐츠
+
+1-1. 문제제기형
+
+랜딩페이지 카피
+
+프랜차이즈 창업, 정말 안전할까요?
+
+브랜드가 있다는 이유로 창업은 쉬워 보입니다.
+하지만 실제 점주는 가맹비, 인테리어비, 교육비, 광고비, 원부자재 비용, 배달앱 수수료까지 감당해야 합니다.
+
+문제는 창업자가 시작하기 전에는 이 비용 구조를 한눈에 보기 어렵다는 점입니다.
+
+모두의창업은 창업자가 프랜차이즈를 선택하기 전에
+“내 브랜드로 직접 창업하면 얼마가 들고, 얼마가 남는지” 먼저 계산해볼 수 있게 돕습니다.
+
+릴스 대본
+
+[0~3초]
+프랜차이즈 창업하면 진짜 안전할까?
+
+[4~7초]
+가맹비, 인테리어비, 광고비, 원부자재 비용, 배달앱 수수료.
+시작하기 전에 다 계산해본 적 있나요?
+
+[8~12초]
+이제 AI가 메뉴, 원가, 공급처, 홍보까지 한 번에 계산해줍니다.
+
+[13~15초]
+프랜차이즈 없이 시작하는 창업 설계, 모두의창업.
+
+카드뉴스 문구
+
+1장: 프랜차이즈 창업, 정말 안전할까?
+2장: 브랜드는 빌릴 수 있지만 비용도 따라옵니다.
+3장: 가맹비, 광고비, 원부자재, 배달 수수료까지.
+4장: 창업자는 시작 전에 실제로 얼마가 남는지 알아야 합니다.
+5장: 모두의창업은 메뉴·원가·공급처를 먼저 계산합니다.
+6장: 프랜차이즈를 고르기 전, 내 브랜드 창업도 계산해보세요.
+
+---
+
+1-2. 대안제시형
+
+랜딩페이지 카피
+
+프랜차이즈가 아니어도 창업은 설계할 수 있습니다.
+
+창업에 필요한 것은 단순한 브랜드 이름이 아닙니다.
+메뉴, 원가, 공급처, 인테리어, 직원, 배달, 홍보가 함께 맞아야 합니다.
+
+모두의창업은 AI가 창업자의 지역과 예산을 바탕으로
+실제로 실행 가능한 창업 리포트를 만들어줍니다.
+
+메뉴는 AI가 제안하고,
+원가는 숫자로 계산하고,
+공급처는 링크로 연결하고,
+홍보와 직원 공고문은 바로 복사해서 사용할 수 있습니다.
+
+릴스 대본
+
+[0~3초]
+창업하고 싶은데 프랜차이즈 말고 방법이 없을까?
+
+[4~7초]
+지역, 예산, 목표 매출만 입력하세요.
+
+[8~11초]
+AI가 메뉴, 원가, 공급처, 브랜드, 홍보안을 만들어줍니다.
+
+[12~15초]
+내 브랜드로 시작하는 F&B 창업, 모두의창업에서 먼저 계산하세요.
+
+카드뉴스 문구
+
+1장: 프랜차이즈 없이 창업할 수 있을까?
+2장: 가능하려면 감이 아니라 계산이 필요합니다.
+3장: 어떤 메뉴를 팔지.
+4장: 원가는 얼마인지.
+5장: 어디서 싸게 살 수 있는지.
+6장: 어떻게 홍보하고 직원을 구할지.
+7장: 모두의창업은 이 과정을 하나의 리포트로 만듭니다.
+
+---
+
+1-3. 계산기형
+
+랜딩페이지 카피
+
+우삼겹 덮밥 8,900원에 팔면 얼마가 남을까요?
+
+우삼겹, 쌀, 양파, 대파, 소스.
+여기에 포장용기, 배달봉투, 수저까지 더하면 실제 원가가 나옵니다.
+
+모두의창업은 메뉴를 정하면 1인분 원가, 목표 원가율, 판매가, 예상 마진, 손익분기 판매량까지 계산합니다.
+
+감으로 창업하지 말고,
+팔기 전에 먼저 계산하세요.
+
+릴스 대본
+
+[0~3초]
+우삼겹 덮밥 8,900원.
+이거 팔면 얼마 남을까?
+
+[4~7초]
+우삼겹 120g, 쌀 200g, 양파, 대파, 소스.
+식품 원가는 약 2,844원.
+
+[8~11초]
+포장비와 배달 수수료까지 넣으면 진짜 마진이 보입니다.
+
+[12~15초]
+메뉴 정하기 전에 원가부터 계산하세요. 모두의창업.
+
+카드뉴스 문구
+
+1장: 우삼겹 덮밥 8,900원, 얼마 남을까?
+2장: 우삼겹 120g = 약 2,220원
+3장: 쌀, 양파, 대파, 소스까지 합치면 식품 원가 약 2,844원
+4장: 포장비는 약 312원
+5장: 판매가 8,900원 기준 식품 원가율 약 32%
+6장: 배달 수수료와 인건비까지 넣어야 진짜 수익이 보입니다.
+7장: 모두의창업은 메뉴별 원가와 공급처를 함께 보여줍니다.
+
+---
+
+2. Codex 전달용 최종 산출물 요약
+
+2-1. 개발자가 구현해야 할 핵심 기능
+
+1. 창업 조건 입력 폼
+2. 입력값 기반 추천 메뉴 3개 표시
+3. 선택 메뉴 기준 원가 계산
+4. 메뉴 재료 기준 공급처 매칭
+5. 브랜드 콘셉트 3개 생성/표시
+6. 인테리어 콘셉트 및 소개문 표시
+7. 직원 공고문 생성/복사
+8. 배달앱 소개문 생성/복사
+9. 릴스/쇼츠 홍보안 생성
+10. 공동구매 후보 표시
+11. 공동구매 관심 등록
+12. PDF 리포트 저장 버튼
+
+---
+
+2-2. 파일 구조 제안
+
+/data
+  suppliers.json
+  menus.json
+  ingredients.json
+  menuIngredients.json
+  brandReferences.json
+  groupBuys.json
+  promoProviders.json
+
+/lib
+  cost.ts
+  matching.ts
+  promptTemplates.ts
+  reportBuilder.ts
+
+/app
+  /dashboard/startup/new
+  /dashboard/startup/menu
+  /dashboard/startup/cost
+  /dashboard/startup/suppliers
+  /dashboard/startup/brand
+  /dashboard/startup/operation
+  /dashboard/startup/groupbuy
+
+/components
+  AppShell.tsx
+  Sidebar.tsx
+  Stepper.tsx
+  MenuCard.tsx
+  CostSummaryCard.tsx
+  IngredientCostTable.tsx
+  SupplierTable.tsx
+  BrandConceptCard.tsx
+  OperationCard.tsx
+  GroupBuyCard.tsx
+
+---
+
+2-3. 원가 계산 기준
+
+식품 원재료비 = 메뉴에 들어가는 식품 재료 원가 합계
+
+포장비 = 용기 + 뚜껑 + 수저/냅킨 + 배달봉투
+
+식품 원가율 = 식품 원재료비 / 판매가
+
+기초 매출총이익 = 판매가 - 식품 원재료비 - 포장비
+
+배달 가중 수수료 = 판매가 × 배달앱 수수료율 × 배달 주문 비중
+
+공헌이익 = 판매가 - 식품 원재료비 - 포장비 - 배달 가중 수수료
+
+추정 영업마진 = 공헌이익 - 인건비 배분 - 임대료 배분 - 기타비 배분
+
+손익분기 월 판매량 = 월 고정비 / 1인분 공헌이익
+
+손익분기 일 판매량 = 손익분기 월 판매량 / 월 영업일수
+
+---
+
+2-4. 우삼겹 덮밥 데모 숫자
+
+{
+  "recommended_price": 8900,
+  "food_ingredient_cost": 2844,
+  "packaging_cost": 312,
+  "food_cost_rate": 0.3195,
+  "basic_gross_margin_before_delivery": 5744,
+  "delivery_order_ratio": 0.6,
+  "delivery_fee_rate": 0.1,
+  "weighted_delivery_fee_per_order": 534,
+  "contribution_margin_before_labor_rent": 5210,
+  "labor_allocation_per_serving": 1100,
+  "rent_allocation_per_serving": 550,
+  "utility_and_misc_per_serving": 300,
+  "estimated_operating_margin_after_allocations": 3260,
+  "monthly_fixed_cost": 3100000,
+  "breakeven_servings_per_day": 25.5
+}
+
+---
+
+3. 남은 확인사항
+
+3-1. 수집 측면
+
+1. 실제 도매식품 링크 50개 수집 필요
+2. 공급처별 최소 주문 수량 확인 필요
+3. 냉장/냉동 배송 가능 지역 확인 필요
+4. 포장재 실제 단가 확인 필요
+5. 배달대행 수수료 구조 확인 필요
+6. 릴스 외주자 실제 단가 확인 필요
+7. 브랜드 참고 데이터의 출처와 사용 가능 범위 확인 필요
+8. 프랜차이즈 문제제기 기사 원문 링크 수집 필요
+9. 지자체 배달앱/공유주방/지원사업 데이터 수집 필요
+10. 부산 대학가 실제 임대료·상권 데이터 확인 필요
+
+---
+
+3-2. 개발 측면
+
+1. 우선 mock data로 7단계 화면 완성
+2. 실제 AI API 연결은 후순위
+3. 원가 계산 함수부터 테스트 가능하게 분리
+4. 공급처 매칭은 keyword matching으로 시작
+5. 공동구매는 실제 결제 없이 관심 등록만 구현
+6. PDF 리포트 저장은 초기에는 HTML print 또는 mock 버튼 가능
+7. 관리자용 공급처 입력 화면은 2차 구현
+8. Supabase 이전은 mock JSON 데모 완성 후 진행
+
+---
+
+3-3. 사업 검증 측면
+
+1. 창업자가 AI 리포트에 돈을 낼지 확인
+2. 공급처 레퍼럴 수익 가능성 확인
+3. 공동구매 관심 등록 전환율 확인
+4. 릴스 외주자/마케팅 공급자 등록 의향 확인
+5. 프랜차이즈 대안 메시지가 실제로 설득력 있는지 확인
+6. 개인 브랜드 창업에 대한 두려움이 어떤 지점에서 발생하는지 인터뷰 필요
+7. 데모를 본 사용자가 “내 지역으로 해보고 싶다”고 말하는지 확인
+
+---
+
+4. 1차 데모 고정 결론
+
+1차 데모는 “모든 F&B 창업 자동화”가 아니다.
+
+정확한 목표는 다음이다.
+
+부산 대학가에서 고기 덮밥집을 창업하려는 사람이
+예산과 목표 매출을 입력하면
+AI가 우삼겹 덮밥 메뉴를 추천하고,
+1인분 원가를 계산하고,
+공급처 링크를 붙이고,
+브랜드와 인테리어 초안을 만들고,
+직원 공고문과 배달앱 소개문, 릴스 홍보안을 생성하고,
+수입산 우삼겹 공동구매 후보까지 보여주는 웹앱 데모.
+
+이 흐름 하나가 완성되면,
+그다음부터 메뉴·지역·공급처를 확장한다.

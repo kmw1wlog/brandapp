@@ -1,0 +1,296 @@
+[
+  {
+    "id": "supplier_food_beef_001",
+    "name": "미트플러스",
+    "category": "food",
+    "sub_category": "정육/수입산 소고기",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "우삼겹",
+      "수입산 소고기",
+      "냉동소고기",
+      "정육도매"
+    ],
+    "delivery_type": [
+      "냉동배송"
+    ],
+    "min_order": {
+      "value": 10,
+      "unit": "kg"
+    },
+    "estimated_price": {
+      "value": 15800,
+      "unit": "원/kg",
+      "range_min": 14500,
+      "range_max": 17500,
+      "note": "데모용 추정값"
+    },
+    "confidence_score": 0.65
+  },
+  {
+    "id": "supplier_food_beef_002",
+    "name": "글로벌미트",
+    "category": "food",
+    "sub_category": "정육/냉동육",
+    "region": "부산 배송 가능",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "우삼겹",
+      "불고기용 소고기",
+      "냉동육"
+    ],
+    "delivery_type": [
+      "냉동배송"
+    ],
+    "min_order": {
+      "value": 5,
+      "unit": "kg"
+    },
+    "estimated_price": {
+      "value": 16200,
+      "unit": "원/kg",
+      "range_min": 15000,
+      "range_max": 18000,
+      "note": "데모용 추정값"
+    },
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_food_rice_001",
+    "name": "대성미곡상사",
+    "category": "food",
+    "sub_category": "쌀/곡물",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "업소용 쌀",
+      "20kg 쌀",
+      "식당 쌀"
+    ],
+    "delivery_type": [
+      "상온배송"
+    ],
+    "min_order": {
+      "value": 20,
+      "unit": "kg"
+    },
+    "estimated_price": {
+      "value": 32000,
+      "unit": "원/20kg",
+      "range_min": 29000,
+      "range_max": 38000,
+      "note": "데모용 추정값"
+    },
+    "confidence_score": 0.7
+  },
+  {
+    "id": "supplier_food_veg_001",
+    "name": "프레시팜",
+    "category": "food",
+    "sub_category": "채소",
+    "region": "부산 배송 가능",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "양파",
+      "대파",
+      "상추",
+      "식자재 채소"
+    ],
+    "delivery_type": [
+      "냉장배송",
+      "새벽배송"
+    ],
+    "min_order": {
+      "value": 5,
+      "unit": "kg"
+    },
+    "estimated_price": {
+      "value": 1450,
+      "unit": "원/kg",
+      "range_min": 1000,
+      "range_max": 2200,
+      "note": "양파 기준 데모용 추정값"
+    },
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_food_sauce_001",
+    "name": "푸드코리아",
+    "category": "food",
+    "sub_category": "소스",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "덮밥소스",
+      "불고기소스",
+      "간장소스",
+      "업소용 소스"
+    ],
+    "delivery_type": [
+      "상온배송"
+    ],
+    "min_order": {
+      "value": 1,
+      "unit": "kg"
+    },
+    "estimated_price": {
+      "value": 5800,
+      "unit": "원/kg",
+      "range_min": 4500,
+      "range_max": 8500,
+      "note": "데모용 추정값"
+    },
+    "confidence_score": 0.6
+  },
+  {
+    "id": "supplier_packaging_001",
+    "name": "에코팩",
+    "category": "packaging",
+    "sub_category": "덮밥용기/포장재",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "덮밥용기",
+      "도시락용기",
+      "배달용기",
+      "PP용기",
+      "수저",
+      "냅킨",
+      "배달봉투"
+    ],
+    "delivery_type": [
+      "상온배송"
+    ],
+    "min_order": {
+      "value": 200,
+      "unit": "ea"
+    },
+    "estimated_price": {
+      "value": 198,
+      "unit": "원/개",
+      "range_min": 150,
+      "range_max": 280,
+      "note": "용기 단가 데모용 추정값"
+    },
+    "confidence_score": 0.7
+  },
+  {
+    "id": "supplier_equipment_001",
+    "name": "다온주방",
+    "category": "equipment",
+    "sub_category": "주방기기",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "가스레인지",
+      "웍",
+      "보온밥솥",
+      "냉동고",
+      "업소용 주방"
+    ],
+    "delivery_type": [
+      "화물배송",
+      "방문수령"
+    ],
+    "min_order": {
+      "value": 1,
+      "unit": "ea"
+    },
+    "estimated_price": {
+      "value": 298000,
+      "unit": "원/개",
+      "range_min": 200000,
+      "range_max": 800000,
+      "note": "품목별 상이. 데모용 대표값"
+    },
+    "confidence_score": 0.55
+  },
+  {
+    "id": "supplier_delivery_001",
+    "name": "부산 배달대행 파트너 A",
+    "category": "delivery",
+    "sub_category": "배달대행",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "배달대행",
+      "음식점 배달",
+      "부산 배달"
+    ],
+    "delivery_type": [
+      "지역 배달"
+    ],
+    "min_order": {
+      "value": 1,
+      "unit": "store"
+    },
+    "estimated_price": {
+      "value": 3000,
+      "unit": "원/건",
+      "range_min": 2500,
+      "range_max": 4500,
+      "note": "거리별 상이. 데모용 추정값"
+    },
+    "confidence_score": 0.5
+  },
+  {
+    "id": "supplier_marketing_001",
+    "name": "부산 맛집 릴스 제작자 A",
+    "category": "marketing",
+    "sub_category": "릴스/쇼츠 외주",
+    "region": "부산",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "릴스 제작",
+      "맛집 홍보",
+      "숏폼",
+      "인스타 홍보"
+    ],
+    "delivery_type": [
+      "온라인 납품",
+      "현장 촬영"
+    ],
+    "min_order": {
+      "value": 1,
+      "unit": "video"
+    },
+    "estimated_price": {
+      "value": 150000,
+      "unit": "원/편",
+      "range_min": 50000,
+      "range_max": 300000,
+      "note": "데모용 추정값"
+    },
+    "confidence_score": 0.5
+  },
+  {
+    "id": "supplier_hiring_001",
+    "name": "알바 공고 플랫폼 A",
+    "category": "hiring",
+    "sub_category": "구인",
+    "region": "전국",
+    "url": "TODO_REAL_URL",
+    "keywords": [
+      "알바",
+      "주방보조",
+      "홀서빙",
+      "구인공고"
+    ],
+    "delivery_type": [
+      "온라인"
+    ],
+    "min_order": {
+      "value": 1,
+      "unit": "post"
+    },
+    "estimated_price": {
+      "value": 0,
+      "unit": "원",
+      "range_min": 0,
+      "range_max": 100000,
+      "note": "무료/유료 노출 옵션 혼재"
+    },
+    "confidence_score": 0.55
+  }
+]

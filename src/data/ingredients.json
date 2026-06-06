@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ingredient_beef_woosam_001",
+    "name": "우삼겹",
+    "category": "meat",
+    "keywords": [
+      "우삼겹",
+      "냉동 우삼겹",
+      "수입산 소고기"
+    ],
+    "supplier_keywords": [
+      "우삼겹",
+      "냉동소고기",
+      "수입산소고기",
+      "정육 도매"
+    ]
+  },
+  {
+    "id": "ingredient_rice_001",
+    "name": "쌀",
+    "category": "rice",
+    "keywords": [
+      "업소용 쌀",
+      "20kg 쌀"
+    ],
+    "supplier_keywords": [
+      "업소용 쌀",
+      "20kg 쌀"
+    ]
+  },
+  {
+    "id": "ingredient_onion_001",
+    "name": "양파",
+    "category": "vegetable",
+    "keywords": [
+      "양파",
+      "식자재 채소"
+    ],
+    "supplier_keywords": [
+      "양파",
+      "식자재 채소"
+    ]
+  },
+  {
+    "id": "ingredient_green_onion_001",
+    "name": "대파",
+    "category": "vegetable",
+    "keywords": [
+      "대파",
+      "식자재 채소"
+    ],
+    "supplier_keywords": [
+      "대파",
+      "식자재 채소"
+    ]
+  },
+  {
+    "id": "ingredient_sauce_bowl_001",
+    "name": "덮밥소스",
+    "category": "sauce",
+    "keywords": [
+      "덮밥소스",
+      "불고기소스"
+    ],
+    "supplier_keywords": [
+      "덮밥소스",
+      "불고기소스",
+      "간장소스"
+    ]
+  }
+]

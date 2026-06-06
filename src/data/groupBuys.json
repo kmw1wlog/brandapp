@@ -1,0 +1,88 @@
+[
+  {
+    "id": "groupbuy_001",
+    "item_name": "수입산 우삼겹",
+    "region": "부산",
+    "target_buyers": 10,
+    "current_buyers": 7,
+    "target_quantity": 200,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.08,
+    "estimated_discount_rate_max": 0.15,
+    "related_menus": [
+      "우삼겹 덮밥",
+      "우삼겹 구이",
+      "고기국수"
+    ],
+    "supplier_candidates": [
+      "supplier_food_beef_001",
+      "supplier_food_beef_002"
+    ],
+    "status": "recruiting",
+    "memo": "대표 데모 공동구매"
+  },
+  {
+    "id": "groupbuy_002",
+    "item_name": "업소용 쌀 20kg",
+    "region": "부산",
+    "target_buyers": 20,
+    "current_buyers": 14,
+    "target_quantity": 1000,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.08,
+    "estimated_discount_rate_max": 0.12,
+    "related_menus": [
+      "우삼겹 덮밥",
+      "불백 정식",
+      "제육 덮밥",
+      "1인 고기 도시락"
+    ],
+    "supplier_candidates": [
+      "supplier_food_rice_001"
+    ],
+    "status": "recruiting",
+    "memo": "덮밥/도시락 공통 품목"
+  },
+  {
+    "id": "groupbuy_003",
+    "item_name": "덮밥용기 500ml",
+    "region": "전국",
+    "target_buyers": 30,
+    "current_buyers": 23,
+    "target_quantity": 5000,
+    "unit": "ea",
+    "estimated_discount_rate_min": 0.12,
+    "estimated_discount_rate_max": 0.18,
+    "related_menus": [
+      "우삼겹 덮밥",
+      "제육 덮밥",
+      "닭갈비 덮밥"
+    ],
+    "supplier_candidates": [
+      "supplier_packaging_001"
+    ],
+    "status": "recruiting",
+    "memo": "포장재 공동구매"
+  },
+  {
+    "id": "groupbuy_004",
+    "item_name": "양파 국내산",
+    "region": "부산",
+    "target_buyers": 15,
+    "current_buyers": 9,
+    "target_quantity": 300,
+    "unit": "kg",
+    "estimated_discount_rate_min": 0.1,
+    "estimated_discount_rate_max": 0.16,
+    "related_menus": [
+      "우삼겹 덮밥",
+      "불백 정식",
+      "제육 덮밥"
+    ],
+    "supplier_candidates": [
+      "supplier_food_veg_001"
+    ],
+    "status": "recruiting",
+    "memo": "채소 공동구매"
+  }
+]

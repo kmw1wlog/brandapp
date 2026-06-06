@@ -1,0 +1,26 @@
+[
+  {
+    "id": "promo_001",
+    "name": "부산 맛집 릴스 제작자 A",
+    "type": "shortform",
+    "region": "부산",
+    "status": "연결 가능",
+    "price_note": "15초 릴스 1편 15만원 추정"
+  },
+  {
+    "id": "promo_002",
+    "name": "알바 공고 플랫폼 A",
+    "type": "hiring",
+    "region": "전국",
+    "status": "실제 링크 확인 필요",
+    "price_note": "무료/유료 노출 혼재"
+  },
+  {
+    "id": "promo_003",
+    "name": "부산 배달대행 파트너 A",
+    "type": "delivery",
+    "region": "부산",
+    "status": "상담 필요",
+    "price_note": "건당 2,500~4,500원 추정"
+  }
+]

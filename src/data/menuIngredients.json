@@ -1,0 +1,42 @@
+[
+  {
+    "menu_id": "menu_001",
+    "ingredient_id": "ingredient_beef_woosam_001",
+    "amount_per_serving": 120,
+    "unit": "g",
+    "cost_estimate": 2220,
+    "required": true
+  },
+  {
+    "menu_id": "menu_001",
+    "ingredient_id": "ingredient_rice_001",
+    "amount_per_serving": 200,
+    "unit": "g",
+    "cost_estimate": 360,
+    "required": true
+  },
+  {
+    "menu_id": "menu_001",
+    "ingredient_id": "ingredient_onion_001",
+    "amount_per_serving": 50,
+    "unit": "g",
+    "cost_estimate": 60,
+    "required": true
+  },
+  {
+    "menu_id": "menu_001",
+    "ingredient_id": "ingredient_green_onion_001",
+    "amount_per_serving": 10,
+    "unit": "g",
+    "cost_estimate": 30,
+    "required": true
+  },
+  {
+    "menu_id": "menu_001",
+    "ingredient_id": "ingredient_sauce_bowl_001",
+    "amount_per_serving": 30,
+    "unit": "g",
+    "cost_estimate": 174,
+    "required": true
+  }
+]

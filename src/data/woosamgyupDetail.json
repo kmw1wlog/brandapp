@@ -1,0 +1,131 @@
+{
+  "menu_id": "menu_001",
+  "menu_name": "우삼겹 덮밥",
+  "serving_basis": "1인분",
+  "currency": "KRW",
+  "ingredients": [
+    {
+      "ingredient_id": "ingredient_beef_woosam_001",
+      "name": "우삼겹",
+      "category": "meat",
+      "amount_per_serving": 120,
+      "unit": "g",
+      "unit_price": 18.5,
+      "unit_price_label": "18,500원/kg",
+      "cost_estimate": 2220,
+      "supplier_keywords": [
+        "우삼겹",
+        "냉동소고기",
+        "수입산소고기"
+      ]
+    },
+    {
+      "ingredient_id": "ingredient_rice_001",
+      "name": "쌀",
+      "category": "rice",
+      "amount_per_serving": 200,
+      "unit": "g",
+      "unit_price": 1.8,
+      "unit_price_label": "1,800원/kg",
+      "cost_estimate": 360,
+      "supplier_keywords": [
+        "업소용 쌀",
+        "20kg 쌀"
+      ]
+    },
+    {
+      "ingredient_id": "ingredient_onion_001",
+      "name": "양파",
+      "category": "vegetable",
+      "amount_per_serving": 50,
+      "unit": "g",
+      "unit_price": 1.2,
+      "unit_price_label": "1,200원/kg",
+      "cost_estimate": 60,
+      "supplier_keywords": [
+        "양파",
+        "식자재 채소"
+      ]
+    },
+    {
+      "ingredient_id": "ingredient_green_onion_001",
+      "name": "대파",
+      "category": "vegetable",
+      "amount_per_serving": 10,
+      "unit": "g",
+      "unit_price": 3,
+      "unit_price_label": "3,000원/kg",
+      "cost_estimate": 30,
+      "supplier_keywords": [
+        "대파",
+        "식자재 채소"
+      ]
+    },
+    {
+      "ingredient_id": "ingredient_sauce_bowl_001",
+      "name": "덮밥소스",
+      "category": "sauce",
+      "amount_per_serving": 30,
+      "unit": "g",
+      "unit_price": 5.8,
+      "unit_price_label": "5,800원/kg",
+      "cost_estimate": 174,
+      "supplier_keywords": [
+        "덮밥소스",
+        "불고기소스",
+        "간장소스"
+      ]
+    }
+  ],
+  "packaging": [
+    {
+      "name": "덮밥용기",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 180,
+      "supplier_keywords": [
+        "덮밥용기",
+        "배달용기"
+      ]
+    },
+    {
+      "name": "뚜껑",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 50,
+      "supplier_keywords": [
+        "뚜껑",
+        "PP용기"
+      ]
+    },
+    {
+      "name": "수저/냅킨",
+      "amount_per_serving": 1,
+      "unit": "set",
+      "cost_estimate": 12,
+      "supplier_keywords": [
+        "수저",
+        "냅킨"
+      ]
+    },
+    {
+      "name": "배달봉투",
+      "amount_per_serving": 1,
+      "unit": "ea",
+      "cost_estimate": 70,
+      "supplier_keywords": [
+        "배달봉투"
+      ]
+    }
+  ],
+  "assumptions": {
+    "delivery_order_ratio": 0.6,
+    "delivery_platform_fee_rate": 0.1,
+    "labor_allocation_per_serving": 1100,
+    "rent_allocation_per_serving": 550,
+    "utility_and_misc_per_serving": 300,
+    "monthly_fixed_cost": 3100000,
+    "business_days": 30
+  },
+  "recommended_price": 8900
+}
