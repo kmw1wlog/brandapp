@@ -31,11 +31,11 @@ export default function BrandPage() {
   return (
     <div className="grid gap-5">
       <PageHeader title={copy.main_title} subtitle={copy.subtitle} warning="이 브랜드는 단순 이름이 아니라, 앞에서 계산한 메뉴·가격·상권·공급처를 바탕으로 만든 창업 콘셉트입니다." />
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="relative z-10 flex flex-wrap items-center justify-between gap-3">
         <BrandOptionTabs brands={brands} selectedId={brandId} onSelect={selectBrand} />
         <OperatingTypeToggle value={operatingType} onChange={setOperatingType} />
       </div>
-      <section className="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
+      <section className="relative z-0 grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="rounded-lg bg-[#164033] p-5 text-white">
           <h3 className="text-2xl font-black">{brand.name}</h3>
           <p className="mt-1 font-semibold text-[#e2b15f]">{brand.slogan}</p>

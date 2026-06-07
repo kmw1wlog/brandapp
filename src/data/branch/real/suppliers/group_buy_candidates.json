@@ -1,0 +1,145 @@
+[
+  {
+    "id": "real_gb_beef_woosam",
+    "ingredientId": "beef_woosam",
+    "representativeProductIds": [
+      "perplexity_p001"
+    ],
+    "itemName": "냉동 우삼겹",
+    "targetRegion": "부산",
+    "targetBuyers": 10,
+    "currentInterestCount": 7,
+    "targetQuantity": 300,
+    "unit": "kg",
+    "estimatedDiscountRateMin": null,
+    "estimatedDiscountRateMax": null,
+    "dataStatus": "needs_supplier_quote",
+    "riskNotes": [
+      "공급처 견적 필요",
+      "배송/MOQ 확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_rice",
+    "ingredientId": "rice",
+    "representativeProductIds": [
+      "perplexity_p003",
+      "perplexity_p004"
+    ],
+    "itemName": "20kg 업소용 쌀",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 3,
+    "targetQuantity": 200,
+    "unit": "kg",
+    "estimatedDiscountRateMin": null,
+    "estimatedDiscountRateMax": null,
+    "dataStatus": "needs_supplier_quote",
+    "riskNotes": [
+      "공급처 견적 필요",
+      "배송/MOQ 확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_gochujang",
+    "ingredientId": "gochujang",
+    "representativeProductIds": [
+      "perplexity_p010"
+    ],
+    "itemName": "업소용 고추장",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 4,
+    "targetQuantity": 200,
+    "unit": "kg",
+    "estimatedDiscountRateMin": 4,
+    "estimatedDiscountRateMax": 10,
+    "dataStatus": "ready_for_interest",
+    "riskNotes": [
+      "표시가격 기준 예비 추정치",
+      "실제 할인율은 공급처 견적 재확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_mayonnaise",
+    "ingredientId": "mayonnaise",
+    "representativeProductIds": [
+      "foodspring_609648",
+      "foodspring_365554",
+      "foodspring_452362"
+    ],
+    "itemName": "업소용 마요네즈",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 5,
+    "targetQuantity": 200,
+    "unit": "kg",
+    "estimatedDiscountRateMin": 4,
+    "estimatedDiscountRateMax": 10,
+    "dataStatus": "ready_for_interest",
+    "riskNotes": [
+      "표시가격 기준 예비 추정치",
+      "실제 할인율은 공급처 견적 재확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_bowl_container",
+    "ingredientId": "bowl_container",
+    "representativeProductIds": [],
+    "itemName": "덮밥용기",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 4,
+    "targetQuantity": 20000,
+    "unit": "ea",
+    "estimatedDiscountRateMin": null,
+    "estimatedDiscountRateMax": null,
+    "dataStatus": "needs_supplier_quote",
+    "riskNotes": [
+      "공급처 견적 필요",
+      "배송/MOQ 확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_delivery_bag",
+    "ingredientId": "delivery_bag",
+    "representativeProductIds": [
+      "foodspring_976338",
+      "foodspring_622054",
+      "perplexity_p017"
+    ],
+    "itemName": "배달봉투",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 7,
+    "targetQuantity": 5000,
+    "unit": "ea",
+    "estimatedDiscountRateMin": 4,
+    "estimatedDiscountRateMax": 10,
+    "dataStatus": "ready_for_interest",
+    "riskNotes": [
+      "표시가격 기준 예비 추정치",
+      "실제 할인율은 공급처 견적 재확인 필요"
+    ]
+  },
+  {
+    "id": "real_gb_sanitary_glove",
+    "ingredientId": "sanitary_glove",
+    "representativeProductIds": [
+      "perplexity_p019"
+    ],
+    "itemName": "위생장갑",
+    "targetRegion": "부산",
+    "targetBuyers": 8,
+    "currentInterestCount": 8,
+    "targetQuantity": 5000,
+    "unit": "ea",
+    "estimatedDiscountRateMin": null,
+    "estimatedDiscountRateMax": null,
+    "dataStatus": "needs_supplier_quote",
+    "riskNotes": [
+      "공급처 견적 필요",
+      "배송/MOQ 확인 필요"
+    ]
+  }
+]

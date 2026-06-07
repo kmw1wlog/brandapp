@@ -19,7 +19,12 @@ export function BrandAssetGallery({ brand, compact = false }: { brand: BrandOpti
             <h2 className="text-xl font-black text-[color:var(--branch-primary)]">브랜드 이미지 보드</h2>
             <p className="mt-1 text-xs font-bold text-[color:var(--branch-ink-muted)]">외부 이미지 생성 API 연결 전 샘플 동작입니다.</p>
           </div>
-          <BrandAssetGenerationButton assets={assets} />
+          <div className="flex flex-wrap gap-2">
+            <BrandAssetGenerationButton brandId={brand.id} brandName={brand.name} assets={assets} defaultKind="storefront" buttonLabel="AI로 외관 다시 생성" />
+            <BrandAssetGenerationButton brandId={brand.id} brandName={brand.name} assets={assets} defaultKind="interior" buttonLabel="AI로 인테리어 다시 생성" />
+            <BrandAssetGenerationButton brandId={brand.id} brandName={brand.name} assets={assets} defaultKind="signature_menu" buttonLabel="AI로 메뉴 이미지 다시 생성" />
+            <BrandAssetGenerationButton brandId={brand.id} brandName={brand.name} assets={assets} defaultKind="packaging" buttonLabel="AI로 패키지 다시 생성" />
+          </div>
         </div>
       ) : null}
       <div className={`grid gap-3 ${compact ? "sm:grid-cols-2" : "sm:grid-cols-2 xl:grid-cols-4"}`}>

@@ -1,0 +1,48 @@
+{
+  "scenario_id": "busan_meatbowl_001",
+  "title": "부산 대학가 5,000만원 고기덮밥 창업 비교",
+  "capital": 50000000,
+  "region": {
+    "city": "부산광역시",
+    "area_type": "대학가",
+    "display_name": "부산 대학가",
+    "exact_location_status": "미정"
+  },
+  "category": "고기덮밥",
+  "target_customer": {
+    "primary": "프랜차이즈와 자가 브랜드 창업을 함께 비교하려는 예비점주",
+    "age_range": "30~60대",
+    "experience": "외식업 창업 경험 없음 또는 1회 미만",
+    "goal": "5,000만원 이내에서 점포형 또는 배달혼합형 매장 개점"
+  },
+  "operating_types": [
+    "점포형",
+    "배달형",
+    "점포+배달 혼합형"
+  ],
+  "default_brand": "brand_yukbanjang",
+  "default_franchise_comparison": "franchise_peer_average_001",
+  "assumptions": {
+    "store_size_pyeong": {
+      "min": 12,
+      "max": 18
+    },
+    "monthly_rent": 2200000,
+    "deposit": 20000000,
+    "owner_full_time_work": true,
+    "staffing": "점주 1명 + 피크타임 파트타이머 1명",
+    "monthly_operating_days": 26,
+    "average_order_value": 9500,
+    "sales_data_status": "시장 검증 전 데모 가정",
+    "franchise_data_rule": "공개 페이지와 정보공개서로 확인 가능한 항목만 사용",
+    "supplier_price_rule": "표시 가격은 견적 전 추정치이며 실제 계약가가 아님"
+  },
+  "warning_notes": [
+    "본 데이터는 체험형 비교를 위한 데모 가정이며 수익을 보장하지 않습니다.",
+    "상가 임대료, 권리금, 공사 범위, 인허가 조건에 따라 실제 초기비용이 크게 달라질 수 있습니다.",
+    "프랜차이즈가 더 유리한 업종과 운영자도 있으므로 자가 브랜드를 일률적으로 권하지 않습니다.",
+    "프랜차이즈 수치는 계약 전 최신 정보공개서와 본사 상담으로 재확인해야 합니다.",
+    "공급처 가격은 공개 페이지 또는 예시 견적 기반이며 실제 구매 전 확인이 필요합니다."
+  ],
+  "real_data_enabled": true
+}

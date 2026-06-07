@@ -1,0 +1,252 @@
+[
+  {
+    "ingredientId": "beef_woosam",
+    "primaryProductId": "foodspring_724963",
+    "fallbackProductIds": [
+      "foodspring_812022",
+      "foodspring_713746",
+      "foodspring_812939",
+      "foodspring_713747",
+      "perplexity_p001"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "다봄푸드"
+    ]
+  },
+  {
+    "ingredientId": "pork_foreleg",
+    "primaryProductId": "foodspring_691335",
+    "fallbackProductIds": [],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "다봄푸드"
+    ]
+  },
+  {
+    "ingredientId": "pork_neck",
+    "primaryProductId": "foodspring_421809",
+    "fallbackProductIds": [
+      "foodspring_658061"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "온국민 신선몰"
+    ]
+  },
+  {
+    "ingredientId": "rice",
+    "primaryProductId": "foodspring_552531",
+    "fallbackProductIds": [
+      "foodspring_931492",
+      "foodspring_386184",
+      "foodspring_829718",
+      "foodspring_891992",
+      "foodspring_526981",
+      "foodspring_443124",
+      "foodspring_873004",
+      "foodspring_951197",
+      "foodspring_636034",
+      "perplexity_p003",
+      "perplexity_p004"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "onion",
+    "primaryProductId": "foodspring_944132",
+    "fallbackProductIds": [
+      "foodspring_460031"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "green_onion",
+    "primaryProductId": "foodspring_691346",
+    "fallbackProductIds": [
+      "foodspring_731203"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "garlic",
+    "primaryProductId": "foodspring_756315",
+    "fallbackProductIds": [
+      "foodspring_374283",
+      "foodspring_868118",
+      "foodspring_367457"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "egg",
+    "primaryProductId": "foodspring_588641",
+    "fallbackProductIds": [
+      "foodspring_369151",
+      "foodspring_369152",
+      "foodspring_588640",
+      "foodspring_434379",
+      "foodspring_950407",
+      "foodspring_670651",
+      "foodspring_478378",
+      "foodspring_952773",
+      "foodspring_952665",
+      "foodspring_627154"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "gochujang",
+    "primaryProductId": "perplexity_p010",
+    "fallbackProductIds": [],
+    "priceStatus": "missing_price",
+    "usageInCostCalculation": "sample_price",
+    "notes": [
+      "푸드엔"
+    ]
+  },
+  {
+    "ingredientId": "soy_sauce",
+    "primaryProductId": null,
+    "fallbackProductIds": [],
+    "priceStatus": "sample_price",
+    "usageInCostCalculation": "sample_price",
+    "notes": [
+      "실DB 매칭 부족, 샘플 단가 유지"
+    ]
+  },
+  {
+    "ingredientId": "sugar",
+    "primaryProductId": null,
+    "fallbackProductIds": [],
+    "priceStatus": "sample_price",
+    "usageInCostCalculation": "sample_price",
+    "notes": [
+      "실DB 매칭 부족, 샘플 단가 유지"
+    ]
+  },
+  {
+    "ingredientId": "cooking_oil",
+    "primaryProductId": null,
+    "fallbackProductIds": [],
+    "priceStatus": "sample_price",
+    "usageInCostCalculation": "sample_price",
+    "notes": [
+      "실DB 매칭 부족, 샘플 단가 유지"
+    ]
+  },
+  {
+    "ingredientId": "mayonnaise",
+    "primaryProductId": "foodspring_609648",
+    "fallbackProductIds": [
+      "foodspring_365554",
+      "foodspring_452362",
+      "foodspring_563932",
+      "foodspring_658778",
+      "foodspring_842390",
+      "foodspring_551810",
+      "foodspring_950949",
+      "foodspring_821065",
+      "foodspring_479612",
+      "perplexity_p011"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "bowl_container",
+    "primaryProductId": "foodspring_721518",
+    "fallbackProductIds": [
+      "foodspring_828702",
+      "foodspring_661197"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "에이치제이팩토리"
+    ]
+  },
+  {
+    "ingredientId": "delivery_bag",
+    "primaryProductId": "foodspring_976338",
+    "fallbackProductIds": [
+      "foodspring_622054",
+      "perplexity_p017"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "cutlery",
+    "primaryProductId": "foodspring_833976",
+    "fallbackProductIds": [],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "퍼줌팩"
+    ]
+  },
+  {
+    "ingredientId": "napkin",
+    "primaryProductId": "foodspring_877557",
+    "fallbackProductIds": [
+      "foodspring_368273"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "CJ프레시웨이"
+    ]
+  },
+  {
+    "ingredientId": "foil",
+    "primaryProductId": "foodspring_877802",
+    "fallbackProductIds": [
+      "foodspring_877815"
+    ],
+    "priceStatus": "confirmed",
+    "usageInCostCalculation": "real_price",
+    "notes": [
+      "오케이포장"
+    ]
+  },
+  {
+    "ingredientId": "sanitary_glove",
+    "primaryProductId": "perplexity_p019",
+    "fallbackProductIds": [],
+    "priceStatus": "missing_price",
+    "usageInCostCalculation": "sample_price",
+    "notes": [
+      "코르소스"
+    ]
+  }
+]

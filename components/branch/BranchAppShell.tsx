@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Building2, CalendarCheck, CalendarDays, ChartNoAxesCombined, ClipboardList, FileText, Handshake, LayoutDashboard, MapPinned, Store } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FeedbackFloatingWidget } from "./FeedbackFloatingWidget";
 import { trackEvent } from "@/lib/branch/events";
 
@@ -22,12 +22,14 @@ const nav = [
 
 export function BranchAppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const [ready, setReady] = useState(false);
   const currentIndex = nav.findIndex((item) => pathname === item.href);
   const current = currentIndex >= 0 ? nav[currentIndex] : nav[0];
   const prev = currentIndex > 0 ? nav[currentIndex - 1] : undefined;
   const next = currentIndex >= 0 && currentIndex < nav.length - 1 ? nav[currentIndex + 1] : undefined;
 
   useEffect(() => {
+    setReady(true);
     trackEvent("page_view");
   }, [pathname]);
 
@@ -74,6 +76,7 @@ export function BranchAppShell({ children }: { children: React.ReactNode }) {
               {next ? <Link href={next.href} className="rounded-xl bg-[color:var(--branch-primary)] px-3 py-2 text-sm font-black text-white">다음: {next.label}</Link> : null}
             </div>
           </div>
+          {ready ? <div data-testid="branch-ready" /> : null}
           {children}
         </div>
       </main>

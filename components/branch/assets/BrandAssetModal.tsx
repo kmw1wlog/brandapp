@@ -10,7 +10,7 @@ export function BrandAssetModal({ asset, onClose }: { asset?: BrandAsset; onClos
     <BranchModal open={Boolean(asset)} title={asset?.title ?? "브랜드 시안"} onClose={onClose}>
       {asset ? (
         <div className="grid gap-4">
-          <div className="aspect-[4/3] overflow-hidden rounded-2xl">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
             <BranchImage src={asset.selectedUrl} alt={`${asset.title} 확대 이미지`} />
           </div>
           <div className="flex flex-wrap items-center gap-2">

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "p002",
+    "supplierName": "푸드엔",
+    "productName": "미국 우삼겹)우육_외♧냉동",
+    "productUrl": "https://m.fooden.com/shop/product_qna.php?rno=132&pno=2a3e66ceb920f8280d17f0af0744c704&cate=",
+    "pageType": "product_qna",
+    "category": "육류",
+    "subCategory": "냉동 우삼겹",
+    "note": "Q&A 페이지이므로 상품 상세 URL로는 부적합 가능성 있음. 표시가격 1,390원의 단위와 적용 조건도 불명확."
+  },
+  {
+    "id": "p022",
+    "supplierName": "푸드엔",
+    "productName": "이츠웰 실속키친타올 150매*4롤/CJ프레시웨이",
+    "productUrl": "https://m.fooden.com/shop/big_section.php?cno1=%EC%9E%94%EB%A6%AC...",
+    "pageType": "category_page_truncated_url",
+    "category": "주방 소모품",
+    "subCategory": "키친타월",
+    "note": "카테고리 노출까지만 확인됨. URL이 말줄임으로 끝나므로 유효한 상세 URL이 아님."
+  }
+]

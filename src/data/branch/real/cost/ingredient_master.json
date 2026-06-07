@@ -1,0 +1,135 @@
+[
+  {
+    "id": "beef_woosam",
+    "label": "우삼겹",
+    "unit": "kg",
+    "fallbackUnitPrice": 18500,
+    "fallbackSource": "sample 18,500원/kg"
+  },
+  {
+    "id": "pork_foreleg",
+    "label": "돼지 전지",
+    "unit": "kg",
+    "fallbackUnitPrice": 9000,
+    "fallbackSource": "sample 9,000원/kg"
+  },
+  {
+    "id": "pork_neck",
+    "label": "돼지 목살",
+    "unit": "kg",
+    "fallbackUnitPrice": 13000,
+    "fallbackSource": "sample 13,000원/kg"
+  },
+  {
+    "id": "rice",
+    "label": "쌀",
+    "unit": "kg",
+    "fallbackUnitPrice": 1800,
+    "fallbackSource": "sample 1,800원/kg"
+  },
+  {
+    "id": "onion",
+    "label": "양파",
+    "unit": "kg",
+    "fallbackUnitPrice": 1200,
+    "fallbackSource": "sample 1,200원/kg"
+  },
+  {
+    "id": "green_onion",
+    "label": "대파",
+    "unit": "kg",
+    "fallbackUnitPrice": 3000,
+    "fallbackSource": "sample 3,000원/kg"
+  },
+  {
+    "id": "garlic",
+    "label": "마늘",
+    "unit": "kg",
+    "fallbackUnitPrice": 7000,
+    "fallbackSource": "sample 7,000원/kg"
+  },
+  {
+    "id": "egg",
+    "label": "계란",
+    "unit": "ea",
+    "fallbackUnitPrice": 280,
+    "fallbackSource": "sample 280원/ea"
+  },
+  {
+    "id": "gochujang",
+    "label": "고추장",
+    "unit": "kg",
+    "fallbackUnitPrice": 5000,
+    "fallbackSource": "sample 5,000원/kg"
+  },
+  {
+    "id": "soy_sauce",
+    "label": "간장",
+    "unit": "ml",
+    "fallbackUnitPrice": 3.2,
+    "fallbackSource": "sample 3.2원/ml"
+  },
+  {
+    "id": "sugar",
+    "label": "설탕",
+    "unit": "kg",
+    "fallbackUnitPrice": 1300,
+    "fallbackSource": "sample 1,300원/kg"
+  },
+  {
+    "id": "cooking_oil",
+    "label": "식용유",
+    "unit": "ml",
+    "fallbackUnitPrice": 4.8,
+    "fallbackSource": "sample 4.8원/ml"
+  },
+  {
+    "id": "mayonnaise",
+    "label": "마요네즈",
+    "unit": "kg",
+    "fallbackUnitPrice": 3800,
+    "fallbackSource": "sample 3,800원/kg"
+  },
+  {
+    "id": "bowl_container",
+    "label": "덮밥용기",
+    "unit": "ea",
+    "fallbackUnitPrice": 160,
+    "fallbackSource": "sample 160원/ea"
+  },
+  {
+    "id": "delivery_bag",
+    "label": "배달봉투",
+    "unit": "ea",
+    "fallbackUnitPrice": 45,
+    "fallbackSource": "sample 45원/ea"
+  },
+  {
+    "id": "cutlery",
+    "label": "수저세트",
+    "unit": "ea",
+    "fallbackUnitPrice": 52,
+    "fallbackSource": "sample 52원/ea"
+  },
+  {
+    "id": "napkin",
+    "label": "냅킨",
+    "unit": "ea",
+    "fallbackUnitPrice": 1.4,
+    "fallbackSource": "sample 1.4원/ea"
+  },
+  {
+    "id": "foil",
+    "label": "쿠킹호일",
+    "unit": "ea",
+    "fallbackUnitPrice": 2300,
+    "fallbackSource": "sample 2,300원/roll"
+  },
+  {
+    "id": "sanitary_glove",
+    "label": "위생장갑",
+    "unit": "ea",
+    "fallbackUnitPrice": 8.5,
+    "fallbackSource": "sample 8.5원/ea"
+  }
+]

@@ -8,6 +8,7 @@ export function BrandOptionTabs({ brands, selectedId, onSelect }: { brands: Bran
       {brands.map((brand) => (
         <button
           key={brand.id}
+          type="button"
           onClick={() => onSelect(brand.id)}
           className={`rounded-lg border px-4 py-3 text-sm font-black ${brand.id === selectedId ? "border-[#164033] bg-[#164033] text-white" : "border-[#ddd2c0] bg-white text-[#574d42]"}`}
         >

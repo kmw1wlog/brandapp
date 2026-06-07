@@ -3,22 +3,22 @@
 import { useEffect, useState } from "react";
 import { OpeningTimeline } from "@/components/branch/OpeningTimeline";
 import { PageHeader } from "@/components/branch/Common";
-import { getDashboardCopy, getOpeningTasks } from "@/lib/branch/data";
+import { getDashboardCopy, getDefaultBrand, getOpeningTasks } from "@/lib/branch/data";
 import { trackEvent } from "@/lib/branch/events";
 import { getBranchStorage } from "@/lib/branch/storage";
 import type { Appointment, TimelineState } from "@/lib/branch/types";
 
 export default function TimetablePage() {
   const copy = getDashboardCopy().screens.timetable;
-  const [timeline, setTimeline] = useState<TimelineState | undefined>();
+  const [timeline, setTimeline] = useState<TimelineState>(createFallbackTimeline());
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
     const storage = getBranchStorage();
     Promise.all([storage.getTimeline(), storage.getAppointments()]).then(([nextTimeline, nextAppointments]) => {
-      setTimeline(nextTimeline);
-      setAppointments(nextAppointments);
+      setTimeline(nextTimeline ?? createFallbackTimeline());
+      setAppointments(nextAppointments ?? []);
     });
   }, []);
 
@@ -53,7 +53,7 @@ export default function TimetablePage() {
         <button onClick={save} className="rounded-md bg-[color:var(--branch-accent)] px-3 py-2 text-white">{saved ? "저장 완료" : "저장"}</button>
         <button onClick={reset} className="rounded-md border border-[color:var(--branch-border)] px-3 py-2">초기화</button>
       </div>
-      {timeline ? <OpeningTimeline tasks={getOpeningTasks()} timeline={timeline} appointments={appointments} onTimelineChange={updateTimeline} /> : <p className="rounded-2xl bg-white p-6 text-sm font-bold text-[color:var(--branch-ink-muted)]">타임테이블을 불러오는 중입니다.</p>}
+      <OpeningTimeline tasks={getOpeningTasks()} timeline={timeline} appointments={appointments} onTimelineChange={updateTimeline} />
     </div>
   );
 }
@@ -62,4 +62,13 @@ function addDays(days: number) {
   const date = new Date();
   date.setDate(date.getDate() + days);
   return date.toISOString().slice(0, 10);
+}
+
+function createFallbackTimeline(): TimelineState {
+  return {
+    version: 3,
+    selectedBrandId: getDefaultBrand().id,
+    targetOpenDate: addDays(30),
+    tasks: {}
+  };
 }

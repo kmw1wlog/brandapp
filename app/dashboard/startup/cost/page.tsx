@@ -7,13 +7,14 @@ import { MenuCostTable } from "@/components/branch/MenuCostTable";
 import { MenuDetailCard } from "@/components/branch/MenuDetailCard";
 import { PageHeader } from "@/components/branch/Common";
 import { ProfitSimulationChart } from "@/components/branch/ProfitSimulationChart";
-import { getDashboardCopy, getMenuCosts, getProfitSimulations } from "@/lib/branch/data";
+import { getDashboardCopy } from "@/lib/branch/data";
 import { trackEvent } from "@/lib/branch/events";
+import { getRealMenuCostsOrFallback, getRealProfitSimulationsOrFallback } from "@/lib/branch/real-data";
 
 export default function CostPage() {
   const copy = getDashboardCopy().screens.cost;
-  const menus = getMenuCosts();
-  const simulation = getProfitSimulations();
+  const menus = getRealMenuCostsOrFallback();
+  const simulation = getRealProfitSimulationsOrFallback();
 
   useEffect(() => {
     trackEvent("cost_simulation_view");

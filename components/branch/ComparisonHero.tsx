@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { getDefaultBrand, getDefaultFranchise, getScenario } from "@/lib/branch/data";
+import { getDefaultBrand, getScenario } from "@/lib/branch/data";
 import { trackEvent } from "@/lib/branch/events";
+import { getRealFeaturedFranchise, getRealFranchiseSummaryOrFallback } from "@/lib/branch/real-data";
 import { InputSummaryBar } from "./InputSummaryBar";
 import { OwnBrandCard } from "./OwnBrandCard";
 import { FranchiseCompareCard } from "./FranchiseCompareCard";
@@ -11,7 +12,8 @@ import { OperatingTypeToggle } from "./OperatingTypeToggle";
 export function ComparisonHero() {
   const scenario = getScenario();
   const brand = getDefaultBrand();
-  const franchise = getDefaultFranchise();
+  const franchise = getRealFeaturedFranchise();
+  const summary = getRealFranchiseSummaryOrFallback();
   const [operatingType, setOperatingType] = useState("점포형");
 
   return (
@@ -26,7 +28,7 @@ export function ComparisonHero() {
       </div>
       <div className="grid gap-5 lg:grid-cols-[1.35fr_0.9fr]">
         <OwnBrandCard brand={brand} operatingType={operatingType} onDetail={() => trackEvent("own_brand_detail_click", { brandId: brand.id, operatingType })} />
-        <FranchiseCompareCard franchise={franchise} onDetail={() => trackEvent("franchise_detail_click", { franchiseId: franchise.id })} />
+        {franchise ? <FranchiseCompareCard franchise={franchise} summary={summary} onDetail={() => trackEvent("franchise_detail_click", { franchiseId: franchise.id })} /> : null}
       </div>
     </div>
   );

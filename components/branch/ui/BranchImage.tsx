@@ -5,8 +5,7 @@ export function BranchImage({ src, alt, className = "", priority = false }: { sr
     <Image
       src={src}
       alt={alt}
-      width={1280}
-      height={960}
+      fill
       sizes="(min-width: 1024px) 42vw, (min-width: 640px) 80vw, 100vw"
       priority={priority}
       className={`h-full w-full object-cover ${className}`}

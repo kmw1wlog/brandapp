@@ -1,0 +1,198 @@
+[
+  {
+    "id": "cohort_direct_meat_bowl",
+    "name": "고기덮밥·불백·1인 한식 직접 비교군",
+    "description": "고기덮밥 프랜차이즈 직접 비교군",
+    "includedBrandIds": [
+      "franchise_deopdeopbap",
+      "franchise_핵밥",
+      "franchise_덮밥장사장",
+      "franchise_바로덮밥",
+      "franchise_순수덮밥",
+      "franchise_덮밥슈퍼",
+      "franchise_1992덮밥_짜글이"
+    ],
+    "excludedBrandIds": [
+      "franchise_엠브로돈까스",
+      "franchise_진심왕돈까스",
+      "franchise_dongnaejeong_reference"
+    ],
+    "metrics": {
+      "monthlyAverageSales": {
+        "count": 1,
+        "min": 18270000,
+        "max": 18270000,
+        "median": 18270000,
+        "average": 18270000,
+        "missingCount": 6
+      },
+      "startupCost": {
+        "count": 1,
+        "min": 39000000,
+        "max": 39000000,
+        "median": 39000000,
+        "average": 39000000,
+        "missingCount": 6
+      },
+      "ownerProfit": {
+        "count": 1,
+        "min": 4350000,
+        "max": 4350000,
+        "median": 4350000,
+        "average": 4350000,
+        "missingCount": 6
+      },
+      "storeCount": {
+        "count": 1,
+        "min": 191,
+        "max": 191,
+        "median": 191,
+        "average": 191,
+        "missingCount": 6
+      }
+    },
+    "dataQuality": {
+      "sampleSize": 7,
+      "missingCounts": {
+        "monthlyAverageSales": 6,
+        "startupCost": 6,
+        "ownerProfit": 6,
+        "storeCount": 6
+      },
+      "notes": [
+        "덮덮밥만 정량 상세 확보",
+        "나머지 직접 비교군은 브랜드명만 확보되어 null 필드 포함"
+      ]
+    }
+  },
+  {
+    "id": "cohort_adjacent_pork_cutlet",
+    "name": "돈까스 비교군",
+    "description": "접힌 참고 비교군",
+    "includedBrandIds": [
+      "franchise_엠브로돈까스",
+      "franchise_진심왕돈까스"
+    ],
+    "excludedBrandIds": [
+      "franchise_deopdeopbap",
+      "franchise_핵밥",
+      "franchise_덮밥장사장",
+      "franchise_바로덮밥",
+      "franchise_순수덮밥",
+      "franchise_덮밥슈퍼",
+      "franchise_1992덮밥_짜글이",
+      "franchise_dongnaejeong_reference"
+    ],
+    "metrics": {
+      "monthlyAverageSales": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "average": null,
+        "missingCount": 2
+      },
+      "startupCost": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "average": null,
+        "missingCount": 2
+      },
+      "ownerProfit": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "average": null,
+        "missingCount": 2
+      },
+      "storeCount": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "average": null,
+        "missingCount": 2
+      }
+    },
+    "dataQuality": {
+      "sampleSize": 2,
+      "missingCounts": {
+        "monthlyAverageSales": 2,
+        "startupCost": 2,
+        "ownerProfit": 2,
+        "storeCount": 2
+      },
+      "notes": [
+        "참고군은 평균 계산 기준이 아니라 펼침 참고 섹션 용도"
+      ]
+    }
+  },
+  {
+    "id": "cohort_reference_bbq",
+    "name": "삼겹살 참고군",
+    "description": "접힌 참고 비교군",
+    "includedBrandIds": [
+      "franchise_dongnaejeong_reference"
+    ],
+    "excludedBrandIds": [
+      "franchise_deopdeopbap",
+      "franchise_핵밥",
+      "franchise_덮밥장사장",
+      "franchise_바로덮밥",
+      "franchise_순수덮밥",
+      "franchise_덮밥슈퍼",
+      "franchise_1992덮밥_짜글이",
+      "franchise_엠브로돈까스",
+      "franchise_진심왕돈까스"
+    ],
+    "metrics": {
+      "monthlyAverageSales": {
+        "count": 1,
+        "min": 65800000,
+        "max": 65800000,
+        "median": 65800000,
+        "average": 65800000,
+        "missingCount": 0
+      },
+      "startupCost": {
+        "count": 0,
+        "min": null,
+        "max": null,
+        "median": null,
+        "average": null,
+        "missingCount": 1
+      },
+      "ownerProfit": {
+        "count": 1,
+        "min": 10000000,
+        "max": 10000000,
+        "median": 10000000,
+        "average": 10000000,
+        "missingCount": 0
+      },
+      "storeCount": {
+        "count": 1,
+        "min": 63,
+        "max": 63,
+        "median": 63,
+        "average": 63,
+        "missingCount": 0
+      }
+    },
+    "dataQuality": {
+      "sampleSize": 1,
+      "missingCounts": {
+        "monthlyAverageSales": 0,
+        "startupCost": 1,
+        "ownerProfit": 0,
+        "storeCount": 0
+      },
+      "notes": [
+        "참고군은 평균 계산 기준이 아니라 펼침 참고 섹션 용도"
+      ]
+    }
+  }
+]

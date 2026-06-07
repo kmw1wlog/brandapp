@@ -81,16 +81,21 @@ export function ConsultantSchedule({
             const appointment = appointments.find((item) => item.consultantId === slot.consultantId && item.startAt === slot.startAt && item.status !== "cancelled");
             const status = appointment?.status ?? slot.status;
             return (
-              <button
-                key={slot.id}
-                type="button"
-                aria-label={`상담 슬롯 ${statusLabel(status)} ${new Date(slot.startAt).toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}`}
-                onClick={() => setActiveSlot(slot)}
-                className="rounded-xl border border-[color:var(--branch-border)] bg-[color:var(--branch-surface-muted)] p-3 text-left text-xs font-bold text-[color:var(--branch-ink-muted)]"
-              >
-                <span className="block font-black text-[color:var(--branch-primary)]">{new Date(slot.startAt).toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</span>
-                <span>{statusLabel(status)}</span>
-              </button>
+              <div key={slot.id} className="rounded-xl border border-[color:var(--branch-border)] bg-[color:var(--branch-surface-muted)] p-3 text-xs font-bold text-[color:var(--branch-ink-muted)]">
+                <button
+                  type="button"
+                  aria-label={`상담 슬롯 ${statusLabel(status)} ${new Date(slot.startAt).toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}`}
+                  onClick={() => setActiveSlot(slot)}
+                  className="w-full text-left"
+                >
+                  <span className="block font-black text-[color:var(--branch-primary)]">{new Date(slot.startAt).toLocaleString("ko-KR", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</span>
+                  <span>{statusLabel(status)}</span>
+                </button>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {!appointment && status === "available" && onBookSlot ? <BranchButton type="button" onClick={() => onBookSlot(slot)}>이 슬롯 예약</BranchButton> : null}
+                  {appointment && onCancelAppointment ? <BranchButton type="button" variant="secondary" onClick={() => onCancelAppointment(appointment)}>예약 취소</BranchButton> : null}
+                </div>
+              </div>
             );
           })}
         </div>

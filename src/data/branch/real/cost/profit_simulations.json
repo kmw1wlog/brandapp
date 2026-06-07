@@ -1,0 +1,39 @@
+{
+  "scenario_id": "busan_meatbowl_001",
+  "disclaimer": "이 그래프는 보장 수익이 아니라, 동일 자본에서 두 창업 방식의 비용 구조 차이를 보여주는 시뮬레이션입니다.",
+  "simulation_assumptions": {
+    "franchise_initial_advantage": "브랜드 인지도·오픈 매뉴얼·본사 지원",
+    "own_brand_later_advantage": "공급처 자유도·가격/메뉴 조정·플랫폼 대시보드 활용",
+    "owner_labor": "양쪽 모두 점주가 직접 운영",
+    "tax_and_debt": "세금과 대출이자는 제외"
+  },
+  "months": [
+    {
+      "month": 1,
+      "franchise_sales": 18270000,
+      "franchise_owner_profit": 4350000,
+      "own_brand_sales": 22000000,
+      "own_brand_owner_profit": 2300000,
+      "reason": "프랜차이즈는 브랜드 인지도와 오픈 지원으로 초기 고객 확보가 빠른 가정",
+      "notes": "자가 브랜드는 후기와 지역 인지도가 쌓이기 전 단계"
+    },
+    {
+      "month": 2,
+      "franchise_sales": 18270000,
+      "franchise_owner_profit": 4350000,
+      "own_brand_sales": 27000000,
+      "own_brand_owner_profit": 4050000,
+      "reason": "자가 브랜드의 네이버 플레이스·배달 리뷰·재방문 고객이 증가하는 가정",
+      "notes": "프랜차이즈는 로열티와 지정 공급 비용을 계속 반영"
+    },
+    {
+      "month": 3,
+      "franchise_sales": 18270000,
+      "franchise_owner_profit": 4350000,
+      "own_brand_sales": 31500000,
+      "own_brand_owner_profit": 5500000,
+      "reason": "자가 브랜드가 공급처 선택, 세트 개선, 지역 홍보 최적화를 적용한 가정",
+      "notes": "자가 브랜드가 항상 우위라는 뜻이 아니며 운영 역량에 따라 반대 결과가 가능"
+    }
+  ]
+}

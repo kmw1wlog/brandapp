@@ -1,0 +1,343 @@
+[
+  {
+    "id": "menu_woosam_bowl",
+    "name": "우삼겹 덮밥",
+    "selling_price": 8900,
+    "ingredients": [
+      {
+        "ingredientId": "beef_woosam",
+        "name": "수입산 우삼겹",
+        "amount": 120,
+        "unit": "g",
+        "cost": 1654,
+        "unitPriceText": "13,780원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_724963",
+        "connectedProductName": "다봄푸드 냉동 우삼겹 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/724963"
+      },
+      {
+        "ingredientId": "rice",
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 595,
+        "unitPriceText": "2,975원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_552531",
+        "connectedProductName": "업소용 CJ프레시웨이 농협 온미쌀 20kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/552531"
+      },
+      {
+        "ingredientId": "onion",
+        "name": "양파",
+        "amount": 50,
+        "unit": "g",
+        "cost": 40,
+        "unitPriceText": "799원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_944132",
+        "connectedProductName": "양파 15kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/944132"
+      },
+      {
+        "ingredientId": "green_onion",
+        "name": "대파",
+        "amount": 10,
+        "unit": "g",
+        "cost": 18,
+        "unitPriceText": "1,790원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_691346",
+        "connectedProductName": "대파 흙대파 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/691346"
+      },
+      {
+        "ingredientId": "soy_sauce",
+        "name": "덮밥소스",
+        "amount": 30,
+        "unit": "ml",
+        "cost": 96,
+        "unitPriceText": "sample 3.2원/ml",
+        "sourceLabel": "실상품 미매칭",
+        "priceStatus": "sample_price",
+        "connectedProductId": null,
+        "connectedProductName": null,
+        "connectedProductUrl": null
+      }
+    ],
+    "food_cost": 2403,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.32,
+    "hall_margin": 5744,
+    "delivery_margin": 4498,
+    "delivery_fee_assumption": 1246,
+    "labor_allocation": 1450,
+    "rent_allocation": 650,
+    "gross_margin": 5744,
+    "risk_notes": [
+      "우삼겹 원가 변동이 큼",
+      "고기 중량 표준화 필요",
+      "배달 시 용기 내 수분 관리 필요"
+    ]
+  },
+  {
+    "id": "menu_jeyuk_bowl",
+    "name": "직화 제육 덮밥",
+    "selling_price": 7900,
+    "ingredients": [
+      {
+        "ingredientId": "pork_foreleg",
+        "name": "돼지고기 전지",
+        "amount": 130,
+        "unit": "g",
+        "cost": 1102,
+        "unitPriceText": "8,480원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_691335",
+        "connectedProductName": "다봄푸드 미국산 돼지 전지 슬라이스 3mm 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/691335"
+      },
+      {
+        "ingredientId": "rice",
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 595,
+        "unitPriceText": "2,975원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_552531",
+        "connectedProductName": "업소용 CJ프레시웨이 농협 온미쌀 20kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/552531"
+      },
+      {
+        "ingredientId": "onion",
+        "name": "양파",
+        "amount": 40,
+        "unit": "g",
+        "cost": 32,
+        "unitPriceText": "799원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_944132",
+        "connectedProductName": "양파 15kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/944132"
+      },
+      {
+        "ingredientId": "green_onion",
+        "name": "대파",
+        "amount": 25,
+        "unit": "g",
+        "cost": 45,
+        "unitPriceText": "1,790원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_691346",
+        "connectedProductName": "대파 흙대파 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/691346"
+      },
+      {
+        "ingredientId": "gochujang",
+        "name": "제육소스",
+        "amount": 40,
+        "unit": "g",
+        "cost": 200,
+        "unitPriceText": "sample 5,000원/kg",
+        "sourceLabel": "샘플 단가",
+        "priceStatus": "missing_price",
+        "connectedProductId": "perplexity_p010",
+        "connectedProductName": "순창 현미태양초찰고추장 1.7kg(+300g)/대상",
+        "connectedProductUrl": "https://www.fooden.com/shop/detail.php?pno=8a19b724cd302ab39cf019ed3d445b51"
+      }
+    ],
+    "food_cost": 1974,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.27,
+    "hall_margin": 5738,
+    "delivery_margin": 4632,
+    "delivery_fee_assumption": 1106,
+    "labor_allocation": 1350,
+    "rent_allocation": 600,
+    "gross_margin": 5738,
+    "risk_notes": [
+      "가격 경쟁이 심함",
+      "불향 구현 방식 표준화 필요"
+    ]
+  },
+  {
+    "id": "menu_moksal_bowl",
+    "name": "간장목살 덮밥",
+    "selling_price": 8500,
+    "ingredients": [
+      {
+        "ingredientId": "pork_neck",
+        "name": "돼지목살",
+        "amount": 125,
+        "unit": "g",
+        "cost": 969,
+        "unitPriceText": "7,750원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_421809",
+        "connectedProductName": "온국민 미국산 돼지 목전지 5kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/421809"
+      },
+      {
+        "ingredientId": "rice",
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 595,
+        "unitPriceText": "2,975원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_552531",
+        "connectedProductName": "업소용 CJ프레시웨이 농협 온미쌀 20kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/552531"
+      },
+      {
+        "ingredientId": "onion",
+        "name": "양파",
+        "amount": 35,
+        "unit": "g",
+        "cost": 28,
+        "unitPriceText": "799원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_944132",
+        "connectedProductName": "양파 15kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/944132"
+      },
+      {
+        "ingredientId": "green_onion",
+        "name": "대파",
+        "amount": 25,
+        "unit": "g",
+        "cost": 45,
+        "unitPriceText": "1,790원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_691346",
+        "connectedProductName": "대파 흙대파 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/691346"
+      },
+      {
+        "ingredientId": "soy_sauce",
+        "name": "간장소스",
+        "amount": 35,
+        "unit": "ml",
+        "cost": 112,
+        "unitPriceText": "sample 3.2원/ml",
+        "sourceLabel": "실상품 미매칭",
+        "priceStatus": "sample_price",
+        "connectedProductId": null,
+        "connectedProductName": null,
+        "connectedProductUrl": null
+      }
+    ],
+    "food_cost": 1749,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.3,
+    "hall_margin": 5918,
+    "delivery_margin": 4728,
+    "delivery_fee_assumption": 1190,
+    "labor_allocation": 1400,
+    "rent_allocation": 620,
+    "gross_margin": 5918,
+    "risk_notes": [
+      "목살 질감 편차 관리 필요",
+      "과조리 시 품질 저하"
+    ]
+  },
+  {
+    "id": "menu_banjang_set",
+    "name": "반장 세트",
+    "selling_price": 10900,
+    "ingredients": [
+      {
+        "ingredientId": "beef_woosam",
+        "name": "우삼겹 덮밥 기본",
+        "amount": 120,
+        "unit": "g",
+        "cost": 1654,
+        "unitPriceText": "13,780원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_724963",
+        "connectedProductName": "다봄푸드 냉동 우삼겹 1kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/724963"
+      },
+      {
+        "ingredientId": "rice",
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 595,
+        "unitPriceText": "2,975원/kg",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_552531",
+        "connectedProductName": "업소용 CJ프레시웨이 농협 온미쌀 20kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/552531"
+      },
+      {
+        "ingredientId": "egg",
+        "name": "계란",
+        "amount": 1,
+        "unit": "ea",
+        "cost": 307,
+        "unitPriceText": "307원/ea",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_588641",
+        "connectedProductName": "CJ프레시웨이 세척 특란 30구 1.8kg",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/588641"
+      },
+      {
+        "ingredientId": "soy_sauce",
+        "name": "미소장국",
+        "amount": 20,
+        "unit": "ml",
+        "cost": 64,
+        "unitPriceText": "sample 3.2원/ml",
+        "sourceLabel": "실상품 미매칭",
+        "priceStatus": "sample_price",
+        "connectedProductId": null,
+        "connectedProductName": null,
+        "connectedProductUrl": null
+      },
+      {
+        "ingredientId": "delivery_bag",
+        "name": "음료",
+        "amount": 1,
+        "unit": "ea",
+        "cost": 45,
+        "unitPriceText": "45원/ea",
+        "sourceLabel": "실상품 단가",
+        "priceStatus": "confirmed",
+        "connectedProductId": "foodspring_976338",
+        "connectedProductName": "배달봉투 소형 100매",
+        "connectedProductUrl": "https://www.foodspring.co.kr/goods/detail/976338"
+      }
+    ],
+    "food_cost": 2665,
+    "packaging_cost": 450,
+    "target_food_cost_rate": 0.39,
+    "hall_margin": 6616,
+    "delivery_margin": 5090,
+    "delivery_fee_assumption": 1526,
+    "labor_allocation": 1500,
+    "rent_allocation": 700,
+    "gross_margin": 6616,
+    "risk_notes": [
+      "세트 원가율이 높아 구성품 조정 필요",
+      "음료 매입단가 확인 필요"
+    ]
+  }
+]

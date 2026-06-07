@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-07T12:33:59.880Z",
+  "sourceRoots": [
+    "DB_real/branch_supplier_db",
+    "DB_real/collected_brand",
+    "DB_real/perplexity_supplier_db"
+  ],
+  "counts": {
+    "franchiseBrandCount": 10,
+    "supplierCount": 39,
+    "supplierProductCount": 100,
+    "validDeltaCount": 20
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "label": "고기덮밥 프랜차이즈 직접 비교군",
+  "sublabel": "7개 브랜드 공개정보 기반",
+  "fallbackLabel": "덮덮밥 공개정보 기반 대표 샘플 비교",
+  "sampleSize": 7,
+  "missingCounts": {
+    "monthlyAverageSales": 6,
+    "startupCost": 6,
+    "ownerProfit": 6,
+    "storeCount": 6
+  },
+  "startupCostMedian": 39000000,
+  "monthlySalesMedian": 18270000,
+  "ownerProfitMedian": 4350000,
+  "storeCountMedian": 191,
+  "featuredBrandId": "franchise_deopdeopbap"
+}

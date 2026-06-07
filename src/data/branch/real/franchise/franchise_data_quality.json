@@ -1,0 +1,8 @@
+{
+  "directCohortBrandCount": 7,
+  "quantifiedDirectBrandCount": 1,
+  "warningNotes": [
+    "직접 비교군 7개 중 덮덮밥만 상세 정량 수치 확보",
+    "나머지 브랜드는 이름만 확보되어 null 필드 존재"
+  ]
+}

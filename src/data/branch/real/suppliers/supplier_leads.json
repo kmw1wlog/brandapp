@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p007",
+    "supplierName": "푸드엔",
+    "productName": "흙 대파·단/국내산",
+    "productUrl": "https://m.fooden.com/shop/recipe_view.php?no=38",
+    "pageType": "recipe_page",
+    "category": "쌀·채소·계란",
+    "subCategory": "대파",
+    "note": "레시피 페이지에서 가격 노출이 확인되었으나 개별 상품 상세 URL이 아님."
+  },
+  {
+    "id": "p014",
+    "supplierName": "푸드엔",
+    "productName": "청정원 햇살담은 조림간장 1.7L+500ml",
+    "productUrl": "https://m.fooden.com/shop/recipe_view.php?no=38",
+    "pageType": "recipe_page",
+    "category": "소스·조미료",
+    "subCategory": "간장",
+    "note": "레시피 페이지 가격 노출. 개별 상세 URL 아님."
+  },
+  {
+    "id": "p015",
+    "supplierName": "푸드엔",
+    "productName": "큐원 하얀설탕 3kg/삼양사",
+    "productUrl": "https://m.fooden.com/shop/recipe_view.php?no=38",
+    "pageType": "recipe_page",
+    "category": "소스·조미료",
+    "subCategory": "설탕",
+    "note": "레시피 페이지 가격 노출. 개별 상세 URL 아님."
+  },
+  {
+    "id": "p016",
+    "supplierName": "푸드엔",
+    "productName": "해표 식용유 1.8L/사조해표",
+    "productUrl": "https://m.fooden.com/shop/recipe_view.php?no=38",
+    "pageType": "recipe_page",
+    "category": "소스·조미료",
+    "subCategory": "식용유",
+    "note": "레시피 페이지 가격 노출. 개별 상세 URL 아님."
+  },
+  {
+    "id": "p027",
+    "supplierName": "푸드엔",
+    "productName": "미국산/호주산 후보 우삼겹 검색 결과",
+    "productUrl": null,
+    "pageType": "search_result_only",
+    "category": "육류",
+    "subCategory": "냉동 우삼겹 후보",
+    "note": "검색 결과 기반 후보. 개별 상세 URL 추가 확보 필요."
+  },
+  {
+    "id": "p028",
+    "supplierName": "미확인",
+    "productName": "일회용 식자재몰 포장재 후보",
+    "productUrl": null,
+    "pageType": "candidate_only",
+    "category": "포장재",
+    "subCategory": "포장재 후보",
+    "note": "카테고리/상세 URL 분리 필요."
+  },
+  {
+    "id": "p029",
+    "supplierName": "푸드엔",
+    "productName": "식자재몰 검색 결과 내 우삼겹/쌀/소스 후보",
+    "productUrl": null,
+    "pageType": "search_result_only",
+    "category": "복합",
+    "subCategory": "검색 후보",
+    "note": "검색 결과만 확인되어 상세 URL 추가 수집 필요."
+  }
+]

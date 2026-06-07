@@ -7,7 +7,7 @@ export function BrandHeroImage({ brand }: { brand: BrandOption }) {
   const asset = getHeroAsset(brand.id);
   return (
     <div className="relative overflow-hidden rounded-2xl border border-white/15 bg-white/10">
-      <div className="aspect-[16/10]">
+      <div className="relative aspect-[16/10]">
         <BranchImage src={asset.selectedUrl} alt={`${brand.name} ${asset.title}`} priority />
       </div>
       <div className="absolute left-4 top-4 flex flex-wrap gap-2">

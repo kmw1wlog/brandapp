@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "db:bootstrap": "node scripts/bootstrap-gpt-db.mjs",
     "db:ver2": "node scripts/sync-ver2-data.mjs",
-    "db:validate": "node scripts/validate-branch-db.mjs"
+    "db:validate": "node scripts/validate-branch-db.mjs",
+    "db:real:audit": "node scripts/audit-real-db.mjs",
+    "db:real:build": "node scripts/build-real-branch-db.mjs",
+    "db:real:validate": "node scripts/validate-real-branch-db.mjs"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
