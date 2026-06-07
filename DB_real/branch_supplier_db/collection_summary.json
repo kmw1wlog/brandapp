@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-06-07",
+  "scope": "부산 대학가 12~18평 고기덮밥 전문점",
+  "supplier_entity_count": 35,
+  "product_url_count": 80,
+  "unique_product_url_count": 80,
+  "category_counts": {
+    "food": 55,
+    "packaging": 15,
+    "general_supplies": 10
+  },
+  "sub_category_counts": {
+    "egg": 11,
+    "meat": 9,
+    "rice": 10,
+    "vegetable": 15,
+    "sauce": 10,
+    "food_service_packaging": 15,
+    "sanitation_and_consumables": 10
+  },
+  "marketplace_domains_verified": [
+    "foodspring.co.kr"
+  ],
+  "limitations": [
+    "35개 공급주체 중 다수는 식봄 내 판매자이며 독립 공식 홈페이지는 별도로 검증하지 못했습니다.",
+    "상품 상세 URL은 공식 목록의 링크 대상을 확인했으나 일부 상세페이지는 조사 도구에서 캐시 미스로 본문을 재확인하지 못했습니다.",
+    "가격은 2026-06-07 공개 카테고리 목록에 표시된 값이며 회원·쿠폰·지역·재고에 따라 달라질 수 있습니다.",
+    "부산 배송, 배송비, MOQ, VAT, 리드타임은 대부분 판매자별 확인이 필요합니다.",
+    "쿠폰가는 적용 조건을 확인하지 않았으므로 원가 계산 기본값에 사용하지 않았습니다."
+  ]
+}

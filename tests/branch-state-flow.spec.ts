@@ -1,6 +1,6 @@
 import { expect, test } from "playwright/test";
 
-const baseURL = process.env.BASE_URL ?? "http://127.0.0.1:3003";
+const baseURL = process.env.BASE_URL ?? "http://localhost:3003";
 
 test("brand and operating type state persist in local storage", async ({ page }) => {
   await page.goto(`${baseURL}/dashboard/startup/brand`, { waitUntil: "networkidle" });

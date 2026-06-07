@@ -1,0 +1,54 @@
+{
+  "source": "사용자가 제공한 퍼플렉시티 수집 결과를 구조화한 파일",
+  "independent_reverification": false,
+  "captured_at": "2026-06-07",
+  "target_requirement": {
+    "supplier_count_min": 30,
+    "product_detail_url_count_min": 80
+  },
+  "actual_structured_result": {
+    "supplier_summary_count": 5,
+    "unique_product_or_candidate_count": 29,
+    "valid_product_detail_url_count": 20,
+    "non_product_or_missing_url_count": 9
+  },
+  "api_public_suppliers": [],
+  "api_status_note": "공개 API가 확인된 공급처는 없음.",
+  "partnership_required_or_to_confirm": [
+    "푸드엔",
+    "담다",
+    "베스트온",
+    "식봄",
+    "에이스식자재몰"
+  ],
+  "login_required_price_suppliers": [],
+  "login_status_note": "이번 수집본에서는 주요 확인 상품이 로그인 필수로 보이지 않았다고 기록되었으나 실제 구매·회원가는 재확인 필요.",
+  "automatic_collection_not_recommended": [
+    "블로그",
+    "홍보성 글",
+    "상품 상세가 아닌 카테고리 페이지",
+    "검색 결과만 있는 페이지",
+    "Q&A 페이지",
+    "레시피 페이지를 상품 상세 URL로 대체하는 방식"
+  ],
+  "likely_busan_direct_delivery_suppliers": [
+    {
+      "supplier_name": "푸드엔",
+      "verification": "likely_not_confirmed"
+    },
+    {
+      "supplier_name": "담다",
+      "verification": "likely_not_confirmed"
+    }
+  ],
+  "group_buy_candidates": [
+    "냉동 우삼겹",
+    "20kg 업소용 쌀",
+    "업소용 고추장",
+    "업소용 마요네즈",
+    "포장재 소모품",
+    "대용량 위생장갑"
+  ],
+  "overall_status": "incomplete_intermediate_collection",
+  "overall_status_note": "80개 이상 실제 상품 상세 URL 목표를 충족하지 못한 중간 수집본. 이번 파일은 퍼플렉시티가 제공한 모든 고유 데이터와 누락·한계 정보를 보존함."
+}

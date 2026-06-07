@@ -59,7 +59,7 @@ export default function BrandPage() {
         <button onClick={() => selectBrand(brand.id)} className="rounded-lg bg-[#164033] px-4 py-3 text-sm font-black text-white">이 버전 선택</button>
         <button onClick={() => setOperatingType("배달형")} className="rounded-lg border border-[#cbbda8] px-4 py-3 text-sm font-black text-[#574d42]">배달형으로 바꾸기</button>
         <button onClick={() => setOperatingType("점포형")} className="rounded-lg border border-[#cbbda8] px-4 py-3 text-sm font-black text-[#574d42]">점포형으로 바꾸기</button>
-        <ActionLink href="/dashboard/startup/cost">최종 리포트에 저장</ActionLink>
+        <ActionLink href="/dashboard/startup/finance">이 브랜드로 4개월 회계 시뮬레이션 보기</ActionLink>
       </div>
     </div>
   );

@@ -15,6 +15,7 @@ export function TimelineTaskCard({
   taskState,
   targetOpenDate,
   appointmentText,
+  officialLinks,
   onStatusChange,
   onDateChange,
   onOpenDetail
@@ -23,6 +24,7 @@ export function TimelineTaskCard({
   taskState: TimelineTaskState;
   targetOpenDate: string;
   appointmentText?: string;
+  officialLinks: Array<{ label: string; url: string }>;
   onStatusChange: (taskId: string, status: TimelineTaskStatus) => void;
   onDateChange: (taskId: string, targetDate: string) => void;
   onOpenDetail: (task: OpeningTask) => void;
@@ -63,6 +65,11 @@ export function TimelineTaskCard({
       <div className="mt-3 flex flex-wrap gap-2">
         <BranchButton type="button" variant="secondary" className="px-3 py-2 text-xs" onClick={() => onOpenDetail(task)}>상세</BranchButton>
         {task.requires_consultation ? <BranchButton type="button" className="px-3 py-2 text-xs" onClick={consult}>상담 신청</BranchButton> : null}
+        {officialLinks.map((link) => (
+          <a key={link.url} href={link.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-xl border border-[color:var(--branch-border)] bg-white px-3 py-2 text-xs font-black text-[color:var(--branch-primary)]">
+            공식 링크: {link.label}
+          </a>
+        ))}
       </div>
     </article>
   );

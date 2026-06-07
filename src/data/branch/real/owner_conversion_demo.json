@@ -1,0 +1,21 @@
+{
+  "account_stages": [
+    "visitor",
+    "pre_owner",
+    "opening_preparing",
+    "owner_demo",
+    "owner_active"
+  ],
+  "free_trial_months": 3,
+  "owner_demo_features": [
+    "계획 매출 vs 실제 매출",
+    "예상 원가율 vs 실제 원가율",
+    "식재료비 기록",
+    "인건비 기록",
+    "배달앱 수수료",
+    "공급처 추천",
+    "공동구매 후보",
+    "월말 현금잔고",
+    "의견 남기기"
+  ]
+}

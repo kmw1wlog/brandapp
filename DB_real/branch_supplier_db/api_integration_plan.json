@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-06-07",
+  "sources": [
+    {
+      "name": "KAMIS 가격정보 Open API",
+      "classification": "PUBLIC_API",
+      "url": "https://www.kamis.or.kr/customer/reference/openapi_list.do",
+      "use_for": [
+        "쌀",
+        "양파",
+        "대파",
+        "마늘",
+        "농산물 시장 기준가격",
+        "최근 가격추이"
+      ],
+      "not_for": [
+        "특정 공급업체의 회원 계약가",
+        "배송비",
+        "MOQ"
+      ],
+      "credentials": [
+        "KAMIS API key / 인증정보"
+      ],
+      "status": "official_documentation_verified"
+    },
+    {
+      "name": "네이버 쇼핑 검색 API",
+      "classification": "PUBLIC_API",
+      "url": "https://developers.naver.com/docs/serviceapi/search/shopping/shopping.md",
+      "use_for": [
+        "공개 판매상품 후보",
+        "최저가",
+        "상품 URL",
+        "판매몰",
+        "제조사/브랜드/카테고리"
+      ],
+      "not_for": [
+        "B2B 회원가",
+        "정확한 배송비와 MOQ",
+        "동일 SKU 완전 일치 보장"
+      ],
+      "credentials": [
+        "NAVER_CLIENT_ID",
+        "NAVER_CLIENT_SECRET"
+      ],
+      "daily_limit": 25000,
+      "status": "official_documentation_verified"
+    },
+    {
+      "name": "식봄",
+      "classification": "PARTNER_API_REQUIRED",
+      "url": "https://www.foodspring.co.kr/",
+      "use_for": [
+        "B2B 식자재 SKU",
+        "판매자별 가격",
+        "배송지역",
+        "발주 데이터"
+      ],
+      "not_for": [
+        "무단 대량 크롤링"
+      ],
+      "credentials": [],
+      "status": "public_api_not_verified",
+      "next_action": "제휴 API·CSV·판매자 피드 제공 여부 문의"
+    },
+    {
+      "name": "미트박스",
+      "classification": "COLLECTION_NOT_RECOMMENDED",
+      "url": "https://www.meatbox.co.kr/",
+      "use_for": [
+        "축산 B2B 가격 및 상품 후보"
+      ],
+      "not_for": [
+        "사전 동의 없는 스크래핑"
+      ],
+      "credentials": [],
+      "status": "partner_permission_required",
+      "next_action": "제휴 문의를 통해 API·CSV 또는 사용 허가 협의"
+    }
+  ],
+  "recommended_pipeline": [
+    "KAMIS로 시장 기준가격 수집",
+    "네이버 쇼핑 API로 공개 온라인 후보 탐색",
+    "식봄·미트박스·지역 도매업체와 제휴 피드 협의",
+    "점주 거래명세서·CSV로 실제 구매가격 확보",
+    "내부 price_snapshots 테이블에 시계열 저장",
+    "동일 SKU 정규화 후 배송비·VAT·MOQ를 포함한 실구매비 비교"
+  ]
+}

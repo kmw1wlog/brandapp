@@ -1,6 +1,6 @@
 import { expect, test } from "playwright/test";
 
-const baseURL = process.env.BASE_URL ?? "http://127.0.0.1:3003";
+const baseURL = process.env.BASE_URL ?? "http://localhost:3003";
 
 test("franchise page shows direct cohort and deopdeopbap detail", async ({ page }) => {
   await page.goto(`${baseURL}/dashboard/startup/franchise`);

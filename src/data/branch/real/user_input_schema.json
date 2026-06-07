@@ -1,0 +1,25 @@
+{
+  "required_inputs": [
+    "budget",
+    "capital_structure",
+    "region",
+    "category",
+    "operation_type",
+    "opening_target",
+    "target_owner_income",
+    "owner_working_type"
+  ],
+  "advanced_inputs": [
+    "desired_size_pyeong",
+    "expected_deposit",
+    "expected_monthly_rent",
+    "key_money",
+    "interior_budget",
+    "equipment_budget",
+    "delivery_share",
+    "staff_count",
+    "marketing_budget",
+    "cold_storage_capacity",
+    "owned_equipment"
+  ]
+}

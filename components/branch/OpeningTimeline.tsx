@@ -12,18 +12,20 @@ export function OpeningTimeline({
   tasks,
   timeline,
   appointments,
-  onTimelineChange
+  onTimelineChange,
+  officialLinksByTaskId = {}
 }: {
   tasks: OpeningTask[];
   timeline: TimelineState;
   appointments: Appointment[];
   onTimelineChange: (state: TimelineState) => void;
+  officialLinksByTaskId?: Record<string, Array<{ label: string; url: string }>>;
 }) {
   const [view, setView] = useState<"list" | "week" | "stage">("list");
   const [filter, setFilter] = useState("전체");
   const [detailTask, setDetailTask] = useState<OpeningTask | undefined>();
   const filtered = filter === "전체" ? tasks : tasks.filter((task) => task.day === filter || task.category === filter);
-  const filters = ["전체", "D-30", "D-24", "D-14", "D-7", "construction", "marketing"];
+  const filters = ["전체", ...Array.from(new Set(tasks.map((task) => task.day))).slice(0, 6), ...Array.from(new Set(tasks.map((task) => task.category))).slice(0, 4)];
   const completed = tasks.filter((task) => getTaskState(timeline, task).status === "completed").length;
   const progress = Math.round((completed / tasks.length) * 100);
 
@@ -65,6 +67,7 @@ export function OpeningTimeline({
             taskState={getTaskState(timeline, task)}
             targetOpenDate={timeline.targetOpenDate}
             appointmentText={appointmentText(task.id)}
+            officialLinks={officialLinksByTaskId[task.id] ?? []}
             onStatusChange={(taskId, status) => patchTask(taskId, { status })}
             onDateChange={(taskId, targetDate) => patchTask(taskId, { targetDate })}
             onOpenDetail={setDetailTask}

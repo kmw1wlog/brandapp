@@ -29,6 +29,12 @@ const ingredientMaster = readJson("cost/ingredient_master.json");
 const ingredientMatches = readJson("cost/ingredient_product_matches.json");
 const menuCosts = readJson("cost/menu_costs.json");
 const readiness = readJson("readiness/demo_readiness.json");
+const missingBusinessInfra = readJson("infra/missing_business_infra_db.json");
+const busanExecutionInfra = readJson("infra/busan_meatbowl_local_execution_db.json");
+const regionProfiles = readJson("region_profiles.json");
+const accountingAssumptions = readJson("accounting_simulation_assumptions.json");
+const timetableRules = readJson("timetable_rules.json");
+const ownerConversionDemo = readJson("owner_conversion_demo.json");
 
 const direct = franchiseCohorts.find((cohort) => cohort.id === "cohort_direct_meat_bowl");
 assert(Boolean(direct), "franchise direct cohort exists");
@@ -47,3 +53,9 @@ assert(hasNoInvalidCost(menuCosts), "메뉴 원가 계산이 NaN 없이 수행")
 assert(supplierProducts.every((product) => "productUrl" in product && "dataStatus" in product && "supplierName" in product), "화면에서 쓸 필수 필드 존재");
 assert(Array.isArray(readiness.blocked_labels) && readiness.blocked_labels.length > 0, "demo_readiness에 blocked_labels 존재");
 assert(supplierLeads.length > 0, "supplier_leads 존재");
+assert(Array.isArray(missingBusinessInfra.construction_service_sources), "missing business infra source 존재");
+assert(Array.isArray(busanExecutionInfra.construction_and_consulting_candidates), "busan execution infra source 존재");
+assert(Array.isArray(regionProfiles) && regionProfiles.length >= 2, "region_profiles 존재");
+assert(Number.isFinite(accountingAssumptions.average_order_value), "accounting assumptions 존재");
+assert(Array.isArray(timetableRules.base_tasks) && timetableRules.base_tasks.length > 0, "timetable_rules 존재");
+assert(Array.isArray(ownerConversionDemo.owner_demo_features), "owner_conversion_demo 존재");

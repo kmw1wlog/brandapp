@@ -1,0 +1,112 @@
+[
+  {
+    "region_id": "busan_university",
+    "display_name": "부산 대학가",
+    "rent_range_monthly": [
+      1500000,
+      2800000
+    ],
+    "deposit_range": [
+      10000000,
+      25000000
+    ],
+    "base_daily_orders": 85,
+    "conservative_daily_orders": 60,
+    "optimistic_daily_orders": 115,
+    "lunch_demand": "high",
+    "dinner_demand": "medium",
+    "delivery_demand": "medium_high",
+    "competition_density": "medium",
+    "recommended_operation_type": "점포+배달 혼합형",
+    "confidence_score": 0.45,
+    "source_status": "지역 추정값"
+  },
+  {
+    "region_id": "daegu_banworldang",
+    "display_name": "대구 반월당",
+    "rent_range_monthly": [
+      1800000,
+      3500000
+    ],
+    "deposit_range": [
+      15000000,
+      40000000
+    ],
+    "base_daily_orders": 95,
+    "conservative_daily_orders": 65,
+    "optimistic_daily_orders": 130,
+    "lunch_demand": "medium_high",
+    "dinner_demand": "high",
+    "delivery_demand": "medium_high",
+    "competition_density": "high",
+    "recommended_operation_type": "점포+배달 혼합형",
+    "confidence_score": 0.4,
+    "source_status": "지역 추정값"
+  },
+  {
+    "region_id": "seoul_university",
+    "display_name": "서울 대학가",
+    "rent_range_monthly": [
+      2500000,
+      5200000
+    ],
+    "deposit_range": [
+      25000000,
+      70000000
+    ],
+    "base_daily_orders": 105,
+    "conservative_daily_orders": 70,
+    "optimistic_daily_orders": 145,
+    "lunch_demand": "high",
+    "dinner_demand": "high",
+    "delivery_demand": "high",
+    "competition_density": "high",
+    "recommended_operation_type": "점포+배달 혼합형",
+    "confidence_score": 0.35,
+    "source_status": "지역 추정값"
+  },
+  {
+    "region_id": "office_district",
+    "display_name": "오피스 상권",
+    "rent_range_monthly": [
+      2200000,
+      4500000
+    ],
+    "deposit_range": [
+      20000000,
+      60000000
+    ],
+    "base_daily_orders": 90,
+    "conservative_daily_orders": 60,
+    "optimistic_daily_orders": 125,
+    "lunch_demand": "high",
+    "dinner_demand": "low",
+    "delivery_demand": "medium",
+    "competition_density": "medium_high",
+    "recommended_operation_type": "점포형",
+    "confidence_score": 0.35,
+    "source_status": "지역 추정값"
+  },
+  {
+    "region_id": "residential_delivery",
+    "display_name": "주거지 배달 상권",
+    "rent_range_monthly": [
+      1200000,
+      2600000
+    ],
+    "deposit_range": [
+      10000000,
+      30000000
+    ],
+    "base_daily_orders": 75,
+    "conservative_daily_orders": 50,
+    "optimistic_daily_orders": 105,
+    "lunch_demand": "medium",
+    "dinner_demand": "high",
+    "delivery_demand": "high",
+    "competition_density": "medium",
+    "recommended_operation_type": "배달형",
+    "confidence_score": 0.35,
+    "source_status": "지역 추정값"
+  }
+]

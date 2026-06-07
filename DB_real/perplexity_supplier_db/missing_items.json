@@ -1,0 +1,92 @@
+[
+  {
+    "item": "양파",
+    "category": "쌀·채소·계란",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "숙주",
+    "category": "쌀·채소·계란",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "깻잎",
+    "category": "쌀·채소·계란",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "상추",
+    "category": "쌀·채소·계란",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "일반 계란 추가 후보",
+    "category": "쌀·채소·계란",
+    "status": "additional_urls_needed",
+    "notes": "구운계란 10구 1건만 확보"
+  },
+  {
+    "item": "랩",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "쓰레기봉투",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "세제",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "소독제",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "보관용기",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "소분팩",
+    "category": "주방 소모품",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "물엿",
+    "category": "소스·조미료",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "후추",
+    "category": "소스·조미료",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "고춧가루",
+    "category": "소스·조미료",
+    "status": "product_detail_url_missing",
+    "notes": "개별 상세 URL 미확보"
+  },
+  {
+    "item": "간장",
+    "category": "소스·조미료",
+    "status": "recipe_page_only",
+    "notes": "레시피 페이지 노출만 확인, 개별 상세 URL 필요"
+  }
+]

@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "db_name": "busan_meatbowl_local_execution_db",
+    "version": "0.1",
+    "scenario": "부산 대학가 12~18평 고기덮밥집",
+    "captured_at": "2026-06-07",
+    "status": "seed_database",
+    "purpose": "DB_real/missing_business_infra_db.json을 보강하는 부산 고기덮밥집 실행 후보 DB",
+    "disclaimer": "공식 페이지와 공개 목록 기반 후보 데이터이며 실제 계약·견적·배송·설치·인허가는 업체와 기관에 재확인 필요"
+  },
+  "local_project_assumption": {
+    "region": "부산 대학가",
+    "store_type": "점포+배달 혼합형",
+    "size_pyeong_min": 12,
+    "size_pyeong_max": 18,
+    "opening_budget_krw": 50000000,
+    "menu_focus": [
+      "우삼겹 덮밥",
+      "직화 제육 덮밥",
+      "간장목살 덮밥",
+      "반장 세트"
+    ]
+  },
+  "construction_and_consulting_candidates": [
+    {
+      "id": "construct_qplace_001",
+      "name": "큐플레이스",
+      "official_url": "https://www.qplace.kr/",
+      "category": "commercial_interior_matching",
+      "busan_fit": "전국 무료 상담 및 지역·예산·일정 조건 기반 업체 매칭",
+      "use_for": [
+        "시공사 비교견적",
+        "상업공간 인테리어 포트폴리오",
+        "최대 3곳 현장 방문 상담 후보",
+        "상담 전 요구사항서 전달처"
+      ],
+      "relevant_tasks": [
+        "D-24 시공사 상담",
+        "D-16 시공 범위 확정"
+      ],
+      "data_points": {
+        "portfolio_claim": "7000+",
+        "contractor_pool_claim": "400여 개 인테리어 업체",
+        "site_visit_flow": "최대 3곳 현장 방문 및 견적 안내",
+        "consultation_fee": "무료 상담으로 안내",
+        "warranty_claim": "보증 가입 시 최대 1000만원 보상 안내"
+      },
+      "quote_required": true,
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.9
+    },
+    {
+      "id": "construct_soomgo_001",
+      "name": "숨고",
+      "official_url": "https://soomgo.com/",
+      "category": "local_service_marketplace",
+      "busan_fit": "부산 지역 선택 가능",
+      "use_for": [
+        "상업공간 인테리어 후보",
+        "시공·청소·사진촬영·마케팅 외주 후보",
+        "상담사 후보 모집"
+      ],
+      "relevant_tasks": [
+        "D-24 시공사 상담",
+        "D-3 릴스·오픈 이벤트 준비"
+      ],
+      "quote_required": true,
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "design_kmong_001",
+      "name": "크몽",
+      "official_url": "https://kmong.com/",
+      "category": "freelance_marketplace",
+      "busan_fit": "지역 무관 원격 외주 가능",
+      "use_for": [
+        "로고 디자인",
+        "음식 사진 촬영",
+        "전단지",
+        "지도 최적화",
+        "바이럴·포스팅",
+        "메뉴판 디자인"
+      ],
+      "relevant_tasks": [
+        "D-10 간판·메뉴판 제작",
+        "D-3 릴스·오픈 이벤트 준비"
+      ],
+      "quote_required": true,
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.82
+    }
+  ],
+  "kitchen_equipment_candidates": [
+    {
+      "id": "equipment_jubang24_supplier",
+      "name": "주방24",
+      "official_url": "https://jubang24.co.kr/",
+      "category": "kitchen_equipment_mall",
+      "busan_fit": "택배·화물 배송 가능성 확인 필요",
+      "use_for": [
+        "냉장고",
+        "냉동고",
+        "작업대",
+        "싱크대",
+        "가스렌지",
+        "인덕션",
+        "보온고",
+        "위생용품"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.88
+    }
+  ],
+  "equipment_product_leads": [
+    {
+      "id": "equip_refrigerator_gws_632rf",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "그랜드우성 업소용 냉장고 GWS-632RF 2도어",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=15&product_no=2527",
+      "category": "commercial_refrigerator",
+      "displayed_price_krw": 920000,
+      "regular_price_krw": 1250000,
+      "use_for": "우삼겹·채소·소스 냉장 보관",
+      "delivery_installation_note": "배송·설치비 별도 확인 필요",
+      "verification_status": "official_listing_verified_detail_fetch_limited",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "equip_refrigerator_wsm_632rf",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "우성 25박스 업소용 냉장고 WSM-632RF 2도어",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=15&product_no=1062",
+      "category": "commercial_refrigerator",
+      "displayed_price_krw": 840000,
+      "regular_price_krw": 1260000,
+      "use_for": "소형 고기덮밥집 기본 냉장고 후보",
+      "delivery_installation_note": "배송·설치비 별도 확인 필요",
+      "verification_status": "official_listing_verified_detail_fetch_limited",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "equip_worktable_cabinet_600",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "2단 캐비넷 작업대 600 STS201",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=16&product_no=119",
+      "category": "worktable",
+      "displayed_price_krw": 255000,
+      "use_for": "포장대 또는 조리 보조 작업대",
+      "verification_status": "official_listing_verified_detail_fetch_limited",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "equip_sink_2comp_900",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "2조 싱크대 900 STS201",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=16&product_no=86",
+      "category": "sink",
+      "displayed_price_krw": 170000,
+      "use_for": "세척·급배수 공사 기준 장비",
+      "verification_status": "official_listing_verified_detail_fetch_limited",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "equip_worktable_1tier_600",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "1단 작업대 600 STS201",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=16&product_no=34",
+      "category": "worktable",
+      "displayed_price_krw": 75000,
+      "regular_price_krw": 95000,
+      "use_for": "소형 조리대·재료 소분대",
+      "verification_status": "official_listing_verified_detail_fetch_limited",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "equip_induction_bkp20",
+      "supplier_id": "equipment_jubang24_supplier",
+      "product_name": "업소용 인덕션 전기 렌지 디포인덕션 BKP20 매립형 1구",
+      "product_url": "https://jubang24.co.kr/product/detail.html?cate_no=1&display_group=18&product_no=466",
+      "category": "induction_range",
+      "displayed_price_krw": null,
+      "use_for": "가스 사용이 어려운 점포의 덮밥 조리 후보",
+      "delivery_installation_note": "전화상담 또는 상세 견적 필요",
+      "verification_status": "official_listing_verified_price_call_required",
+      "confidence_score": 0.76
+    }
+  ],
+  "signage_printing_candidates": [
+    {
+      "id": "print_redprinting_001",
+      "name": "레드프린팅 앤 프레스",
+      "official_url": "https://www.redprinting.co.kr/ko",
+      "category": "online_printing",
+      "busan_fit": "전국 온라인 주문 가능성",
+      "use_for": [
+        "패키지 스티커",
+        "옥외용 스티커",
+        "냉장·냉동 저온 스티커",
+        "포스터",
+        "전단",
+        "패브릭 메뉴판"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.9
+    },
+    {
+      "id": "print_bizhows_001",
+      "name": "비즈하우스",
+      "official_url": "https://www.bizhows.com/ko",
+      "category": "online_printing",
+      "busan_fit": "전국 온라인 주문 가능성",
+      "use_for": [
+        "명함",
+        "전단",
+        "배너",
+        "스티커",
+        "홍보물"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.65
+    }
+  ],
+  "pos_payment_delivery_candidates": [
+    {
+      "id": "pos_tossplace_001",
+      "name": "토스플레이스",
+      "official_url": "https://www.tossplace.com/",
+      "category": "pos_payment_solution",
+      "busan_fit": "전국 서비스 가능성, 대리점 확인 필요",
+      "use_for": [
+        "POS",
+        "결제",
+        "매장 운영 솔루션",
+        "상담 신청"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.82
+    },
+    {
+      "id": "pos_posbank_001",
+      "name": "포스뱅크",
+      "official_url": "https://www.posbank.com/kor/",
+      "category": "pos_hardware",
+      "busan_fit": "유통·대리점 확인 필요",
+      "use_for": [
+        "POS",
+        "Kiosk",
+        "KDS",
+        "Table Ordering",
+        "POS Printer"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.88
+    },
+    {
+      "id": "payment_smartro_001",
+      "name": "스마트로",
+      "official_url": "https://www.smartro.co.kr/",
+      "category": "van_pg_pos",
+      "busan_fit": "가맹점 단말기·POS 상담 가능성",
+      "use_for": [
+        "VAN",
+        "PG",
+        "POS 연동장비",
+        "단말기",
+        "매출관리"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.84
+    },
+    {
+      "id": "delivery_barogo_001",
+      "name": "바로고",
+      "official_url": "https://www.barogo.com/",
+      "category": "delivery_agency",
+      "busan_fit": "전국 허브 기반, 부산 허브 확인 필요",
+      "use_for": [
+        "배달대행 문의",
+        "스토어 프로그램",
+        "라이더 네트워크",
+        "배달 진행·매출 확인"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.84
+    },
+    {
+      "id": "delivery_baemin_ceo_001",
+      "name": "배민외식업광장",
+      "official_url": "https://ceo.baemin.com/",
+      "category": "delivery_platform_owner_portal",
+      "busan_fit": "부산 배달앱 입점 후보",
+      "use_for": [
+        "배달앱 입점",
+        "사장님 자료",
+        "배민 운영 정보"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.7
+    },
+    {
+      "id": "delivery_coupang_eats_store_001",
+      "name": "쿠팡이츠 사장님 포털",
+      "official_url": "https://store.coupangeats.com/",
+      "category": "delivery_platform_owner_portal",
+      "busan_fit": "부산 배달앱 입점 후보",
+      "use_for": [
+        "쿠팡이츠 입점",
+        "배달앱 운영"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.7
+    }
+  ],
+  "permit_law_refs": [
+    {
+      "id": "permit_kfa_001",
+      "name": "한국외식업중앙회",
+      "official_url": "https://www.foodservice.or.kr/",
+      "category": "food_hygiene_education_and_owner_support",
+      "busan_fit": "부산 지회·지부 확인 필요",
+      "use_for": [
+        "신규 영업자 위생교육",
+        "기존 영업자 위생교육",
+        "세무·노무 상담",
+        "무료직업소개",
+        "원산지표시 안내",
+        "POS·키오스크 사업"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.9
+    },
+    {
+      "id": "permit_ehealth_001",
+      "name": "e보건소",
+      "official_url": "https://www.e-health.go.kr/",
+      "category": "health_certificate",
+      "busan_fit": "보건소 검사·제증명 확인용",
+      "use_for": [
+        "건강진단결과서",
+        "보건증",
+        "온라인 제증명 발급"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.92
+    },
+    {
+      "id": "permit_gov24_001",
+      "name": "정부24",
+      "official_url": "https://www.gov.kr/",
+      "category": "government_civil_service",
+      "busan_fit": "부산 관할 구청 민원과 병행 확인",
+      "use_for": [
+        "행정민원",
+        "각종 증명",
+        "영업신고 관련 민원 후보"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.7
+    },
+    {
+      "id": "tax_hometax_001",
+      "name": "국세청 홈택스",
+      "official_url": "https://www.hometax.go.kr/",
+      "category": "tax_business_registration",
+      "busan_fit": "사업자등록·세무 처리",
+      "use_for": [
+        "사업자등록",
+        "세금계산서",
+        "부가세",
+        "현금영수증"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.75
+    }
+  ],
+  "location_and_public_data_refs": [
+    {
+      "id": "public_data_portal_001",
+      "name": "공공데이터포털",
+      "official_url": "https://www.data.go.kr/",
+      "category": "public_data_portal",
+      "busan_fit": "부산 상권·건축·부동산 데이터 탐색",
+      "use_for": [
+        "상권정보",
+        "건축정보",
+        "부동산종합정보",
+        "REST API",
+        "CSV",
+        "JSON"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.88
+    },
+    {
+      "id": "building_eais_001",
+      "name": "세움터",
+      "official_url": "https://www.eais.go.kr/",
+      "category": "building_administration",
+      "busan_fit": "후보 점포 주소 확정 후 확인",
+      "use_for": [
+        "건축물대장",
+        "건축물 용도 확인",
+        "음식점 가능 여부 검토"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.7
+    },
+    {
+      "id": "land_eum_001",
+      "name": "토지이음",
+      "official_url": "https://www.eum.go.kr/",
+      "category": "land_use_planning",
+      "busan_fit": "후보 점포 주소 확정 후 확인",
+      "use_for": [
+        "토지이용계획",
+        "용도지역",
+        "입지 제한 확인"
+      ],
+      "verification_status": "official_site_minimal",
+      "confidence_score": 0.7
+    }
+  ],
+  "operating_cost_refs": [
+    {
+      "id": "labor_minimum_wage_2026",
+      "name": "2026 최저임금",
+      "official_url": "https://www.minimumwage.go.kr/minWage/policy/decisionMain.do",
+      "category": "labor_cost_reference",
+      "values": {
+        "hourly_wage_krw": 10320,
+        "daily_8h_krw": 82560,
+        "monthly_209h_krw": 2156880,
+        "effective_period": "2026-01-01~2026-12-31"
+      },
+      "use_for": [
+        "알바 인건비",
+        "점주 대시보드 인건비 가정",
+        "손익분기 계산"
+      ],
+      "verification_status": "official_site_verified",
+      "confidence_score": 0.95
+    }
+  ],
+  "app_usage_mapping": {
+    "/dashboard/startup/build": [
+      "construction_and_consulting_candidates",
+      "kitchen_equipment_candidates",
+      "equipment_product_leads",
+      "signage_printing_candidates"
+    ],
+    "/dashboard/startup/consultation": [
+      "construction_and_consulting_candidates",
+      "pos_payment_delivery_candidates",
+      "permit_law_refs"
+    ],
+    "/dashboard/startup/timetable": [
+      "permit_law_refs",
+      "operating_cost_refs",
+      "location_and_public_data_refs"
+    ],
+    "/dashboard/startup/owner-preview": [
+      "pos_payment_delivery_candidates",
+      "operating_cost_refs"
+    ],
+    "/dashboard/startup/suppliers": [
+      "kitchen_equipment_candidates",
+      "equipment_product_leads",
+      "signage_printing_candidates"
+    ]
+  },
+  "remaining_manual_checks": [
+    "부산 실제 상가 매물 URL",
+    "부산 개별 시공사 2~3곳의 실제 견적",
+    "주방설비 배송·설치비",
+    "가스·전기 증설 비용",
+    "후드·덕트 현장 시공 가능 여부",
+    "배달대행 부산 허브별 단가",
+    "배달앱 수수료·광고상품 실제 계약조건",
+    "부산 관할 구청 영업신고 세부 서류",
+    "간판 옥외광고물 신고 여부"
+  ]
+}

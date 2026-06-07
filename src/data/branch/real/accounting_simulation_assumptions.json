@@ -1,0 +1,31 @@
+{
+  "operating_days_per_month": 26,
+  "average_order_value": 9500,
+  "delivery_share": 0.45,
+  "food_cost_rate": 0.32,
+  "packaging_cost_per_order": 320,
+  "delivery_platform_fee_rate": 0.12,
+  "card_fee_rate": 0.015,
+  "management_fee": 250000,
+  "utilities": 650000,
+  "internet_pos": 120000,
+  "insurance": 80000,
+  "waste_disposal": 100000,
+  "monthly_marketing": {
+    "month_1": 1000000,
+    "month_2": 700000,
+    "month_3": 500000,
+    "month_4": 500000
+  },
+  "one_time_costs_default": {
+    "deposit": 15000000,
+    "key_money": 0,
+    "interior": 22000000,
+    "equipment": 8000000,
+    "signage": 2000000,
+    "initial_inventory": 2500000,
+    "initial_packaging": 1000000,
+    "initial_marketing": 1000000,
+    "permit_and_misc": 500000
+  }
+}

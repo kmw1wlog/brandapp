@@ -1,0 +1,127 @@
+{
+  "variants": [
+    {
+      "id": "compressed",
+      "label": "압축형",
+      "min_days": 0,
+      "max_days": 20
+    },
+    {
+      "id": "base",
+      "label": "기본형",
+      "min_days": 21,
+      "max_days": 45
+    },
+    {
+      "id": "relaxed",
+      "label": "여유형",
+      "min_days": 46,
+      "max_days": 90
+    },
+    {
+      "id": "research",
+      "label": "상권조사·브랜드 고도화형",
+      "min_days": 91,
+      "max_days": 365
+    }
+  ],
+  "base_tasks": [
+    {
+      "id": "task_001",
+      "offset": -45,
+      "title": "창업안 확정",
+      "category": "planning",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_003",
+      "offset": -42,
+      "title": "상권/건축물 확인",
+      "category": "location",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_004",
+      "offset": -38,
+      "title": "시공 요구사항서 작성",
+      "category": "construction",
+      "requires_consultation": true,
+      "consultation_category": "시공"
+    },
+    {
+      "id": "task_005",
+      "offset": -35,
+      "title": "시공사 상담",
+      "category": "construction",
+      "requires_consultation": true,
+      "consultation_category": "시공"
+    },
+    {
+      "id": "task_006",
+      "offset": -30,
+      "title": "공급처 견적 요청",
+      "category": "supplier",
+      "requires_consultation": true,
+      "consultation_category": "공급처"
+    },
+    {
+      "id": "task_009",
+      "offset": -25,
+      "title": "위생교육·보건증 준비",
+      "category": "permit",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_010",
+      "offset": -22,
+      "title": "사업자등록 준비",
+      "category": "permit",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_011",
+      "offset": -20,
+      "title": "메뉴판·간판 제작",
+      "category": "marketing",
+      "requires_consultation": true,
+      "consultation_category": "홍보/디자인"
+    },
+    {
+      "id": "task_012",
+      "offset": -14,
+      "title": "배달앱·네이버 플레이스 등록",
+      "category": "delivery",
+      "requires_consultation": true,
+      "consultation_category": "배달"
+    },
+    {
+      "id": "task_013",
+      "offset": -10,
+      "title": "알바 인건비 계산",
+      "category": "labor",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_014",
+      "offset": -7,
+      "title": "시범 조리",
+      "category": "operation",
+      "requires_consultation": false
+    },
+    {
+      "id": "task_015",
+      "offset": -3,
+      "title": "오픈 홍보",
+      "category": "marketing",
+      "requires_consultation": true,
+      "consultation_category": "홍보/디자인"
+    },
+    {
+      "id": "task_016",
+      "offset": 0,
+      "title": "오픈",
+      "category": "opening",
+      "requires_consultation": false
+    }
+  ]
+}

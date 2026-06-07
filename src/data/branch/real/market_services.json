@@ -1,0 +1,123 @@
+[
+  {
+    "id": "simple_analysis",
+    "name": "간단분석",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 1,
+    "useInSimulation": true
+  },
+  {
+    "id": "delivery_analysis",
+    "name": "배달분석",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 2,
+    "useInSimulation": true
+  },
+  {
+    "id": "market_map",
+    "name": "상권지도",
+    "provider": "소상공인365",
+    "type": "external_link",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": true,
+    "priority": 3,
+    "useInSimulation": true
+  },
+  {
+    "id": "detail_analysis",
+    "name": "상세분석",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 4,
+    "useInSimulation": true
+  },
+  {
+    "id": "store_status",
+    "name": "업소현황",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 5,
+    "useInSimulation": true
+  },
+  {
+    "id": "sales_per_store",
+    "name": "점포당 매출액 추이",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 6,
+    "useInSimulation": true
+  },
+  {
+    "id": "startup_weather",
+    "name": "창업기상도",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 7,
+    "useInSimulation": true
+  },
+  {
+    "id": "sns_analysis",
+    "name": "SNS 분석",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 8,
+    "useInSimulation": false
+  },
+  {
+    "id": "tour_festival",
+    "name": "관광 축제 정보",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 9,
+    "useInSimulation": false
+  },
+  {
+    "id": "business_age",
+    "name": "업력현황",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 10,
+    "useInSimulation": false
+  },
+  {
+    "id": "theme_market",
+    "name": "테마상권 분석",
+    "provider": "소상공인365",
+    "type": "api_pending",
+    "iframeUrl": null,
+    "externalUrl": "https://bigdata.sbiz.or.kr",
+    "enabled": false,
+    "priority": 11,
+    "useInSimulation": false
+  }
+]

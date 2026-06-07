@@ -2,22 +2,24 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Building2, CalendarCheck, CalendarDays, ChartNoAxesCombined, ClipboardList, FileText, Handshake, LayoutDashboard, MapPinned, Store } from "lucide-react";
+import { Building2, CalendarDays, ChartNoAxesCombined, ClipboardList, FileSignature, FileText, Handshake, LayoutDashboard, MapPinned, Store, WalletCards } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FeedbackFloatingWidget } from "./FeedbackFloatingWidget";
 import { trackEvent } from "@/lib/branch/events";
 
 const nav = [
+  { label: "사용자 입력", href: "/dashboard/startup/input", icon: ClipboardList },
   { label: "비교", href: "/dashboard/startup/new", icon: ChartNoAxesCombined },
   { label: "브랜드 실행안", href: "/dashboard/startup/brand", icon: Building2 },
-  { label: "프랜차이즈", href: "/dashboard/startup/franchise", icon: Store },
+  { label: "4개월 회계", href: "/dashboard/startup/finance", icon: WalletCards },
   { label: "메뉴·원가", href: "/dashboard/startup/cost", icon: ClipboardList },
-  { label: "공급처·입지", href: "/dashboard/startup/suppliers", icon: MapPinned },
+  { label: "공급처·공동구매", href: "/dashboard/startup/suppliers", icon: MapPinned },
   { label: "시공 요구사항서", href: "/dashboard/startup/build", icon: FileText },
   { label: "개점 타임테이블", href: "/dashboard/startup/timetable", icon: CalendarDays },
   { label: "상담신청", href: "/dashboard/startup/consultation", icon: Handshake },
-  { label: "상담현황", href: "/dashboard/startup/consultation/status", icon: CalendarCheck },
-  { label: "점주 미리보기", href: "/dashboard/startup/owner-preview", icon: LayoutDashboard }
+  { label: "원클릭 발주", href: "/dashboard/startup/consultation/rfp", icon: FileSignature },
+  { label: "점주 전환", href: "/dashboard/startup/owner-conversion", icon: Store },
+  { label: "점주 대시보드", href: "/dashboard/startup/owner-preview", icon: LayoutDashboard }
 ];
 
 export function BranchAppShell({ children }: { children: React.ReactNode }) {

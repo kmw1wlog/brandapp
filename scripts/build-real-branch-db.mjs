@@ -699,6 +699,16 @@ function main() {
   const cohorts = buildFranchiseCohorts(brands);
   const benchmarkSummary = buildFranchiseSummary(cohorts);
   const supplierOutput = mergeSuppliers();
+  const missingBusinessInfra = readJson("DB_real/missing_business_infra_db.json");
+  const busanExecutionInfra = readJson("DB_real/busan_meatbowl_local_execution_db.json");
+  const userInputSchema = readJson("src/data/branch/real/user_input_schema.json");
+  const regionProfiles = readJson("src/data/branch/real/region_profiles.json");
+  const accountingAssumptions = readJson("src/data/branch/real/accounting_simulation_assumptions.json");
+  const fourMonthSimulation = readJson("src/data/branch/real/four_month_accounting_simulation.json");
+  const timetableRules = readJson("src/data/branch/real/timetable_rules.json");
+  const ownerConversionDemo = readJson("src/data/branch/real/owner_conversion_demo.json");
+  const consultationRfpTemplates = readJson("src/data/branch/real/consultation_rfp_templates.json");
+  const marketServices = readJson("src/data/branch/real/market_services.json");
   const ingredientMaster = buildIngredientMaster();
   const ingredientMatches = buildIngredientMatches(supplierOutput.supplierProducts, ingredientMaster);
   const realMenuCosts = buildRealMenuCosts(supplierOutput.supplierProducts, ingredientMaster, ingredientMatches);
@@ -743,6 +753,16 @@ function main() {
   writeJson("cost/menu_costs.json", realMenuCosts);
   writeJson("cost/cost_assumptions.json", { ...costAssumptions, real_supplier_product_count: supplierOutput.supplierProducts.length });
   writeJson("cost/profit_simulations.json", realProfitSimulations);
+  writeJson("infra/missing_business_infra_db.json", missingBusinessInfra);
+  writeJson("infra/busan_meatbowl_local_execution_db.json", busanExecutionInfra);
+  writeJson("user_input_schema.json", userInputSchema);
+  writeJson("region_profiles.json", regionProfiles);
+  writeJson("accounting_simulation_assumptions.json", accountingAssumptions);
+  writeJson("four_month_accounting_simulation.json", fourMonthSimulation);
+  writeJson("timetable_rules.json", timetableRules);
+  writeJson("owner_conversion_demo.json", ownerConversionDemo);
+  writeJson("consultation_rfp_templates.json", consultationRfpTemplates);
+  writeJson("market_services.json", marketServices);
   writeJson("readiness/demo_readiness.json", {
     blocked_labels: ["price_missing", "delivery_unconfirmed", "lead_only", "rejected"],
     alerts: [

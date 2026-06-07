@@ -93,7 +93,22 @@ export async function fetchKieJobStatus(taskId: string) {
   });
   const json = await response.json();
   const status = json?.status ?? json?.data?.status ?? "fail";
-  const resultJson = json?.resultJson ?? json?.data?.resultJson ?? {};
-  const resultUrls = Array.isArray(resultJson?.resultUrls) ? resultJson.resultUrls : [];
+  const resultJson = parseResultJson(json?.resultJson ?? json?.data?.resultJson ?? {});
+  const resultUrls = Array.isArray(resultJson?.resultUrls)
+    ? resultJson.resultUrls
+    : Array.isArray(resultJson?.resultUrlsJson)
+      ? resultJson.resultUrlsJson
+      : Array.isArray(resultJson?.urls)
+        ? resultJson.urls
+        : [];
   return { status, resultUrls };
+}
+
+function parseResultJson(value: unknown) {
+  if (typeof value !== "string") return value as Record<string, unknown>;
+  try {
+    return JSON.parse(value) as Record<string, unknown>;
+  } catch {
+    return {};
+  }
 }

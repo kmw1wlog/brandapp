@@ -32,7 +32,7 @@ export function MenuDetailCard({ menu }: { menu: MenuCost | RealMenuCost }) {
                 <td className="py-3 pr-3">{ingredient.amount}{ingredient.unit}</td>
                 <td className="py-3 pr-3">{"unitPriceText" in ingredient ? ingredient.unitPriceText : formatKRW(ingredient.cost)}</td>
                 <td className="py-3 pr-3">{"sourceLabel" in ingredient ? ingredient.sourceLabel : "샘플 단가"}</td>
-                <td className="py-3 pr-3">{"connectedProductName" in ingredient && ingredient.connectedProductName ? <a href={ingredient.connectedProductUrl ?? "#"} target="_blank" rel="noreferrer" className="text-[#b8642f] underline">{ingredient.connectedProductName}</a> : "연결 상품 없음"}</td>
+                <td className="py-3 pr-3">{"connectedProductName" in ingredient && ingredient.connectedProductName ? <a href={ingredient.connectedProductUrl ?? "#"} target="_blank" rel="noopener noreferrer" className="text-[#b8642f] underline">{ingredient.connectedProductName}</a> : "연결 상품 없음"}</td>
                 <td className="py-3 pr-3"><DataQualityBadge status={"priceStatus" in ingredient ? ingredient.priceStatus === "confirmed" ? "verified_product" : ingredient.priceStatus === "missing_price" ? "price_missing" : "sample_value" : "sample_value"} /></td>
               </tr>
             ))}

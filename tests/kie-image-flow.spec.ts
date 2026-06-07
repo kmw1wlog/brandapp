@@ -1,6 +1,6 @@
 import { expect, test } from "playwright/test";
 
-const baseURL = process.env.BASE_URL ?? "http://127.0.0.1:3003";
+const baseURL = process.env.BASE_URL ?? "http://localhost:3003";
 
 test("brand page keeps template image and shows mock generation flow without API key", async ({ page }) => {
   await page.goto(`${baseURL}/dashboard/startup/brand`, { waitUntil: "networkidle" });
