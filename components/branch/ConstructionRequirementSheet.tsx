@@ -1,4 +1,6 @@
-import { formatKRW, formatRange } from "@/lib/branch/format";
+"use client";
+
+import { formatRange } from "@/lib/branch/format";
 import type { ConstructionRequirements } from "@/lib/branch/types";
 
 export function ConstructionRequirementSheet({ requirements }: { requirements: ConstructionRequirements }) {
@@ -7,7 +9,10 @@ export function ConstructionRequirementSheet({ requirements }: { requirements: C
   const hall = requirements.hall_layout as { solo_seats: number; two_person_tables: number; four_person_tables: number; notes: string };
   return (
     <section className="rounded-lg border border-[#ddd2c0] bg-white p-5">
-      <h3 className="text-xl font-black text-[#164033]">시공사 전달 요구사항서</h3>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h3 className="text-xl font-black text-[#164033]">시공사 전달 요구사항서</h3>
+        <button type="button" onClick={() => window.print()} className="rounded-lg bg-[#164033] px-3 py-2 text-sm font-black text-white">PDF 인쇄</button>
+      </div>
       <dl className="mt-4 grid gap-3 text-sm md:grid-cols-2">
         <Item label="브랜드명" value={requirements.brand_name} />
         <Item label="업종" value={requirements.business_type} />

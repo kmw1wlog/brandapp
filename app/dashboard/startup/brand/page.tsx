@@ -1,13 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BrandOptionTabs } from "@/components/branch/BrandOptionTabs";
 import { BrandSummaryPanel } from "@/components/branch/BrandSummaryPanel";
-import { BrandVisualBoard } from "@/components/branch/BrandVisualBoard";
+import { BrandBoardView } from "@/components/branch/assets/BrandBoardView";
 import { OperatingTypeToggle } from "@/components/branch/OperatingTypeToggle";
 import { PageHeader, ActionLink } from "@/components/branch/Common";
 import { getBrandById, getBrandOptions, getDashboardCopy } from "@/lib/branch/data";
 import { saveSelectedBrand, trackEvent } from "@/lib/branch/events";
+import { getBranchStorage } from "@/lib/branch/storage";
 
 export default function BrandPage() {
   const copy = getDashboardCopy().screens.brand_detail;
@@ -16,9 +17,14 @@ export default function BrandPage() {
   const [operatingType, setOperatingType] = useState("점포형");
   const brand = getBrandById(brandId);
 
+  useEffect(() => {
+    getBranchStorage().getSelectedBrand().then(setBrandId);
+  }, []);
+
   function selectBrand(nextId: string) {
     setBrandId(nextId);
     saveSelectedBrand(nextId);
+    getBranchStorage().saveSelectedBrand(nextId);
     trackEvent("brand_selected", { brandId: nextId, operatingType });
   }
 
@@ -29,12 +35,12 @@ export default function BrandPage() {
         <BrandOptionTabs brands={brands} selectedId={brandId} onSelect={selectBrand} />
         <OperatingTypeToggle value={operatingType} onChange={setOperatingType} />
       </div>
-      <section className="grid gap-5 lg:grid-cols-[1fr_0.9fr]">
+      <section className="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="rounded-lg bg-[#164033] p-5 text-white">
           <h3 className="text-2xl font-black">{brand.name}</h3>
           <p className="mt-1 font-semibold text-[#e2b15f]">{brand.slogan}</p>
           <p className="mt-3 text-sm leading-6 text-white/78">{brand.concept}</p>
-          <div className="mt-5"><BrandVisualBoard brand={brand} /></div>
+          <div className="mt-5"><BrandBoardView brand={brand} /></div>
         </div>
         <div className="rounded-lg border border-[#ddd2c0] bg-white p-5">
           <h3 className="text-xl font-black text-[#164033]">브랜드 실행 문구</h3>

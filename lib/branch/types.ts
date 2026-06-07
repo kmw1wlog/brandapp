@@ -204,6 +204,81 @@ export type AppointmentSlot = {
   status: string;
 };
 
+export type BrandAssetKind =
+  | "storefront"
+  | "interior"
+  | "logo"
+  | "signature_menu"
+  | "menu_board"
+  | "packaging"
+  | "delivery_thumbnail"
+  | "promotion";
+
+export type BrandAsset = {
+  id: string;
+  brandId: string;
+  kind: BrandAssetKind;
+  title: string;
+  description: string;
+  templateUrl: string;
+  generatedUrl?: string;
+  selectedUrl: string;
+  status: "template" | "queued" | "generating" | "generated" | "failed";
+};
+
+export type TimelineTaskStatus = "pending" | "in_progress" | "consultation_waiting" | "booked" | "completed" | "blocked";
+
+export type TimelineTaskState = {
+  taskId: string;
+  status: TimelineTaskStatus;
+  targetDate?: string;
+  appointmentId?: string;
+  note?: string;
+};
+
+export type TimelineState = {
+  version: 3;
+  selectedBrandId: string;
+  targetOpenDate: string;
+  tasks: Record<string, TimelineTaskState>;
+};
+
+export type Consultant = {
+  id: string;
+  name: string;
+  category: string;
+  status: "pending_onboarding" | "active" | "inactive";
+  description?: string;
+};
+
+export type AvailabilitySlot = {
+  id: string;
+  consultantId: string;
+  startAt: string;
+  endAt: string;
+  status: "available" | "held" | "booked" | "blocked";
+};
+
+export type Appointment = {
+  id: string;
+  consultantId: string;
+  taskId?: string;
+  categoryId: string;
+  startAt: string;
+  endAt: string;
+  status: "held" | "booked" | "completed" | "cancelled";
+  userName: string;
+  contact: string;
+  brandId: string;
+  note?: string;
+};
+
+export type AppointmentInput = Omit<Appointment, "id" | "status"> & { status?: Appointment["status"] };
+
+export type ConsultationLeadInput = Omit<ConsultationLead, "id" | "timestamp">;
+
+export type FeedbackInput = Omit<FeedbackEntry, "id" | "timestamp">;
+
 export type ConsultationQuestionCategory = {
   category: string;
   questions: { id: string; question: string }[];

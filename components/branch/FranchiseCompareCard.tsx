@@ -27,7 +27,7 @@ export function FranchiseCompareCard({ franchise, onDetail }: { franchise: Franc
       <p className="mt-4 rounded-lg bg-white p-3 text-xs leading-5 text-[#655d52]">{franchise.data_note}</p>
       <p className="mt-3 text-xs font-semibold text-[#655d52]">프랜차이즈가 더 나을 수도 있습니다. 본 화면은 계약 전 비교 질문을 만들기 위한 참고 자료입니다.</p>
       <div className="mt-5">
-        <ActionLink href="/dashboard/startup/cost" onClick={onDetail}>프랜차이즈 자세히 보기</ActionLink>
+        <ActionLink href="/dashboard/startup/franchise" onClick={onDetail}>프랜차이즈 자세히 보기</ActionLink>
       </div>
     </section>
   );

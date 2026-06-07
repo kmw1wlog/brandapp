@@ -1,0 +1,122 @@
+[
+  {
+    "id": "asset_yukbanjang_storefront",
+    "brandId": "brand_yukbanjang",
+    "kind": "storefront",
+    "title": "매장 외부 시안",
+    "description": "우드 톤 간판과 고기덮밥 전문점 분위기를 보여주는 외부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094021.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094021.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_yukbanjang_interior",
+    "brandId": "brand_yukbanjang",
+    "kind": "interior",
+    "title": "인테리어 시안",
+    "description": "1인 식사와 빠른 회전에 맞춘 내부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094022.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094022.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_yukbanjang_menu",
+    "brandId": "brand_yukbanjang",
+    "kind": "signature_menu",
+    "title": "대표 메뉴 시안",
+    "description": "우삼겹 덮밥 대표 메뉴 이미지 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094023.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094023.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_yukbanjang_packaging",
+    "brandId": "brand_yukbanjang",
+    "kind": "packaging",
+    "title": "패키지 시안",
+    "description": "배달형 전환을 고려한 포장재 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094024.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094024.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_deopsang_storefront",
+    "brandId": "brand_deopsanghoe",
+    "kind": "storefront",
+    "title": "매장 외부 시안",
+    "description": "덮밥형 브랜드에 맞춘 외부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094022.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094022.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_deopsang_interior",
+    "brandId": "brand_deopsanghoe",
+    "kind": "interior",
+    "title": "인테리어 시안",
+    "description": "배달과 홀을 병행하는 소형 매장 내부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094021.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094021.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_deopsang_menu",
+    "brandId": "brand_deopsanghoe",
+    "kind": "signature_menu",
+    "title": "대표 메뉴 시안",
+    "description": "한 그릇 메뉴 중심 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094024.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094024.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_deopsang_packaging",
+    "brandId": "brand_deopsanghoe",
+    "kind": "packaging",
+    "title": "패키지 시안",
+    "description": "배달앱 썸네일과 용기 구성을 함께 보는 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094023.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094023.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_godam_storefront",
+    "brandId": "brand_godamjung",
+    "kind": "storefront",
+    "title": "매장 외부 시안",
+    "description": "정갈한 한식 톤의 외부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094023.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094023.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_godam_interior",
+    "brandId": "brand_godamjung",
+    "kind": "interior",
+    "title": "인테리어 시안",
+    "description": "차분한 식사 경험을 위한 내부 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094024.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094024.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_godam_menu",
+    "brandId": "brand_godamjung",
+    "kind": "signature_menu",
+    "title": "대표 메뉴 시안",
+    "description": "정식형 대표 메뉴 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094021.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094021.jpg",
+    "status": "template"
+  },
+  {
+    "id": "asset_godam_packaging",
+    "brandId": "brand_godamjung",
+    "kind": "packaging",
+    "title": "패키지 시안",
+    "description": "테이크아웃과 배달 확장을 고려한 패키지 샘플",
+    "templateUrl": "/branch/image_template/6136472466361094022.jpg",
+    "selectedUrl": "/branch/image_template/6136472466361094022.jpg",
+    "status": "template"
+  }
+]

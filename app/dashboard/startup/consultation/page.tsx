@@ -2,9 +2,9 @@ import { Suspense } from "react";
 import { ConsultationCTA } from "@/components/branch/ConsultationCTA";
 import { ConsultationLeadForm } from "@/components/branch/ConsultationLeadForm";
 import { ConsultationQuestionPanel } from "@/components/branch/ConsultationQuestionPanel";
-import { MockConsultantTimetable } from "@/components/branch/MockConsultantTimetable";
+import { BranchButton } from "@/components/branch/ui/BranchButton";
 import { PageHeader } from "@/components/branch/Common";
-import { getAppointmentSlots, getConsultationQuestions, getDashboardCopy, getMockConsultants } from "@/lib/branch/data";
+import { getConsultationQuestions, getDashboardCopy } from "@/lib/branch/data";
 
 export default function ConsultationPage() {
   const copy = getDashboardCopy().screens.consultation;
@@ -16,7 +16,7 @@ export default function ConsultationPage() {
         <ConsultationLeadForm />
       </Suspense>
       <ConsultationQuestionPanel categories={getConsultationQuestions()} />
-      <MockConsultantTimetable consultants={getMockConsultants()} slots={getAppointmentSlots()} />
+      <BranchButton href="/dashboard/startup/consultation/status" variant="secondary">상담 현황 보기</BranchButton>
     </div>
   );
 }

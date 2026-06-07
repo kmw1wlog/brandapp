@@ -3,8 +3,22 @@
 @tailwind utilities;
 
 :root {
-  background: #f7f1e7;
-  color: #1d2320;
+  --branch-bg: #f7f3eb;
+  --branch-surface: #ffffff;
+  --branch-surface-muted: #f0eadf;
+  --branch-primary: #0b3d2e;
+  --branch-primary-strong: #062a20;
+  --branch-accent: #b96a2f;
+  --branch-accent-soft: #f7e7d6;
+  --branch-border: #ddd2c0;
+  --branch-ink: #211f1a;
+  --branch-ink-muted: #6a6258;
+  --branch-success: #0f7b54;
+  --branch-warning: #b6721f;
+  --branch-danger: #b93b35;
+  --branch-shadow: 0 10px 30px rgba(49, 38, 25, 0.07);
+  background: var(--branch-bg);
+  color: var(--branch-ink);
 }
 
 * {
@@ -14,9 +28,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top left, rgba(217, 121, 56, 0.16), transparent 30rem),
-    linear-gradient(135deg, #f7f1e7 0%, #eef3e9 45%, #f9ead9 100%);
+  background: var(--branch-bg);
 }
 
 button,
