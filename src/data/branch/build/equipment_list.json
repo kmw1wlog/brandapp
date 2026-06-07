@@ -1,0 +1,74 @@
+[
+  {
+    "id": "eq_range",
+    "name": "웍렌지 또는 고화력 2구 렌지",
+    "quantity": 1,
+    "priority": "필수",
+    "estimated_cost_min": 900000,
+    "estimated_cost_max": 2500000,
+    "notes": "가스/전기 인입 조건 확인"
+  },
+  {
+    "id": "eq_rice",
+    "name": "업소용 밥솥",
+    "quantity": 2,
+    "priority": "필수",
+    "estimated_cost_min": 700000,
+    "estimated_cost_max": 1600000,
+    "notes": "피크타임 분산 운영"
+  },
+  {
+    "id": "eq_fridge",
+    "name": "업소용 냉장고",
+    "quantity": 1,
+    "priority": "필수",
+    "estimated_cost_min": 1600000,
+    "estimated_cost_max": 3500000,
+    "notes": "냉장 재료 동선 고려"
+  },
+  {
+    "id": "eq_freezer",
+    "name": "업소용 냉동고",
+    "quantity": 1,
+    "priority": "필수",
+    "estimated_cost_min": 1400000,
+    "estimated_cost_max": 3200000,
+    "notes": "우삼겹 공동구매 시 용량 중요"
+  },
+  {
+    "id": "eq_table",
+    "name": "스테인리스 작업대",
+    "quantity": 2,
+    "priority": "필수",
+    "estimated_cost_min": 500000,
+    "estimated_cost_max": 1400000,
+    "notes": "조리·포장 분리"
+  },
+  {
+    "id": "eq_warmer",
+    "name": "보온고",
+    "quantity": 1,
+    "priority": "권장",
+    "estimated_cost_min": 400000,
+    "estimated_cost_max": 1100000,
+    "notes": "피크타임 품질 유지"
+  },
+  {
+    "id": "eq_hood",
+    "name": "후드·덕트",
+    "quantity": 1,
+    "priority": "필수",
+    "estimated_cost_min": 2500000,
+    "estimated_cost_max": 7000000,
+    "notes": "현장 조건에 따라 변동 큼"
+  },
+  {
+    "id": "eq_pos",
+    "name": "POS 또는 태블릿 주문장치",
+    "quantity": 1,
+    "priority": "권장",
+    "estimated_cost_min": 300000,
+    "estimated_cost_max": 1500000,
+    "notes": "구독료 별도 확인"
+  }
+]

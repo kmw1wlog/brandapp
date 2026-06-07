@@ -1,0 +1,88 @@
+[
+  {
+    "id": "gb_woosam",
+    "item_name": "수입산 우삼겹",
+    "region": "부산",
+    "current_interest_count": 7,
+    "target_buyers": 10,
+    "target_quantity": 300,
+    "unit": "kg",
+    "estimated_discount_rate_min": 8,
+    "estimated_discount_rate_max": 15,
+    "reservation_status": "interest_only",
+    "risk_notes": [
+      "냉동고 용량 확인",
+      "원산지·등급·슬라이스 규격 통일",
+      "배송일 분배"
+    ],
+    "cta_copy": "월 사용량을 남기고 우삼겹 공동구매 사전예약"
+  },
+  {
+    "id": "gb_bowl",
+    "item_name": "덮밥용기",
+    "region": "부산",
+    "current_interest_count": 4,
+    "target_buyers": 8,
+    "target_quantity": 20000,
+    "unit": "ea",
+    "estimated_discount_rate_min": 6,
+    "estimated_discount_rate_max": 12,
+    "reservation_status": "interest_only",
+    "risk_notes": [
+      "용기 규격 샘플 확인",
+      "뚜껑 밀폐력 테스트"
+    ],
+    "cta_copy": "샘플 규격을 확인하고 포장용기 공동구매 예약"
+  },
+  {
+    "id": "gb_rice",
+    "item_name": "업소용 쌀",
+    "region": "부산",
+    "current_interest_count": 3,
+    "target_buyers": 8,
+    "target_quantity": 2000,
+    "unit": "kg",
+    "estimated_discount_rate_min": 4,
+    "estimated_discount_rate_max": 9,
+    "reservation_status": "interest_only",
+    "risk_notes": [
+      "품종·도정일 통일",
+      "보관 공간 확인"
+    ],
+    "cta_copy": "월 사용량을 남기고 쌀 공동구매 알림 받기"
+  },
+  {
+    "id": "gb_greenonion",
+    "item_name": "냉동 대파",
+    "region": "부산",
+    "current_interest_count": 2,
+    "target_buyers": 6,
+    "target_quantity": 300,
+    "unit": "kg",
+    "estimated_discount_rate_min": 5,
+    "estimated_discount_rate_max": 10,
+    "reservation_status": "interest_only",
+    "risk_notes": [
+      "해동 후 수분감 테스트",
+      "냉동보관 공간 확인"
+    ],
+    "cta_copy": "테스트 샘플 후 냉동 대파 공동구매 예약"
+  },
+  {
+    "id": "gb_garlic",
+    "item_name": "다진마늘",
+    "region": "부산",
+    "current_interest_count": 2,
+    "target_buyers": 6,
+    "target_quantity": 250,
+    "unit": "kg",
+    "estimated_discount_rate_min": 5,
+    "estimated_discount_rate_max": 10,
+    "reservation_status": "interest_only",
+    "risk_notes": [
+      "원산지 표시",
+      "냉장·냉동 형태 확인"
+    ],
+    "cta_copy": "사용 규격을 선택하고 다진마늘 공동구매 예약"
+  }
+]

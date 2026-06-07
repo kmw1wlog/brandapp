@@ -1,0 +1,52 @@
+{
+  "floating_button": "이 준비가 필요해요",
+  "title": "지금 가장 막히는 준비를 알려주세요",
+  "fields": [
+    {
+      "id": "stage",
+      "label": "현재 창업 단계",
+      "type": "select",
+      "options": [
+        "아이디어만 있음",
+        "프랜차이즈 비교 중",
+        "점포 찾는 중",
+        "견적 받는 중",
+        "오픈 준비 중",
+        "기존 점주"
+      ]
+    },
+    {
+      "id": "blocker",
+      "label": "가장 막히는 부분",
+      "type": "multiselect",
+      "options": [
+        "자본/수익 비교",
+        "브랜드/메뉴",
+        "상권/점포",
+        "시공/인테리어",
+        "공급처",
+        "인허가",
+        "채용",
+        "홍보",
+        "운영관리"
+      ]
+    },
+    {
+      "id": "feature",
+      "label": "있으면 바로 써보고 싶은 기능",
+      "type": "textarea"
+    },
+    {
+      "id": "consultation",
+      "label": "상담 연결을 원하나요?",
+      "type": "boolean"
+    },
+    {
+      "id": "contact",
+      "label": "연락받을 이메일 또는 전화번호",
+      "type": "text",
+      "optional": true
+    }
+  ],
+  "success": "의견이 저장되었습니다. 베타 개선과 상담 파트너 모집에 반영하겠습니다."
+}

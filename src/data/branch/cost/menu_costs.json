@@ -1,0 +1,185 @@
+[
+  {
+    "id": "menu_woosam_bowl",
+    "name": "우삼겹 덮밥",
+    "selling_price": 8900,
+    "ingredients": [
+      {
+        "name": "수입산 우삼겹",
+        "amount": 120,
+        "unit": "g",
+        "cost": 2220
+      },
+      {
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 360
+      },
+      {
+        "name": "양파",
+        "amount": 50,
+        "unit": "g",
+        "cost": 60
+      },
+      {
+        "name": "대파",
+        "amount": 10,
+        "unit": "g",
+        "cost": 30
+      },
+      {
+        "name": "덮밥소스",
+        "amount": 30,
+        "unit": "g",
+        "cost": 174
+      }
+    ],
+    "food_cost": 2844,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.32,
+    "hall_margin": 5744,
+    "delivery_margin": 4498,
+    "delivery_fee_assumption": 1246,
+    "labor_allocation": 1450,
+    "rent_allocation": 650,
+    "gross_margin": 5744,
+    "risk_notes": [
+      "우삼겹 원가 변동이 큼",
+      "고기 중량 표준화 필요",
+      "배달 시 용기 내 수분 관리 필요"
+    ]
+  },
+  {
+    "id": "menu_jeyuk_bowl",
+    "name": "직화 제육 덮밥",
+    "selling_price": 7900,
+    "ingredients": [
+      {
+        "name": "돼지고기 전지",
+        "amount": 130,
+        "unit": "g",
+        "cost": 1170
+      },
+      {
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 360
+      },
+      {
+        "name": "양파·대파",
+        "amount": 65,
+        "unit": "g",
+        "cost": 100
+      },
+      {
+        "name": "제육소스",
+        "amount": 40,
+        "unit": "g",
+        "cost": 220
+      }
+    ],
+    "food_cost": 1850,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.27,
+    "hall_margin": 5738,
+    "delivery_margin": 4632,
+    "delivery_fee_assumption": 1106,
+    "labor_allocation": 1350,
+    "rent_allocation": 600,
+    "gross_margin": 5738,
+    "risk_notes": [
+      "가격 경쟁이 심함",
+      "불향 구현 방식 표준화 필요"
+    ]
+  },
+  {
+    "id": "menu_moksal_bowl",
+    "name": "간장목살 덮밥",
+    "selling_price": 8500,
+    "ingredients": [
+      {
+        "name": "돼지목살",
+        "amount": 125,
+        "unit": "g",
+        "cost": 1625
+      },
+      {
+        "name": "밥",
+        "amount": 200,
+        "unit": "g",
+        "cost": 360
+      },
+      {
+        "name": "양파·대파",
+        "amount": 60,
+        "unit": "g",
+        "cost": 90
+      },
+      {
+        "name": "간장소스",
+        "amount": 35,
+        "unit": "g",
+        "cost": 195
+      }
+    ],
+    "food_cost": 2270,
+    "packaging_cost": 312,
+    "target_food_cost_rate": 0.3,
+    "hall_margin": 5918,
+    "delivery_margin": 4728,
+    "delivery_fee_assumption": 1190,
+    "labor_allocation": 1400,
+    "rent_allocation": 620,
+    "gross_margin": 5918,
+    "risk_notes": [
+      "목살 질감 편차 관리 필요",
+      "과조리 시 품질 저하"
+    ]
+  },
+  {
+    "id": "menu_banjang_set",
+    "name": "반장 세트",
+    "selling_price": 10900,
+    "ingredients": [
+      {
+        "name": "우삼겹 덮밥 기본",
+        "amount": 1,
+        "unit": "serving",
+        "cost": 2844
+      },
+      {
+        "name": "계란",
+        "amount": 1,
+        "unit": "ea",
+        "cost": 280
+      },
+      {
+        "name": "미소장국",
+        "amount": 1,
+        "unit": "ea",
+        "cost": 260
+      },
+      {
+        "name": "음료",
+        "amount": 1,
+        "unit": "ea",
+        "cost": 450
+      }
+    ],
+    "food_cost": 3834,
+    "packaging_cost": 450,
+    "target_food_cost_rate": 0.39,
+    "hall_margin": 6616,
+    "delivery_margin": 5090,
+    "delivery_fee_assumption": 1526,
+    "labor_allocation": 1500,
+    "rent_allocation": 700,
+    "gross_margin": 6616,
+    "risk_notes": [
+      "세트 원가율이 높아 구성품 조정 필요",
+      "음료 매입단가 확인 필요"
+    ]
+  }
+]

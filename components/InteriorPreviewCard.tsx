@@ -11,7 +11,7 @@ export function InteriorPreviewCard({ prompt, imageUrl }: { prompt: string; imag
             style={{ backgroundImage: `url(${imageUrl})` }}
           />
         ) : (
-          <div><p className="text-2xl font-black">Demo Placeholder</p><p className="mt-2 text-sm text-cream/75">Kie API가 없거나 실패하면 이 프롬프트 카드가 표시됩니다.</p></div>
+          <div><p className="text-2xl font-black">이미지 시안 준비 중</p><p className="mt-2 text-sm text-cream/75">이미지 생성 전에는 프롬프트 카드가 표시됩니다.</p></div>
         )}
       </div>
       <p className="mt-4 rounded-2xl bg-cream p-4 text-sm text-forest">{prompt}</p>

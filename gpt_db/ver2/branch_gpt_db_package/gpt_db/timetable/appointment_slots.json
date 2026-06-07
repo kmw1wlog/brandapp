@@ -1,0 +1,26 @@
+[
+  {
+    "consultant_id": "mock_construction_001",
+    "date_offset_days": 7,
+    "time": "10:00",
+    "status": "preview_only"
+  },
+  {
+    "consultant_id": "mock_construction_001",
+    "date_offset_days": 8,
+    "time": "14:00",
+    "status": "preview_only"
+  },
+  {
+    "consultant_id": "mock_marketing_001",
+    "date_offset_days": 9,
+    "time": "11:00",
+    "status": "preview_only"
+  },
+  {
+    "consultant_id": "mock_startup_001",
+    "date_offset_days": 10,
+    "time": "15:00",
+    "status": "preview_only"
+  }
+]

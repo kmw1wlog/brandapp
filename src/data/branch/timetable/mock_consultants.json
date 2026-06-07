@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mock_construction_001",
+    "name": "시공 파트너 A",
+    "category": "시공사",
+    "status": "pending_onboarding",
+    "description": "15~25평 소형 음식점 공종별 견적 상담 예정",
+    "available_from": "1~2주 내 입점 예정",
+    "booking_enabled": false
+  },
+  {
+    "id": "mock_marketing_001",
+    "name": "홍보 파트너 A",
+    "category": "홍보/릴스",
+    "status": "pending_onboarding",
+    "description": "오픈 전 음식사진·숏폼·네이버 플레이스 상담 예정",
+    "available_from": "1~2주 내 입점 예정",
+    "booking_enabled": false
+  },
+  {
+    "id": "mock_startup_001",
+    "name": "창업 컨설턴트 A",
+    "category": "창업 컨설턴트",
+    "status": "recruiting",
+    "description": "예산 배분과 계약 전 체크리스트 검토 파트너 모집 중",
+    "available_from": "미정",
+    "booking_enabled": false
+  }
+]

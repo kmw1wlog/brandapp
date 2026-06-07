@@ -1,0 +1,34 @@
+{
+  "currency": "KRW",
+  "scenario_id": "busan_meatbowl_001",
+  "monthly_fixed_costs": {
+    "rent": 2200000,
+    "maintenance": 350000,
+    "utilities": 650000,
+    "insurance_and_misc": 250000,
+    "marketing": 500000,
+    "software": 0
+  },
+  "labor": {
+    "owner_salary_included": false,
+    "part_time_cost": 2200000,
+    "employer_contribution_estimate": 220000
+  },
+  "sales": {
+    "operating_days": 26,
+    "average_order_value": 9500,
+    "target_orders_per_day": 115,
+    "delivery_share": 0.45
+  },
+  "fees": {
+    "card_fee_rate": 0.015,
+    "delivery_platform_total_rate_assumption": 0.14,
+    "franchise_royalty_rate_assumption": 0.03,
+    "franchise_supply_margin_rate_assumption": 0.044
+  },
+  "notes": [
+    "프랜차이즈 관련 비율은 비교 시뮬레이션용 가정이며 개별 브랜드 계약과 다를 수 있음",
+    "점주 본인 인건비를 비용에 포함할 경우 예상 순이익이 낮아짐",
+    "권리금과 대출이자는 기본 시나리오에서 제외"
+  ]
+}

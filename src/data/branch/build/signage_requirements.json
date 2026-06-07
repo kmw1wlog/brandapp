@@ -1,0 +1,32 @@
+{
+  "brand_name": "육반장",
+  "main_sign": {
+    "type": "가로형 채널간판",
+    "recommended_width_mm": 3000,
+    "copy": "육반장 | 직화 고기덮밥"
+  },
+  "projecting_sign": {
+    "type": "원형 돌출간판",
+    "diameter_mm": 600,
+    "copy": "육반장"
+  },
+  "window_graphics": [
+    "영업시간",
+    "포장·배달 가능",
+    "대표 메뉴 3종"
+  ],
+  "indoor_signs": [
+    "주문/픽업",
+    "셀프코너",
+    "반납구"
+  ],
+  "permit_note": "간판 크기·위치에 따라 옥외광고물 신고 또는 허가 여부를 관할 지자체에 확인",
+  "quote_checklist": [
+    "제작비",
+    "철거비",
+    "전기배선",
+    "설치비",
+    "신고대행비",
+    "A/S 기간"
+  ]
+}

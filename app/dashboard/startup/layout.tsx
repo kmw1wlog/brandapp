@@ -1,5 +1,5 @@
-import { AppShell } from "@/components/AppShell";
+import { BranchAppShell } from "@/components/branch/BranchAppShell";
 
 export default function StartupLayout({ children }: { children: React.ReactNode }) {
-  return <AppShell>{children}</AppShell>;
+  return <BranchAppShell>{children}</BranchAppShell>;
 }

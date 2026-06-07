@@ -1,0 +1,49 @@
+{
+  "scenario_id": "busan_meatbowl_001",
+  "must_have": [
+    {
+      "criterion": "대학 강의동·기숙사·원룸 밀집지에서 도보 접근 가능",
+      "weight": 15
+    },
+    {
+      "criterion": "점심 11:30~13:30 유동 확인",
+      "weight": 15
+    },
+    {
+      "criterion": "배달 반경 2~3km 내 원룸·오피스 수요",
+      "weight": 15
+    },
+    {
+      "criterion": "덕트 외부 배출 가능",
+      "weight": 15
+    },
+    {
+      "criterion": "전기·가스·급배수 용량 확보",
+      "weight": 10
+    },
+    {
+      "criterion": "월 임대료 250만원 이하 목표",
+      "weight": 10
+    },
+    {
+      "criterion": "권리금과 원상복구 조건 확인",
+      "weight": 10
+    },
+    {
+      "criterion": "배달기사 잠시 정차 가능한 동선",
+      "weight": 5
+    },
+    {
+      "criterion": "간판 가시성",
+      "weight": 5
+    }
+  ],
+  "red_flags": [
+    "음식점 영업이 어려운 건축물 용도",
+    "덕트 설치 불가",
+    "전기 증설 과다",
+    "과도한 권리금",
+    "원상복구 범위 불명확"
+  ],
+  "output": "현장 방문 시 100점 체크리스트"
+}

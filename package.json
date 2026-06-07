@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "db:bootstrap": "node scripts/bootstrap-gpt-db.mjs"
+    "db:bootstrap": "node scripts/bootstrap-gpt-db.mjs",
+    "db:ver2": "node scripts/sync-ver2-data.mjs",
+    "db:validate": "node scripts/validate-branch-db.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

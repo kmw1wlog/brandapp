@@ -15,7 +15,7 @@ export function Sidebar() {
     <aside className="border-forest/10 bg-forest p-5 text-cream lg:min-h-screen">
       <Link href="/dashboard/startup/new" className="block rounded-3xl bg-white/10 p-4">
         <p className="text-sm text-cream/70">AI F&B 실행 리포트</p>
-        <h1 className="mt-1 text-2xl font-black tracking-tight">모두의창업</h1>
+        <h1 className="mt-1 text-2xl font-black tracking-tight">브랜치</h1>
       </Link>
       <nav className="mt-8 grid gap-2">
         {items.map((item) => {

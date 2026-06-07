@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "모두의창업",
-  description: "AI 기반 F&B 창업 실행 리포트 데모"
+  title: "브랜치",
+  description: "프랜차이즈와 자가 브랜드 창업안을 비교하는 오픈채팅 체험데모"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

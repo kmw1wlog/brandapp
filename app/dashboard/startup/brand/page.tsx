@@ -1,80 +1,64 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
-import { BrandConceptCard } from "@/components/BrandConceptCard";
-import { InteriorPreviewCard } from "@/components/InteriorPreviewCard";
-import { LoadingState } from "@/components/LoadingState";
-import { getFallbackInteriorConcept } from "@/lib/ai/fallback";
-import { getBrandReferences } from "@/lib/db/local";
-import { saveSelectedBrandId } from "@/lib/storage";
-import type { BrandReference } from "@/lib/types";
+import { BrandOptionTabs } from "@/components/branch/BrandOptionTabs";
+import { BrandSummaryPanel } from "@/components/branch/BrandSummaryPanel";
+import { BrandVisualBoard } from "@/components/branch/BrandVisualBoard";
+import { OperatingTypeToggle } from "@/components/branch/OperatingTypeToggle";
+import { PageHeader, ActionLink } from "@/components/branch/Common";
+import { getBrandById, getBrandOptions, getDashboardCopy } from "@/lib/branch/data";
+import { saveSelectedBrand, trackEvent } from "@/lib/branch/events";
 
 export default function BrandPage() {
-  const [brands, setBrands] = useState<BrandReference[]>(getBrandReferences());
-  const [selected, setSelected] = useState("brand_001");
-  const [loading, setLoading] = useState(false);
-  const [imageLoading, setImageLoading] = useState(false);
-  const [imageUrl, setImageUrl] = useState<string | null>(null);
-  const interior = getFallbackInteriorConcept();
+  const copy = getDashboardCopy().screens.brand_detail;
+  const brands = getBrandOptions();
+  const [brandId, setBrandId] = useState("brand_yukbanjang");
+  const [operatingType, setOperatingType] = useState("점포형");
+  const brand = getBrandById(brandId);
 
-  async function regenerate() {
-    setLoading(true);
-    const response = await fetch("/api/ai/generate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ task: "brand_generation", context: { selected_menu: "우삼겹 덮밥", region: "부산 대학가" } })
-    });
-    const result = await response.json();
-    if (Array.isArray(result?.data?.concepts)) setBrands(result.data.concepts);
-    setLoading(false);
-  }
-
-  async function generateImage() {
-    setImageLoading(true);
-    const response = await fetch("/api/image/generate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ kind: "interior", prompt: interior.image_prompt, referenceImages: [] })
-    });
-    const result = await response.json();
-    setImageUrl(result?.imageUrl ?? null);
-    setImageLoading(false);
-  }
-
-  function chooseBrand(id: string) {
-    setSelected(id);
-    saveSelectedBrandId(id);
+  function selectBrand(nextId: string) {
+    setBrandId(nextId);
+    saveSelectedBrand(nextId);
+    trackEvent("brand_selected", { brandId: nextId, operatingType });
   }
 
   return (
-    <section className="grid gap-6">
-      <div className="flex flex-wrap items-end justify-between gap-4">
-        <div><p className="text-sm font-bold text-clay">5단계</p><h2 className="mt-2 text-3xl font-black text-forest">브랜드/인테리어</h2></div>
-        <div className="flex flex-wrap gap-3"><button onClick={regenerate} className="rounded-2xl bg-forest px-5 py-3 text-sm font-black text-cream">다른 콘셉트 다시 생성</button><Link href="/dashboard/startup/operation" className="rounded-2xl bg-clay px-5 py-3 text-sm font-black text-white">운영/홍보 보기</Link></div>
+    <div className="grid gap-5">
+      <PageHeader title={copy.main_title} subtitle={copy.subtitle} warning="이 브랜드는 단순 이름이 아니라, 앞에서 계산한 메뉴·가격·상권·공급처를 바탕으로 만든 창업 콘셉트입니다." />
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <BrandOptionTabs brands={brands} selectedId={brandId} onSelect={selectBrand} />
+        <OperatingTypeToggle value={operatingType} onChange={setOperatingType} />
       </div>
-      {loading ? <LoadingState label="브랜드 콘셉트를 다시 구성 중입니다" /> : null}
-      <div className="grid gap-5 lg:grid-cols-3">
-        {brands.map((brand) => <BrandConceptCard key={brand.id} brand={brand} selected={brand.id === selected} action={<button onClick={() => chooseBrand(brand.id)} className="w-full rounded-2xl bg-clay px-4 py-3 text-sm font-black text-white">이 브랜드 선택</button>} />)}
-      </div>
-      <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
-        <div className="rounded-3xl bg-white p-6 shadow-soft">
-          <h3 className="text-xl font-black text-forest">인테리어 방향</h3>
-          <dl className="mt-5 grid gap-3 text-sm text-ink/70 md:grid-cols-2">
-            <div><dt className="font-black text-forest">매장 콘셉트</dt><dd>{interior.store_concept}</dd></div>
-            <div><dt className="font-black text-forest">컬러/마감재</dt><dd>{interior.color_finish}</dd></div>
-            <div><dt className="font-black text-forest">간판</dt><dd>{interior.sign}</dd></div>
-            <div><dt className="font-black text-forest">좌석 구성</dt><dd>{interior.seats}</dd></div>
-            <div><dt className="font-black text-forest">주방 동선</dt><dd>{interior.kitchen_flow}</dd></div>
-            <div><dt className="font-black text-forest">포장/픽업 동선</dt><dd>{interior.pickup_flow}</dd></div>
-            <div><dt className="font-black text-forest">조명</dt><dd>{interior.lighting}</dd></div>
-            <div><dt className="font-black text-forest">메뉴판 배치</dt><dd>{interior.menu_board}</dd></div>
-          </dl>
-          <div className="mt-5 flex flex-wrap gap-3"><button onClick={generateImage} className="rounded-2xl bg-forest px-5 py-3 text-sm font-black text-cream">인테리어 이미지 생성</button><button onClick={() => navigator.clipboard.writeText(interior.image_prompt)} className="rounded-2xl bg-cream px-5 py-3 text-sm font-black text-forest">이미지 프롬프트 복사</button></div>
-          {imageLoading ? <div className="mt-4"><LoadingState label="이미지 생성 API를 확인 중입니다" /></div> : null}
+      <section className="grid gap-5 lg:grid-cols-[1fr_0.9fr]">
+        <div className="rounded-lg bg-[#164033] p-5 text-white">
+          <h3 className="text-2xl font-black">{brand.name}</h3>
+          <p className="mt-1 font-semibold text-[#e2b15f]">{brand.slogan}</p>
+          <p className="mt-3 text-sm leading-6 text-white/78">{brand.concept}</p>
+          <div className="mt-5"><BrandVisualBoard brand={brand} /></div>
         </div>
-        <InteriorPreviewCard prompt={interior.image_prompt} imageUrl={imageUrl} />
+        <div className="rounded-lg border border-[#ddd2c0] bg-white p-5">
+          <h3 className="text-xl font-black text-[#164033]">브랜드 실행 문구</h3>
+          <dl className="mt-4 grid gap-3 text-sm">
+            <Item label="인테리어 방향" value={brand.interior_mood} />
+            <Item label="로고 방향" value={brand.logo_direction} />
+            <Item label="컬러 무드" value={brand.color_mood.join(", ")} />
+            <Item label="메뉴판 문구" value={brand.menu_board_copy} />
+            <Item label="네이버 플레이스" value={brand.naver_place_intro} />
+            <Item label="배달앱 소개문" value={brand.delivery_app_intro} />
+          </dl>
+        </div>
+      </section>
+      <BrandSummaryPanel brand={brand} operatingType={operatingType} />
+      <div className="flex flex-wrap gap-3">
+        <button onClick={() => selectBrand(brand.id)} className="rounded-lg bg-[#164033] px-4 py-3 text-sm font-black text-white">이 버전 선택</button>
+        <button onClick={() => setOperatingType("배달형")} className="rounded-lg border border-[#cbbda8] px-4 py-3 text-sm font-black text-[#574d42]">배달형으로 바꾸기</button>
+        <button onClick={() => setOperatingType("점포형")} className="rounded-lg border border-[#cbbda8] px-4 py-3 text-sm font-black text-[#574d42]">점포형으로 바꾸기</button>
+        <ActionLink href="/dashboard/startup/cost">최종 리포트에 저장</ActionLink>
       </div>
-    </section>
+    </div>
   );
+}
+
+function Item({ label, value }: { label: string; value: string }) {
+  return <div><dt className="font-black text-[#164033]">{label}</dt><dd className="mt-1 leading-6 text-[#655d52]">{value}</dd></div>;
 }

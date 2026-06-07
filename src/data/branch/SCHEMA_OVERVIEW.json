@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "files": {
+    "scenarios/busan_meatbowl.json": "고정 체험 시나리오와 공통 가정",
+    "franchise/franchise_benchmarks.json": "프랜차이즈 공개·데모 비교 데이터",
+    "brand/brand_options.json": "자가 브랜드 3안",
+    "cost/menu_costs.json": "메뉴별 원가",
+    "cost/cost_assumptions.json": "공통 고정비·수수료 가정",
+    "cost/profit_simulations.json": "3개월 비교 시뮬레이션",
+    "suppliers/supplier_candidates.json": "공급처 후보 30개",
+    "suppliers/groupbuy_candidates.json": "공동구매 후보 5개",
+    "build/construction_requirements.json": "시공사 요구사항서",
+    "build/equipment_list.json": "주방설비 목록",
+    "build/signage_requirements.json": "간판 요구사항",
+    "build/location_criteria.json": "입지 체크 기준",
+    "timetable/opening_tasks.json": "D-30 개점 태스크",
+    "timetable/consultant_categories.json": "상담 카테고리",
+    "timetable/mock_consultants.json": "입점 대기 상담사 목업",
+    "timetable/appointment_slots.json": "미리보기 슬롯",
+    "copy/consultation_questions.json": "8개 분야 80개 상담 질문",
+    "copy/openchat_posts.json": "오픈채팅 글 5종",
+    "copy/consultant_outreach_messages.json": "상담사 모집 메시지 3종",
+    "copy/dashboard_copy.json": "10개 화면 카피"
+  }
+}

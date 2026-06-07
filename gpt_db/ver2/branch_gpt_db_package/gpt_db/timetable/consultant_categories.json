@@ -1,0 +1,38 @@
+[
+  {
+    "id": "consult_construction",
+    "name": "시공사",
+    "description": "인테리어·전기·급배수·덕트·공사 범위 상담",
+    "default_duration_minutes": 40
+  },
+  {
+    "id": "consult_equipment",
+    "name": "주방설비",
+    "description": "메뉴와 판매량에 맞는 장비 구성·용량 상담",
+    "default_duration_minutes": 30
+  },
+  {
+    "id": "consult_supplier",
+    "name": "식자재/공급처",
+    "description": "단가·최소주문·배송·품질 규격 상담",
+    "default_duration_minutes": 25
+  },
+  {
+    "id": "consult_startup",
+    "name": "창업 컨설턴트",
+    "description": "프랜차이즈와 자가 브랜드 선택, 예산 배분 검토",
+    "default_duration_minutes": 40
+  },
+  {
+    "id": "consult_marketing",
+    "name": "홍보/릴스",
+    "description": "네이버 플레이스·사진·숏폼·오픈 홍보 상담",
+    "default_duration_minutes": 30
+  },
+  {
+    "id": "consult_tax",
+    "name": "세무/노무",
+    "description": "사업자등록·인건비·근로계약·세무 상담",
+    "default_duration_minutes": 30
+  }
+]

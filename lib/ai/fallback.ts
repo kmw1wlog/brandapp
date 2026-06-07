@@ -99,6 +99,6 @@ export function fallbackByTask(task: string) {
     case "groupbuy":
       return getFallbackGroupBuyRecommendations();
     default:
-      return { message: "Demo fallback result" };
+      return { message: "브랜치 체험용 기본 응답" };
   }
 }

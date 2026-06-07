@@ -1,0 +1,143 @@
+[
+  {
+    "id": "brand_yukbanjang",
+    "name": "육반장",
+    "type": "자가 브랜드",
+    "slogan": "직화 고기와 밥, 가장 든든한 한 그릇",
+    "concept": "직화풍 고기덮밥을 빠르고 든든하게 제공하는 대학가 점포·배달 혼합 브랜드",
+    "target_customer": [
+      "대학생",
+      "20~30대 직장인",
+      "혼밥 고객",
+      "배달 고객"
+    ],
+    "operating_type_options": [
+      "점포형",
+      "배달형",
+      "점포+배달 혼합형"
+    ],
+    "store_type_summary": "15평 내외, 1인석과 2인석 중심, 오픈 주방과 픽업 선반을 둔 회전형 매장",
+    "delivery_type_summary": "공유주방 또는 8~12평 소형 점포, 포장 동선과 배달 썸네일을 우선한 구조",
+    "initial_capital_store_type": 48200000,
+    "initial_capital_delivery_type": 28600000,
+    "expected_monthly_sales_store_type": 28500000,
+    "expected_monthly_sales_delivery_type": 21000000,
+    "expected_monthly_profit_store_type": 5100000,
+    "expected_monthly_profit_delivery_type": 3300000,
+    "breakeven_months": 9.5,
+    "brand_freedom_score": 9,
+    "supplier_freedom_score": 9,
+    "cost_defense_score": 8,
+    "opening_difficulty_score": 6,
+    "visual_direction": "묵직한 딥브라운과 웜화이트, 직화의 불향을 강조하는 현대적 한식 패스트캐주얼",
+    "logo_direction": "원형 인장 안에 밥그릇과 불꽃을 단순화한 한글 워드마크",
+    "color_mood": [
+      "딥브라운",
+      "웜화이트",
+      "앰버",
+      "차콜"
+    ],
+    "interior_mood": "우드, 무광 금속, 따뜻한 간접조명, 빠른 혼밥과 포장 픽업을 모두 고려",
+    "packaging_direction": "크라프트 톤 덮밥용기 슬리브와 원형 스티커, 불향 아이콘",
+    "menu_board_copy": "오늘도 든든하게, 직화 고기 한 그릇",
+    "naver_place_intro": "부산 대학가에서 직화풍 우삼겹·제육·목살 덮밥을 빠르고 든든하게 즐길 수 있는 한 그릇 전문점입니다. 혼밥, 포장, 배달 모두 편하게 준비했습니다.",
+    "delivery_app_intro": "불향 가득한 고기와 따뜻한 밥을 한 그릇에. 주문 즉시 조리하는 우삼겹·제육·목살 덮밥을 든든하게 보내드립니다.",
+    "risk_notes": [
+      "우삼겹 단가 변동에 민감",
+      "직화 표현과 실제 조리 방식의 일치 필요",
+      "점심 피크타임 조리 병목 관리 필요"
+    ]
+  },
+  {
+    "id": "brand_deopsanghoe",
+    "name": "덮상회",
+    "type": "자가 브랜드",
+    "slogan": "부담 없이, 제대로 차린 고기덮밥",
+    "concept": "가격 접근성과 친근한 상회 감성을 강조한 대학가 점심형 덮밥 브랜드",
+    "target_customer": [
+      "가격 민감 대학생",
+      "점심 직장인",
+      "테이크아웃 고객"
+    ],
+    "operating_type_options": [
+      "점포형",
+      "배달형"
+    ],
+    "store_type_summary": "12~15평, 밝은 우드와 그린 포인트, 셀프 반찬대가 있는 캐주얼 매장",
+    "delivery_type_summary": "메뉴 수를 4개로 줄이고 세트 전환을 높인 배달 최적화 모델",
+    "initial_capital_store_type": 39700000,
+    "initial_capital_delivery_type": 24800000,
+    "expected_monthly_sales_store_type": 24500000,
+    "expected_monthly_sales_delivery_type": 19500000,
+    "expected_monthly_profit_store_type": 4200000,
+    "expected_monthly_profit_delivery_type": 3000000,
+    "breakeven_months": 9.8,
+    "brand_freedom_score": 9,
+    "supplier_freedom_score": 9,
+    "cost_defense_score": 8,
+    "opening_difficulty_score": 5,
+    "visual_direction": "베이지와 세이지그린, 동네 상회의 신뢰감을 현대적으로 재해석",
+    "logo_direction": "간결한 한글 워드마크와 덮밥 뚜껑 모티프",
+    "color_mood": [
+      "베이지",
+      "세이지그린",
+      "다크브라운"
+    ],
+    "interior_mood": "밝은 우드, 타일, 작은 손글씨 메뉴보드, 친근한 식사 공간",
+    "packaging_direction": "오프화이트 용기와 그린 띠지, 메뉴명을 크게 표기",
+    "menu_board_copy": "한 끼 가격은 가볍게, 한 그릇은 제대로",
+    "naver_place_intro": "가격 부담은 낮추고 고기와 밥은 제대로 담은 대학가 고기덮밥집입니다. 빠른 점심과 포장 주문에 맞춘 메뉴를 준비했습니다.",
+    "delivery_app_intro": "매일 먹기 좋은 가격과 구성의 고기덮밥. 우삼겹, 제육, 목살 중 오늘의 한 그릇을 골라보세요.",
+    "risk_notes": [
+      "저가 인식으로 객단가 상승 제한",
+      "가격 경쟁에 노출",
+      "메뉴 차별화가 약해질 수 있음"
+    ]
+  },
+  {
+    "id": "brand_godamjeong",
+    "name": "고담정",
+    "type": "자가 브랜드",
+    "slogan": "불향과 온기를 담은 집밥형 덮밥집",
+    "concept": "정갈한 한식 이미지와 혼밥 편의성을 결합한 소형 점포·배달 브랜드",
+    "target_customer": [
+      "혼밥 고객",
+      "여성 고객",
+      "주거·대학가 배달 고객"
+    ],
+    "operating_type_options": [
+      "점포형",
+      "배달형"
+    ],
+    "store_type_summary": "12평 내외, 1인 좌석 중심, 정갈한 그린·우드 인테리어",
+    "delivery_type_summary": "메뉴 사진과 패키지를 강화하고 국·반찬 선택지를 붙인 배달 모델",
+    "initial_capital_store_type": 43800000,
+    "initial_capital_delivery_type": 26100000,
+    "expected_monthly_sales_store_type": 25800000,
+    "expected_monthly_sales_delivery_type": 20200000,
+    "expected_monthly_profit_store_type": 4450000,
+    "expected_monthly_profit_delivery_type": 3150000,
+    "breakeven_months": 9.8,
+    "brand_freedom_score": 9,
+    "supplier_freedom_score": 8,
+    "cost_defense_score": 7,
+    "opening_difficulty_score": 5,
+    "visual_direction": "짙은 녹색과 크림색, 정갈한 한식 집밥의 온기",
+    "logo_direction": "기와선과 밥그릇을 결합한 세로형 한글 로고",
+    "color_mood": [
+      "쑥색",
+      "크림",
+      "내추럴우드"
+    ],
+    "interior_mood": "정갈한 타일과 우드, 부드러운 조명, 1인 고객의 안정감",
+    "packaging_direction": "그린 스티커와 메뉴별 색상 라벨, 반찬 구획을 분명히 함",
+    "menu_board_copy": "따뜻한 밥 위에 정성껏 올린 오늘의 고기",
+    "naver_place_intro": "혼자서도 편안하게 즐기는 정갈한 고기덮밥집입니다. 직화풍 고기와 따뜻한 밥, 가벼운 국과 반찬을 함께 준비합니다.",
+    "delivery_app_intro": "집밥처럼 정갈하고 든든한 고기덮밥. 메뉴별 고기와 소스를 주문 즉시 조리해 따뜻하게 보내드립니다.",
+    "risk_notes": [
+      "정갈한 콘셉트와 실제 포장 품질 일치 필요",
+      "반찬 추가 시 운영 복잡도 상승",
+      "저녁 수요 확보 필요"
+    ]
+  }
+]
