@@ -6,6 +6,7 @@ import { BranchBadge } from "@/components/branch/ui/BranchBadge";
 import { BranchImage } from "@/components/branch/ui/BranchImage";
 
 export function BrandAssetCard({ asset, onOpen, priority = false }: { asset: BrandAsset; onOpen?: (asset: BrandAsset) => void; priority?: boolean }) {
+  const isGenerated = asset.status === "generated" || Boolean(asset.generatedUrl);
   const body = (
     <>
       <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-[color:var(--branch-surface-muted)]">
@@ -17,7 +18,7 @@ export function BrandAssetCard({ asset, onOpen, priority = false }: { asset: Bra
           <h3 className="mt-1 font-black text-[color:var(--branch-primary)]">{asset.title}</h3>
           <p className="mt-1 text-xs leading-5 text-[color:var(--branch-ink-muted)]">{asset.description}</p>
         </div>
-        <BranchBadge tone="info">샘플 시안</BranchBadge>
+        <BranchBadge tone={isGenerated ? "success" : "info"}>{isGenerated ? "KIE 생성" : "템플릿"}</BranchBadge>
       </div>
     </>
   );

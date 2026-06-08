@@ -64,7 +64,7 @@ export default function ConsultationRfpPage() {
             <div className="relative aspect-video overflow-hidden rounded-lg border border-[#ddd2c0] bg-[#f6f1e8]">
               <Image src={imageUrl} alt={`${brand.name} 인테리어 이미지`} fill className="object-cover" sizes="(max-width: 768px) 100vw, 420px" />
             </div>
-            <p className="mt-2 text-xs font-bold text-[#655d52]">KIE API 키가 없으면 외부 이미지 생성 API 연결 전 샘플 동작입니다. template 이미지를 유지합니다.</p>
+            <p className="mt-2 text-xs font-bold text-[#655d52]">이 이미지는 템플릿 기반 KIE 생성 시안 또는 현재 선택된 기본 시안입니다.</p>
           </div>
           <div className="grid gap-4">
             <Info label="평수" value={`${input.desired_size_pyeong ?? 15}평`} />
