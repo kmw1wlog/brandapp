@@ -1,16 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getDefaultFranchise, getGroupbuyCandidates, getSupplierCandidates } from "@/lib/branch/data";
+import { getGroupbuyCandidates, getSupplierCandidates } from "@/lib/branch/data";
 import { buildExperienceSimulation, type ExperienceSimulation } from "@/lib/branch/experience-data";
 import { trackEvent } from "@/lib/branch/events";
 import { formatKRW } from "@/lib/branch/format";
+import { getCollectedFranchiseDetails } from "@/lib/branch/real-data";
 import { readFinanceSelection, readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
 import { readSelectedLocation, type SelectedLocationState } from "@/lib/branch/storage/experience-state-storage";
 import type { SavedFinanceSelection } from "@/lib/branch/storage/startup-flow-storage";
 
 export function FinalReportSummary() {
-  const franchise = getDefaultFranchise();
   const suppliers = getSupplierCandidates().slice(0, 5);
   const groupbuys = getGroupbuyCandidates();
   const [simulation, setSimulation] = useState<ExperienceSimulation>(() => buildExperienceSimulation(readStartupInput()));
@@ -25,6 +25,8 @@ export function FinalReportSummary() {
   }, []);
 
   const firstMenu = simulation.menus[0];
+  const franchiseDetails = getCollectedFranchiseDetails(simulation.category.category_id);
+  const topFranchiseBrandNames = franchiseDetails?.brands.slice(0, 3).map((brand) => brand.brand_name).join(", ");
 
   function saveReport() {
     trackEvent("report_save_click");
@@ -39,7 +41,7 @@ export function FinalReportSummary() {
           <Item label="입력 조건" value={`${simulation.locationProfile.administrativeDistrict}, ${simulation.category.display_name}`} />
           <Item label="가상 브랜드" value={`${simulation.virtualBrand.name} · ${simulation.virtualBrand.tagline}`} />
           <Item label="선택 입지" value={selectedLocation ? `${selectedLocation.summary} · 점수 ${selectedLocation.headlineScore}` : "입지 후보 선택 전"} />
-          <Item label="프랜차이즈 비교" value={`${franchise.brand_name} · ${franchise.data_note}`} />
+          <Item label="프랜차이즈 비교" value={franchiseDetails ? `${simulation.category.display_name} 수집 ${franchiseDetails.brand_count}개 · 월매출 평균 ${formatKRW(franchiseDetails.summary.monthly_average_sales)} · ${topFranchiseBrandNames}` : "수집 브랜드 상세 연결 전"} />
           <Item label="대표 메뉴 원가" value={firstMenu ? `${firstMenu.menu_name} · 가격 ${formatKRW(firstMenu.recommended_price_band_krw[0])}~${formatKRW(firstMenu.recommended_price_band_krw[1])}` : "대표 메뉴 구성 전"} />
           <Item label="4개월 회계" value={finance ? `목표 일주문 ${finance.targetDailyOrders}건 · 4개월 후 현금 ${formatKRW(finance.endingCash)}` : "회계 시뮬레이션 저장 전"} />
           <Item label="원가방어안" value="공급처 변경, 원산지 변경, 세트 구성, 공동구매 참여" />
