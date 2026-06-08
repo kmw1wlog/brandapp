@@ -1,0 +1,439 @@
+{
+  "endpointId": "industry_fluctuation",
+  "title": "업종별 가맹점 변동현황 조회",
+  "year": 2017,
+  "totalCount": 43,
+  "totalPages": 1,
+  "items": [
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "한식",
+      "frcsCnt": 18485,
+      "avrgNewOpbizCnt": 4,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "분식",
+      "frcsCnt": 7415,
+      "avrgNewOpbizCnt": 6,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "중식",
+      "frcsCnt": 926,
+      "avrgNewOpbizCnt": 4,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "일식",
+      "frcsCnt": 1276,
+      "avrgNewOpbizCnt": 3,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "서양식",
+      "frcsCnt": 822,
+      "avrgNewOpbizCnt": 2,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "기타 외국식",
+      "frcsCnt": 528,
+      "avrgNewOpbizCnt": 3,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 0
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "패스트푸드",
+      "frcsCnt": 3294,
+      "avrgNewOpbizCnt": 10,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "치킨",
+      "frcsCnt": 22012,
+      "avrgNewOpbizCnt": 9,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 7
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "피자",
+      "frcsCnt": 6138,
+      "avrgNewOpbizCnt": 7,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "제과제빵",
+      "frcsCnt": 7244,
+      "avrgNewOpbizCnt": 7,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "frcsCnt": 2120,
+      "avrgNewOpbizCnt": 6,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 4
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "커피",
+      "frcsCnt": 12426,
+      "avrgNewOpbizCnt": 10,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 4
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "frcsCnt": 1839,
+      "avrgNewOpbizCnt": 24,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "주점",
+      "frcsCnt": 8824,
+      "avrgNewOpbizCnt": 8,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 5
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "기타 외식",
+      "frcsCnt": 11177,
+      "avrgNewOpbizCnt": 5,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "편의점",
+      "frcsCnt": 33480,
+      "avrgNewOpbizCnt": 195,
+      "avrgCtrtEndCnt": 28,
+      "avrgCtrtCncltnCnt": 37
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "의류 / 패션",
+      "frcsCnt": 275,
+      "avrgNewOpbizCnt": 3,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "화장품",
+      "frcsCnt": 4101,
+      "avrgNewOpbizCnt": 15,
+      "avrgCtrtEndCnt": 7,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "농수산물",
+      "frcsCnt": 237,
+      "avrgNewOpbizCnt": 5,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "(건강)식품",
+      "frcsCnt": 2054,
+      "avrgNewOpbizCnt": 13,
+      "avrgCtrtEndCnt": 5,
+      "avrgCtrtCncltnCnt": 6
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "종합소매점",
+      "frcsCnt": 887,
+      "avrgNewOpbizCnt": 14,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "도소매",
+      "indutyMlsfcNm": "기타도소매",
+      "frcsCnt": 6048,
+      "avrgNewOpbizCnt": 9,
+      "avrgCtrtEndCnt": 3,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "교육 (교과)",
+      "frcsCnt": 13923,
+      "avrgNewOpbizCnt": 49,
+      "avrgCtrtEndCnt": 9,
+      "avrgCtrtCncltnCnt": 35
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "교육 (외국어)",
+      "frcsCnt": 17787,
+      "avrgNewOpbizCnt": 31,
+      "avrgCtrtEndCnt": 10,
+      "avrgCtrtCncltnCnt": 16
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "기타 교육",
+      "frcsCnt": 5205,
+      "avrgNewOpbizCnt": 6,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "유아 관련 (교육 외)",
+      "frcsCnt": 1426,
+      "avrgNewOpbizCnt": 4,
+      "avrgCtrtEndCnt": 3,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "부동산 중개 ",
+      "frcsCnt": 19,
+      "avrgNewOpbizCnt": 2,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 0
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "임대",
+      "frcsCnt": 7,
+      "avrgNewOpbizCnt": 1,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 0
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "숙박",
+      "frcsCnt": 108,
+      "avrgNewOpbizCnt": 3,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "스포츠 관련",
+      "frcsCnt": 849,
+      "avrgNewOpbizCnt": 7,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "이미용",
+      "frcsCnt": 3891,
+      "avrgNewOpbizCnt": 5,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 2
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "자동차 관련",
+      "frcsCnt": 7707,
+      "avrgNewOpbizCnt": 21,
+      "avrgCtrtEndCnt": 2,
+      "avrgCtrtCncltnCnt": 12
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "PC방",
+      "frcsCnt": 1392,
+      "avrgNewOpbizCnt": 21,
+      "avrgCtrtEndCnt": 3,
+      "avrgCtrtCncltnCnt": 13
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "오락",
+      "frcsCnt": 224,
+      "avrgNewOpbizCnt": 6,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "배달",
+      "frcsCnt": 4,
+      "avrgNewOpbizCnt": 1,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 0
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "안경",
+      "frcsCnt": 2557,
+      "avrgNewOpbizCnt": 8,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 3
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "세탁",
+      "frcsCnt": 3730,
+      "avrgNewOpbizCnt": 27,
+      "avrgCtrtEndCnt": 5,
+      "avrgCtrtCncltnCnt": 6
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "이사",
+      "frcsCnt": 548,
+      "avrgNewOpbizCnt": 10,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 10
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "운송",
+      "frcsCnt": 1575,
+      "avrgNewOpbizCnt": 8,
+      "avrgCtrtEndCnt": 0,
+      "avrgCtrtCncltnCnt": 538
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "반려동물 관련",
+      "frcsCnt": 210,
+      "avrgNewOpbizCnt": 2,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "약국",
+      "frcsCnt": 3749,
+      "avrgNewOpbizCnt": 57,
+      "avrgCtrtEndCnt": 11,
+      "avrgCtrtCncltnCnt": 27
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "인력 파견",
+      "frcsCnt": 216,
+      "avrgNewOpbizCnt": 2,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 1
+    },
+    {
+      "jngBizCrtraYr": "2017",
+      "acntgYr": "2016",
+      "indutyLclasNm": "서비스",
+      "indutyMlsfcNm": "기타 서비스",
+      "frcsCnt": 1957,
+      "avrgNewOpbizCnt": 5,
+      "avrgCtrtEndCnt": 1,
+      "avrgCtrtCncltnCnt": 0
+    }
+  ]
+}

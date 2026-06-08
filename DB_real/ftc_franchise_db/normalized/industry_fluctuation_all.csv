@@ -1,0 +1,395 @@
+sourceDataset,requestedYear,franchiseBusinessCriteriaYear,accountingYear,industryLargeClassName,industryMediumClassName,franchiseStoreCount,averageNewOpenBusinessCount,averageContractEndCount,averageContractCancellationCount
+industry_fluctuation,2017,2017,2016,외식,한식,18485,4,1,1
+industry_fluctuation,2017,2017,2016,외식,분식,7415,6,1,2
+industry_fluctuation,2017,2017,2016,외식,중식,926,4,1,2
+industry_fluctuation,2017,2017,2016,외식,일식,1276,3,1,1
+industry_fluctuation,2017,2017,2016,외식,서양식,822,2,0,1
+industry_fluctuation,2017,2017,2016,외식,기타 외국식,528,3,0,0
+industry_fluctuation,2017,2017,2016,외식,패스트푸드,3294,10,2,3
+industry_fluctuation,2017,2017,2016,외식,치킨,22012,9,2,7
+industry_fluctuation,2017,2017,2016,외식,피자,6138,7,2,3
+industry_fluctuation,2017,2017,2016,외식,제과제빵,7244,7,1,3
+industry_fluctuation,2017,2017,2016,외식,아이스크림/빙수 ,2120,6,2,4
+industry_fluctuation,2017,2017,2016,외식,커피,12426,10,1,4
+industry_fluctuation,2017,2017,2016,외식,음료 (커피 외),1839,24,1,2
+industry_fluctuation,2017,2017,2016,외식,주점,8824,8,1,5
+industry_fluctuation,2017,2017,2016,외식,기타 외식,11177,5,1,2
+industry_fluctuation,2017,2017,2016,도소매,편의점,33480,195,28,37
+industry_fluctuation,2017,2017,2016,도소매,의류 / 패션,275,3,0,1
+industry_fluctuation,2017,2017,2016,도소매,화장품,4101,15,7,3
+industry_fluctuation,2017,2017,2016,도소매,농수산물,237,5,2,1
+industry_fluctuation,2017,2017,2016,도소매,(건강)식품,2054,13,5,6
+industry_fluctuation,2017,2017,2016,도소매,종합소매점,887,14,1,2
+industry_fluctuation,2017,2017,2016,도소매,기타도소매,6048,9,3,3
+industry_fluctuation,2017,2017,2016,서비스,교육 (교과),13923,49,9,35
+industry_fluctuation,2017,2017,2016,서비스,교육 (외국어),17787,31,10,16
+industry_fluctuation,2017,2017,2016,서비스,기타 교육,5205,6,2,2
+industry_fluctuation,2017,2017,2016,서비스,유아 관련 (교육 외),1426,4,3,1
+industry_fluctuation,2017,2017,2016,서비스,부동산 중개 ,19,2,0,0
+industry_fluctuation,2017,2017,2016,서비스,임대,7,1,0,0
+industry_fluctuation,2017,2017,2016,서비스,숙박,108,3,0,1
+industry_fluctuation,2017,2017,2016,서비스,스포츠 관련,849,7,0,1
+industry_fluctuation,2017,2017,2016,서비스,이미용,3891,5,1,2
+industry_fluctuation,2017,2017,2016,서비스,자동차 관련,7707,21,2,12
+industry_fluctuation,2017,2017,2016,서비스,PC방,1392,21,3,13
+industry_fluctuation,2017,2017,2016,서비스,오락,224,6,0,1
+industry_fluctuation,2017,2017,2016,서비스,배달,4,1,0,0
+industry_fluctuation,2017,2017,2016,서비스,안경,2557,8,1,3
+industry_fluctuation,2017,2017,2016,서비스,세탁,3730,27,5,6
+industry_fluctuation,2017,2017,2016,서비스,이사,548,10,0,10
+industry_fluctuation,2017,2017,2016,서비스,운송,1575,8,0,538
+industry_fluctuation,2017,2017,2016,서비스,반려동물 관련,210,2,1,1
+industry_fluctuation,2017,2017,2016,서비스,약국,3749,57,11,27
+industry_fluctuation,2017,2017,2016,서비스,인력 파견,216,2,1,1
+industry_fluctuation,2017,2017,2016,서비스,기타 서비스,1957,5,1,0
+industry_fluctuation,2018,2018,2017,외식,한식,17969,4,1,2
+industry_fluctuation,2018,2018,2017,외식,분식,7734,5,1,2
+industry_fluctuation,2018,2018,2017,외식,중식,883,3,1,1
+industry_fluctuation,2018,2018,2017,외식,일식,1601,3,0,1
+industry_fluctuation,2018,2018,2017,외식,서양식,850,3,0,1
+industry_fluctuation,2018,2018,2017,외식,기타 외국식,919,4,0,1
+industry_fluctuation,2018,2018,2017,외식,패스트푸드,3463,9,2,3
+industry_fluctuation,2018,2018,2017,외식,치킨,24237,9,2,7
+industry_fluctuation,2018,2018,2017,외식,피자,6274,8,1,3
+industry_fluctuation,2018,2018,2017,외식,제과제빵,7765,11,1,3
+industry_fluctuation,2018,2018,2017,외식,아이스크림/빙수 ,2058,6,1,5
+industry_fluctuation,2018,2018,2017,외식,커피,13112,10,1,4
+industry_fluctuation,2018,2018,2017,외식,음료 (커피 외),1642,6,1,5
+industry_fluctuation,2018,2018,2017,외식,주점,8337,8,1,5
+industry_fluctuation,2018,2018,2017,외식,기타 외식,14785,6,1,2
+industry_fluctuation,2018,2018,2017,도소매,편의점,40096,257,35,39
+industry_fluctuation,2018,2018,2017,도소매,의류 / 패션,217,2,0,1
+industry_fluctuation,2018,2018,2017,도소매,화장품,4245,15,12,5
+industry_fluctuation,2018,2018,2017,도소매,농수산물,641,24,0,2
+industry_fluctuation,2018,2018,2017,도소매,(건강)식품,1750,7,1,3
+industry_fluctuation,2018,2018,2017,도소매,종합소매점,1105,21,1,3
+industry_fluctuation,2018,2018,2017,도소매,기타도소매,6392,7,1,2
+industry_fluctuation,2018,2018,2017,서비스,교육 (교과),14497,56,7,40
+industry_fluctuation,2018,2018,2017,서비스,교육 (외국어),17057,28,6,27
+industry_fluctuation,2018,2018,2017,서비스,기타 교육,5583,7,1,1
+industry_fluctuation,2018,2018,2017,서비스,유아 관련 (교육 외),1316,4,1,2
+industry_fluctuation,2018,2018,2017,서비스,부동산 중개 ,22,1,0,0
+industry_fluctuation,2018,2018,2017,서비스,임대,13,2,0,0
+industry_fluctuation,2018,2018,2017,서비스,숙박,190,4,1,1
+industry_fluctuation,2018,2018,2017,서비스,스포츠 관련,1671,14,0,1
+industry_fluctuation,2018,2018,2017,서비스,이미용,4293,6,0,2
+industry_fluctuation,2018,2018,2017,서비스,자동차 관련,7742,12,2,5
+industry_fluctuation,2018,2018,2017,서비스,PC방,1357,16,2,6
+industry_fluctuation,2018,2018,2017,서비스,오락,383,13,0,1
+industry_fluctuation,2018,2018,2017,서비스,배달,4,0,0,0
+industry_fluctuation,2018,2018,2017,서비스,안경,2650,6,1,2
+industry_fluctuation,2018,2018,2017,서비스,세탁,4069,26,3,7
+industry_fluctuation,2018,2018,2017,서비스,이사,536,10,0,12
+industry_fluctuation,2018,2018,2017,서비스,운송,1444,5,0,31
+industry_fluctuation,2018,2018,2017,서비스,반려동물 관련,230,3,0,0
+industry_fluctuation,2018,2018,2017,서비스,약국,3888,82,23,24
+industry_fluctuation,2018,2018,2017,서비스,인력 파견,236,4,1,2
+industry_fluctuation,2018,2018,2017,서비스,기타 서비스,2664,5,1,1
+industry_fluctuation,2019,2019,2018,외식,한식,19700,4,1,1
+industry_fluctuation,2019,2019,2018,외식,분식,7898,6,1,2
+industry_fluctuation,2019,2019,2018,외식,중식,958,3,0,1
+industry_fluctuation,2019,2019,2018,외식,일식,1828,4,0,1
+industry_fluctuation,2019,2019,2018,외식,서양식,929,3,0,1
+industry_fluctuation,2019,2019,2018,외식,기타 외국식,924,3,0,1
+industry_fluctuation,2019,2019,2018,외식,패스트푸드,3587,7,1,3
+industry_fluctuation,2019,2019,2018,외식,치킨,24148,10,2,5
+industry_fluctuation,2019,2019,2018,외식,피자,6227,6,1,3
+industry_fluctuation,2019,2019,2018,서비스,이사,508,8,0,13
+industry_fluctuation,2019,2019,2018,서비스,운송,1860,52,0,0
+industry_fluctuation,2019,2019,2018,서비스,반려동물 관련,177,1,1,1
+industry_fluctuation,2019,2019,2018,서비스,약국,3781,67,18,48
+industry_fluctuation,2019,2019,2018,서비스,인력 파견,202,2,0,1
+industry_fluctuation,2019,2019,2018,서비스,기타 서비스,3306,5,1,1
+industry_fluctuation,2019,2019,2018,외식,제과제빵,8114,9,2,4
+industry_fluctuation,2019,2019,2018,외식,아이스크림/빙수 ,2048,10,2,3
+industry_fluctuation,2019,2019,2018,외식,커피,14603,11,2,4
+industry_fluctuation,2019,2019,2018,외식,음료 (커피 외),1537,5,1,5
+industry_fluctuation,2019,2019,2018,외식,주점,7874,7,2,4
+industry_fluctuation,2019,2019,2018,외식,기타 외식,16444,5,1,2
+industry_fluctuation,2019,2019,2018,도소매,편의점,42554,213,48,57
+industry_fluctuation,2019,2019,2018,도소매,의류 / 패션,170,1,0,1
+industry_fluctuation,2019,2019,2018,도소매,화장품,3652,9,23,21
+industry_fluctuation,2019,2019,2018,도소매,농수산물,641,10,4,1
+industry_fluctuation,2019,2019,2018,도소매,(건강)식품,1511,3,3,4
+industry_fluctuation,2019,2019,2018,도소매,종합소매점,1283,23,2,3
+industry_fluctuation,2019,2019,2018,도소매,기타도소매,6274,5,1,2
+industry_fluctuation,2019,2019,2018,서비스,교육 (교과),12594,44,10,29
+industry_fluctuation,2019,2019,2018,서비스,교육 (외국어),17549,31,8,15
+industry_fluctuation,2019,2019,2018,서비스,기타 교육,5972,6,1,2
+industry_fluctuation,2019,2019,2018,서비스,유아 관련 (교육 외),1189,3,1,3
+industry_fluctuation,2019,2019,2018,서비스,부동산 중개 ,20,2,2,1
+industry_fluctuation,2019,2019,2018,서비스,임대,51,7,0,0
+industry_fluctuation,2019,2019,2018,서비스,숙박,230,3,0,0
+industry_fluctuation,2019,2019,2018,서비스,스포츠 관련,2263,9,0,1
+industry_fluctuation,2019,2019,2018,서비스,이미용,4133,4,1,2
+industry_fluctuation,2019,2019,2018,서비스,자동차 관련,6384,10,2,5
+industry_fluctuation,2019,2019,2018,서비스,PC방,1451,15,4,6
+industry_fluctuation,2019,2019,2018,서비스,오락,445,7,0,1
+industry_fluctuation,2019,2019,2018,서비스,배달,7,2,0,1
+industry_fluctuation,2019,2019,2018,서비스,안경,2972,6,1,2
+industry_fluctuation,2019,2019,2018,서비스,유아관련,60,2,0,3
+industry_fluctuation,2019,2019,2018,서비스,세탁,4397,26,3,7
+industry_fluctuation,2020,2020,2019,외식,한식,24033,4,1,1
+industry_fluctuation,2020,2020,2019,외식,분식,9217,6,1,2
+industry_fluctuation,2020,2020,2019,외식,중식,1345,5,0,1
+industry_fluctuation,2020,2020,2019,외식,일식,1805,2,0,1
+industry_fluctuation,2020,2020,2019,외식,서양식,1095,4,0,1
+industry_fluctuation,2020,2020,2019,외식,기타 외국식,1221,3,1,3
+industry_fluctuation,2020,2020,2019,외식,패스트푸드,3611,6,1,4
+industry_fluctuation,2020,2020,2019,외식,치킨,25343,10,2,5
+industry_fluctuation,2020,2020,2019,외식,피자,6737,7,1,3
+industry_fluctuation,2020,2020,2019,외식,제과제빵,8307,8,2,4
+industry_fluctuation,2020,2020,2019,외식,아이스크림/빙수 ,2243,12,1,3
+industry_fluctuation,2020,2020,2019,외식,커피,15797,9,1,2
+industry_fluctuation,2020,2020,2019,외식,음료 (커피 외),1985,12,1,3
+industry_fluctuation,2020,2020,2019,외식,주점,7737,6,1,5
+industry_fluctuation,2020,2020,2019,외식,기타 외식,16277,5,1,2
+industry_fluctuation,2020,2020,2019,도소매,편의점,45497,207,35,57
+industry_fluctuation,2020,2020,2019,도소매,의류 / 패션,167,2,0,1
+industry_fluctuation,2020,2020,2019,도소매,화장품,1870,3,16,24
+industry_fluctuation,2020,2020,2019,도소매,농수산물,729,8,2,1
+industry_fluctuation,2020,2020,2019,도소매,(건강)식품,1185,3,4,2
+industry_fluctuation,2020,2020,2019,도소매,종합소매점,849,15,1,3
+industry_fluctuation,2020,2020,2019,도소매,기타도소매,7011,4,1,2
+industry_fluctuation,2020,2020,2019,서비스,교육 (교과),10730,37,10,23
+industry_fluctuation,2020,2020,2019,서비스,교육 (외국어),17164,25,3,15
+industry_fluctuation,2020,2020,2019,서비스,기타 교육,6396,6,1,2
+industry_fluctuation,2020,2020,2019,서비스,유아 관련 (교육 외),1047,2,2,2
+industry_fluctuation,2020,2020,2019,서비스,부동산 중개 ,22,2,0,1
+industry_fluctuation,2020,2020,2019,서비스,임대,92,4,0,0
+industry_fluctuation,2020,2020,2019,서비스,숙박,260,3,0,1
+industry_fluctuation,2020,2020,2019,서비스,스포츠 관련,2604,9,0,3
+industry_fluctuation,2020,2020,2019,서비스,이미용,4412,6,1,2
+industry_fluctuation,2020,2020,2019,서비스,자동차 관련,5905,11,2,5
+industry_fluctuation,2020,2020,2019,서비스,PC방,1490,14,5,4
+industry_fluctuation,2020,2020,2019,서비스,오락,512,7,1,1
+industry_fluctuation,2020,2020,2019,서비스,배달,11,1,0,0
+industry_fluctuation,2020,2020,2019,서비스,안경,3033,5,2,2
+industry_fluctuation,2020,2020,2019,서비스,유아관련,178,8,0,1
+industry_fluctuation,2020,2020,2019,서비스,세탁,4412,20,3,7
+industry_fluctuation,2020,2020,2019,서비스,이사,501,9,0,10
+industry_fluctuation,2020,2020,2019,서비스,운송,1150,104,0,0
+industry_fluctuation,2020,2020,2019,서비스,반려동물 관련,214,1,0,1
+industry_fluctuation,2020,2020,2019,서비스,약국,3900,54,1,23
+industry_fluctuation,2020,2020,2019,서비스,인력 파견,239,3,0,0
+industry_fluctuation,2020,2020,2019,서비스,기타 서비스,3959,4,0,1
+industry_fluctuation,2021,2021,2020,외식,한식,26808,3,0,1
+industry_fluctuation,2021,2021,2020,외식,분식,10601,5,1,1
+industry_fluctuation,2021,2021,2020,외식,중식,1701,2,0,1
+industry_fluctuation,2021,2021,2020,외식,일식,2206,2,0,1
+industry_fluctuation,2021,2021,2020,외식,서양식,1755,3,0,1
+industry_fluctuation,2021,2021,2020,외식,기타 외국식,1177,3,0,1
+industry_fluctuation,2021,2021,2020,외식,패스트푸드,3990,4,0,1
+industry_fluctuation,2021,2021,2020,외식,치킨,26938,8,1,4
+industry_fluctuation,2021,2021,2020,외식,피자,7435,6,0,2
+industry_fluctuation,2021,2021,2020,외식,제과제빵,8375,4,1,2
+industry_fluctuation,2021,2021,2020,외식,아이스크림/빙수 ,2664,10,1,2
+industry_fluctuation,2021,2021,2020,외식,커피,18822,6,1,1
+industry_fluctuation,2021,2021,2020,외식,음료 (커피 외),2431,7,1,2
+industry_fluctuation,2021,2021,2020,외식,주점,8590,6,1,3
+industry_fluctuation,2021,2021,2020,외식,기타 외식,18017,3,1,1
+industry_fluctuation,2021,2021,2020,도소매,편의점,43678,141,29,38
+industry_fluctuation,2021,2021,2020,도소매,의류 / 패션,178,1,0,1
+industry_fluctuation,2021,2021,2020,도소매,화장품,2090,2,18,18
+industry_fluctuation,2021,2021,2020,도소매,농수산물,826,5,1,1
+industry_fluctuation,2021,2021,2020,도소매,(건강)식품,1755,1,0,1
+industry_fluctuation,2021,2021,2020,도소매,종합소매점,466,4,1,1
+industry_fluctuation,2021,2021,2020,도소매,기타도소매,7825,4,1,1
+industry_fluctuation,2021,2021,2020,서비스,교육 (교과),10557,22,3,19
+industry_fluctuation,2021,2021,2020,서비스,교육 (외국어),17164,15,4,11
+industry_fluctuation,2021,2021,2020,서비스,기타 교육,6153,4,2,2
+industry_fluctuation,2021,2021,2020,서비스,유아 관련 (교육 외),712,1,1,2
+industry_fluctuation,2021,2021,2020,서비스,부동산 중개 ,26,1,0,0
+industry_fluctuation,2021,2021,2020,서비스,임대,172,4,0,0
+industry_fluctuation,2021,2021,2020,서비스,숙박,257,1,0,1
+industry_fluctuation,2021,2021,2020,서비스,스포츠 관련,2751,5,1,2
+industry_fluctuation,2021,2021,2020,서비스,이미용,4654,2,0,1
+industry_fluctuation,2021,2021,2020,서비스,자동차 관련,6674,8,3,6
+industry_fluctuation,2021,2021,2020,서비스,PC방,1297,6,2,7
+industry_fluctuation,2021,2021,2020,서비스,오락,546,4,1,2
+industry_fluctuation,2021,2021,2020,서비스,배달,43,3,0,0
+industry_fluctuation,2021,2021,2020,서비스,안경,3175,6,3,1
+industry_fluctuation,2021,2021,2020,서비스,유아관련,231,10,0,3
+industry_fluctuation,2021,2021,2020,서비스,세탁,4407,18,8,7
+industry_fluctuation,2021,2021,2020,서비스,이사,494,9,0,10
+industry_fluctuation,2021,2021,2020,서비스,운송,8126,306,0,37
+industry_fluctuation,2021,2021,2020,서비스,반려동물 관련,257,2,0,0
+industry_fluctuation,2021,2021,2020,서비스,약국,3283,104,1,32
+industry_fluctuation,2021,2021,2020,서비스,인력 파견,196,2,0,1
+industry_fluctuation,2021,2021,2020,서비스,기타 서비스,8992,12,0,1
+industry_fluctuation,2022,2022,2021,외식,기타 외국식,1512,3,0,1
+industry_fluctuation,2022,2022,2021,서비스,부동산 중개 ,59,4,0,0
+industry_fluctuation,2022,2022,2021,외식,일식,3244,3,0,1
+industry_fluctuation,2022,2022,2021,도소매,농수산물,852,3,1,1
+industry_fluctuation,2022,2022,2021,외식,패스트푸드,4213,5,0,2
+industry_fluctuation,2022,2022,2021,서비스,교육 (외국어),17092,16,3,10
+industry_fluctuation,2022,2022,2021,서비스,세탁,3927,10,5,6
+industry_fluctuation,2022,2022,2021,외식,제과제빵,8397,4,1,2
+industry_fluctuation,2022,2022,2021,외식,중식,2568,4,0,1
+industry_fluctuation,2022,2022,2021,도소매,기타도소매,9975,6,1,1
+industry_fluctuation,2022,2022,2021,서비스,기타 서비스,23600,33,0,2
+industry_fluctuation,2022,2022,2021,외식,주점,8458,3,1,3
+industry_fluctuation,2022,2022,2021,도소매,의류 / 패션,225,1,1,0
+industry_fluctuation,2022,2022,2021,서비스,교육 (교과),10443,25,3,21
+industry_fluctuation,2022,2022,2021,외식,치킨,28622,7,2,4
+industry_fluctuation,2022,2022,2021,서비스,기타 교육,6883,6,1,2
+industry_fluctuation,2022,2022,2021,서비스,스포츠 관련,3176,5,0,1
+industry_fluctuation,2022,2022,2021,외식,커피,22542,7,1,1
+industry_fluctuation,2022,2022,2021,외식,한식,35733,4,0,1
+industry_fluctuation,2022,2022,2021,외식,피자,8052,7,1,2
+industry_fluctuation,2022,2022,2021,외식,분식,12672,6,1,2
+industry_fluctuation,2022,2022,2021,서비스,이미용,4950,3,0,1
+industry_fluctuation,2022,2022,2021,외식,기타 외식,20645,4,0,2
+industry_fluctuation,2022,2022,2021,서비스,유아관련,232,5,1,4
+industry_fluctuation,2022,2022,2021,서비스,배달,44,3,0,0
+industry_fluctuation,2022,2022,2021,서비스,약국,3529,42,0,25
+industry_fluctuation,2022,2022,2021,서비스,이사,474,6,0,9
+industry_fluctuation,2022,2022,2021,도소매,종합소매점,698,5,0,2
+industry_fluctuation,2022,2022,2021,서비스,인력 파견,206,1,0,1
+industry_fluctuation,2022,2022,2021,서비스,운송,8336,461,0,21
+industry_fluctuation,2022,2022,2021,서비스,오락,509,1,1,1
+industry_fluctuation,2022,2022,2021,도소매,화장품,1588,1,11,11
+industry_fluctuation,2022,2022,2021,서비스,안경,3293,5,1,2
+industry_fluctuation,2022,2022,2021,서비스,자동차 관련,6733,8,2,5
+industry_fluctuation,2022,2022,2021,서비스,숙박,235,1,0,1
+industry_fluctuation,2022,2022,2021,외식,음료 (커피 외),2249,5,1,2
+industry_fluctuation,2022,2022,2021,서비스,임대,223,4,0,0
+industry_fluctuation,2022,2022,2021,서비스,반려동물 관련,356,2,0,0
+industry_fluctuation,2022,2022,2021,외식,서양식,2495,4,0,1
+industry_fluctuation,2022,2022,2021,외식,아이스크림/빙수 ,2383,6,0,2
+industry_fluctuation,2022,2022,2021,도소매,(건강)식품,953,2,0,1
+industry_fluctuation,2022,2022,2021,도소매,편의점,52168,160,31,49
+industry_fluctuation,2022,2022,2021,서비스,PC방,1234,3,2,3
+industry_fluctuation,2022,2022,2021,서비스,유아 관련 (교육 외),539,1,1,2
+industry_fluctuation,2023,2023,2022,외식,치킨,29566,7,2,5
+industry_fluctuation,2023,2023,2022,외식,주점,9230,4,1,2
+industry_fluctuation,2023,2023,2022,서비스,스포츠 관련,3805,6,0,1
+industry_fluctuation,2023,2023,2022,외식,커피,25725,7,1,2
+industry_fluctuation,2023,2023,2022,도소매,(건강)식품,949,3,0,1
+industry_fluctuation,2023,2023,2022,외식,한식,39750,3,0,2
+industry_fluctuation,2023,2023,2022,서비스,인력 파견,230,2,0,0
+industry_fluctuation,2023,2023,2022,도소매,편의점,55043,191,60,54
+industry_fluctuation,2023,2023,2022,도소매,종합소매점,699,10,1,1
+industry_fluctuation,2023,2023,2022,서비스,숙박,169,0,0,1
+industry_fluctuation,2023,2023,2022,서비스,유아관련,218,2,2,2
+industry_fluctuation,2023,2023,2022,서비스,안경,3551,4,1,1
+industry_fluctuation,2023,2023,2022,서비스,PC방,956,4,2,4
+industry_fluctuation,2023,2023,2022,서비스,이사,430,5,1,9
+industry_fluctuation,2023,2023,2022,서비스,임대,255,3,0,0
+industry_fluctuation,2023,2023,2022,서비스,운송,4388,94,0,20
+industry_fluctuation,2023,2023,2022,서비스,교육 (교과),10506,22,5,18
+industry_fluctuation,2023,2023,2022,외식,음료 (커피 외),2584,4,0,3
+industry_fluctuation,2023,2023,2022,도소매,의류 / 패션,239,2,0,0
+industry_fluctuation,2023,2023,2022,서비스,자동차 관련,6660,6,1,4
+industry_fluctuation,2023,2023,2022,서비스,유아 관련 (교육 외),610,2,0,1
+industry_fluctuation,2023,2023,2022,서비스,오락,543,4,0,1
+industry_fluctuation,2023,2023,2022,서비스,부동산 중개 ,81,3,0,1
+industry_fluctuation,2023,2023,2022,외식,아이스크림/빙수 ,2766,7,0,1
+industry_fluctuation,2023,2023,2022,외식,서양식,2872,4,0,2
+industry_fluctuation,2023,2023,2022,외식,피자,8728,5,1,3
+industry_fluctuation,2023,2023,2022,서비스,반려동물 관련,490,3,1,0
+industry_fluctuation,2023,2023,2022,서비스,교육 (외국어),16513,16,4,8
+industry_fluctuation,2023,2023,2022,외식,기타 외국식,1904,3,0,1
+industry_fluctuation,2023,2023,2022,서비스,이미용,5134,3,1,1
+industry_fluctuation,2023,2023,2022,외식,일식,3992,3,0,1
+industry_fluctuation,2023,2023,2022,도소매,기타도소매,10228,6,1,2
+industry_fluctuation,2023,2023,2022,서비스,세탁,3944,10,4,6
+industry_fluctuation,2023,2023,2022,서비스,기타 교육,7500,6,1,2
+industry_fluctuation,2023,2023,2022,외식,제과제빵,8907,4,1,2
+industry_fluctuation,2023,2023,2022,외식,패스트푸드,4786,6,0,2
+industry_fluctuation,2023,2023,2022,외식,분식,12601,4,1,3
+industry_fluctuation,2023,2023,2022,도소매,농수산물,312,2,0,1
+industry_fluctuation,2023,2023,2022,서비스,기타 서비스,26346,17,0,8
+industry_fluctuation,2023,2023,2022,외식,기타 외식,21584,4,1,2
+industry_fluctuation,2023,2023,2022,외식,중식,3534,4,0,1
+industry_fluctuation,2023,2023,2022,서비스,배달,35,1,0,1
+industry_fluctuation,2023,2023,2022,도소매,화장품,1356,3,89,11
+industry_fluctuation,2023,2023,2022,서비스,약국,4867,29,0,27
+industry_fluctuation,2024,2024,2023,도소매,기타도소매,10274,5,1,2
+industry_fluctuation,2024,2024,2023,서비스,이사,241,7,0,4
+industry_fluctuation,2024,2024,2023,서비스,오락,634,5,0,0
+industry_fluctuation,2024,2024,2023,서비스,스포츠 관련,4017,5,0,1
+industry_fluctuation,2024,2024,2023,도소매,화장품,1071,2,9,14
+industry_fluctuation,2024,2024,2023,도소매,의류 / 패션,228,2,0,1
+industry_fluctuation,2024,2024,2023,서비스,반려동물 관련,538,3,0,1
+industry_fluctuation,2024,2024,2023,외식,제과제빵,5429,4,1,2
+industry_fluctuation,2024,2024,2023,외식,음료 (커피 외),2489,3,1,4
+industry_fluctuation,2024,2024,2023,외식,분식,11736,3,1,3
+industry_fluctuation,2024,2024,2023,서비스,유아 관련 (교육 외),549,2,1,1
+industry_fluctuation,2024,2024,2023,외식,기타 외식,18155,3,1,3
+industry_fluctuation,2024,2024,2023,외식,치킨,29389,7,2,4
+industry_fluctuation,2024,2024,2023,외식,일식,4404,3,0,1
+industry_fluctuation,2024,2024,2023,외식,패스트푸드,5543,5,1,2
+industry_fluctuation,2024,2024,2023,외식,기타 외국식,2555,6,0,2
+industry_fluctuation,2024,2024,2023,외식,서양식,2716,3,1,2
+industry_fluctuation,2024,2024,2023,외식,중식,3996,4,0,1
+industry_fluctuation,2024,2024,2023,외식,주점,9655,4,1,2
+industry_fluctuation,2024,2024,2023,서비스,임대,262,2,0,1
+industry_fluctuation,2024,2024,2023,외식,피자,7878,5,1,4
+industry_fluctuation,2024,2024,2023,서비스,기타 교육,7661,6,2,3
+industry_fluctuation,2024,2024,2023,외식,커피,27592,7,1,2
+industry_fluctuation,2024,2024,2023,서비스,기타 서비스,35543,27,1,3
+industry_fluctuation,2024,2024,2023,서비스,이미용,5235,3,0,1
+industry_fluctuation,2024,2024,2023,외식,한식,40938,4,1,2
+industry_fluctuation,2024,2024,2023,도소매,종합소매점,886,12,1,1
+industry_fluctuation,2024,2024,2023,도소매,농수산물,252,1,1,1
+industry_fluctuation,2024,2024,2023,서비스,약국,,,,
+industry_fluctuation,2024,2024,2023,외식,아이스크림/빙수 ,2793,5,1,1
+industry_fluctuation,2024,2024,2023,도소매,(건강)식품,943,1,0,0
+industry_fluctuation,2024,2024,2023,서비스,교육 (교과),10160,26,8,25
+industry_fluctuation,2024,2024,2023,서비스,PC방,837,5,4,2
+industry_fluctuation,2024,2024,2023,서비스,유아관련,198,2,4,2
+industry_fluctuation,2024,2024,2023,서비스,안경,3499,5,1,2
+industry_fluctuation,2024,2024,2023,서비스,교육 (외국어),15927,16,4,11
+industry_fluctuation,2024,2024,2023,서비스,세탁,4096,14,3,5
+industry_fluctuation,2024,2024,2023,도소매,편의점,55710,184,48,69
+industry_fluctuation,2024,2024,2023,서비스,인력 파견,265,3,0,1
+industry_fluctuation,2024,2024,2023,서비스,부동산 중개 ,189,11,2,1
+industry_fluctuation,2024,2024,2023,서비스,자동차 관련,5851,5,2,6
+industry_fluctuation,2024,2024,2023,서비스,숙박,156,0,0,1
+industry_fluctuation,2024,2024,2023,서비스,배달,15,0,0,2
+industry_fluctuation,2024,2024,2023,서비스,운송,13214,171,0,16
+industry_fluctuation,2025,2025,2024,외식,한식,43863,3,1,2
+industry_fluctuation,2025,2025,2024,외식,분식,11123,3,1,3
+industry_fluctuation,2025,2025,2024,서비스,반려동물 관련,706,3,1,1
+industry_fluctuation,2025,2025,2024,서비스,기타 서비스,10109,4,1,1
+industry_fluctuation,2025,2025,2024,서비스,기타 교육,7906,6,1,3
+industry_fluctuation,2025,2025,2024,외식,서양식,2732,2,1,2
+industry_fluctuation,2025,2025,2024,외식,커피,29091,6,1,2
+industry_fluctuation,2025,2025,2024,도소매,의류 / 패션,247,2,1,0
+industry_fluctuation,2025,2025,2024,외식,주점,10036,4,1,2
+industry_fluctuation,2025,2025,2024,도소매,기타도소매,10453,4,1,2
+industry_fluctuation,2025,2025,2024,외식,기타 외식,18370,3,1,3
+industry_fluctuation,2025,2025,2024,외식,치킨,28749,6,2,4
+industry_fluctuation,2025,2025,2024,외식,피자,7986,4,1,3
+industry_fluctuation,2025,2025,2024,외식,중식,4173,3,1,2
+industry_fluctuation,2025,2025,2024,서비스,운송,49740,451,9,133
+industry_fluctuation,2025,2025,2024,외식,아이스크림/빙수 ,3472,12,1,1
+industry_fluctuation,2025,2025,2024,도소매,종합소매점,979,11,3,2
+industry_fluctuation,2025,2025,2024,외식,제과제빵,8711,3,1,2
+industry_fluctuation,2025,2025,2024,서비스,이미용,5583,2,0,1
+industry_fluctuation,2025,2025,2024,서비스,스포츠 관련,4435,4,0,1
+industry_fluctuation,2025,2025,2024,서비스,인력 파견,240,2,0,0
+industry_fluctuation,2025,2025,2024,외식,일식,5052,3,1,1
+industry_fluctuation,2025,2025,2024,도소매,(건강)식품,1827,4,1,1
+industry_fluctuation,2025,2025,2024,외식,음료 (커피 외),2108,3,1,3
+industry_fluctuation,2025,2025,2024,도소매,편의점,55927,154,63,81
+industry_fluctuation,2025,2025,2024,외식,패스트푸드,5584,5,1,3
+industry_fluctuation,2025,2025,2024,외식,기타 외국식,2297,2,1,3
+industry_fluctuation,2025,2025,2024,서비스,유아 관련 (교육 외),558,1,1,2
+industry_fluctuation,2025,2025,2024,서비스,자동차 관련,5892,4,1,3
+industry_fluctuation,2025,2025,2024,서비스,교육 (외국어),15143,12,4,9
+industry_fluctuation,2025,2025,2024,도소매,농수산물,234,0,1,1
+industry_fluctuation,2025,2025,2024,서비스,임대,306,2,0,1
+industry_fluctuation,2025,2025,2024,서비스,교육 (교과),9523,19,3,17
+industry_fluctuation,2025,2025,2024,서비스,오락,897,7,0,0
+industry_fluctuation,2025,2025,2024,서비스,안경,3511,4,1,1
+industry_fluctuation,2025,2025,2024,서비스,부동산 중개 ,210,8,1,4
+industry_fluctuation,2025,2025,2024,서비스,유아관련,190,1,2,0
+industry_fluctuation,2025,2025,2024,서비스,PC방,846,9,4,2
+industry_fluctuation,2025,2025,2024,도소매,화장품,957,2,4,6
+industry_fluctuation,2025,2025,2024,서비스,이사,444,5,0,3
+industry_fluctuation,2025,2025,2024,서비스,세탁,4297,17,3,6
+industry_fluctuation,2025,2025,2024,서비스,약국,4530,37,1,20
+industry_fluctuation,2025,2025,2024,서비스,숙박,178,1,0,0
+industry_fluctuation,2025,2025,2024,서비스,배달,19,3,0,0

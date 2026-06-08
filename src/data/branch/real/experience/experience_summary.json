@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-06-08T07:27:21.631Z",
+  "categoryCount": 11,
+  "imageTemplateCount": 44,
+  "menuRecordCount": 110,
+  "benchmarkCategoryCount": 11,
+  "sources": [
+    "DB_real/ftc_franchise_db",
+    "DB_real/sbiz_location_db",
+    "image_templat"
+  ],
+  "notes": [
+    "FTC averageSalesAmountRaw is preserved through the FTC DB; experience simulation uses filtered plausible annual sales bands.",
+    "salad_poke_template_4 is a fallback duplicate because only 43 source images were present."
+  ]
+}

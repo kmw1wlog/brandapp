@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-08T07:13:00.316Z",
+  "sourceFiles": {
+    "storeZipPath": "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보_20260331.zip",
+    "industryCodePath": "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보 업종코드_20230228.csv",
+    "openApiGuidePath": "/home/openq/Downloads/(251128)소상공인시장진흥공단_상가(상권)정보_OpenApi 활용가이드.zip"
+  },
+  "storeCsvEntryCount": 17,
+  "totalStores": 2725319,
+  "foodServiceStores": 827828,
+  "industryCodeCount": 247,
+  "profileCacheCount": 2,
+  "cacheKeyRule": "lat,lng:radiusMeters:smallCategoryCode:queryDate"
+}

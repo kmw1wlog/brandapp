@@ -1,0 +1,70 @@
+[
+  {
+    "sidoName": "강원특별자치도",
+    "count": 108009
+  },
+  {
+    "sidoName": "경기도",
+    "count": 671650
+  },
+  {
+    "sidoName": "경상남도",
+    "count": 168714
+  },
+  {
+    "sidoName": "경상북도",
+    "count": 141828
+  },
+  {
+    "sidoName": "광주광역시",
+    "count": 75325
+  },
+  {
+    "sidoName": "대구광역시",
+    "count": 115634
+  },
+  {
+    "sidoName": "대전광역시",
+    "count": 78607
+  },
+  {
+    "sidoName": "부산광역시",
+    "count": 155103
+  },
+  {
+    "sidoName": "서울특별시",
+    "count": 537489
+  },
+  {
+    "sidoName": "세종특별자치시",
+    "count": 15423
+  },
+  {
+    "sidoName": "울산광역시",
+    "count": 53466
+  },
+  {
+    "sidoName": "인천광역시",
+    "count": 135852
+  },
+  {
+    "sidoName": "전라남도",
+    "count": 99717
+  },
+  {
+    "sidoName": "전북특별자치도",
+    "count": 97422
+  },
+  {
+    "sidoName": "제주특별자치도",
+    "count": 57528
+  },
+  {
+    "sidoName": "충청남도",
+    "count": 121826
+  },
+  {
+    "sidoName": "충청북도",
+    "count": 91726
+  }
+]

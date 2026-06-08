@@ -1,0 +1,79 @@
+{
+  "endpointId": "industry_open_close_out",
+  "title": "주요 외식별 가맹점 개폐점 현황 조회",
+  "year": 2019,
+  "totalCount": 5,
+  "totalPages": 1,
+  "items": [
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "치킨",
+      "allFrcsCnt": 24733,
+      "newFrcsRgsCnt": 3859,
+      "newFrcsRt": 15.6,
+      "bfyrNewFrcsRt": 13.3,
+      "bfyrVersusNewDffrncRt": 2.31,
+      "endCncltnFrcsCnt": 2869,
+      "endCncltnRt": 11.6,
+      "bfyrVersusEndCncltnRt": 12.29,
+      "bfyrVersusDffrncRt": -0.69
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "한식",
+      "allFrcsCnt": 19801,
+      "newFrcsRgsCnt": 4871,
+      "newFrcsRt": 24.6,
+      "bfyrNewFrcsRt": 23.77,
+      "bfyrVersusNewDffrncRt": 0.83,
+      "endCncltnFrcsCnt": 2465,
+      "endCncltnRt": 12.45,
+      "bfyrVersusEndCncltnRt": 13.69,
+      "bfyrVersusDffrncRt": -1.24
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "기타 외식",
+      "allFrcsCnt": 16698,
+      "newFrcsRgsCnt": 3973,
+      "newFrcsRt": 23.79,
+      "bfyrNewFrcsRt": 26.83,
+      "bfyrVersusNewDffrncRt": -3.03,
+      "endCncltnFrcsCnt": 2231,
+      "endCncltnRt": 13.36,
+      "bfyrVersusEndCncltnRt": 13.7,
+      "bfyrVersusDffrncRt": -0.34
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "커피",
+      "allFrcsCnt": 14560,
+      "newFrcsRgsCnt": 3009,
+      "newFrcsRt": 20.67,
+      "bfyrNewFrcsRt": 19.86,
+      "bfyrVersusNewDffrncRt": 0.8,
+      "endCncltnFrcsCnt": 1587,
+      "endCncltnRt": 10.9,
+      "bfyrVersusEndCncltnRt": 10.74,
+      "bfyrVersusDffrncRt": 0.16
+    },
+    {
+      "yr": "2019",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "제과제빵",
+      "allFrcsCnt": 8114,
+      "newFrcsRgsCnt": 1066,
+      "newFrcsRt": 13.14,
+      "bfyrNewFrcsRt": 18.61,
+      "bfyrVersusNewDffrncRt": -5.48,
+      "endCncltnFrcsCnt": 748,
+      "endCncltnRt": 9.22,
+      "bfyrVersusEndCncltnRt": 7.12,
+      "bfyrVersusDffrncRt": 2.1
+    }
+  ]
+}

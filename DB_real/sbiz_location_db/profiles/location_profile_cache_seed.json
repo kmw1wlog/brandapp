@@ -1,0 +1,2214 @@
+[
+  {
+    "cacheKey": "35.23125,129.08412:800:I20302:2026-06-08",
+    "sourceTimestamp": "2026-06-08T07:13:00.316Z",
+    "sourceFiles": [
+      "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보_20260331.zip",
+      "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보 업종코드_20230228.csv"
+    ],
+    "request": {
+      "id": "busan_pnu_ilsik_bowl_800m",
+      "label": "부산대 상권 일식 카레/돈가스/덮밥 800m",
+      "latitude": 35.23125,
+      "longitude": 129.08412,
+      "radiusMeters": 800,
+      "category": {
+        "largeCode": "I2",
+        "largeName": "음식점업",
+        "middleCode": "I203",
+        "middleName": "일식 음식점업",
+        "smallCode": "I20302",
+        "smallName": "일식 카레/돈가스/덮밥"
+      }
+    },
+    "administrativeDistrict": "부산광역시 금정구 장전2동",
+    "commercialZoneNumber": null,
+    "metrics": {
+      "totalStoresInRadius": 2617,
+      "sameLargeStoresInRadius": 984,
+      "sameMiddleStoresInRadius": 59,
+      "sameSmallStoresInRadius": 9,
+      "totalStoreDensityPerKm2": 1301.6,
+      "foodStoreDensityPerKm2": 489.4,
+      "sameSmallStoreDensityPerKm2": 4.5
+    },
+    "topMiddleCategories": [
+      {
+        "name": "한식",
+        "count": 316
+      },
+      {
+        "name": "섬유·의복·신발 소매",
+        "count": 229
+      },
+      {
+        "name": "이용·미용",
+        "count": 229
+      },
+      {
+        "name": "기타 간이",
+        "count": 202
+      },
+      {
+        "name": "비알코올 ",
+        "count": 188
+      },
+      {
+        "name": "기타 교육",
+        "count": 104
+      },
+      {
+        "name": "부동산 서비스",
+        "count": 104
+      },
+      {
+        "name": "주점",
+        "count": 97
+      }
+    ],
+    "topSmallCategories": [
+      {
+        "name": "카페",
+        "count": 188
+      },
+      {
+        "name": "백반/한정식",
+        "count": 178
+      },
+      {
+        "name": "미용실",
+        "count": 160
+      },
+      {
+        "name": "부동산 중개/대리업",
+        "count": 104
+      },
+      {
+        "name": "기타 의류 소매업",
+        "count": 83
+      },
+      {
+        "name": "요리 주점",
+        "count": 77
+      },
+      {
+        "name": "여성 의류 소매업",
+        "count": 64
+      },
+      {
+        "name": "입시·교과학원",
+        "count": 58
+      },
+      {
+        "name": "돼지고기 구이/찜",
+        "count": 55
+      },
+      {
+        "name": "세무사",
+        "count": 50
+      }
+    ],
+    "salesTrend": {
+      "source": "소상공인365 점포당 매출액 추이 API 연결 예정",
+      "simulatorUse": "업종 평균 매출에 입지 보정 계수 적용",
+      "estimatedTrendIndex": 118
+    },
+    "deliveryAnalysis": {
+      "source": "소상공인365 배달분석 API 연결 예정",
+      "estimatedDeliveryFit": "high",
+      "deliveryCompetitionLevel": "high"
+    },
+    "businessAgeDistribution": {
+      "source": "소상공인365 업력현황 API 연결 예정",
+      "inferredStability": "검증된 외식 수요권"
+    },
+    "snsKeywords": {
+      "source": "소상공인365 SNS 분석 API 연결 예정",
+      "keywords": [
+        "혼밥",
+        "덮밥",
+        "점심"
+      ]
+    },
+    "tourismFestivalEvents": {
+      "source": "소상공인365 관광 축제 정보 API 연결 예정",
+      "eventFit": "대학가 행사와 학기 시즌 반응 확인 필요"
+    },
+    "advantageSignals": [
+      "동일 소분류 직접 경쟁이 낮은 편",
+      "음식점 집적도가 높아 목적 방문 수요 기대",
+      "반경 내 생활 상업 밀집도 높음"
+    ],
+    "cautionSignals": [
+      "중분류 내 대체 선택지가 많음"
+    ],
+    "nearbyStores": [
+      {
+        "storeId": "MA010120220807120336",
+        "name": "원조토스트",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "그 외 기타 간이 음식점",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA010120220809142721",
+        "name": "몽포트",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA0101202212A0000700",
+        "name": "애플꼬마김밥",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA010120220809783944",
+        "name": "어스샐러드",
+        "distanceMeters": 17,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084195431832,
+        "latitude": 35.2311085306349
+      },
+      {
+        "storeId": "MA010120220811591395",
+        "name": "이삭",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA010120220812556531",
+        "name": "명물토스트",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "토스트/샌드위치/샐러드",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA0101202501A0074284",
+        "name": "카페16온스부산대",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA0106202507A1997753",
+        "name": "코트커피",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA010120220803161914",
+        "name": "마라내음",
+        "distanceMeters": 41,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084563699384,
+        "latitude": 35.2313364849191
+      },
+      {
+        "storeId": "MA010120220804426717",
+        "name": "카페더브",
+        "distanceMeters": 54,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084666333522,
+        "latitude": 35.2310553607909
+      },
+      {
+        "storeId": "MA010120220800642363",
+        "name": "유림부대밀면",
+        "distanceMeters": 64,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "냉면/밀면",
+        "longitude": 129.084405311311,
+        "latitude": 35.2307264330257
+      },
+      {
+        "storeId": "MA010120220804608493",
+        "name": "부들파이터",
+        "distanceMeters": 65,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "동남아시아",
+        "smallCategoryName": "베트남식 전문",
+        "longitude": 129.084786860967,
+        "latitude": 35.2310442726345
+      },
+      {
+        "storeId": "MA010120220813796216",
+        "name": "야마벤또",
+        "distanceMeters": 65,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084786860967,
+        "latitude": 35.2310442726345
+      },
+      {
+        "storeId": "MA010120220804899516",
+        "name": "어벤더치부산대",
+        "distanceMeters": 67,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084411014684,
+        "latitude": 35.2318077122623
+      },
+      {
+        "storeId": "MA010120220808765916",
+        "name": "강다짐삼각김밥",
+        "distanceMeters": 67,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084411014684,
+        "latitude": 35.2318077122623
+      },
+      {
+        "storeId": "MA010120220808979937",
+        "name": "부대쌀떡볶이",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220813650612",
+        "name": "부산대정문토스트",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "토스트/샌드위치/샐러드",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220811617082",
+        "name": "돈까스겸",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220803404386",
+        "name": "노스",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220812824809",
+        "name": "봉구스밥버거앤텐더크래커부산대",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220811622899",
+        "name": "스페로스페라",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "그 외 기타 간이 음식점",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA0101202505A0005608",
+        "name": "온결",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220813610110",
+        "name": "내가찜한닭",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "닭/오리고기 구이/찜",
+        "longitude": 129.08491407432,
+        "latitude": 35.2312944020197
+      },
+      {
+        "storeId": "MA010120220811590484",
+        "name": "미가락",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.08491407432,
+        "latitude": 35.2312944020197
+      },
+      {
+        "storeId": "MA0101202409A0221104",
+        "name": "유일무이카페",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084531773798,
+        "latitude": 35.2318056318286
+      },
+      {
+        "storeId": "MA0101202503A0025845",
+        "name": "자스민커피부산대정문",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084914304872,
+        "latitude": 35.231303409525
+      },
+      {
+        "storeId": "MA010120220802836221",
+        "name": "탕화쿵푸마라탕",
+        "distanceMeters": 73,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084226437415,
+        "latitude": 35.2306033536649
+      },
+      {
+        "storeId": "MA010120220811725852",
+        "name": "바첼",
+        "distanceMeters": 74,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084896640926,
+        "latitude": 35.2310423810306
+      },
+      {
+        "storeId": "MA010120220800066768",
+        "name": "더크로와상",
+        "distanceMeters": 77,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.084759777969,
+        "latitude": 35.2317025771965
+      },
+      {
+        "storeId": "MA0106202601A1306832",
+        "name": "분치킹",
+        "distanceMeters": 77,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084759777969,
+        "latitude": 35.2317025771965
+      },
+      {
+        "storeId": "MA010120220812789319",
+        "name": "정직유부",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA010120220813428672",
+        "name": "청솔로9",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA0101202504A0085800",
+        "name": "미가원마라탕",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA0106202506A2021713",
+        "name": "미가원마라탕",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA010120220808906202",
+        "name": "델라고",
+        "distanceMeters": 79,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084791383983,
+        "latitude": 35.2307918732945
+      },
+      {
+        "storeId": "MA0101202306A0094645",
+        "name": "자스민커피",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202307A0027598",
+        "name": "공차부산대",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202302A0067299",
+        "name": "더다락",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202311A0039390",
+        "name": "아리랑찜닭",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "닭/오리고기 구이/찜",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA010120220814303303",
+        "name": "자스민커피",
+        "distanceMeters": 86,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084470054321,
+        "latitude": 35.2319689017516
+      },
+      {
+        "storeId": "MA010120220811626712",
+        "name": "나베야",
+        "distanceMeters": 88,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 카레/돈가스/덮밥",
+        "longitude": 129.084178838229,
+        "latitude": 35.2304599898963
+      },
+      {
+        "storeId": "MA010120220813741438",
+        "name": "톤쇼우",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084277409048,
+        "latitude": 35.2304492804678
+      },
+      {
+        "storeId": "MA010120220811000255",
+        "name": "효원면옥",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "냉면/밀면",
+        "longitude": 129.084277409048,
+        "latitude": 35.2304492804678
+      },
+      {
+        "storeId": "MA0106202510A1222890",
+        "name": "장인해장국",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.084601561269,
+        "latitude": 35.2319576246022
+      },
+      {
+        "storeId": "MA010120220809751230",
+        "name": "평화김해뒷고기",
+        "distanceMeters": 94,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "돼지고기 구이/찜",
+        "longitude": 129.084753147934,
+        "latitude": 35.2305852680898
+      },
+      {
+        "storeId": "MA010120220812416463",
+        "name": "파파존스",
+        "distanceMeters": 95,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "버거",
+        "longitude": 129.085044055307,
+        "latitude": 35.2316526212839
+      },
+      {
+        "storeId": "MA0106202510A2042102",
+        "name": "파리바게뜨",
+        "distanceMeters": 95,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.085044055307,
+        "latitude": 35.2316526212839
+      },
+      {
+        "storeId": "MA0101202409A0070244",
+        "name": "산쇼쿠",
+        "distanceMeters": 96,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084397474699,
+        "latitude": 35.230420177708
+      },
+      {
+        "storeId": "MA010120220812999481",
+        "name": "홍익돈까스",
+        "distanceMeters": 97,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 카레/돈가스/덮밥",
+        "longitude": 129.085160112785,
+        "latitude": 35.2310378407755
+      },
+      {
+        "storeId": "MA0101202301A0089732",
+        "name": "구구향산씨도삭면",
+        "distanceMeters": 97,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "중국집",
+        "longitude": 129.085160112785,
+        "latitude": 35.2310378407755
+      },
+      {
+        "storeId": "MA010120220806731986",
+        "name": "고래섬",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085206330574,
+        "latitude": 35.2311271590504
+      },
+      {
+        "storeId": "MA010120220810465896",
+        "name": "설빙",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085219383834,
+        "latitude": 35.2312080373899
+      },
+      {
+        "storeId": "MA0101202503A0048717",
+        "name": "동동국밥",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.085206330574,
+        "latitude": 35.2311271590504
+      },
+      {
+        "storeId": "MA010120220811592922",
+        "name": "본죽&비빔밥",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085036074618,
+        "latitude": 35.2317699080171
+      },
+      {
+        "storeId": "MA0101202302A0010960",
+        "name": "타타스베이글",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085036074618,
+        "latitude": 35.2317699080171
+      },
+      {
+        "storeId": "MA0106202509A1271986",
+        "name": "오보레",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085111128263,
+        "latitude": 35.2308404324209
+      },
+      {
+        "storeId": "MA010120220811611166",
+        "name": "송림",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084886070159,
+        "latitude": 35.2319166765338
+      },
+      {
+        "storeId": "MA010120220804383796",
+        "name": "춘리마라탕부산대",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084528518169,
+        "latitude": 35.2303908857034
+      },
+      {
+        "storeId": "MA010120220808149173",
+        "name": "정갈한집밥",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084528518169,
+        "latitude": 35.2303908857034
+      },
+      {
+        "storeId": "MA0106202201A2364044",
+        "name": "부산대정문",
+        "distanceMeters": 103,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084561337081,
+        "latitude": 35.2321025012658
+      },
+      {
+        "storeId": "MA0106202510A1105660",
+        "name": "투썸플레이스부산대",
+        "distanceMeters": 103,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085255084944,
+        "latitude": 35.2313155598404
+      },
+      {
+        "storeId": "MA0106202508A2095439",
+        "name": "포레스트오늘; 숲 부산대NC점",
+        "distanceMeters": 104,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "요리 주점",
+        "longitude": 129.0850866361,
+        "latitude": 35.2307417282308
+      },
+      {
+        "storeId": "MA010120220811580560",
+        "name": "리멘시타Limensita",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA010120220811623560",
+        "name": "곁집",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA0106202508A0769669",
+        "name": "안식당",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA010120220811614020",
+        "name": "이흥용과자점",
+        "distanceMeters": 109,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.083932715214,
+        "latitude": 35.2302839995555
+      },
+      {
+        "storeId": "MA0101202406A0498596",
+        "name": "정성식당",
+        "distanceMeters": 109,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084681978384,
+        "latitude": 35.2303792302927
+      },
+      {
+        "storeId": "MA010120220800919035",
+        "name": "전주콩나물국밥",
+        "distanceMeters": 111,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.084910562508,
+        "latitude": 35.2320153807428
+      },
+      {
+        "storeId": "MA0106202510A0364327",
+        "name": "탕화쿵푸마라탕",
+        "distanceMeters": 111,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.085071775773,
+        "latitude": 35.2318774305122
+      },
+      {
+        "storeId": "MA010120220808593279",
+        "name": "맘스터치NC백화점",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "버거",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220803389556",
+        "name": "세영식품부산대학교자유관점",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "구내식당·뷔페",
+        "smallCategoryName": "구내식당",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220806581067",
+        "name": "청년다방",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220808121588",
+        "name": "이랜드이츠애슐리퀸즈NC",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "패밀리레스토랑",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220803786688",
+        "name": "앤티앤스프레즐",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810411503",
+        "name": "피자몰",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810819653",
+        "name": "배창주",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810580666",
+        "name": "바인",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "요리 주점",
+        "longitude": 129.084261130285,
+        "latitude": 35.2302422968329
+      },
+      {
+        "storeId": "MA010120220805956396",
+        "name": "더블린데이",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "생맥주 전문",
+        "longitude": 129.084261130285,
+        "latitude": 35.2302422968329
+      },
+      {
+        "storeId": "MA010120220812449615",
+        "name": "모모니예",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810668149",
+        "name": "청담에프엔비",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      }
+    ]
+  },
+  {
+    "cacheKey": "35.23125,129.08412:500:I21201:2026-06-08",
+    "sourceTimestamp": "2026-06-08T07:13:00.316Z",
+    "sourceFiles": [
+      "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보_20260331.zip",
+      "/home/openq/Downloads/소상공인시장진흥공단_상가(상권)정보 업종코드_20230228.csv"
+    ],
+    "request": {
+      "id": "busan_pnu_cafe_500m",
+      "label": "부산대 상권 카페 500m",
+      "latitude": 35.23125,
+      "longitude": 129.08412,
+      "radiusMeters": 500,
+      "category": {
+        "largeCode": "I2",
+        "largeName": "음식점업",
+        "middleCode": "I212",
+        "middleName": "비알코올 음료점업",
+        "smallCode": "I21201",
+        "smallName": "카페"
+      }
+    },
+    "administrativeDistrict": "부산광역시 금정구 장전2동",
+    "commercialZoneNumber": null,
+    "metrics": {
+      "totalStoresInRadius": 1637,
+      "sameLargeStoresInRadius": 685,
+      "sameMiddleStoresInRadius": 121,
+      "sameSmallStoresInRadius": 121,
+      "totalStoreDensityPerKm2": 2084.3,
+      "foodStoreDensityPerKm2": 872.2,
+      "sameSmallStoreDensityPerKm2": 154.1
+    },
+    "topMiddleCategories": [
+      {
+        "name": "한식",
+        "count": 211
+      },
+      {
+        "name": "섬유·의복·신발 소매",
+        "count": 198
+      },
+      {
+        "name": "이용·미용",
+        "count": 139
+      },
+      {
+        "name": "기타 간이",
+        "count": 127
+      },
+      {
+        "name": "비알코올 ",
+        "count": 121
+      },
+      {
+        "name": "주점",
+        "count": 80
+      },
+      {
+        "name": "기타 교육",
+        "count": 59
+      },
+      {
+        "name": "일식",
+        "count": 52
+      }
+    ],
+    "topSmallCategories": [
+      {
+        "name": "백반/한정식",
+        "count": 123
+      },
+      {
+        "name": "카페",
+        "count": 121
+      },
+      {
+        "name": "미용실",
+        "count": 98
+      },
+      {
+        "name": "기타 의류 소매업",
+        "count": 69
+      },
+      {
+        "name": "요리 주점",
+        "count": 66
+      },
+      {
+        "name": "여성 의류 소매업",
+        "count": 59
+      },
+      {
+        "name": "부동산 중개/대리업",
+        "count": 42
+      },
+      {
+        "name": "돼지고기 구이/찜",
+        "count": 40
+      },
+      {
+        "name": "경양식",
+        "count": 39
+      },
+      {
+        "name": "일식 회/초밥",
+        "count": 35
+      }
+    ],
+    "salesTrend": {
+      "source": "소상공인365 점포당 매출액 추이 API 연결 예정",
+      "simulatorUse": "업종 평균 매출에 입지 보정 계수 적용",
+      "estimatedTrendIndex": 118
+    },
+    "deliveryAnalysis": {
+      "source": "소상공인365 배달분석 API 연결 예정",
+      "estimatedDeliveryFit": "high",
+      "deliveryCompetitionLevel": "high"
+    },
+    "businessAgeDistribution": {
+      "source": "소상공인365 업력현황 API 연결 예정",
+      "inferredStability": "검증된 외식 수요권"
+    },
+    "snsKeywords": {
+      "source": "소상공인365 SNS 분석 API 연결 예정",
+      "keywords": [
+        "카공",
+        "디저트",
+        "테이크아웃"
+      ]
+    },
+    "tourismFestivalEvents": {
+      "source": "소상공인365 관광 축제 정보 API 연결 예정",
+      "eventFit": "대학가 행사와 학기 시즌 반응 확인 필요"
+    },
+    "advantageSignals": [
+      "음식점 집적도가 높아 목적 방문 수요 기대",
+      "반경 내 생활 상업 밀집도 높음"
+    ],
+    "cautionSignals": [
+      "동일 소분류 경쟁 밀도 높음",
+      "중분류 내 대체 선택지가 많음"
+    ],
+    "nearbyStores": [
+      {
+        "storeId": "MA010120220807120336",
+        "name": "원조토스트",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "그 외 기타 간이 음식점",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA010120220809142721",
+        "name": "몽포트",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA0101202212A0000700",
+        "name": "애플꼬마김밥",
+        "distanceMeters": 15,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084276657011,
+        "latitude": 35.2312783495699
+      },
+      {
+        "storeId": "MA010120220809783944",
+        "name": "어스샐러드",
+        "distanceMeters": 17,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084195431832,
+        "latitude": 35.2311085306349
+      },
+      {
+        "storeId": "MA010120220811591395",
+        "name": "이삭",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA010120220812556531",
+        "name": "명물토스트",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "토스트/샌드위치/샐러드",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA0101202501A0074284",
+        "name": "카페16온스부산대",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA0106202507A1997753",
+        "name": "코트커피",
+        "distanceMeters": 29,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084389433738,
+        "latitude": 35.2313935560256
+      },
+      {
+        "storeId": "MA010120220803161914",
+        "name": "마라내음",
+        "distanceMeters": 41,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084563699384,
+        "latitude": 35.2313364849191
+      },
+      {
+        "storeId": "MA010120220804426717",
+        "name": "카페더브",
+        "distanceMeters": 54,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084666333522,
+        "latitude": 35.2310553607909
+      },
+      {
+        "storeId": "MA010120220800642363",
+        "name": "유림부대밀면",
+        "distanceMeters": 64,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "냉면/밀면",
+        "longitude": 129.084405311311,
+        "latitude": 35.2307264330257
+      },
+      {
+        "storeId": "MA010120220804608493",
+        "name": "부들파이터",
+        "distanceMeters": 65,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "동남아시아",
+        "smallCategoryName": "베트남식 전문",
+        "longitude": 129.084786860967,
+        "latitude": 35.2310442726345
+      },
+      {
+        "storeId": "MA010120220813796216",
+        "name": "야마벤또",
+        "distanceMeters": 65,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084786860967,
+        "latitude": 35.2310442726345
+      },
+      {
+        "storeId": "MA010120220804899516",
+        "name": "어벤더치부산대",
+        "distanceMeters": 67,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084411014684,
+        "latitude": 35.2318077122623
+      },
+      {
+        "storeId": "MA010120220808765916",
+        "name": "강다짐삼각김밥",
+        "distanceMeters": 67,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084411014684,
+        "latitude": 35.2318077122623
+      },
+      {
+        "storeId": "MA010120220808979937",
+        "name": "부대쌀떡볶이",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220813650612",
+        "name": "부산대정문토스트",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "토스트/샌드위치/샐러드",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220811617082",
+        "name": "돈까스겸",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220803404386",
+        "name": "노스",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220812824809",
+        "name": "봉구스밥버거앤텐더크래커부산대",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA010120220811622899",
+        "name": "스페로스페라",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "그 외 기타 간이 음식점",
+        "longitude": 129.083920207208,
+        "latitude": 35.2306536857061
+      },
+      {
+        "storeId": "MA0101202505A0005608",
+        "name": "온결",
+        "distanceMeters": 69,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084106371427,
+        "latitude": 35.2306324562655
+      },
+      {
+        "storeId": "MA010120220813610110",
+        "name": "내가찜한닭",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "닭/오리고기 구이/찜",
+        "longitude": 129.08491407432,
+        "latitude": 35.2312944020197
+      },
+      {
+        "storeId": "MA010120220811590484",
+        "name": "미가락",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.08491407432,
+        "latitude": 35.2312944020197
+      },
+      {
+        "storeId": "MA0101202409A0221104",
+        "name": "유일무이카페",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084531773798,
+        "latitude": 35.2318056318286
+      },
+      {
+        "storeId": "MA0101202503A0025845",
+        "name": "자스민커피부산대정문",
+        "distanceMeters": 72,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084914304872,
+        "latitude": 35.231303409525
+      },
+      {
+        "storeId": "MA010120220802836221",
+        "name": "탕화쿵푸마라탕",
+        "distanceMeters": 73,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084226437415,
+        "latitude": 35.2306033536649
+      },
+      {
+        "storeId": "MA010120220811725852",
+        "name": "바첼",
+        "distanceMeters": 74,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084896640926,
+        "latitude": 35.2310423810306
+      },
+      {
+        "storeId": "MA010120220800066768",
+        "name": "더크로와상",
+        "distanceMeters": 77,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.084759777969,
+        "latitude": 35.2317025771965
+      },
+      {
+        "storeId": "MA0106202601A1306832",
+        "name": "분치킹",
+        "distanceMeters": 77,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084759777969,
+        "latitude": 35.2317025771965
+      },
+      {
+        "storeId": "MA010120220812789319",
+        "name": "정직유부",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA010120220813428672",
+        "name": "청솔로9",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA0101202504A0085800",
+        "name": "미가원마라탕",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA0106202506A2021713",
+        "name": "미가원마라탕",
+        "distanceMeters": 78,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084657343242,
+        "latitude": 35.2307040680026
+      },
+      {
+        "storeId": "MA010120220808906202",
+        "name": "델라고",
+        "distanceMeters": 79,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "경양식",
+        "longitude": 129.084791383983,
+        "latitude": 35.2307918732945
+      },
+      {
+        "storeId": "MA0101202306A0094645",
+        "name": "자스민커피",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202307A0027598",
+        "name": "공차부산대",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202302A0067299",
+        "name": "더다락",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA0101202311A0039390",
+        "name": "아리랑찜닭",
+        "distanceMeters": 84,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "닭/오리고기 구이/찜",
+        "longitude": 129.084890592777,
+        "latitude": 35.2316642772332
+      },
+      {
+        "storeId": "MA010120220814303303",
+        "name": "자스민커피",
+        "distanceMeters": 86,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084470054321,
+        "latitude": 35.2319689017516
+      },
+      {
+        "storeId": "MA010120220811626712",
+        "name": "나베야",
+        "distanceMeters": 88,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 카레/돈가스/덮밥",
+        "longitude": 129.084178838229,
+        "latitude": 35.2304599898963
+      },
+      {
+        "storeId": "MA010120220813741438",
+        "name": "톤쇼우",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084277409048,
+        "latitude": 35.2304492804678
+      },
+      {
+        "storeId": "MA010120220811000255",
+        "name": "효원면옥",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "냉면/밀면",
+        "longitude": 129.084277409048,
+        "latitude": 35.2304492804678
+      },
+      {
+        "storeId": "MA0106202510A1222890",
+        "name": "장인해장국",
+        "distanceMeters": 90,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.084601561269,
+        "latitude": 35.2319576246022
+      },
+      {
+        "storeId": "MA010120220809751230",
+        "name": "평화김해뒷고기",
+        "distanceMeters": 94,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "돼지고기 구이/찜",
+        "longitude": 129.084753147934,
+        "latitude": 35.2305852680898
+      },
+      {
+        "storeId": "MA010120220812416463",
+        "name": "파파존스",
+        "distanceMeters": 95,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "버거",
+        "longitude": 129.085044055307,
+        "latitude": 35.2316526212839
+      },
+      {
+        "storeId": "MA0106202510A2042102",
+        "name": "파리바게뜨",
+        "distanceMeters": 95,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.085044055307,
+        "latitude": 35.2316526212839
+      },
+      {
+        "storeId": "MA0101202409A0070244",
+        "name": "산쇼쿠",
+        "distanceMeters": 96,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 회/초밥",
+        "longitude": 129.084397474699,
+        "latitude": 35.230420177708
+      },
+      {
+        "storeId": "MA010120220812999481",
+        "name": "홍익돈까스",
+        "distanceMeters": 97,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "일식",
+        "smallCategoryName": "일식 카레/돈가스/덮밥",
+        "longitude": 129.085160112785,
+        "latitude": 35.2310378407755
+      },
+      {
+        "storeId": "MA0101202301A0089732",
+        "name": "구구향산씨도삭면",
+        "distanceMeters": 97,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "중국집",
+        "longitude": 129.085160112785,
+        "latitude": 35.2310378407755
+      },
+      {
+        "storeId": "MA010120220806731986",
+        "name": "고래섬",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085206330574,
+        "latitude": 35.2311271590504
+      },
+      {
+        "storeId": "MA010120220810465896",
+        "name": "설빙",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085219383834,
+        "latitude": 35.2312080373899
+      },
+      {
+        "storeId": "MA0101202503A0048717",
+        "name": "동동국밥",
+        "distanceMeters": 100,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.085206330574,
+        "latitude": 35.2311271590504
+      },
+      {
+        "storeId": "MA010120220811592922",
+        "name": "본죽&비빔밥",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085036074618,
+        "latitude": 35.2317699080171
+      },
+      {
+        "storeId": "MA0101202302A0010960",
+        "name": "타타스베이글",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085036074618,
+        "latitude": 35.2317699080171
+      },
+      {
+        "storeId": "MA0106202509A1271986",
+        "name": "오보레",
+        "distanceMeters": 101,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085111128263,
+        "latitude": 35.2308404324209
+      },
+      {
+        "storeId": "MA010120220811611166",
+        "name": "송림",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084886070159,
+        "latitude": 35.2319166765338
+      },
+      {
+        "storeId": "MA010120220804383796",
+        "name": "춘리마라탕부산대",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.084528518169,
+        "latitude": 35.2303908857034
+      },
+      {
+        "storeId": "MA010120220808149173",
+        "name": "정갈한집밥",
+        "distanceMeters": 102,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084528518169,
+        "latitude": 35.2303908857034
+      },
+      {
+        "storeId": "MA0106202201A2364044",
+        "name": "부산대정문",
+        "distanceMeters": 103,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.084561337081,
+        "latitude": 35.2321025012658
+      },
+      {
+        "storeId": "MA0106202510A1105660",
+        "name": "투썸플레이스부산대",
+        "distanceMeters": 103,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.085255084944,
+        "latitude": 35.2313155598404
+      },
+      {
+        "storeId": "MA0106202508A2095439",
+        "name": "포레스트오늘; 숲 부산대NC점",
+        "distanceMeters": 104,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "요리 주점",
+        "longitude": 129.0850866361,
+        "latitude": 35.2307417282308
+      },
+      {
+        "storeId": "MA010120220811580560",
+        "name": "리멘시타Limensita",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA010120220811623560",
+        "name": "곁집",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA0106202508A0769669",
+        "name": "안식당",
+        "distanceMeters": 108,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.085051166062,
+        "latitude": 35.2306432132102
+      },
+      {
+        "storeId": "MA010120220811614020",
+        "name": "이흥용과자점",
+        "distanceMeters": 109,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.083932715214,
+        "latitude": 35.2302839995555
+      },
+      {
+        "storeId": "MA0101202406A0498596",
+        "name": "정성식당",
+        "distanceMeters": 109,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.084681978384,
+        "latitude": 35.2303792302927
+      },
+      {
+        "storeId": "MA010120220800919035",
+        "name": "전주콩나물국밥",
+        "distanceMeters": 111,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "국/탕/찌개류",
+        "longitude": 129.084910562508,
+        "latitude": 35.2320153807428
+      },
+      {
+        "storeId": "MA0106202510A0364327",
+        "name": "탕화쿵푸마라탕",
+        "distanceMeters": 111,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "중식",
+        "smallCategoryName": "마라탕/훠궈",
+        "longitude": 129.085071775773,
+        "latitude": 35.2318774305122
+      },
+      {
+        "storeId": "MA010120220808593279",
+        "name": "맘스터치NC백화점",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "버거",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220803389556",
+        "name": "세영식품부산대학교자유관점",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "구내식당·뷔페",
+        "smallCategoryName": "구내식당",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220806581067",
+        "name": "청년다방",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "김밥/만두/분식",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220808121588",
+        "name": "이랜드이츠애슐리퀸즈NC",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "서양식",
+        "smallCategoryName": "패밀리레스토랑",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220803786688",
+        "name": "앤티앤스프레즐",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "빵/도넛",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810411503",
+        "name": "피자몰",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "기타 간이",
+        "smallCategoryName": "피자",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810819653",
+        "name": "배창주",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810580666",
+        "name": "바인",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "요리 주점",
+        "longitude": 129.084261130285,
+        "latitude": 35.2302422968329
+      },
+      {
+        "storeId": "MA010120220805956396",
+        "name": "더블린데이",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "주점",
+        "smallCategoryName": "생맥주 전문",
+        "longitude": 129.084261130285,
+        "latitude": 35.2302422968329
+      },
+      {
+        "storeId": "MA010120220812449615",
+        "name": "모모니예",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "비알코올 ",
+        "smallCategoryName": "카페",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      },
+      {
+        "storeId": "MA010120220810668149",
+        "name": "청담에프엔비",
+        "distanceMeters": 113,
+        "sidoName": "부산광역시",
+        "sigunguName": "금정구",
+        "administrativeDongName": "장전2동",
+        "middleCategoryName": "한식",
+        "smallCategoryName": "백반/한정식",
+        "longitude": 129.083829027579,
+        "latitude": 35.2322412765478
+      }
+    ]
+  }
+]

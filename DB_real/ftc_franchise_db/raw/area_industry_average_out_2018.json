@@ -1,0 +1,2049 @@
+{
+  "endpointId": "area_industry_average_out",
+  "title": "지역별 외식별 평균매출액 현황 조회",
+  "year": 2018,
+  "totalCount": 255,
+  "totalPages": 1,
+  "items": [
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "서울",
+      "frcsCnt": 10959,
+      "arUnitAvrgSlsAmt": 343,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "부산",
+      "frcsCnt": 6126,
+      "arUnitAvrgSlsAmt": 162,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "대구",
+      "frcsCnt": 18791,
+      "arUnitAvrgSlsAmt": 233,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "인천",
+      "frcsCnt": 9636,
+      "arUnitAvrgSlsAmt": 285,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "광주",
+      "frcsCnt": 24479,
+      "arUnitAvrgSlsAmt": 462,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "대전",
+      "frcsCnt": 11375,
+      "arUnitAvrgSlsAmt": 264,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "울산",
+      "frcsCnt": 10486,
+      "arUnitAvrgSlsAmt": 270,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "경기",
+      "frcsCnt": 5856,
+      "arUnitAvrgSlsAmt": 183,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "강원",
+      "frcsCnt": 9663,
+      "arUnitAvrgSlsAmt": 324,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "충북",
+      "frcsCnt": 14734,
+      "arUnitAvrgSlsAmt": 250,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "충남",
+      "frcsCnt": 10392,
+      "arUnitAvrgSlsAmt": 188,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "전북",
+      "frcsCnt": 17228,
+      "arUnitAvrgSlsAmt": 367,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "전남",
+      "frcsCnt": 13747,
+      "arUnitAvrgSlsAmt": 231,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "경북",
+      "frcsCnt": 16413,
+      "arUnitAvrgSlsAmt": 222,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "경남",
+      "frcsCnt": 9579,
+      "arUnitAvrgSlsAmt": 202,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "제주",
+      "frcsCnt": 23414,
+      "arUnitAvrgSlsAmt": 525,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "패스트푸드",
+      "areaNm": "세종",
+      "frcsCnt": 40062,
+      "arUnitAvrgSlsAmt": 1311,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "경남",
+      "frcsCnt": 14048,
+      "arUnitAvrgSlsAmt": 405,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "제주",
+      "frcsCnt": 12909,
+      "arUnitAvrgSlsAmt": 471,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "세종",
+      "frcsCnt": 5514,
+      "arUnitAvrgSlsAmt": 506,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "강원",
+      "frcsCnt": 6348,
+      "arUnitAvrgSlsAmt": 291,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "충북",
+      "frcsCnt": 7931,
+      "arUnitAvrgSlsAmt": 386,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "충남",
+      "frcsCnt": 7781,
+      "arUnitAvrgSlsAmt": 336,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "전북",
+      "frcsCnt": 8301,
+      "arUnitAvrgSlsAmt": 330,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "전남",
+      "frcsCnt": 8205,
+      "arUnitAvrgSlsAmt": 400,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "경북",
+      "frcsCnt": 4995,
+      "arUnitAvrgSlsAmt": 222,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "경남",
+      "frcsCnt": 5084,
+      "arUnitAvrgSlsAmt": 221,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "제주",
+      "frcsCnt": 15301,
+      "arUnitAvrgSlsAmt": 733,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "세종",
+      "frcsCnt": 25360,
+      "arUnitAvrgSlsAmt": 1564,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "서울",
+      "frcsCnt": 7625,
+      "arUnitAvrgSlsAmt": 359,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "부산",
+      "frcsCnt": 12282,
+      "arUnitAvrgSlsAmt": 472,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "대구",
+      "frcsCnt": 17100,
+      "arUnitAvrgSlsAmt": 628,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "인천",
+      "frcsCnt": 11479,
+      "arUnitAvrgSlsAmt": 456,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "광주",
+      "frcsCnt": 16417,
+      "arUnitAvrgSlsAmt": 500,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "대전",
+      "frcsCnt": 15317,
+      "arUnitAvrgSlsAmt": 576,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "울산",
+      "frcsCnt": 16021,
+      "arUnitAvrgSlsAmt": 532,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "경기",
+      "frcsCnt": 4543,
+      "arUnitAvrgSlsAmt": 202,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "강원",
+      "frcsCnt": 14342,
+      "arUnitAvrgSlsAmt": 466,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "충북",
+      "frcsCnt": 16458,
+      "arUnitAvrgSlsAmt": 512,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "충남",
+      "frcsCnt": 11922,
+      "arUnitAvrgSlsAmt": 410,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "전북",
+      "frcsCnt": 15780,
+      "arUnitAvrgSlsAmt": 499,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "전남",
+      "frcsCnt": 15821,
+      "arUnitAvrgSlsAmt": 524,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "경북",
+      "frcsCnt": 12511,
+      "arUnitAvrgSlsAmt": 441,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "경남",
+      "frcsCnt": 10811,
+      "arUnitAvrgSlsAmt": 395,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "제주",
+      "frcsCnt": 24063,
+      "arUnitAvrgSlsAmt": 899,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "피자",
+      "areaNm": "세종",
+      "frcsCnt": 17818,
+      "arUnitAvrgSlsAmt": 713,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "세종",
+      "frcsCnt": 8487,
+      "arUnitAvrgSlsAmt": 677,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "광주",
+      "frcsCnt": 32100,
+      "arUnitAvrgSlsAmt": 483,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "대전",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "울산",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "경기",
+      "frcsCnt": 29058,
+      "arUnitAvrgSlsAmt": 985,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "강원",
+      "frcsCnt": 25707,
+      "arUnitAvrgSlsAmt": 966,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "충북",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "충남",
+      "frcsCnt": 39145,
+      "arUnitAvrgSlsAmt": 745,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "전북",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "전남",
+      "frcsCnt": 42431,
+      "arUnitAvrgSlsAmt": 1015,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "경북",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "경남",
+      "frcsCnt": 24937,
+      "arUnitAvrgSlsAmt": 947,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "제주",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "세종",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "서울",
+      "frcsCnt": 19612,
+      "arUnitAvrgSlsAmt": 468,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "부산",
+      "frcsCnt": 23134,
+      "arUnitAvrgSlsAmt": 404,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "대구",
+      "frcsCnt": 20648,
+      "arUnitAvrgSlsAmt": 409,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "인천",
+      "frcsCnt": 25735,
+      "arUnitAvrgSlsAmt": 561,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "광주",
+      "frcsCnt": 17358,
+      "arUnitAvrgSlsAmt": 371,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "대전",
+      "frcsCnt": 16290,
+      "arUnitAvrgSlsAmt": 460,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "울산",
+      "frcsCnt": 29158,
+      "arUnitAvrgSlsAmt": 495,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "경기",
+      "frcsCnt": 16325,
+      "arUnitAvrgSlsAmt": 383,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "강원",
+      "frcsCnt": 14874,
+      "arUnitAvrgSlsAmt": 440,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "충북",
+      "frcsCnt": 20388,
+      "arUnitAvrgSlsAmt": 470,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "충남",
+      "frcsCnt": 17989,
+      "arUnitAvrgSlsAmt": 399,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "전북",
+      "frcsCnt": 18552,
+      "arUnitAvrgSlsAmt": 363,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "전남",
+      "frcsCnt": 19078,
+      "arUnitAvrgSlsAmt": 426,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "경북",
+      "frcsCnt": 20934,
+      "arUnitAvrgSlsAmt": 373,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "경남",
+      "frcsCnt": 17074,
+      "arUnitAvrgSlsAmt": 336,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "제주",
+      "frcsCnt": 13322,
+      "arUnitAvrgSlsAmt": 473,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "한식",
+      "areaNm": "세종",
+      "frcsCnt": 4311,
+      "arUnitAvrgSlsAmt": 326,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "서울",
+      "frcsCnt": 8158,
+      "arUnitAvrgSlsAmt": 438,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "부산",
+      "frcsCnt": 11374,
+      "arUnitAvrgSlsAmt": 496,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "대구",
+      "frcsCnt": 6892,
+      "arUnitAvrgSlsAmt": 382,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "인천",
+      "frcsCnt": 13652,
+      "arUnitAvrgSlsAmt": 705,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "광주",
+      "frcsCnt": 8126,
+      "arUnitAvrgSlsAmt": 430,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "대전",
+      "frcsCnt": 11095,
+      "arUnitAvrgSlsAmt": 598,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "울산",
+      "frcsCnt": 8234,
+      "arUnitAvrgSlsAmt": 380,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "경기",
+      "frcsCnt": 7842,
+      "arUnitAvrgSlsAmt": 424,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "강원",
+      "frcsCnt": 9289,
+      "arUnitAvrgSlsAmt": 441,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "충북",
+      "frcsCnt": 7315,
+      "arUnitAvrgSlsAmt": 289,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "충남",
+      "frcsCnt": 7958,
+      "arUnitAvrgSlsAmt": 365,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "전북",
+      "frcsCnt": 9388,
+      "arUnitAvrgSlsAmt": 354,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "전남",
+      "frcsCnt": 8513,
+      "arUnitAvrgSlsAmt": 341,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "경북",
+      "frcsCnt": 9142,
+      "arUnitAvrgSlsAmt": 513,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "경남",
+      "frcsCnt": 6896,
+      "arUnitAvrgSlsAmt": 339,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "분식",
+      "areaNm": "제주",
+      "frcsCnt": 9724,
+      "arUnitAvrgSlsAmt": 790,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "부산",
+      "frcsCnt": 5978,
+      "arUnitAvrgSlsAmt": 176,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "대구",
+      "frcsCnt": 8933,
+      "arUnitAvrgSlsAmt": 249,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "인천",
+      "frcsCnt": 6899,
+      "arUnitAvrgSlsAmt": 227,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "광주",
+      "frcsCnt": 10492,
+      "arUnitAvrgSlsAmt": 209,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "대전",
+      "frcsCnt": 9158,
+      "arUnitAvrgSlsAmt": 208,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "울산",
+      "frcsCnt": 11167,
+      "arUnitAvrgSlsAmt": 288,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "경기",
+      "frcsCnt": 3783,
+      "arUnitAvrgSlsAmt": 141,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "강원",
+      "frcsCnt": 12058,
+      "arUnitAvrgSlsAmt": 328,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "충북",
+      "frcsCnt": 9606,
+      "arUnitAvrgSlsAmt": 339,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "충남",
+      "frcsCnt": 9027,
+      "arUnitAvrgSlsAmt": 262,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "전북",
+      "frcsCnt": 9157,
+      "arUnitAvrgSlsAmt": 193,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "전남",
+      "frcsCnt": 10191,
+      "arUnitAvrgSlsAmt": 260,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "경북",
+      "frcsCnt": 8838,
+      "arUnitAvrgSlsAmt": 238,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "경남",
+      "frcsCnt": 6482,
+      "arUnitAvrgSlsAmt": 206,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "제주",
+      "frcsCnt": 18101,
+      "arUnitAvrgSlsAmt": 351,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "세종",
+      "frcsCnt": 22091,
+      "arUnitAvrgSlsAmt": 588,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "서울",
+      "frcsCnt": 32979,
+      "arUnitAvrgSlsAmt": 822,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "부산",
+      "frcsCnt": 27649,
+      "arUnitAvrgSlsAmt": 547,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "대구",
+      "frcsCnt": 44214,
+      "arUnitAvrgSlsAmt": 697,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "인천",
+      "frcsCnt": 34149,
+      "arUnitAvrgSlsAmt": 565,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "광주",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "대전",
+      "frcsCnt": 4595,
+      "arUnitAvrgSlsAmt": 188,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "울산",
+      "frcsCnt": 41203,
+      "arUnitAvrgSlsAmt": 364,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "경기",
+      "frcsCnt": 24840,
+      "arUnitAvrgSlsAmt": 612,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "강원",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "충북",
+      "frcsCnt": 4699,
+      "arUnitAvrgSlsAmt": 236,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "충남",
+      "frcsCnt": 6572,
+      "arUnitAvrgSlsAmt": 309,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "전북",
+      "frcsCnt": 18051,
+      "arUnitAvrgSlsAmt": 538,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "전남",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "경북",
+      "frcsCnt": 7771,
+      "arUnitAvrgSlsAmt": 306,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "경남",
+      "frcsCnt": 21411,
+      "arUnitAvrgSlsAmt": 385,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "서울",
+      "frcsCnt": 4940,
+      "arUnitAvrgSlsAmt": 227,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "부산",
+      "frcsCnt": 6465,
+      "arUnitAvrgSlsAmt": 314,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "대구",
+      "frcsCnt": 5855,
+      "arUnitAvrgSlsAmt": 289,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "인천",
+      "frcsCnt": 7137,
+      "arUnitAvrgSlsAmt": 366,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "광주",
+      "frcsCnt": 10789,
+      "arUnitAvrgSlsAmt": 515,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "대전",
+      "frcsCnt": 9284,
+      "arUnitAvrgSlsAmt": 408,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "울산",
+      "frcsCnt": 9045,
+      "arUnitAvrgSlsAmt": 446,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "치킨",
+      "areaNm": "경기",
+      "frcsCnt": 3393,
+      "arUnitAvrgSlsAmt": 158,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "광주",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "대전",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "서울",
+      "frcsCnt": 20597,
+      "arUnitAvrgSlsAmt": 411,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "부산",
+      "frcsCnt": 26993,
+      "arUnitAvrgSlsAmt": 435,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "대구",
+      "frcsCnt": 10382,
+      "arUnitAvrgSlsAmt": 272,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "인천",
+      "frcsCnt": 56979,
+      "arUnitAvrgSlsAmt": 910,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "광주",
+      "frcsCnt": 27858,
+      "arUnitAvrgSlsAmt": 355,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "대전",
+      "frcsCnt": 26897,
+      "arUnitAvrgSlsAmt": 464,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "울산",
+      "frcsCnt": 33113,
+      "arUnitAvrgSlsAmt": 332,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "경기",
+      "frcsCnt": 16607,
+      "arUnitAvrgSlsAmt": 366,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "강원",
+      "frcsCnt": 1500,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "충북",
+      "frcsCnt": 13151,
+      "arUnitAvrgSlsAmt": 238,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "충남",
+      "frcsCnt": 39080,
+      "arUnitAvrgSlsAmt": 570,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "전북",
+      "frcsCnt": 22030,
+      "arUnitAvrgSlsAmt": 287,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "전남",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "경북",
+      "frcsCnt": 3803,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "경남",
+      "frcsCnt": 29479,
+      "arUnitAvrgSlsAmt": 421,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "제주",
+      "frcsCnt": 26392,
+      "arUnitAvrgSlsAmt": 688,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "중식",
+      "areaNm": "세종",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "울산",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "경기",
+      "frcsCnt": 27735,
+      "arUnitAvrgSlsAmt": 648,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "강원",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "충북",
+      "frcsCnt": 1675,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "충남",
+      "frcsCnt": 24430,
+      "arUnitAvrgSlsAmt": 331,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "전북",
+      "frcsCnt": 37091,
+      "arUnitAvrgSlsAmt": 502,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "전남",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "경북",
+      "frcsCnt": 28140,
+      "arUnitAvrgSlsAmt": 263,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "경남",
+      "frcsCnt": 20314,
+      "arUnitAvrgSlsAmt": 306,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "제주",
+      "frcsCnt": 90815,
+      "arUnitAvrgSlsAmt": 586,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "세종",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "제주",
+      "frcsCnt": 5658,
+      "arUnitAvrgSlsAmt": 327,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "일식",
+      "areaNm": "세종",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "서울",
+      "frcsCnt": 38134,
+      "arUnitAvrgSlsAmt": 1026,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "부산",
+      "frcsCnt": 27602,
+      "arUnitAvrgSlsAmt": 422,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "대구",
+      "frcsCnt": 33083,
+      "arUnitAvrgSlsAmt": 682,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "서양식",
+      "areaNm": "인천",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "강원",
+      "frcsCnt": 7177,
+      "arUnitAvrgSlsAmt": 160,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "충북",
+      "frcsCnt": 4424,
+      "arUnitAvrgSlsAmt": 140,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "충남",
+      "frcsCnt": 6755,
+      "arUnitAvrgSlsAmt": 161,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "전북",
+      "frcsCnt": 9508,
+      "arUnitAvrgSlsAmt": 219,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "전남",
+      "frcsCnt": 5746,
+      "arUnitAvrgSlsAmt": 151,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "경북",
+      "frcsCnt": 5097,
+      "arUnitAvrgSlsAmt": 141,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "경남",
+      "frcsCnt": 6037,
+      "arUnitAvrgSlsAmt": 172,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "제주",
+      "frcsCnt": 7761,
+      "arUnitAvrgSlsAmt": 191,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "세종",
+      "frcsCnt": 9567,
+      "arUnitAvrgSlsAmt": 576,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "서울",
+      "frcsCnt": 18684,
+      "arUnitAvrgSlsAmt": 501,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "부산",
+      "frcsCnt": 15526,
+      "arUnitAvrgSlsAmt": 604,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "대구",
+      "frcsCnt": 21077,
+      "arUnitAvrgSlsAmt": 518,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "서울",
+      "frcsCnt": 5168,
+      "arUnitAvrgSlsAmt": 276,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "부산",
+      "frcsCnt": 7874,
+      "arUnitAvrgSlsAmt": 581,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "대구",
+      "frcsCnt": 7501,
+      "arUnitAvrgSlsAmt": 422,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "인천",
+      "frcsCnt": 5953,
+      "arUnitAvrgSlsAmt": 319,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "광주",
+      "frcsCnt": 10473,
+      "arUnitAvrgSlsAmt": 427,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "대전",
+      "frcsCnt": 6583,
+      "arUnitAvrgSlsAmt": 236,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "울산",
+      "frcsCnt": 11992,
+      "arUnitAvrgSlsAmt": 484,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "경기",
+      "frcsCnt": 4397,
+      "arUnitAvrgSlsAmt": 208,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "강원",
+      "frcsCnt": 6880,
+      "arUnitAvrgSlsAmt": 332,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "충북",
+      "frcsCnt": 6457,
+      "arUnitAvrgSlsAmt": 289,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "충남",
+      "frcsCnt": 6232,
+      "arUnitAvrgSlsAmt": 315,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "전북",
+      "frcsCnt": 8143,
+      "arUnitAvrgSlsAmt": 1133,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "전남",
+      "frcsCnt": 8269,
+      "arUnitAvrgSlsAmt": 327,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "경북",
+      "frcsCnt": 6282,
+      "arUnitAvrgSlsAmt": 326,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "경남",
+      "frcsCnt": 6331,
+      "arUnitAvrgSlsAmt": 283,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "제주",
+      "frcsCnt": 18851,
+      "arUnitAvrgSlsAmt": 646,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "제과제빵",
+      "areaNm": "세종",
+      "frcsCnt": 46104,
+      "arUnitAvrgSlsAmt": 1761,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "서울",
+      "frcsCnt": 4060,
+      "arUnitAvrgSlsAmt": 153,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "부산",
+      "frcsCnt": 5520,
+      "arUnitAvrgSlsAmt": 209,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "대구",
+      "frcsCnt": 7414,
+      "arUnitAvrgSlsAmt": 281,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "인천",
+      "frcsCnt": 6768,
+      "arUnitAvrgSlsAmt": 226,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "광주",
+      "frcsCnt": 12595,
+      "arUnitAvrgSlsAmt": 407,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "대전",
+      "frcsCnt": 13485,
+      "arUnitAvrgSlsAmt": 421,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "울산",
+      "frcsCnt": 10592,
+      "arUnitAvrgSlsAmt": 352,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "경기",
+      "frcsCnt": 2654,
+      "arUnitAvrgSlsAmt": 108,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "강원",
+      "frcsCnt": 8885,
+      "arUnitAvrgSlsAmt": 468,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "충북",
+      "frcsCnt": 12166,
+      "arUnitAvrgSlsAmt": 391,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "충남",
+      "frcsCnt": 11499,
+      "arUnitAvrgSlsAmt": 418,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "전북",
+      "frcsCnt": 10052,
+      "arUnitAvrgSlsAmt": 323,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "전남",
+      "frcsCnt": 9447,
+      "arUnitAvrgSlsAmt": 286,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "경북",
+      "frcsCnt": 6586,
+      "arUnitAvrgSlsAmt": 195,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "경남",
+      "frcsCnt": 4728,
+      "arUnitAvrgSlsAmt": 165,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "제주",
+      "frcsCnt": 20838,
+      "arUnitAvrgSlsAmt": 580,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "아이스크림/빙수 ",
+      "areaNm": "세종",
+      "frcsCnt": 50148,
+      "arUnitAvrgSlsAmt": 2707,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "커피",
+      "areaNm": "서울",
+      "frcsCnt": 3965,
+      "arUnitAvrgSlsAmt": 188,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "서울",
+      "frcsCnt": 35047,
+      "arUnitAvrgSlsAmt": 987,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "부산",
+      "frcsCnt": 26347,
+      "arUnitAvrgSlsAmt": 1023,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "대구",
+      "frcsCnt": 21126,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외국식",
+      "areaNm": "인천",
+      "frcsCnt": 42510,
+      "arUnitAvrgSlsAmt": 1983,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "인천",
+      "frcsCnt": 19924,
+      "arUnitAvrgSlsAmt": 566,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "광주",
+      "frcsCnt": 14377,
+      "arUnitAvrgSlsAmt": 447,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "대전",
+      "frcsCnt": 15240,
+      "arUnitAvrgSlsAmt": 452,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "울산",
+      "frcsCnt": 14236,
+      "arUnitAvrgSlsAmt": 419,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "경기",
+      "frcsCnt": 14649,
+      "arUnitAvrgSlsAmt": 408,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "강원",
+      "frcsCnt": 12489,
+      "arUnitAvrgSlsAmt": 398,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "충북",
+      "frcsCnt": 18500,
+      "arUnitAvrgSlsAmt": 381,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "충남",
+      "frcsCnt": 16784,
+      "arUnitAvrgSlsAmt": 469,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "전북",
+      "frcsCnt": 17209,
+      "arUnitAvrgSlsAmt": 392,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "전남",
+      "frcsCnt": 10011,
+      "arUnitAvrgSlsAmt": 264,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "기타 외식",
+      "areaNm": "경북",
+      "frcsCnt": 14079,
+      "arUnitAvrgSlsAmt": 396,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "서울",
+      "frcsCnt": 4323,
+      "arUnitAvrgSlsAmt": 265,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "부산",
+      "frcsCnt": 13099,
+      "arUnitAvrgSlsAmt": 677,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "대구",
+      "frcsCnt": 13471,
+      "arUnitAvrgSlsAmt": 753,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "인천",
+      "frcsCnt": 8287,
+      "arUnitAvrgSlsAmt": 426,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "광주",
+      "frcsCnt": 14529,
+      "arUnitAvrgSlsAmt": 524,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "대전",
+      "frcsCnt": 15107,
+      "arUnitAvrgSlsAmt": 760,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "울산",
+      "frcsCnt": 7104,
+      "arUnitAvrgSlsAmt": 713,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "경기",
+      "frcsCnt": 3600,
+      "arUnitAvrgSlsAmt": 210,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "강원",
+      "frcsCnt": 10597,
+      "arUnitAvrgSlsAmt": 661,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "충북",
+      "frcsCnt": 9904,
+      "arUnitAvrgSlsAmt": 698,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "충남",
+      "frcsCnt": 15275,
+      "arUnitAvrgSlsAmt": 1128,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "전북",
+      "frcsCnt": 16659,
+      "arUnitAvrgSlsAmt": 905,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "전남",
+      "frcsCnt": 13711,
+      "arUnitAvrgSlsAmt": 892,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "경북",
+      "frcsCnt": 10853,
+      "arUnitAvrgSlsAmt": 881,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "경남",
+      "frcsCnt": 7687,
+      "arUnitAvrgSlsAmt": 464,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "제주",
+      "frcsCnt": 17757,
+      "arUnitAvrgSlsAmt": 668,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "음료 (커피 외)",
+      "areaNm": "세종",
+      "frcsCnt": 0,
+      "arUnitAvrgSlsAmt": 0,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "서울",
+      "frcsCnt": 14612,
+      "arUnitAvrgSlsAmt": 382,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "부산",
+      "frcsCnt": 10368,
+      "arUnitAvrgSlsAmt": 264,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "대구",
+      "frcsCnt": 9125,
+      "arUnitAvrgSlsAmt": 250,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "인천",
+      "frcsCnt": 16827,
+      "arUnitAvrgSlsAmt": 351,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "광주",
+      "frcsCnt": 4270,
+      "arUnitAvrgSlsAmt": 119,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "대전",
+      "frcsCnt": 7235,
+      "arUnitAvrgSlsAmt": 199,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "울산",
+      "frcsCnt": 6212,
+      "arUnitAvrgSlsAmt": 170,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    },
+    {
+      "yr": "2018",
+      "indutyMlsfcNm": "주점",
+      "areaNm": "경기",
+      "frcsCnt": 9794,
+      "arUnitAvrgSlsAmt": 270,
+      "crrncyUnitCdNm": "(단위 :천원)"
+    }
+  ]
+}

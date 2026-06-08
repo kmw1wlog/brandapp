@@ -24,6 +24,22 @@ function writeJson(relativePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+function copyJsonTree(sourceRelativePath, targetRelativePath) {
+  const sourceRoot = path.join(root, sourceRelativePath);
+  if (!fs.existsSync(sourceRoot)) return;
+  const entries = fs.readdirSync(sourceRoot, { withFileTypes: true });
+  for (const entry of entries) {
+    const sourceEntryRelativePath = path.join(sourceRelativePath, entry.name);
+    const targetEntryRelativePath = path.join(targetRelativePath, entry.name);
+    if (entry.isDirectory()) {
+      copyJsonTree(sourceEntryRelativePath, targetEntryRelativePath);
+      continue;
+    }
+    if (!entry.isFile() || !entry.name.endsWith(".json")) continue;
+    writeJson(targetEntryRelativePath, readJson(sourceEntryRelativePath));
+  }
+}
+
 function slugify(value) {
   return value.toLowerCase().replace(/[^\w가-힣]+/g, "_").replace(/^_+|_+$/g, "");
 }
@@ -709,6 +725,15 @@ function main() {
   const ownerConversionDemo = readJson("src/data/branch/real/owner_conversion_demo.json");
   const consultationRfpTemplates = readJson("src/data/branch/real/consultation_rfp_templates.json");
   const marketServices = readJson("src/data/branch/real/market_services.json");
+  const ftcCollectionReport = fs.existsSync(path.join(root, "DB_real/ftc_franchise_db/metadata/collection_report.json"))
+    ? readJson("DB_real/ftc_franchise_db/metadata/collection_report.json")
+    : null;
+  const sbizCollectionReport = fs.existsSync(path.join(root, "DB_real/sbiz_location_db/metadata/collection_report.json"))
+    ? readJson("DB_real/sbiz_location_db/metadata/collection_report.json")
+    : null;
+  const experienceSummary = fs.existsSync(path.join(root, "DB_real/experience_db/experience_summary.json"))
+    ? readJson("DB_real/experience_db/experience_summary.json")
+    : null;
   const ingredientMaster = buildIngredientMaster();
   const ingredientMatches = buildIngredientMatches(supplierOutput.supplierProducts, ingredientMaster);
   const realMenuCosts = buildRealMenuCosts(supplierOutput.supplierProducts, ingredientMaster, ingredientMatches);
@@ -723,13 +748,22 @@ function main() {
     sourceRoots: [
       "DB_real/branch_supplier_db",
       "DB_real/collected_brand",
-      "DB_real/perplexity_supplier_db"
+      "DB_real/perplexity_supplier_db",
+      "DB_real/ftc_franchise_db",
+      "DB_real/sbiz_location_db",
+      "DB_real/experience_db"
     ],
     counts: {
       franchiseBrandCount: brands.length,
       supplierCount: supplierOutput.suppliers.length,
       supplierProductCount: supplierOutput.supplierProducts.length,
-      validDeltaCount: supplierOutput.supplierDataQuality.validDeltaCount
+      validDeltaCount: supplierOutput.supplierDataQuality.validDeltaCount,
+      ftcJoinedBrandCount: ftcCollectionReport?.rowCounts?.joinedRows ?? 0,
+      ftcFoodServiceBrandCount: ftcCollectionReport?.rowCounts?.foodServiceLatestBrandRows ?? 0,
+      sbizStoreCount: sbizCollectionReport?.totalStores ?? 0,
+      sbizFoodServiceStoreCount: sbizCollectionReport?.foodServiceStores ?? 0,
+      experienceCategoryCount: experienceSummary?.categoryCount ?? 0,
+      experienceImageTemplateCount: experienceSummary?.imageTemplateCount ?? 0
     }
   });
   writeJson("scenario/busan_meatbowl.json", { ...scenario, real_data_enabled: true });
@@ -763,6 +797,15 @@ function main() {
   writeJson("owner_conversion_demo.json", ownerConversionDemo);
   writeJson("consultation_rfp_templates.json", consultationRfpTemplates);
   writeJson("market_services.json", marketServices);
+  copyJsonTree("DB_real/ftc_franchise_db/metadata", "ftc/metadata");
+  copyJsonTree("DB_real/ftc_franchise_db/normalized", "ftc/normalized");
+  copyJsonTree("DB_real/ftc_franchise_db/aggregates", "ftc/aggregates");
+  copyJsonTree("DB_real/sbiz_location_db/metadata", "location/metadata");
+  copyJsonTree("DB_real/sbiz_location_db/services", "location/services");
+  copyJsonTree("DB_real/sbiz_location_db/normalized", "location/normalized");
+  copyJsonTree("DB_real/sbiz_location_db/aggregates", "location/aggregates");
+  copyJsonTree("DB_real/sbiz_location_db/profiles", "location/profiles");
+  copyJsonTree("DB_real/experience_db", "experience");
   writeJson("readiness/demo_readiness.json", {
     blocked_labels: ["price_missing", "delivery_unconfirmed", "lead_only", "rejected"],
     alerts: [

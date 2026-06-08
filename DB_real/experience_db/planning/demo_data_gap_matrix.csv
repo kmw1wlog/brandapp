@@ -1,0 +1,13 @@
+domain,current_status,sufficiency,priority,next_artifact,primary_source
+category_master,"11 categories mapped to FTC/SDSC codes",sufficient,,,
+ftc_benchmarks,"2017-2025, 5 endpoints collected",sufficient,,,
+menu_economics,"110 records, 10 per category",partial,P1,brand_menu_price_samples.json,"brand official menus, delivery app samples"
+image_templates,"44 templates, 4 per category",sufficient,,,
+virtual_brand_templates,"11 categories with names/taglines/menu board",sufficient,,,
+sbiz365_service_catalog,"11 service URLs cataloged",partial,P0,sbiz365_response_blueprints.json,"소상공인365 API"
+sbiz365_normalized_cache,"not built",insufficient,P0,sbiz365_module_cache.json,"소상공인365 API"
+location_profile_cache,"2 seed profiles only, both Busan",insufficient,P0,location_profile_cache.json,"SDSC2 + 소상공인365"
+location_candidate_rankings,"not built",insufficient,P0,location_candidate_rankings.json,"SDSC2 + 소상공인365"
+finance_location_adjustments,"not built",insufficient,P0,finance_location_adjustments.json,"FTC + 소상공인365"
+region_rent_proxy,"5 region estimates only",insufficient,P1,location_cost_proxy.json,"manual benchmark or rent source"
+kakao_map_runtime,"JS domain not registered",blocked,P0,"domain registration + sdk policy","Kakao Developers console"

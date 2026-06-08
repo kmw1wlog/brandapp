@@ -1,14 +1,23 @@
 {
-  "generatedAt": "2026-06-07T16:01:16.447Z",
+  "generatedAt": "2026-06-08T07:34:43.059Z",
   "sourceRoots": [
     "DB_real/branch_supplier_db",
     "DB_real/collected_brand",
-    "DB_real/perplexity_supplier_db"
+    "DB_real/perplexity_supplier_db",
+    "DB_real/ftc_franchise_db",
+    "DB_real/sbiz_location_db",
+    "DB_real/experience_db"
   ],
   "counts": {
     "franchiseBrandCount": 10,
     "supplierCount": 39,
     "supplierProductCount": 100,
-    "validDeltaCount": 20
+    "validDeltaCount": 20,
+    "ftcJoinedBrandCount": 76846,
+    "ftcFoodServiceBrandCount": 9337,
+    "sbizStoreCount": 2725319,
+    "sbizFoodServiceStoreCount": 827828,
+    "experienceCategoryCount": 11,
+    "experienceImageTemplateCount": 44
   }
 }

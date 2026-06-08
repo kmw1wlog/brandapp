@@ -1,0 +1,233 @@
+[
+  {
+    "category_id": "rice_bowl",
+    "base_average_order_value_krw": 11250,
+    "base_daily_orders": 101,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.19,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "coffee_drink",
+    "base_average_order_value_krw": 6200,
+    "base_daily_orders": 82,
+    "hall_sales_share": 0.68,
+    "delivery_sales_share": 0.32,
+    "food_cost_rate": 0.29,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.154,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "base_average_order_value_krw": 9250,
+    "base_daily_orders": 70,
+    "hall_sales_share": 0.68,
+    "delivery_sales_share": 0.32,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "korean_food",
+    "base_average_order_value_krw": 12000,
+    "base_daily_orders": 96,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.39,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "chinese_food",
+    "base_average_order_value_krw": 11500,
+    "base_daily_orders": 112,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.19,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "japanese_food",
+    "base_average_order_value_krw": 15000,
+    "base_daily_orders": 71,
+    "hall_sales_share": 0.68,
+    "delivery_sales_share": 0.32,
+    "food_cost_rate": 0.39,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "western_pizza",
+    "base_average_order_value_krw": 16500,
+    "base_daily_orders": 50,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "snack_chicken",
+    "base_average_order_value_krw": 12750,
+    "base_daily_orders": 52,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.19,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "base_average_order_value_krw": 11500,
+    "base_daily_orders": 65,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.34,
+    "labor_cost_rate": 0.19,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "lunchbox",
+    "base_average_order_value_krw": 11000,
+    "base_daily_orders": 98,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.38,
+    "labor_cost_rate": 0.19,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  },
+  {
+    "category_id": "salad_poke",
+    "base_average_order_value_krw": 12500,
+    "base_daily_orders": 71,
+    "hall_sales_share": 0.48,
+    "delivery_sales_share": 0.52,
+    "food_cost_rate": 0.38,
+    "labor_cost_rate": 0.23,
+    "proper_rent_ratio": 0.1,
+    "location_score_weight": 0.36,
+    "competition_penalty": 0.004,
+    "sns_bonus": 0.04,
+    "tourism_event_bonus": 0.03,
+    "ramp_up_curve": [
+      0.62,
+      0.82,
+      1,
+      1.08
+    ],
+    "explanation": "공정위 업종 평균 매출, 소진공 반경 경쟁 밀도, 메뉴 객단가를 합친 체험용 룰엔진"
+  }
+]

@@ -1,5 +1,6 @@
 import { ComparisonHero } from "@/components/branch/ComparisonHero";
 import { DecouplingBar } from "@/components/branch/DecouplingBar";
+import { ExperienceSimulationPanel } from "@/components/branch/ExperienceSimulationPanel";
 import { StartupInputSummary } from "@/components/branch/StartupInputSummary";
 import { PageHeader } from "@/components/branch/Common";
 import { getDashboardCopy } from "@/lib/branch/data";
@@ -10,6 +11,7 @@ export default function StartupNewPage() {
     <>
       <PageHeader title={copy.main_title} subtitle={copy.subtitle} warning={copy.warning_text} />
       <StartupInputSummary />
+      <ExperienceSimulationPanel />
       <ComparisonHero />
       <DecouplingBar />
     </>

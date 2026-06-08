@@ -1,0 +1,135 @@
+[
+  {
+    "id": "storeZoneOne",
+    "name": "지정 상권조회",
+    "path": "/storeZoneOne",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeZoneOne",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInDong",
+    "name": "행정동 단위 상가업소 조회",
+    "path": "/storeListInDong",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInDong",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "baroApi",
+    "name": "행정경계조회",
+    "path": "/baroApi",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/baroApi",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeZoneInRadius",
+    "name": "반경내 상권조회",
+    "path": "/storeZoneInRadius",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeZoneInRadius",
+    "appUsage": "입력 좌표 기반 on-demand 캐시 생성"
+  },
+  {
+    "id": "storeZoneInRectangle",
+    "name": "사각형내 상권조회",
+    "path": "/storeZoneInRectangle",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeZoneInRectangle",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeZoneInAdmi",
+    "name": "행정구역 단위 상권조회",
+    "path": "/storeZoneInAdmi",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeZoneInAdmi",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeOne",
+    "name": "단일 상가업소 조회",
+    "path": "/storeOne",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeOne",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInBuilding",
+    "name": "건물 단위 상가업소 조회",
+    "path": "/storeListInBuilding",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInBuilding",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInPnu",
+    "name": "지번 단위 상가업소 조회",
+    "path": "/storeListInPnu",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInPnu",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInArea",
+    "name": "상권내 상가업소 조회",
+    "path": "/storeListInArea",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInArea",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInRadius",
+    "name": "반경내 상가업소 조회",
+    "path": "/storeListInRadius",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInRadius",
+    "appUsage": "입력 좌표 기반 on-demand 캐시 생성"
+  },
+  {
+    "id": "storeListInRectangle",
+    "name": "사각형내 상가업소 조회",
+    "path": "/storeListInRectangle",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInRectangle",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInPolygon",
+    "name": "다각형내 상가업소 조회",
+    "path": "/storeListInPolygon",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInPolygon",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListInUpjong",
+    "name": "업종별 상가업소 조회",
+    "path": "/storeListInUpjong",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListInUpjong",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "storeListByDate",
+    "name": "수정일자기준 상가업소 조회",
+    "path": "/storeListByDate",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/storeListByDate",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "reqStoreModify",
+    "name": "상가업소정보 변경요청",
+    "path": "/reqStoreModify",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/reqStoreModify",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "largeUpjongList",
+    "name": "상권정보 업종 대분류 조회",
+    "path": "/largeUpjongList",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/largeUpjongList",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "middleUpjongList",
+    "name": "상권정보 업종 중분류 조회",
+    "path": "/middleUpjongList",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/middleUpjongList",
+    "appUsage": "입지 프로파일 보강 데이터"
+  },
+  {
+    "id": "smallUpjongList",
+    "name": "상권정보 업종 소분류 조회",
+    "path": "/smallUpjongList",
+    "url": "https://apis.data.go.kr/B553077/api/open/sdsc2/smallUpjongList",
+    "appUsage": "입지 프로파일 보강 데이터"
+  }
+]

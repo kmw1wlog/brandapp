@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-06-08T06:40:26.997Z",
+  "source": "공정거래위원회 가맹정보 OpenAPI",
+  "latestSupportedYear": 2025,
+  "collectedYears": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "amountUnitAssumption": "FTC franchise API raw amount values are assumed to be in KRW thousand units based on franchise disclosure conventions.",
+  "collectableEndpoints": [
+    "brand_franchise_stats",
+    "brand_startup_stats",
+    "area_industry_average_out",
+    "industry_open_close_out",
+    "industry_fluctuation"
+  ],
+  "blockedEndpoints": [],
+  "rowCounts": {
+    "brandFranchiseRows": 76846,
+    "brandStartupRows": 76421,
+    "areaIndustryAverageRows": 2295,
+    "industryOpenCloseRows": 45,
+    "industryFluctuationRows": 394,
+    "joinedRows": 76846,
+    "foodServiceLatestBrandRows": 9337,
+    "foodServiceLatestIndustryRows": 15
+  },
+  "yearCounts": {
+    "brand_franchise_stats": {
+      "2017": 4823,
+      "2018": 5134,
+      "2019": 5399,
+      "2020": 6338,
+      "2021": 10242,
+      "2022": 10185,
+      "2023": 11167,
+      "2024": 11834,
+      "2025": 11724
+    },
+    "brand_startup_stats": {
+      "2017": 4823,
+      "2018": 5134,
+      "2019": 5399,
+      "2020": 6338,
+      "2021": 10242,
+      "2022": 10185,
+      "2023": 11167,
+      "2024": 11409,
+      "2025": 11724
+    },
+    "area_industry_average_out": {
+      "2017": 255,
+      "2018": 255,
+      "2019": 255,
+      "2020": 255,
+      "2021": 255,
+      "2022": 255,
+      "2023": 255,
+      "2024": 255,
+      "2025": 255
+    },
+    "industry_open_close_out": {
+      "2017": 5,
+      "2018": 5,
+      "2019": 5,
+      "2020": 5,
+      "2021": 5,
+      "2022": 5,
+      "2023": 5,
+      "2024": 5,
+      "2025": 5
+    },
+    "industry_fluctuation": {
+      "2017": 43,
+      "2018": 43,
+      "2019": 44,
+      "2020": 44,
+      "2021": 44,
+      "2022": 44,
+      "2023": 44,
+      "2024": 44,
+      "2025": 44
+    }
+  }
+}

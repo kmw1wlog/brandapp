@@ -9,6 +9,7 @@ import { trackEvent } from "@/lib/branch/events";
 
 const nav = [
   { label: "사용자 입력", href: "/dashboard/startup/input", icon: ClipboardList },
+  { label: "입지 분석", href: "/dashboard/startup/location", icon: MapPinned },
   { label: "비교", href: "/dashboard/startup/new", icon: ChartNoAxesCombined },
   { label: "브랜드 실행안", href: "/dashboard/startup/brand", icon: Building2 },
   { label: "4개월 회계", href: "/dashboard/startup/finance", icon: WalletCards },

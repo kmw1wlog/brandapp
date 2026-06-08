@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-06-08T19:20:00+09:00",
+  "targetUser": "예비점주",
+  "goal": "업종 입력 후 가상 브랜드 생성, 후보 입지 비교, 회계 시뮬레이션, 실행 준비까지 한 흐름으로 의사결정을 돕는다.",
+  "userQuestionsToAnswer": [
+    "이 업종이 내 예산과 운영방식에 맞는가",
+    "어느 입지가 가장 유리한가",
+    "후보 입지별 예상 월매출과 점주 수익 차이는 얼마나 나는가",
+    "왜 그 입지가 유리하거나 위험한가",
+    "브랜드 콘셉트와 메뉴 가격은 어떻게 잡아야 하는가",
+    "개점까지 무엇을 준비해야 하는가"
+  ],
+  "experienceFlow": [
+    {
+      "step": 1,
+      "screenId": "industry_and_brand_setup",
+      "primaryDecision": "어떤 업종과 브랜드 콘셉트로 체험할지 정한다",
+      "mustShow": [
+        "업종 선택",
+        "가상 브랜드명",
+        "대표 메뉴군",
+        "KIE 이미지 템플릿 4종",
+        "공정위 업종 평균 요약"
+      ],
+      "dataSources": [
+        "category_master.json",
+        "virtual_brand_templates.json",
+        "image_templates.json",
+        "brand_benchmarks_by_category.json"
+      ]
+    },
+    {
+      "step": 2,
+      "screenId": "location_shortlist",
+      "primaryDecision": "어느 후보 입지를 비교할지 정한다",
+      "mustShow": [
+        "Kakao 지도 위 후보 입지 3~5곳 핀",
+        "각 후보 입지의 총점",
+        "동종 업소 수",
+        "매출 추세",
+        "배달 적합도",
+        "주의 신호"
+      ],
+      "dataSources": [
+        "location_candidate_rankings.json",
+        "sbiz365_module_cache.json",
+        "location_profile_cache.json"
+      ],
+      "recommendedVisuals": [
+        "핀 지도",
+        "점수 카드",
+        "반경 원 오버레이"
+      ]
+    },
+    {
+      "step": 3,
+      "screenId": "location_deep_dive",
+      "primaryDecision": "선택 입지의 강점과 리스크를 이해한다",
+      "mustShow": [
+        "경쟁 업소 분포",
+        "상권 밀도",
+        "업력 분포",
+        "SNS 키워드",
+        "관광/축제 이벤트",
+        "테마상권 특성",
+        "배달 경쟁도"
+      ],
+      "dataSources": [
+        "sbiz365_module_cache.json",
+        "location_profile_cache.json",
+        "sdsc2 nearby store cache"
+      ],
+      "recommendedVisuals": [
+        "경쟁 업소 레이어 지도",
+        "업력 분포 stacked bar",
+        "월별 매출 추이 line chart",
+        "SNS 키워드 chip cloud",
+        "이벤트 타임라인"
+      ]
+    },
+    {
+      "step": 4,
+      "screenId": "finance_simulator",
+      "primaryDecision": "선택 입지와 업종으로 손익이 성립하는지 본다",
+      "mustShow": [
+        "입지별 월매출/점주수익 비교",
+        "4개월 현금 흐름",
+        "손익분기 주문수",
+        "임대료 상한",
+        "배달/홀 매출 비중",
+        "민감도 시나리오"
+      ],
+      "dataSources": [
+        "finance_location_adjustments.json",
+        "simulation_rules.json",
+        "menu_economics.json",
+        "brand_benchmarks_by_category.json"
+      ],
+      "recommendedVisuals": [
+        "3개 입지 비교 bar chart",
+        "4개월 cash line chart",
+        "비용 구조 donut",
+        "손익 waterfall"
+      ]
+    },
+    {
+      "step": 5,
+      "screenId": "decision_support_report",
+      "primaryDecision": "가장 유망한 안을 선택하고 실행 준비를 확인한다",
+      "mustShow": [
+        "추천 업종/입지 이유 3줄",
+        "핵심 위험 신호",
+        "권장 메뉴 가격대",
+        "초기 투자 요약",
+        "실행 체크리스트",
+        "공식 원문 드릴다운 링크"
+      ],
+      "dataSources": [
+        "report synthesis from previous steps",
+        "sbiz365_openapi_services.json",
+        "timetable_rules.json"
+      ],
+      "recommendedVisuals": [
+        "요약 scorecard",
+        "리스크 badge",
+        "체크리스트"
+      ]
+    }
+  ],
+  "locationInsightsThatMatterMost": [
+    {
+      "insight": "동종 업소 수와 직접 경쟁 밀도",
+      "whyItHelpsFounder": "입지의 과포화 여부를 가장 직관적으로 이해시킨다",
+      "bestVisual": "반경 지도 + direct competitor count"
+    },
+    {
+      "insight": "점포당 매출 추이와 성장/하락 방향",
+      "whyItHelpsFounder": "지금 열어도 되는 시장인지 판단하게 한다",
+      "bestVisual": "12개월 line chart"
+    },
+    {
+      "insight": "배달 적합도와 배달 경쟁",
+      "whyItHelpsFounder": "배달형/혼합형 운영 전략을 선택하게 한다",
+      "bestVisual": "2축 score card"
+    },
+    {
+      "insight": "업력 분포",
+      "whyItHelpsFounder": "최근 진입/퇴출이 많은지, 안정 상권인지 보여준다",
+      "bestVisual": "stacked bar"
+    },
+    {
+      "insight": "SNS 키워드와 관광/축제 이벤트",
+      "whyItHelpsFounder": "상권의 수요 맥락과 시즌성 이유를 설명한다",
+      "bestVisual": "keyword chips + event timeline"
+    },
+    {
+      "insight": "예상 보증금/월세와 적정 임차료 상한",
+      "whyItHelpsFounder": "좋아 보이는 입지라도 손익이 맞는지 빠르게 확인하게 한다",
+      "bestVisual": "rent guardrail card"
+    }
+  ],
+  "uiUxRules": {
+    "defaultComparisonCount": 3,
+    "mapFirst": true,
+    "everyScoreMustHaveReason": true,
+    "officialSourceDrilldownRequired": true,
+    "redFlagsShouldBeActionable": true,
+    "numbersShouldBeShownWithBandAndReason": true
+  }
+}

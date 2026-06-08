@@ -1,0 +1,52 @@
+[
+  {
+    "id": "brand_franchise_stats",
+    "title": "브랜드별 가맹점 현황 조회",
+    "url": "https://apis.data.go.kr/1130000/FftcBrandFrcsStatsService/getBrandFrcsStats",
+    "status": "ok",
+    "resultCode": "00",
+    "resultMsg": "NORMAL SERVICE",
+    "totalCount": 11724,
+    "checkedAt": "2026-06-08T06:37:13.431Z"
+  },
+  {
+    "id": "brand_startup_stats",
+    "title": "브랜드별 창업금액 현황 조회",
+    "url": "https://apis.data.go.kr/1130000/FftcBrandFntnStatsService/getBrandFntnStats",
+    "status": "ok",
+    "resultCode": "00",
+    "resultMsg": "NORMAL SERVICE",
+    "totalCount": 11724,
+    "checkedAt": "2026-06-08T06:37:14.020Z"
+  },
+  {
+    "id": "area_industry_average_out",
+    "title": "지역별 외식별 평균매출액 현황 조회",
+    "url": "https://apis.data.go.kr/1130000/FftcAreaIndutyAvrStatsService/getAreaIndutyAvrOutStats",
+    "status": "ok",
+    "resultCode": "00",
+    "resultMsg": "NORMAL SERVICE",
+    "totalCount": 255,
+    "checkedAt": "2026-06-08T06:37:14.430Z"
+  },
+  {
+    "id": "industry_open_close_out",
+    "title": "주요 외식별 가맹점 개폐점 현황 조회",
+    "url": "https://apis.data.go.kr/1130000/FftcIndutyFrcsOpclStatsService/getIndutyFrcsOpclOutStats",
+    "status": "ok",
+    "resultCode": "00",
+    "resultMsg": "NORMAL SERVICE",
+    "totalCount": 5,
+    "checkedAt": "2026-06-08T06:37:15.965Z"
+  },
+  {
+    "id": "industry_fluctuation",
+    "title": "업종별 가맹점 변동현황 조회",
+    "url": "https://apis.data.go.kr/1130000/FftcindutyfrcsflctnstatService/getindutyfrcsflctnstats",
+    "status": "ok",
+    "resultCode": "00",
+    "resultMsg": "NORMAL SERVICE",
+    "totalCount": 44,
+    "checkedAt": "2026-06-08T06:37:16.318Z"
+  }
+]

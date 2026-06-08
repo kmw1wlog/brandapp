@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { PageHeader } from "@/components/branch/Common";
+import { getExperienceCategories } from "@/lib/branch/experience-data";
 import { defaultStartupInput, getRegionProfiles, getUserInputSchema, normalizeStartupInput } from "@/lib/branch/user-input";
 import { readStartupInput, saveStartupInput } from "@/lib/branch/storage/startup-flow-storage";
 import type { OpeningTarget, StartupUserInput } from "@/lib/branch/finance/finance-types";
@@ -10,7 +11,7 @@ import { formatManwon } from "@/lib/branch/finance/finance-format";
 
 const budgetOptions = [30_000_000, 50_000_000, 80_000_000];
 const incomeOptions = [3_000_000, 5_000_000, 7_000_000];
-const categories = ["고기덮밥", "카페", "분식", "도시락"];
+const categories = getExperienceCategories().map((category) => category.display_name);
 const operationTypes = ["점포형", "배달형", "점포+배달 혼합형"];
 const ownerWorkingTypes = [
   { value: "full_time", label: "풀타임 근무" },

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sns",
+    "name": "SNS 분석",
+    "route": "snsAnaly",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/snsAnaly?certKey=c9b8baf919fd5471ef16e3c067a74fdf643b7c7b5546624a48859affd9b0e587",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "검색 언급량과 키워드 분위기를 체험용 수요 신호로 표시"
+  },
+  {
+    "id": "theme",
+    "name": "테마상권 분석",
+    "route": "hpReport",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/hpReport?certKey=55b7f6e3e8d780ec44875d88f2da415aa5eb21c0a3c5e6a67ba52a1add4fe55e",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "생활인구와 테마 상권 특성을 요약"
+  },
+  {
+    "id": "weather",
+    "name": "창업기상도",
+    "route": "weather",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/weather?certKey=95001e176aea1bea143d29813ffcf80ae495f767b75762be9c2bcfb27e4691cf",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "업종 진입 위험과 성장 신호를 날씨형 지표로 표시"
+  },
+  {
+    "id": "sales_trend",
+    "name": "점포당 매출액 추이",
+    "route": "slsIdex",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/slsIdex?certKey=abf25476f31af7e82f38ce61bd3e57f2e286343bf5c897bfc6a9e4f698e0df84",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "매출 추세와 계절성 보정값을 표시"
+  },
+  {
+    "id": "store_status",
+    "name": "업소현황",
+    "route": "storSttus",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/storSttus?certKey=cd749a16e4bd3d322957ca130d030005afca30d73f0cfdc006b18a72516a392b",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "동종 업소 수와 업종 밀도를 표시"
+  },
+  {
+    "id": "business_age",
+    "name": "업력현황",
+    "route": "stcarSttus",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/stcarSttus?certKey=8e7c634e896fda5625f4915a3da916d8c5d40f37059c2446a0b96d1a49cdaaad",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "신규/장기 영업 비중을 안정성 신호로 표시"
+  },
+  {
+    "id": "map",
+    "name": "상권지도",
+    "route": "startupPublic",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/startupPublic?certKey=3a0b450af5f1377cbcfae88fa63a3c9a5c2cc3791f71f77336d924552b2636fb",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "지도형 상권 경계를 체험 패널로 연결"
+  },
+  {
+    "id": "detail",
+    "name": "상세분석",
+    "route": "detail",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/detail?certKey=0eec239dccd128e723cd803950dedb096cf8ecc29dcd5d56bd8ed5cfff0fa88a",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "종합 상세 리포트 CTA와 위험 요인을 표시"
+  },
+  {
+    "id": "delivery",
+    "name": "배달분석",
+    "route": "delivery",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/delivery?certKey=fe7bf0b9eb0102d71e54dcf9cd07c363a4510d56eed9a82f075a1528afcade2f",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "배달 수요와 경쟁 강도를 시뮬레이터 보정값으로 표시"
+  },
+  {
+    "id": "tour",
+    "name": "관광 축제 정보",
+    "route": "tour",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/tour?certKey=9dd56e575a2e7db7ea0e93ebfc262f0a6985145a75616aba02f3eff00762eff6",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "축제/관광 이벤트를 단기 매출 보너스 후보로 표시"
+  },
+  {
+    "id": "simple",
+    "name": "간단분석",
+    "route": "simple",
+    "url": "https://bigdata.sbiz.or.kr/#/openApi/simple?certKey=778d83fdeeec1660be6f3eca1835a4dad7be67f0aee9e88c30237f42ef062668",
+    "requestedAt": "2026-06-08",
+    "validUntil": "2026-09-30",
+    "appUsage": "첫 화면 적합도와 핵심 KPI 카드에 연결"
+  }
+]

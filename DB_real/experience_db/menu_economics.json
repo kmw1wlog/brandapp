@@ -1,0 +1,2312 @@
+[
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "고기덮밥",
+    "menu_name": "우삼겹 덮밥",
+    "recommended_price_band_krw": [
+      9500,
+      11200
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "제육덮밥",
+    "menu_name": "제육 덮밥",
+    "recommended_price_band_krw": [
+      9800,
+      11700
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "가라아게덮밥",
+    "menu_name": "불고기 덮밥",
+    "recommended_price_band_krw": [
+      10000,
+      12100
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "고기덮밥",
+    "menu_name": "가라아게 덮밥",
+    "recommended_price_band_krw": [
+      10300,
+      12600
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "제육덮밥",
+    "menu_name": "치킨마요 덮밥",
+    "recommended_price_band_krw": [
+      10500,
+      12900
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "가라아게덮밥",
+    "menu_name": "스테이크 덮밥",
+    "recommended_price_band_krw": [
+      10800,
+      13500
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "고기덮밥",
+    "menu_name": "명란 아보카도 덮밥",
+    "recommended_price_band_krw": [
+      11000,
+      13900
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "제육덮밥",
+    "menu_name": "매운 돼지 덮밥",
+    "recommended_price_band_krw": [
+      11300,
+      14400
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.38
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.46,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "가라아게덮밥",
+    "menu_name": "연어 덮밥",
+    "recommended_price_band_krw": [
+      11500,
+      14800
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.38
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.46,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "rice_bowl",
+    "menu_group": "고기덮밥",
+    "menu_name": "반반 고기 덮밥",
+    "recommended_price_band_krw": [
+      11800,
+      15300
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.46,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "커피",
+    "menu_name": "아메리카노",
+    "recommended_price_band_krw": [
+      4800,
+      5700
+    ],
+    "ingredient_cost_rate_band": [
+      0.24,
+      0.3
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.54,
+      0.65
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "논커피",
+    "menu_name": "카페라떼",
+    "recommended_price_band_krw": [
+      5000,
+      6000
+    ],
+    "ingredient_cost_rate_band": [
+      0.24,
+      0.3
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.54,
+      0.65
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "버블티",
+    "menu_name": "바닐라라떼",
+    "recommended_price_band_krw": [
+      5200,
+      6300
+    ],
+    "ingredient_cost_rate_band": [
+      0.24,
+      0.3
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.54,
+      0.65
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "커피",
+    "menu_name": "콜드브루",
+    "recommended_price_band_krw": [
+      5400,
+      6600
+    ],
+    "ingredient_cost_rate_band": [
+      0.25,
+      0.31
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.53,
+      0.64
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "논커피",
+    "menu_name": "말차라떼",
+    "recommended_price_band_krw": [
+      5600,
+      6900
+    ],
+    "ingredient_cost_rate_band": [
+      0.25,
+      0.31
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.53,
+      0.64
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "버블티",
+    "menu_name": "초코라떼",
+    "recommended_price_band_krw": [
+      5800,
+      7200
+    ],
+    "ingredient_cost_rate_band": [
+      0.25,
+      0.31
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.53,
+      0.64
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "커피",
+    "menu_name": "흑당 버블티",
+    "recommended_price_band_krw": [
+      6000,
+      7600
+    ],
+    "ingredient_cost_rate_band": [
+      0.25,
+      0.31
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.53,
+      0.64
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "논커피",
+    "menu_name": "타로 버블티",
+    "recommended_price_band_krw": [
+      6200,
+      7900
+    ],
+    "ingredient_cost_rate_band": [
+      0.26,
+      0.32
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.52,
+      0.63
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "버블티",
+    "menu_name": "과일 에이드",
+    "recommended_price_band_krw": [
+      6400,
+      8200
+    ],
+    "ingredient_cost_rate_band": [
+      0.26,
+      0.32
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.52,
+      0.63
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "menu_group": "커피",
+    "menu_name": "시그니처 크림라떼",
+    "recommended_price_band_krw": [
+      6600,
+      8600
+    ],
+    "ingredient_cost_rate_band": [
+      0.26,
+      0.32
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.52,
+      0.63
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "베이커리",
+    "menu_name": "소금빵",
+    "recommended_price_band_krw": [
+      6500,
+      7700
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "케이크",
+    "menu_name": "크루아상",
+    "recommended_price_band_krw": [
+      6900,
+      8200
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "빙수",
+    "menu_name": "바스크 치즈케이크",
+    "recommended_price_band_krw": [
+      7300,
+      8800
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "베이커리",
+    "menu_name": "딸기 생크림 케이크",
+    "recommended_price_band_krw": [
+      7700,
+      9400
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "케이크",
+    "menu_name": "도넛",
+    "recommended_price_band_krw": [
+      8100,
+      10000
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "빙수",
+    "menu_name": "마들렌",
+    "recommended_price_band_krw": [
+      8500,
+      10600
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "베이커리",
+    "menu_name": "휘낭시에",
+    "recommended_price_band_krw": [
+      8900,
+      11200
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "케이크",
+    "menu_name": "빙수",
+    "recommended_price_band_krw": [
+      9300,
+      11800
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "빙수",
+    "menu_name": "파운드 케이크",
+    "recommended_price_band_krw": [
+      9700,
+      12500
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "menu_group": "베이커리",
+    "menu_name": "베이글 샌드",
+    "recommended_price_band_krw": [
+      10100,
+      13100
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "백반",
+    "menu_name": "김치찌개",
+    "recommended_price_band_krw": [
+      9000,
+      10600
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "국탕찌개",
+    "menu_name": "된장찌개",
+    "recommended_price_band_krw": [
+      9400,
+      11200
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "구이",
+    "menu_name": "제육볶음",
+    "recommended_price_band_krw": [
+      9900,
+      11900
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "백반",
+    "menu_name": "불고기 정식",
+    "recommended_price_band_krw": [
+      10300,
+      12600
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "국탕찌개",
+    "menu_name": "닭갈비",
+    "recommended_price_band_krw": [
+      10700,
+      13200
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "구이",
+    "menu_name": "국밥",
+    "recommended_price_band_krw": [
+      11200,
+      14000
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "백반",
+    "menu_name": "비빔밥",
+    "recommended_price_band_krw": [
+      11600,
+      14600
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "국탕찌개",
+    "menu_name": "갈비탕",
+    "recommended_price_band_krw": [
+      12000,
+      15300
+    ],
+    "ingredient_cost_rate_band": [
+      0.36,
+      0.42
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.42,
+      0.53
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "구이",
+    "menu_name": "순두부찌개",
+    "recommended_price_band_krw": [
+      12500,
+      16100
+    ],
+    "ingredient_cost_rate_band": [
+      0.36,
+      0.42
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.42,
+      0.53
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "menu_group": "백반",
+    "menu_name": "보쌈 정식",
+    "recommended_price_band_krw": [
+      12900,
+      16800
+    ],
+    "ingredient_cost_rate_band": [
+      0.36,
+      0.42
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.42,
+      0.53
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "면류",
+    "menu_name": "짜장면",
+    "recommended_price_band_krw": [
+      9000,
+      10600
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "밥류",
+    "menu_name": "짬뽕",
+    "recommended_price_band_krw": [
+      9400,
+      11200
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "마라",
+    "menu_name": "탕수육",
+    "recommended_price_band_krw": [
+      9700,
+      11700
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "면류",
+    "menu_name": "마라탕",
+    "recommended_price_band_krw": [
+      10100,
+      12300
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "밥류",
+    "menu_name": "마라샹궈",
+    "recommended_price_band_krw": [
+      10400,
+      12800
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "마라",
+    "menu_name": "볶음밥",
+    "recommended_price_band_krw": [
+      10800,
+      13500
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "면류",
+    "menu_name": "유린기",
+    "recommended_price_band_krw": [
+      11200,
+      14100
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "밥류",
+    "menu_name": "깐풍기",
+    "recommended_price_band_krw": [
+      11500,
+      14600
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "마라",
+    "menu_name": "꿔바로우",
+    "recommended_price_band_krw": [
+      11900,
+      15300
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "menu_group": "면류",
+    "menu_name": "중화비빔밥",
+    "recommended_price_band_krw": [
+      12300,
+      16000
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "라멘",
+    "menu_name": "돈가스 정식",
+    "recommended_price_band_krw": [
+      11000,
+      13000
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "초밥",
+    "menu_name": "라멘",
+    "recommended_price_band_krw": [
+      11600,
+      13800
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "돈가스",
+    "menu_name": "가츠동",
+    "recommended_price_band_krw": [
+      12200,
+      14700
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "라멘",
+    "menu_name": "규동",
+    "recommended_price_band_krw": [
+      12700,
+      15500
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "초밥",
+    "menu_name": "초밥 세트",
+    "recommended_price_band_krw": [
+      13300,
+      16400
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "돈가스",
+    "menu_name": "우동",
+    "recommended_price_band_krw": [
+      13900,
+      17300
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "라멘",
+    "menu_name": "카레라이스",
+    "recommended_price_band_krw": [
+      14500,
+      18300
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "초밥",
+    "menu_name": "사케동",
+    "recommended_price_band_krw": [
+      15000,
+      19100
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 310,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "돈가스",
+    "menu_name": "텐동",
+    "recommended_price_band_krw": [
+      15600,
+      20100
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 370,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "menu_group": "라멘",
+    "menu_name": "모둠 사시미",
+    "recommended_price_band_krw": [
+      16200,
+      21100
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 250,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "파스타",
+    "menu_name": "마르게리타 피자",
+    "recommended_price_band_krw": [
+      12000,
+      14200
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "피자",
+    "menu_name": "페퍼로니 피자",
+    "recommended_price_band_krw": [
+      12700,
+      15200
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "그릴",
+    "menu_name": "크림 파스타",
+    "recommended_price_band_krw": [
+      13300,
+      16000
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "파스타",
+    "menu_name": "토마토 파스타",
+    "recommended_price_band_krw": [
+      14000,
+      17100
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "피자",
+    "menu_name": "스테이크",
+    "recommended_price_band_krw": [
+      14600,
+      18000
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "그릴",
+    "menu_name": "리조또",
+    "recommended_price_band_krw": [
+      15300,
+      19100
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "파스타",
+    "menu_name": "라자냐",
+    "recommended_price_band_krw": [
+      15900,
+      20000
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "피자",
+    "menu_name": "필라프",
+    "recommended_price_band_krw": [
+      16600,
+      21100
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "그릴",
+    "menu_name": "샐러드 파스타",
+    "recommended_price_band_krw": [
+      17200,
+      22100
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "menu_group": "파스타",
+    "menu_name": "피자 세트",
+    "recommended_price_band_krw": [
+      17900,
+      23300
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "떡볶이",
+    "menu_name": "떡볶이",
+    "recommended_price_band_krw": [
+      7500,
+      8900
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "김밥",
+    "menu_name": "김밥",
+    "recommended_price_band_krw": [
+      8300,
+      9900
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "치킨",
+    "menu_name": "순대",
+    "recommended_price_band_krw": [
+      9000,
+      10900
+    ],
+    "ingredient_cost_rate_band": [
+      0.28,
+      0.34
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.5,
+      0.61
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "떡볶이",
+    "menu_name": "튀김",
+    "recommended_price_band_krw": [
+      9800,
+      12000
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "김밥",
+    "menu_name": "라볶이",
+    "recommended_price_band_krw": [
+      10500,
+      12900
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "치킨",
+    "menu_name": "양념치킨",
+    "recommended_price_band_krw": [
+      11300,
+      14100
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "떡볶이",
+    "menu_name": "후라이드치킨",
+    "recommended_price_band_krw": [
+      12100,
+      15200
+    ],
+    "ingredient_cost_rate_band": [
+      0.29,
+      0.35
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.49,
+      0.6
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "김밥",
+    "menu_name": "닭강정",
+    "recommended_price_band_krw": [
+      12800,
+      16300
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "치킨",
+    "menu_name": "치킨버거 세트",
+    "recommended_price_band_krw": [
+      13600,
+      17500
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "snack_chicken",
+    "menu_group": "떡볶이",
+    "menu_name": "분식 세트",
+    "recommended_price_band_krw": [
+      14300,
+      18600
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "버거",
+    "menu_name": "클래식 버거",
+    "recommended_price_band_krw": [
+      8500,
+      10000
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "샌드위치",
+    "menu_name": "치즈버거",
+    "recommended_price_band_krw": [
+      8900,
+      10600
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "토스트",
+    "menu_name": "치킨버거",
+    "recommended_price_band_krw": [
+      9400,
+      11300
+    ],
+    "ingredient_cost_rate_band": [
+      0.3,
+      0.36
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.48,
+      0.59
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "버거",
+    "menu_name": "불고기버거",
+    "recommended_price_band_krw": [
+      9800,
+      12000
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "샌드위치",
+    "menu_name": "에그 토스트",
+    "recommended_price_band_krw": [
+      10200,
+      12600
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "토스트",
+    "menu_name": "클럽 샌드위치",
+    "recommended_price_band_krw": [
+      10700,
+      13300
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "버거",
+    "menu_name": "햄치즈 샌드위치",
+    "recommended_price_band_krw": [
+      11100,
+      14000
+    ],
+    "ingredient_cost_rate_band": [
+      0.31,
+      0.37
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.47,
+      0.58
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "샌드위치",
+    "menu_name": "BLT 샌드위치",
+    "recommended_price_band_krw": [
+      11500,
+      14600
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "토스트",
+    "menu_name": "감자튀김 세트",
+    "recommended_price_band_krw": [
+      12000,
+      15400
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "menu_group": "버거",
+    "menu_name": "아보카도 샌드",
+    "recommended_price_band_krw": [
+      12400,
+      16100
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "한식 도시락",
+    "menu_name": "제육 도시락",
+    "recommended_price_band_krw": [
+      8500,
+      10000
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "고기 도시락",
+    "menu_name": "불고기 도시락",
+    "recommended_price_band_krw": [
+      8900,
+      10600
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "샐러드 도시락",
+    "menu_name": "치킨 도시락",
+    "recommended_price_band_krw": [
+      9200,
+      11100
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "한식 도시락",
+    "menu_name": "연어 도시락",
+    "recommended_price_band_krw": [
+      9600,
+      11700
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "고기 도시락",
+    "menu_name": "돈가스 도시락",
+    "recommended_price_band_krw": [
+      9900,
+      12200
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "샐러드 도시락",
+    "menu_name": "비빔밥 도시락",
+    "recommended_price_band_krw": [
+      10300,
+      12800
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 5,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "한식 도시락",
+    "menu_name": "닭가슴살 도시락",
+    "recommended_price_band_krw": [
+      10700,
+      13500
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 7,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "고기 도시락",
+    "menu_name": "삼겹 도시락",
+    "recommended_price_band_krw": [
+      11000,
+      14000
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 9,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "샐러드 도시락",
+    "menu_name": "반찬 정식 도시락",
+    "recommended_price_band_krw": [
+      11400,
+      14700
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "menu_group": "한식 도시락",
+    "menu_name": "프리미엄 도시락",
+    "recommended_price_band_krw": [
+      11800,
+      15300
+    ],
+    "ingredient_cost_rate_band": [
+      0.35,
+      0.41
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 13,
+    "margin_rate_band": [
+      0.43,
+      0.54
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "샐러드",
+    "menu_name": "닭가슴살 샐러드",
+    "recommended_price_band_krw": [
+      9500,
+      11200
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "포케",
+    "menu_name": "연어 포케",
+    "recommended_price_band_krw": [
+      9900,
+      11800
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "그레인볼",
+    "menu_name": "참치 포케",
+    "recommended_price_band_krw": [
+      10400,
+      12500
+    ],
+    "ingredient_cost_rate_band": [
+      0.32,
+      0.38
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.46,
+      0.57
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "샐러드",
+    "menu_name": "두부 샐러드",
+    "recommended_price_band_krw": [
+      10800,
+      13200
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "포케",
+    "menu_name": "그릴드 치킨 볼",
+    "recommended_price_band_krw": [
+      11200,
+      13800
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 20,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "그레인볼",
+    "menu_name": "아보카도 샐러드",
+    "recommended_price_band_krw": [
+      11700,
+      14600
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 23,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "샐러드",
+    "menu_name": "쉬림프 포케",
+    "recommended_price_band_krw": [
+      12100,
+      15200
+    ],
+    "ingredient_cost_rate_band": [
+      0.33,
+      0.39
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 8,
+    "margin_rate_band": [
+      0.45,
+      0.56
+    ],
+    "labor_difficulty": "high"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "포케",
+    "menu_name": "비건 그레인볼",
+    "recommended_price_band_krw": [
+      12500,
+      15900
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 530,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 11,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "그레인볼",
+    "menu_name": "스테이크 샐러드",
+    "recommended_price_band_krw": [
+      13000,
+      16700
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 610,
+    "delivery_fit": "medium",
+    "cooking_time_minutes": 14,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "menu_group": "샐러드",
+    "menu_name": "콥 샐러드",
+    "recommended_price_band_krw": [
+      13400,
+      17400
+    ],
+    "ingredient_cost_rate_band": [
+      0.34,
+      0.4
+    ],
+    "packaging_cost_krw": 450,
+    "delivery_fit": "high",
+    "cooking_time_minutes": 17,
+    "margin_rate_band": [
+      0.44,
+      0.55
+    ],
+    "labor_difficulty": "high"
+  }
+]

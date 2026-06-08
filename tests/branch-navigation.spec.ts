@@ -8,6 +8,7 @@ test("main branch flow routes are reachable", async ({ page }) => {
 
   const routes = [
     "/dashboard/startup/input",
+    "/dashboard/startup/location",
     "/dashboard/startup/brand",
     "/dashboard/startup/finance",
     "/dashboard/startup/cost",

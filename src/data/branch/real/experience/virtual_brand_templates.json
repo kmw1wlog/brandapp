@@ -1,0 +1,442 @@
+[
+  {
+    "category_id": "rice_bowl",
+    "generated_brand_name_candidates": [
+      {
+        "name": "덮온",
+        "tagline": "덮밥을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "한그릇연구소",
+        "tagline": "덮밥을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "고기담다",
+        "tagline": "덮밥을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "볼앤불",
+        "tagline": "덮밥을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "덮온",
+    "default_tagline": "덮밥 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "고기덮밥 대표 메뉴 3종",
+      "제육덮밥 대표 메뉴 3종",
+      "가라아게덮밥 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 1719,
+      "monthly_sales_median_krw": 29621250,
+      "startup_cost_median_krw": 88000000
+    },
+    "template_image_ids": [
+      "rice_bowl_template_1",
+      "rice_bowl_template_2",
+      "rice_bowl_template_3",
+      "rice_bowl_template_4"
+    ]
+  },
+  {
+    "category_id": "coffee_drink",
+    "generated_brand_name_candidates": [
+      {
+        "name": "브루리프",
+        "tagline": "커피/버블티/음료을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "컵스테이",
+        "tagline": "커피/버블티/음료을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "모닝펄",
+        "tagline": "커피/버블티/음료을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "드링크룸",
+        "tagline": "커피/버블티/음료을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "브루리프",
+    "default_tagline": "커피/버블티/음료 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "커피 대표 메뉴 3종",
+      "논커피 대표 메뉴 3종",
+      "버블티 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 437,
+      "monthly_sales_median_krw": 13247917,
+      "startup_cost_median_krw": 80150000
+    },
+    "template_image_ids": [
+      "coffee_drink_template_1",
+      "coffee_drink_template_2",
+      "coffee_drink_template_3",
+      "coffee_drink_template_4"
+    ]
+  },
+  {
+    "category_id": "dessert_bakery",
+    "generated_brand_name_candidates": [
+      {
+        "name": "버터노트",
+        "tagline": "디저트/베이커리을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "스위트랙",
+        "tagline": "디저트/베이커리을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "도우하우스",
+        "tagline": "디저트/베이커리을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "크림페이지",
+        "tagline": "디저트/베이커리을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "버터노트",
+    "default_tagline": "디저트/베이커리 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "베이커리 대표 메뉴 3종",
+      "케이크 대표 메뉴 3종",
+      "빙수 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 175,
+      "monthly_sales_median_krw": 16777667,
+      "startup_cost_median_krw": 93500000
+    },
+    "template_image_ids": [
+      "dessert_bakery_template_1",
+      "dessert_bakery_template_2",
+      "dessert_bakery_template_3",
+      "dessert_bakery_template_4"
+    ]
+  },
+  {
+    "category_id": "korean_food",
+    "generated_brand_name_candidates": [
+      {
+        "name": "밥상결",
+        "tagline": "한식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "오늘한상",
+        "tagline": "한식을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "국밥기록",
+        "tagline": "한식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "정갈집",
+        "tagline": "한식을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "밥상결",
+    "default_tagline": "한식 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "백반 대표 메뉴 3종",
+      "국탕찌개 대표 메뉴 3종",
+      "구이 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 1464,
+      "monthly_sales_median_krw": 30014667,
+      "startup_cost_median_krw": 88010000
+    },
+    "template_image_ids": [
+      "korean_food_template_1",
+      "korean_food_template_2",
+      "korean_food_template_3",
+      "korean_food_template_4"
+    ]
+  },
+  {
+    "category_id": "chinese_food",
+    "generated_brand_name_candidates": [
+      {
+        "name": "웍앤면",
+        "tagline": "중식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "홍등식탁",
+        "tagline": "중식을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "마라정류장",
+        "tagline": "중식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "중화연구실",
+        "tagline": "중식을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "웍앤면",
+    "default_tagline": "중식 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "면류 대표 메뉴 3종",
+      "밥류 대표 메뉴 3종",
+      "마라 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 134,
+      "monthly_sales_median_krw": 33551958,
+      "startup_cost_median_krw": 90755000
+    },
+    "template_image_ids": [
+      "chinese_food_template_1",
+      "chinese_food_template_2",
+      "chinese_food_template_3",
+      "chinese_food_template_4"
+    ]
+  },
+  {
+    "category_id": "japanese_food",
+    "generated_brand_name_candidates": [
+      {
+        "name": "돈카츠정원",
+        "tagline": "일식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "라멘온",
+        "tagline": "일식을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "스시노트",
+        "tagline": "일식을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "카레하루",
+        "tagline": "일식을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "돈카츠정원",
+    "default_tagline": "일식 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "라멘 대표 메뉴 3종",
+      "초밥 대표 메뉴 3종",
+      "돈가스 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 255,
+      "monthly_sales_median_krw": 27876083,
+      "startup_cost_median_krw": 87700000
+    },
+    "template_image_ids": [
+      "japanese_food_template_1",
+      "japanese_food_template_2",
+      "japanese_food_template_3",
+      "japanese_food_template_4"
+    ]
+  },
+  {
+    "category_id": "western_pizza",
+    "generated_brand_name_candidates": [
+      {
+        "name": "오븐스퀘어",
+        "tagline": "양식/피자을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "파스타룸",
+        "tagline": "양식/피자을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "피자그라운드",
+        "tagline": "양식/피자을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "테이블웨스트",
+        "tagline": "양식/피자을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "오븐스퀘어",
+    "default_tagline": "양식/피자 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "파스타 대표 메뉴 3종",
+      "피자 대표 메뉴 3종",
+      "그릴 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 240,
+      "monthly_sales_median_krw": 21351334,
+      "startup_cost_median_krw": 64572500
+    },
+    "template_image_ids": [
+      "western_pizza_template_1",
+      "western_pizza_template_2",
+      "western_pizza_template_3",
+      "western_pizza_template_4"
+    ]
+  },
+  {
+    "category_id": "snack_chicken",
+    "generated_brand_name_candidates": [
+      {
+        "name": "분식정거장",
+        "tagline": "분식/치킨을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "치킨바스켓",
+        "tagline": "분식/치킨을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "떡볶이랩",
+        "tagline": "분식/치킨을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "바삭상회",
+        "tagline": "분식/치킨을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "분식정거장",
+    "default_tagline": "분식/치킨 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "떡볶이 대표 메뉴 3종",
+      "김밥 대표 메뉴 3종",
+      "치킨 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 523,
+      "monthly_sales_median_krw": 17098500,
+      "startup_cost_median_krw": 56340000
+    },
+    "template_image_ids": [
+      "snack_chicken_template_1",
+      "snack_chicken_template_2",
+      "snack_chicken_template_3",
+      "snack_chicken_template_4"
+    ]
+  },
+  {
+    "category_id": "burger_sandwich",
+    "generated_brand_name_candidates": [
+      {
+        "name": "번앤브레드",
+        "tagline": "버거/샌드위치을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "샌드스테이",
+        "tagline": "버거/샌드위치을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "버거노드",
+        "tagline": "버거/샌드위치을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "토스트랩",
+        "tagline": "버거/샌드위치을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "번앤브레드",
+    "default_tagline": "버거/샌드위치 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "버거 대표 메뉴 3종",
+      "샌드위치 대표 메뉴 3종",
+      "토스트 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 58,
+      "monthly_sales_median_krw": 19517583,
+      "startup_cost_median_krw": 84135000
+    },
+    "template_image_ids": [
+      "burger_sandwich_template_1",
+      "burger_sandwich_template_2",
+      "burger_sandwich_template_3",
+      "burger_sandwich_template_4"
+    ]
+  },
+  {
+    "category_id": "lunchbox",
+    "generated_brand_name_candidates": [
+      {
+        "name": "도시락편지",
+        "tagline": "도시락을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "런치큐브",
+        "tagline": "도시락을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "한끼박스",
+        "tagline": "도시락을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "밀데이",
+        "tagline": "도시락을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "도시락편지",
+    "default_tagline": "도시락 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "한식 도시락 대표 메뉴 3종",
+      "고기 도시락 대표 메뉴 3종",
+      "샐러드 도시락 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 2055,
+      "monthly_sales_median_krw": 27933000,
+      "startup_cost_median_krw": 86200000
+    },
+    "template_image_ids": [
+      "lunchbox_template_1",
+      "lunchbox_template_2",
+      "lunchbox_template_3",
+      "lunchbox_template_4"
+    ]
+  },
+  {
+    "category_id": "salad_poke",
+    "generated_brand_name_candidates": [
+      {
+        "name": "그린볼",
+        "tagline": "샐러드/포케을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "포케그라운드",
+        "tagline": "샐러드/포케을 지역 상권에 맞춘 소형 브랜드"
+      },
+      {
+        "name": "샐러드온",
+        "tagline": "샐러드/포케을 빠르게 회전시키는 소형 브랜드"
+      },
+      {
+        "name": "볼앤그레인",
+        "tagline": "샐러드/포케을 지역 상권에 맞춘 소형 브랜드"
+      }
+    ],
+    "default_brand_name": "그린볼",
+    "default_tagline": "샐러드/포케 업종 평균과 입지 지표로 조정한 가상 브랜드",
+    "menu_board_template": [
+      "샐러드 대표 메뉴 3종",
+      "포케 대표 메뉴 3종",
+      "그레인볼 대표 메뉴 3종"
+    ],
+    "benchmark_reference": {
+      "source_year": 2025,
+      "sample_size": 649,
+      "monthly_sales_median_krw": 23055583,
+      "startup_cost_median_krw": 81950000
+    },
+    "template_image_ids": [
+      "salad_poke_template_1",
+      "salad_poke_template_2",
+      "salad_poke_template_3",
+      "salad_poke_template_4"
+    ]
+  }
+]

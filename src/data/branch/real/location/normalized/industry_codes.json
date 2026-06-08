@@ -1,0 +1,2225 @@
+[
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G202",
+    "middleName": "자동차 부품 및 내장품 소매업",
+    "smallCode": "G20201",
+    "smallName": "타이어 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G202",
+    "middleName": "자동차 부품 및 내장품 소매업",
+    "smallCode": "G20202",
+    "smallName": "자동차 부품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G203",
+    "middleName": "모터사이클 및 부품 소매업",
+    "smallCode": "G20301",
+    "smallName": "모터사이클 및 부품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G204",
+    "middleName": "종합 소매업",
+    "smallCode": "G20404",
+    "smallName": "슈퍼마켓",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G204",
+    "middleName": "종합 소매업",
+    "smallCode": "G20405",
+    "smallName": "편의점",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G204",
+    "middleName": "종합 소매업",
+    "smallCode": "G20499",
+    "smallName": "그 외 기타 종합 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20501",
+    "smallName": "곡물/곡분 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20502",
+    "smallName": "가축 사료 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20503",
+    "smallName": "정육점",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20504",
+    "smallName": "건어물/젓갈 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20505",
+    "smallName": "수산물 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20506",
+    "smallName": "채소/과일 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20507",
+    "smallName": "아이스크림 할인점",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20508",
+    "smallName": "건강보조식품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G205",
+    "middleName": "식료품 소매업",
+    "smallCode": "G20509",
+    "smallName": "반찬/식료품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G206",
+    "middleName": "음료 소매업",
+    "smallCode": "G20601",
+    "smallName": "얼음 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G206",
+    "middleName": "음료 소매업",
+    "smallCode": "G20602",
+    "smallName": "주류 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G206",
+    "middleName": "음료 소매업",
+    "smallCode": "G20603",
+    "smallName": "생수/음료 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G206",
+    "middleName": "음료 소매업",
+    "smallCode": "G20604",
+    "smallName": "우유 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G207",
+    "middleName": "담배 소매업",
+    "smallCode": "G20701",
+    "smallName": "담배/전자담배 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G208",
+    "middleName": "가전제품 및 정보 통신장비 소매업",
+    "smallCode": "G20801",
+    "smallName": "컴퓨터/소프트웨어 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G208",
+    "middleName": "가전제품 및 정보 통신장비 소매업",
+    "smallCode": "G20802",
+    "smallName": "핸드폰 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G208",
+    "middleName": "가전제품 및 정보 통신장비 소매업",
+    "smallCode": "G20803",
+    "smallName": "가전제품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20901",
+    "smallName": "남성 의류 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20902",
+    "smallName": "여성 의류 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20903",
+    "smallName": "유아용 의류 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20904",
+    "smallName": "한복 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20905",
+    "smallName": "기타 의류 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20906",
+    "smallName": "침구류/커튼 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20907",
+    "smallName": "액세서리/잡화 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20908",
+    "smallName": "가발 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20909",
+    "smallName": "실/섬유제품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20910",
+    "smallName": "신발 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G209",
+    "middleName": "섬유, 의복, 신발 및 가죽제품 소매업",
+    "smallCode": "G20911",
+    "smallName": "가방 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G210",
+    "middleName": "철물, 공구, 창호 및 건설자재 소매업",
+    "smallCode": "G21001",
+    "smallName": "철물/공구 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G210",
+    "middleName": "철물, 공구, 창호 및 건설자재 소매업",
+    "smallCode": "G21002",
+    "smallName": "벽지/장판/마루 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G210",
+    "middleName": "철물, 공구, 창호 및 건설자재 소매업",
+    "smallCode": "G21003",
+    "smallName": "건설/건축자재 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G210",
+    "middleName": "철물, 공구, 창호 및 건설자재 소매업",
+    "smallCode": "G21099",
+    "smallName": "기타 건설/건축자재 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G211",
+    "middleName": "가구 소매업",
+    "smallCode": "G21101",
+    "smallName": "가구 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G212",
+    "middleName": "기타 생활용품 소매업",
+    "smallCode": "G21201",
+    "smallName": "전기용품/조명장치 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G212",
+    "middleName": "기타 생활용품 소매업",
+    "smallCode": "G21202",
+    "smallName": "주방/가정용품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G212",
+    "middleName": "기타 생활용품 소매업",
+    "smallCode": "G21203",
+    "smallName": "악기 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21301",
+    "smallName": "서점",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21302",
+    "smallName": "문구/회화용품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21303",
+    "smallName": "음반/비디오물 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21304",
+    "smallName": "운동용품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21305",
+    "smallName": "자전거 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G213",
+    "middleName": "문화, 오락 및 여가 용품 소매업",
+    "smallCode": "G21306",
+    "smallName": "장난감 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G214",
+    "middleName": "연료소매업",
+    "smallCode": "G21401",
+    "smallName": "주유소",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G214",
+    "middleName": "연료소매업",
+    "smallCode": "G21402",
+    "smallName": "가스 충전소",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G214",
+    "middleName": "연료소매업",
+    "smallCode": "G21403",
+    "smallName": "가정용 연료 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G215",
+    "middleName": "의약품, 의료용 기구, 화장품 및 방향제 소매업",
+    "smallCode": "G21501",
+    "smallName": "약국",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G215",
+    "middleName": "의약품, 의료용 기구, 화장품 및 방향제 소매업",
+    "smallCode": "G21502",
+    "smallName": "의료기기 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G215",
+    "middleName": "의약품, 의료용 기구, 화장품 및 방향제 소매업",
+    "smallCode": "G21503",
+    "smallName": "화장품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G216",
+    "middleName": "사무용 기기, 안경, 사진장비 및 정밀기기 소매업",
+    "smallCode": "G21601",
+    "smallName": "사무기기 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G216",
+    "middleName": "사무용 기기, 안경, 사진장비 및 정밀기기 소매업",
+    "smallCode": "G21602",
+    "smallName": "안경렌즈 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G216",
+    "middleName": "사무용 기기, 안경, 사진장비 및 정밀기기 소매업",
+    "smallCode": "G21603",
+    "smallName": "사진기/기타 광학기기 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G217",
+    "middleName": "시계 및 귀금속 소매업",
+    "smallCode": "G21701",
+    "smallName": "시계/귀금속 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G218",
+    "middleName": "예술품, 기념품 및 장식용품 소매업",
+    "smallCode": "G21801",
+    "smallName": "예술품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G218",
+    "middleName": "예술품, 기념품 및 장식용품 소매업",
+    "smallCode": "G21802",
+    "smallName": "기념품점",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G219",
+    "middleName": "화초 및 식물 소매업",
+    "smallCode": "G21901",
+    "smallName": "꽃집",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G220",
+    "middleName": "애완용 동물 및 관련용품 소매업",
+    "smallCode": "G22001",
+    "smallName": "애완동물/애완용품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G221",
+    "middleName": "기타 상품 전문 소매업",
+    "smallCode": "G22199",
+    "smallName": "그 외 기타 상품 전문 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "G2",
+    "largeName": "소매업",
+    "middleCode": "G222",
+    "middleName": "중고 상품 소매업",
+    "smallCode": "G22201",
+    "smallName": "중고 상품 소매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I101",
+    "middleName": "일반 및 생활 숙박시설 운영업",
+    "smallCode": "I10101",
+    "smallName": "호텔/리조트",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I101",
+    "middleName": "일반 및 생활 숙박시설 운영업",
+    "smallCode": "I10102",
+    "smallName": "여관/모텔",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I101",
+    "middleName": "일반 및 생활 숙박시설 운영업",
+    "smallCode": "I10103",
+    "smallName": "펜션",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I101",
+    "middleName": "일반 및 생활 숙박시설 운영업",
+    "smallCode": "I10104",
+    "smallName": "캠핑/글램핑",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I102",
+    "middleName": "기타 숙박업",
+    "smallCode": "I10201",
+    "smallName": "기숙사/고시원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I1",
+    "largeName": "숙박업",
+    "middleCode": "I102",
+    "middleName": "기타 숙박업",
+    "smallCode": "I10299",
+    "smallName": "그 외 기타 숙박업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20101",
+    "smallName": "백반/한정식",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20102",
+    "smallName": "국/탕/찌개류",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20103",
+    "smallName": "족발/보쌈",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20104",
+    "smallName": "전/부침개",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20105",
+    "smallName": "국수/칼국수",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20106",
+    "smallName": "냉면/밀면",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20107",
+    "smallName": "돼지고기 구이/찜",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20108",
+    "smallName": "소고기 구이/찜",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20109",
+    "smallName": "곱창 전골/구이",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20110",
+    "smallName": "닭/오리고기 구이/찜",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20111",
+    "smallName": "횟집",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20112",
+    "smallName": "해산물 구이/찜",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20113",
+    "smallName": "복 요리 전문",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I201",
+    "middleName": "한식 음식점업",
+    "smallCode": "I20199",
+    "smallName": "기타 한식 음식점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I202",
+    "middleName": "중식 음식점업",
+    "smallCode": "I20201",
+    "smallName": "중국집",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I202",
+    "middleName": "중식 음식점업",
+    "smallCode": "I20202",
+    "smallName": "마라탕/훠궈",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I203",
+    "middleName": "일식 음식점업",
+    "smallCode": "I20301",
+    "smallName": "일식 회/초밥",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I203",
+    "middleName": "일식 음식점업",
+    "smallCode": "I20302",
+    "smallName": "일식 카레/돈가스/덮밥",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I203",
+    "middleName": "일식 음식점업",
+    "smallCode": "I20303",
+    "smallName": "일식 면 요리",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I203",
+    "middleName": "일식 음식점업",
+    "smallCode": "I20399",
+    "smallName": "기타 일식 음식점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I204",
+    "middleName": "서양식 음식점업",
+    "smallCode": "I20401",
+    "smallName": "경양식",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I204",
+    "middleName": "서양식 음식점업",
+    "smallCode": "I20402",
+    "smallName": "파스타/스테이크",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I204",
+    "middleName": "서양식 음식점업",
+    "smallCode": "I20403",
+    "smallName": "패밀리레스토랑",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I204",
+    "middleName": "서양식 음식점업",
+    "smallCode": "I20499",
+    "smallName": "기타 서양식 음식점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I205",
+    "middleName": "동남아시아 음식점업",
+    "smallCode": "I20501",
+    "smallName": "베트남식 전문",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I205",
+    "middleName": "동남아시아 음식점업",
+    "smallCode": "I20599",
+    "smallName": "기타 동남아식 전문",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I206",
+    "middleName": "기타 외국식 음식점업",
+    "smallCode": "I20601",
+    "smallName": "분류 안된 외국식 음식점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I207",
+    "middleName": "구내식당 및 뷔페",
+    "smallCode": "I20701",
+    "smallName": "구내식당",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I207",
+    "middleName": "구내식당 및 뷔페",
+    "smallCode": "I20702",
+    "smallName": "뷔페",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21001",
+    "smallName": "빵/도넛",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21002",
+    "smallName": "떡/한과",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21003",
+    "smallName": "피자",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21004",
+    "smallName": "버거",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21005",
+    "smallName": "토스트/샌드위치/샐러드",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21006",
+    "smallName": "치킨",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21007",
+    "smallName": "김밥/만두/분식",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21008",
+    "smallName": "아이스크림/빙수",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I210",
+    "middleName": "기타 간이 음식점업",
+    "smallCode": "I21099",
+    "smallName": "그 외 기타 간이 음식점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I211",
+    "middleName": "주점업",
+    "smallCode": "I21101",
+    "smallName": "일반 유흥 주점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I211",
+    "middleName": "주점업",
+    "smallCode": "I21102",
+    "smallName": "무도 유흥 주점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I211",
+    "middleName": "주점업",
+    "smallCode": "I21103",
+    "smallName": "생맥주 전문",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I211",
+    "middleName": "주점업",
+    "smallCode": "I21104",
+    "smallName": "요리 주점",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "I2",
+    "largeName": "음식점업",
+    "middleCode": "I212",
+    "middleName": "비알코올 음료점업",
+    "smallCode": "I21201",
+    "smallName": "카페",
+    "demoFoodService": true
+  },
+  {
+    "largeCode": "L1",
+    "largeName": "부동산업",
+    "middleCode": "L102",
+    "middleName": "부동산관련 서비스업",
+    "smallCode": "L10203",
+    "smallName": "부동산 중개/대리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10301",
+    "smallName": "변호사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10302",
+    "smallName": "변리사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10303",
+    "smallName": "법무사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10306",
+    "smallName": "행정사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10307",
+    "smallName": "공인노무사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M103",
+    "middleName": "법무관련 서비스업",
+    "smallCode": "M10399",
+    "smallName": "기타 법무관련 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M104",
+    "middleName": "회계 및 세무관련 서비스업",
+    "smallCode": "M10401",
+    "smallName": "공인회계사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M104",
+    "middleName": "회계 및 세무관련 서비스업",
+    "smallCode": "M10402",
+    "smallName": "세무사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M104",
+    "middleName": "회계 및 세무관련 서비스업",
+    "smallCode": "M10499",
+    "smallName": "기타 회계 관련 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M105",
+    "middleName": "광고업",
+    "smallCode": "M10501",
+    "smallName": "광고 대행업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M105",
+    "middleName": "광고업",
+    "smallCode": "M10502",
+    "smallName": "옥외/전시 광고 대행업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M105",
+    "middleName": "광고업",
+    "smallCode": "M10503",
+    "smallName": "광고 매체 판매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M105",
+    "middleName": "광고업",
+    "smallCode": "M10504",
+    "smallName": "광고물 설계/제작업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M105",
+    "middleName": "광고업",
+    "smallCode": "M10599",
+    "smallName": "기타 광고 관련 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M106",
+    "middleName": "시장 조사 및 여론 조사업",
+    "smallCode": "M10601",
+    "smallName": "시장 조사 및 여론 조사업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M107",
+    "middleName": "회사 본부 및 경영 컨설팅 서비스업",
+    "smallCode": "M10703",
+    "smallName": "경영 컨설팅업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M109",
+    "middleName": "건축 기술, 엔지니어링 및 관련 기술 서비스업",
+    "smallCode": "M10901",
+    "smallName": "건축 설계 및 관련 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M109",
+    "middleName": "건축 기술, 엔지니어링 및 관련 기술 서비스업",
+    "smallCode": "M10902",
+    "smallName": "도시 계획 및 조경 설계 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M109",
+    "middleName": "건축 기술, 엔지니어링 및 관련 기술 서비스업",
+    "smallCode": "M10903",
+    "smallName": "건물 및 토목 엔지니어링 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M109",
+    "middleName": "건축 기술, 엔지니어링 및 관련 기술 서비스업",
+    "smallCode": "M10904",
+    "smallName": "환경 관련 엔지니어링 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M109",
+    "middleName": "건축 기술, 엔지니어링 및 관련 기술 서비스업",
+    "smallCode": "M10999",
+    "smallName": "기타 엔지니어링 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M111",
+    "middleName": "수의업",
+    "smallCode": "M11101",
+    "smallName": "동물병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M112",
+    "middleName": "전문 디자인업",
+    "smallCode": "M11201",
+    "smallName": "인테리어 디자인업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M112",
+    "middleName": "전문 디자인업",
+    "smallCode": "M11202",
+    "smallName": "제품 디자인업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M112",
+    "middleName": "전문 디자인업",
+    "smallCode": "M11203",
+    "smallName": "시각 디자인업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M112",
+    "middleName": "전문 디자인업",
+    "smallCode": "M11204",
+    "smallName": "패션/섬유/기타 전문 디자인업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M113",
+    "middleName": "사진 촬영 및 처리업",
+    "smallCode": "M11301",
+    "smallName": "사진촬영업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M114",
+    "middleName": "인쇄 및 제품 제작업",
+    "smallCode": "M11401",
+    "smallName": "명함/간판/광고물 제작",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M115",
+    "middleName": "그 외 기타 전문, 과학 및 기술 서비스업",
+    "smallCode": "M11502",
+    "smallName": "번역/통역 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "M1",
+    "largeName": "전문, 과학 및 기술 서비스업",
+    "middleCode": "M115",
+    "middleName": "그 외 기타 전문, 과학 및 기술 서비스업",
+    "smallCode": "M11504",
+    "smallName": "사업/무형 재산권 중개업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N101",
+    "middleName": "사업시설 유지ㆍ관리 서비스업",
+    "smallCode": "N10101",
+    "smallName": "사업시설 유지·관리 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N102",
+    "middleName": "건물ㆍ산업설비 청소 및 방제 서비스업",
+    "smallCode": "N10201",
+    "smallName": "건축물 일반 청소업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N102",
+    "middleName": "건물ㆍ산업설비 청소 및 방제 서비스업",
+    "smallCode": "N10202",
+    "smallName": "산업설비, 운송장비 및 공공장소 청소업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N102",
+    "middleName": "건물ㆍ산업설비 청소 및 방제 서비스업",
+    "smallCode": "N10203",
+    "smallName": "소독, 구충 및 방제 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N103",
+    "middleName": "조경관리 및 유지 서비스업",
+    "smallCode": "N10301",
+    "smallName": "조경 유지·관리 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N104",
+    "middleName": "고용 알선 및 인력 공급업",
+    "smallCode": "N10401",
+    "smallName": "고용 알선업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N104",
+    "middleName": "고용 알선 및 인력 공급업",
+    "smallCode": "N10402",
+    "smallName": "임시/일용 인력 공급업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N104",
+    "middleName": "고용 알선 및 인력 공급업",
+    "smallCode": "N10403",
+    "smallName": "상용 인력 공급 및 인사관리 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N105",
+    "middleName": "여행사 및 기타 여행 보조 서비스업",
+    "smallCode": "N10501",
+    "smallName": "여행사",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N105",
+    "middleName": "여행사 및 기타 여행 보조 서비스업",
+    "smallCode": "N10599",
+    "smallName": "기타 여행 보조/예약 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N107",
+    "middleName": "사무 지원 서비스업",
+    "smallCode": "N10703",
+    "smallName": "복사업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N107",
+    "middleName": "사무 지원 서비스업",
+    "smallCode": "N10799",
+    "smallName": "기타 사무 지원 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N108",
+    "middleName": "기타 사업 지원 서비스업",
+    "smallCode": "N10802",
+    "smallName": "전시/컨벤션/행사 대행 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N108",
+    "middleName": "기타 사업 지원 서비스업",
+    "smallCode": "N10805",
+    "smallName": "포장/충전업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N109",
+    "middleName": "운송장비 대여업",
+    "smallCode": "N10901",
+    "smallName": "자동차 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N109",
+    "middleName": "운송장비 대여업",
+    "smallCode": "N10999",
+    "smallName": "기타 운송장비 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N110",
+    "middleName": "개인 및 가정용품 대여업",
+    "smallCode": "N11001",
+    "smallName": "스포츠/레크리에이션 용품 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N110",
+    "middleName": "개인 및 가정용품 대여업",
+    "smallCode": "N11002",
+    "smallName": "음반/비디오물 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N110",
+    "middleName": "개인 및 가정용품 대여업",
+    "smallCode": "N11003",
+    "smallName": "만화방",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N110",
+    "middleName": "개인 및 가정용품 대여업",
+    "smallCode": "N11004",
+    "smallName": "의류 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N110",
+    "middleName": "개인 및 가정용품 대여업",
+    "smallCode": "N11099",
+    "smallName": "기타 개인/가정용품 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N111",
+    "middleName": "산업용 기계 및 장비 대여업",
+    "smallCode": "N11101",
+    "smallName": "건설기계/장비 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N111",
+    "middleName": "산업용 기계 및 장비 대여업",
+    "smallCode": "N11102",
+    "smallName": "컴퓨터/사무기기 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "N1",
+    "largeName": "사업시설 관리, 사업 지원 및 임대 서비스업",
+    "middleCode": "N111",
+    "middleName": "산업용 기계 및 장비 대여업",
+    "smallCode": "N11199",
+    "smallName": "기타 산업용 기계/장비 대여업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P105",
+    "middleName": "일반 교육기관",
+    "smallCode": "P10501",
+    "smallName": "입시·교과학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10601",
+    "smallName": "태권도/무술학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10603",
+    "smallName": "요가/필라테스 학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10605",
+    "smallName": "레크리에이션 교육기관",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10607",
+    "smallName": "청소년 수련시설",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10609",
+    "smallName": "음악학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10611",
+    "smallName": "미술학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10613",
+    "smallName": "기타 예술/스포츠 교육기관",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10615",
+    "smallName": "외국어학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10617",
+    "smallName": "전문자격/고시학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10619",
+    "smallName": "사회교육시설",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10621",
+    "smallName": "직원 훈련기관",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10623",
+    "smallName": "운전학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10625",
+    "smallName": "기타 기술/직업 훈련학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10627",
+    "smallName": "컴퓨터 학원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P106",
+    "middleName": "기타 교육기관",
+    "smallCode": "P10629",
+    "smallName": "그 외 기타 교육기관",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P107",
+    "middleName": "교육 지원 서비스업",
+    "smallCode": "P10701",
+    "smallName": "교육컨설팅업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "P1",
+    "largeName": "교육 서비스업",
+    "middleCode": "P107",
+    "middleName": "교육 지원 서비스업",
+    "smallCode": "P10799",
+    "smallName": "기타 교육지원 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q101",
+    "middleName": "병원",
+    "smallCode": "Q10101",
+    "smallName": "종합병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q101",
+    "middleName": "병원",
+    "smallCode": "Q10102",
+    "smallName": "일반병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q101",
+    "middleName": "병원",
+    "smallCode": "Q10103",
+    "smallName": "치과병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q101",
+    "middleName": "병원",
+    "smallCode": "Q10104",
+    "smallName": "한방병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q101",
+    "middleName": "병원",
+    "smallCode": "Q10105",
+    "smallName": "요양병원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10201",
+    "smallName": "내과/소아과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10202",
+    "smallName": "외과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10203",
+    "smallName": "신경/정신과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10204",
+    "smallName": "피부/비뇨기과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10205",
+    "smallName": "안과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10206",
+    "smallName": "이비인후과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10207",
+    "smallName": "산부인과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10208",
+    "smallName": "성형외과 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10209",
+    "smallName": "기타 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10210",
+    "smallName": "치과의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10211",
+    "smallName": "한의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q102",
+    "middleName": "의원",
+    "smallCode": "Q10212",
+    "smallName": "방사선 진단/병리 검사 의원",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "Q1",
+    "largeName": "보건의료업",
+    "middleCode": "Q104",
+    "middleName": "기타 보건업",
+    "smallCode": "Q10402",
+    "smallName": "유사 의료업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R102",
+    "middleName": "도서관, 사적지 및 유사 여가관련 서비스업",
+    "smallCode": "R10202",
+    "smallName": "독서실/스터디 카페",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10306",
+    "smallName": "종합 스포츠시설",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10307",
+    "smallName": "헬스장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10308",
+    "smallName": "수영장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10309",
+    "smallName": "볼링장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10310",
+    "smallName": "당구장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10311",
+    "smallName": "골프 연습장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10312",
+    "smallName": "테니스장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10313",
+    "smallName": "탁구장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10314",
+    "smallName": "기타 스포츠시설 운영업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R103",
+    "middleName": "스포츠 서비스업",
+    "smallCode": "R10316",
+    "smallName": "스쿼시/라켓볼장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10402",
+    "smallName": "비디오방",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10404",
+    "smallName": "전자 게임장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10405",
+    "smallName": "기타 오락장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10406",
+    "smallName": "PC방",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10407",
+    "smallName": "노래방",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10408",
+    "smallName": "낚시터 운영업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10409",
+    "smallName": "수상/해양 레저업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10410",
+    "smallName": "복권 발행/판매업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10414",
+    "smallName": "바둑/장기/체스 경기 운영업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "R1",
+    "largeName": "예술, 스포츠 및 여가관련 서비스업",
+    "middleCode": "R104",
+    "middleName": "유원지 및 기타 오락관련 서비스업",
+    "smallCode": "R10499",
+    "smallName": "기타 오락관련 서비스업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S201",
+    "middleName": "컴퓨터 및 주변 기기 수리업",
+    "smallCode": "S20101",
+    "smallName": "컴퓨터/노트북/프린터 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S202",
+    "middleName": "통신장비 수리업",
+    "smallCode": "S20201",
+    "smallName": "핸드폰/통신장비 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S203",
+    "middleName": "자동차 수리 및 세차업",
+    "smallCode": "S20301",
+    "smallName": "자동차 정비소",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S203",
+    "middleName": "자동차 수리 및 세차업",
+    "smallCode": "S20302",
+    "smallName": "자동차 세차장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S204",
+    "middleName": "모터사이클 수리업",
+    "smallCode": "S20401",
+    "smallName": "모터사이클 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S205",
+    "middleName": "가전제품 수리업",
+    "smallCode": "S20501",
+    "smallName": "가전제품 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S206",
+    "middleName": "기타 개인 및 가정용품 수리업",
+    "smallCode": "S20601",
+    "smallName": "의류/이불 수선업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S206",
+    "middleName": "기타 개인 및 가정용품 수리업",
+    "smallCode": "S20602",
+    "smallName": "가죽/가방/신발 수선업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S206",
+    "middleName": "기타 개인 및 가정용품 수리업",
+    "smallCode": "S20603",
+    "smallName": "시계/귀금속/악기 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S206",
+    "middleName": "기타 개인 및 가정용품 수리업",
+    "smallCode": "S20699",
+    "smallName": "그 외 기타 개인/가정용품 수리업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S207",
+    "middleName": "이용 및 미용업",
+    "smallCode": "S20701",
+    "smallName": "미용실",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S207",
+    "middleName": "이용 및 미용업",
+    "smallCode": "S20702",
+    "smallName": "피부 관리실",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S207",
+    "middleName": "이용 및 미용업",
+    "smallCode": "S20703",
+    "smallName": "네일숍",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S208",
+    "middleName": "욕탕, 마사지 및 기타 신체 관리 서비스업",
+    "smallCode": "S20801",
+    "smallName": "목욕탕/사우나",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S208",
+    "middleName": "욕탕, 마사지 및 기타 신체 관리 서비스업",
+    "smallCode": "S20802",
+    "smallName": "마사지/안마",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S208",
+    "middleName": "욕탕, 마사지 및 기타 신체 관리 서비스업",
+    "smallCode": "S20803",
+    "smallName": "체형/비만 관리",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S209",
+    "middleName": "세탁업",
+    "smallCode": "S20901",
+    "smallName": "세탁소",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S209",
+    "middleName": "세탁업",
+    "smallCode": "S20902",
+    "smallName": "셀프 빨래방",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S210",
+    "middleName": "장례식장 및 관련 서비스업",
+    "smallCode": "S21001",
+    "smallName": "장례식장",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S210",
+    "middleName": "장례식장 및 관련 서비스업",
+    "smallCode": "S21002",
+    "smallName": "화장터/묘지/납골당",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S211",
+    "middleName": "기타 개인서비스",
+    "smallCode": "S21101",
+    "smallName": "예식장업",
+    "demoFoodService": false
+  },
+  {
+    "largeCode": "S2",
+    "largeName": "수리 및 개인 서비스업",
+    "middleCode": "S211",
+    "middleName": "기타 개인서비스",
+    "smallCode": "S21105",
+    "smallName": "결혼 상담 서비스업",
+    "demoFoodService": false
+  }
+]

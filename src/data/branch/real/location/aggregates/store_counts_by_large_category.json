@@ -1,0 +1,52 @@
+[
+  {
+    "largeCategoryCode": "I1",
+    "largeCategoryName": "숙박",
+    "count": 71924
+  },
+  {
+    "largeCategoryCode": "M1",
+    "largeCategoryName": "과학·기술",
+    "count": 269549
+  },
+  {
+    "largeCategoryCode": "I2",
+    "largeCategoryName": "음식",
+    "count": 827828
+  },
+  {
+    "largeCategoryCode": "G2",
+    "largeCategoryName": "소매",
+    "count": 655601
+  },
+  {
+    "largeCategoryCode": "S2",
+    "largeCategoryName": "수리·개인",
+    "count": 322666
+  },
+  {
+    "largeCategoryCode": "R1",
+    "largeCategoryName": "예술·스포츠",
+    "count": 113881
+  },
+  {
+    "largeCategoryCode": "N1",
+    "largeCategoryName": "시설관리·임대",
+    "count": 108028
+  },
+  {
+    "largeCategoryCode": "Q1",
+    "largeCategoryName": "보건의료",
+    "count": 59466
+  },
+  {
+    "largeCategoryCode": "L1",
+    "largeCategoryName": "부동산",
+    "count": 105125
+  },
+  {
+    "largeCategoryCode": "P1",
+    "largeCategoryName": "교육",
+    "count": 191251
+  }
+]

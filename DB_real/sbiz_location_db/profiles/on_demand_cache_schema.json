@@ -1,0 +1,18 @@
+{
+  "cacheKey": "lat,lng:radiusMeters:smallCategoryCode:queryDate",
+  "requiredFields": [
+    "administrativeDistrict",
+    "commercialZoneNumber",
+    "sameSmallStoresInRadius",
+    "storeDensity",
+    "salesTrend",
+    "deliveryAnalysis",
+    "businessAgeDistribution",
+    "advantageSignals",
+    "cautionSignals",
+    "snsKeywords",
+    "tourismFestivalEvents",
+    "sourceTimestamp"
+  ],
+  "refreshPolicy": "same query date returns cached profile; next date may refresh SBDC/Sbiz365 data"
+}

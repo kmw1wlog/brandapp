@@ -1,0 +1,79 @@
+{
+  "endpointId": "industry_open_close_out",
+  "title": "주요 외식별 가맹점 개폐점 현황 조회",
+  "year": 2023,
+  "totalCount": 5,
+  "totalPages": 1,
+  "items": [
+    {
+      "yr": "2023",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "분식",
+      "allFrcsCnt": 12064,
+      "newFrcsRgsCnt": 2149,
+      "newFrcsRt": 17.81,
+      "bfyrNewFrcsRt": 31.74,
+      "bfyrVersusNewDffrncRt": -13.93,
+      "endCncltnFrcsCnt": 2197,
+      "endCncltnRt": 18.21,
+      "bfyrVersusEndCncltnRt": 14.96,
+      "bfyrVersusDffrncRt": 3.25
+    },
+    {
+      "yr": "2023",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "기타 외식",
+      "allFrcsCnt": 19080,
+      "newFrcsRgsCnt": 4953,
+      "newFrcsRt": 25.96,
+      "bfyrNewFrcsRt": 28.29,
+      "bfyrVersusNewDffrncRt": -2.34,
+      "endCncltnFrcsCnt": 3492,
+      "endCncltnRt": 18.3,
+      "bfyrVersusEndCncltnRt": 15.13,
+      "bfyrVersusDffrncRt": 3.17
+    },
+    {
+      "yr": "2023",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "커피",
+      "allFrcsCnt": 20652,
+      "newFrcsRgsCnt": 5021,
+      "newFrcsRt": 24.31,
+      "bfyrNewFrcsRt": 24.96,
+      "bfyrVersusNewDffrncRt": -0.65,
+      "endCncltnFrcsCnt": 2026,
+      "endCncltnRt": 9.81,
+      "bfyrVersusEndCncltnRt": 7.33,
+      "bfyrVersusDffrncRt": 2.48
+    },
+    {
+      "yr": "2023",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "치킨",
+      "allFrcsCnt": 24740,
+      "newFrcsRgsCnt": 3787,
+      "newFrcsRt": 15.31,
+      "bfyrNewFrcsRt": 18.44,
+      "bfyrVersusNewDffrncRt": -3.13,
+      "endCncltnFrcsCnt": 3686,
+      "endCncltnRt": 14.9,
+      "bfyrVersusEndCncltnRt": 14.06,
+      "bfyrVersusDffrncRt": 0.84
+    },
+    {
+      "yr": "2023",
+      "indutyLclasNm": "외식",
+      "indutyMlsfcNm": "한식",
+      "allFrcsCnt": 34897,
+      "newFrcsRgsCnt": 10530,
+      "newFrcsRt": 30.17,
+      "bfyrNewFrcsRt": 33.75,
+      "bfyrVersusNewDffrncRt": -3.58,
+      "endCncltnFrcsCnt": 6775,
+      "endCncltnRt": 19.41,
+      "bfyrVersusEndCncltnRt": 14.41,
+      "bfyrVersusDffrncRt": 5
+    }
+  ]
+}

@@ -4,6 +4,7 @@ export default async function globalSetup() {
   const baseURL = process.env.BASE_URL ?? "http://localhost:3003";
   const routes = [
     "/dashboard/startup/input",
+    "/dashboard/startup/location",
     "/dashboard/startup/new",
     "/dashboard/startup/brand",
     "/dashboard/startup/finance",
