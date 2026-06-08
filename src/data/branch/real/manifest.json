@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T13:30:51.764Z",
+  "generatedAt": "2026-06-08T13:50:03.504Z",
   "sourceRoots": [
     "DB_real/branch_supplier_db",
     "DB_real/collected_brand",
@@ -7,7 +7,8 @@
     "DB_real/ftc_franchise_db",
     "DB_real/sbiz_location_db",
     "DB_real/experience_db",
-    "DB_real/franchise_resolved_brands"
+    "DB_real/franchise_resolved_brands",
+    "DB_real/franchise_collected_categories"
   ],
   "counts": {
     "franchiseBrandCount": 10,
@@ -19,6 +20,7 @@
     "sbizStoreCount": 2725319,
     "sbizFoodServiceStoreCount": 827828,
     "experienceCategoryCount": 11,
-    "experienceImageTemplateCount": 44
+    "experienceImageTemplateCount": 44,
+    "collectedFranchiseBrandCount": 60
   }
 }

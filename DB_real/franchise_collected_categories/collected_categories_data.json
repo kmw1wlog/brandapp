@@ -1,0 +1,4419 @@
+[
+  {
+    "brand_name": "메가엠지씨커피",
+    "category_id": "coffee",
+    "category_name": "커피",
+    "source_url": "https://myfranchise.kr/20160628/%EB%A9%94%EA%B0%80%EC%97%A0%EC%A7%80%EC%94%A8%EC%BB%A4%ED%94%BC-MEGA-MGC-COFFEE-",
+    "overview": {
+      "monthly_average_sales_str": "3,237만원",
+      "monthly_average_sales_num": 32370000,
+      "main_menu": "커피, 스무디, 주스",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "아메리카노",
+        "price": "1,700원"
+      },
+      {
+        "menu_name": "아이스아메리카노",
+        "price": "2,000원"
+      },
+      {
+        "menu_name": "플레인퐁크러쉬",
+        "price": "3,900원"
+      },
+      {
+        "menu_name": "딸기라떼",
+        "price": "3,700원"
+      },
+      {
+        "menu_name": "코코넛커피스무디",
+        "price": "4,800원"
+      },
+      {
+        "menu_name": "메가에이드",
+        "price": "3,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 84760000,
+      "total_max": 164760000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "1,400만원",
+      "interior_cost_num": 14000000,
+      "signboard_cost_str": "511만원",
+      "signboard_cost_num": 5110000,
+      "kitchen_equipment_cost_str": "3,244만원",
+      "kitchen_equipment_cost_num": 32440000,
+      "initial_goods_cost_str": "700만원",
+      "initial_goods_cost_num": 7000000,
+      "other_cost_str": "2,500만원 ~ 3,000만원",
+      "other_cost_num": 25000000,
+      "rent_deposit_str": "1,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2026.01.28 정보공개서",
+      "active_stores": 4212,
+      "direct_stores": 45,
+      "yearly_openings": 657,
+      "yearly_closings": 13,
+      "yearly_transfers": 441,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 15400000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 44570000
+    },
+    "headquarters": {
+      "company_name": "(주)엠지씨글로벌",
+      "business_start_date": "2010.12.01",
+      "representative": "",
+      "address": "우 : 06114 서울특별시 강남구 강남대로 518 11층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "컴포즈커피",
+    "category_id": "coffee",
+    "category_name": "커피",
+    "source_url": "https://myfranchise.kr/20141250/%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%BB%A4%ED%94%BC-COMPOSE-COFFEE-",
+    "overview": {
+      "monthly_average_sales_str": "2,265만원",
+      "monthly_average_sales_num": 22650000,
+      "main_menu": "커피, 스무디, 에스프레소",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "500만원",
+      "benefits_num": 5000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "아메리카노",
+        "price": "1,500원"
+      },
+      {
+        "menu_name": "까페라떼",
+        "price": "2,900원"
+      },
+      {
+        "menu_name": "벨지움생초콜릿라떼",
+        "price": "4,500원"
+      },
+      {
+        "menu_name": "블루레몬에이드",
+        "price": "3,500원"
+      },
+      {
+        "menu_name": "달고나라떼",
+        "price": "4,000원"
+      },
+      {
+        "menu_name": "자몽에이드",
+        "price": "3,500원"
+      },
+      {
+        "menu_name": "사과생크림와플",
+        "price": "3,000원"
+      },
+      {
+        "menu_name": "패션후르츠에이드",
+        "price": "3,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 82000000,
+      "total_max": 157000000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "200만원",
+      "education_fee_num": 2000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "1,800만원",
+      "interior_cost_num": 18000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "3,500만원",
+      "kitchen_equipment_cost_num": 35000000,
+      "initial_goods_cost_str": "700만원",
+      "initial_goods_cost_num": 7000000,
+      "other_cost_str": "1,000만원 ~ 2,500만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "50만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.11.28 정보공개서",
+      "active_stores": 3072,
+      "direct_stores": 6,
+      "yearly_openings": 311,
+      "yearly_closings": 32,
+      "yearly_transfers": 381,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 29150000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 41630000
+    },
+    "headquarters": {
+      "company_name": "(주)컴포즈커피",
+      "business_start_date": "2021.11.01",
+      "representative": "",
+      "address": "우 : 48059 부산광역시 해운대구 센텀중앙로 48 812호, 813호, 814호",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "빽다방",
+    "category_id": "coffee",
+    "category_name": "커피",
+    "source_url": "https://myfranchise.kr/20090100502/%EB%B9%BD%EB%8B%A4%EB%B0%A9",
+    "overview": {
+      "monthly_average_sales_str": "2,704만원",
+      "monthly_average_sales_num": 27040000,
+      "main_menu": "커피, 주스, 아이스크림",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "아메리카노(HOT)",
+        "price": "1,700원"
+      },
+      {
+        "menu_name": "아메리카노(ICED)",
+        "price": "2,000원"
+      },
+      {
+        "menu_name": "원조커피",
+        "price": "2,500원"
+      },
+      {
+        "menu_name": "카페라떼",
+        "price": "3,200원"
+      },
+      {
+        "menu_name": "아이스티샷추가(아.샷.추)",
+        "price": "3,400원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 68220000,
+      "total_max": 198220000,
+      "franchise_fee_str": "없음",
+      "franchise_fee_num": 0,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "150만원",
+      "security_deposit_num": 1500000,
+      "interior_cost_str": "1,520만원",
+      "interior_cost_num": 15200000,
+      "signboard_cost_str": "489만원",
+      "signboard_cost_num": 4890000,
+      "kitchen_equipment_cost_str": "3,787만원",
+      "kitchen_equipment_cost_num": 37870000,
+      "initial_goods_cost_str": "246만원",
+      "initial_goods_cost_num": 2460000,
+      "other_cost_str": "1,000만원 ~ 3,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "3,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.11.21 정보공개서",
+      "active_stores": 1845,
+      "direct_stores": 0,
+      "yearly_openings": 286,
+      "yearly_closings": 23,
+      "yearly_transfers": 149,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 0,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 1500000,
+      "startup_cost_interior": 16720000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 51550000
+    },
+    "headquarters": {
+      "company_name": "(주)더본코리아",
+      "business_start_date": "1994.01.21",
+      "representative": "",
+      "address": "우 : 06119 서울특별시 강남구 봉은사로1길 39 5층~6층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "더벤티",
+    "category_id": "coffee",
+    "category_name": "커피",
+    "source_url": "https://myfranchise.kr/20140722/%EB%8D%94%EB%B2%A4%ED%8B%B0",
+    "overview": {
+      "monthly_average_sales_str": "1,845만원",
+      "monthly_average_sales_num": 18450000,
+      "main_menu": "커피, 티, 크로플",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "3,997만원",
+      "benefits_num": 39970000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "아메리카노(HOT)",
+        "price": "1,500원"
+      },
+      {
+        "menu_name": "아이스 아메리카노",
+        "price": "1,800원"
+      },
+      {
+        "menu_name": "카페라떼(HOT/ICED)",
+        "price": "2,700원"
+      },
+      {
+        "menu_name": "코코밀크프라페(ICED ONLY)",
+        "price": "3,900원"
+      },
+      {
+        "menu_name": "사딸비(사과/딸기/비트)",
+        "price": "4,300원"
+      },
+      {
+        "menu_name": "오사당(오렌지/사과/당근)",
+        "price": "4,300원"
+      },
+      {
+        "menu_name": "흑설탕 버블티(ICED ONLY)",
+        "price": "3,900원"
+      },
+      {
+        "menu_name": "메론소다",
+        "price": "3,900원"
+      },
+      {
+        "menu_name": "크림소다",
+        "price": "3,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 68810000,
+      "total_max": 148810000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "500만원",
+      "security_deposit_num": 5000000,
+      "interior_cost_str": "2,660만원",
+      "interior_cost_num": 26600000,
+      "signboard_cost_str": "900만원",
+      "signboard_cost_num": 9000000,
+      "kitchen_equipment_cost_str": "531만원",
+      "kitchen_equipment_cost_num": 5310000,
+      "initial_goods_cost_str": "550만원",
+      "initial_goods_cost_num": 5500000,
+      "other_cost_str": "500만원 ~ 3,000만원",
+      "other_cost_num": 5000000,
+      "rent_deposit_str": "1,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2026.02.10 정보공개서",
+      "active_stores": 1239,
+      "direct_stores": 14,
+      "yearly_openings": 173,
+      "yearly_closings": 72,
+      "yearly_transfers": 182,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 17600000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 49430000
+    },
+    "headquarters": {
+      "company_name": "(주)에스앤씨세인",
+      "business_start_date": "2015.07.22",
+      "representative": "",
+      "address": "우 : 48058 부산광역시 해운대구 센텀서로 30 25층 2507호(우동, 케이엔엔타워)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "설빙",
+    "category_id": "dessert",
+    "category_name": "디저트",
+    "source_url": "https://myfranchise.kr/20130249/%EC%84%A4%EB%B9%99",
+    "overview": {
+      "monthly_average_sales_str": "3,644만원",
+      "monthly_average_sales_num": 36440000,
+      "main_menu": "커피, 빙수, 기타 디저트",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "인절미 설빙",
+        "price": "9,500원"
+      },
+      {
+        "menu_name": "애플망고치즈설빙",
+        "price": "13,900원"
+      },
+      {
+        "menu_name": "인절미토스트",
+        "price": "4,800원"
+      },
+      {
+        "menu_name": "아메리카노",
+        "price": "3,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 173770000,
+      "total_max": 573770000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "500만원",
+      "security_deposit_num": 5000000,
+      "interior_cost_str": "5,550만원",
+      "interior_cost_num": 55500000,
+      "signboard_cost_str": "1,200만원",
+      "signboard_cost_num": 12000000,
+      "kitchen_equipment_cost_str": "6,300만원",
+      "kitchen_equipment_cost_num": 63000000,
+      "initial_goods_cost_str": "700만원",
+      "initial_goods_cost_num": 7000000,
+      "other_cost_str": "1억 5,000만원 ~ 2억원",
+      "other_cost_num": 100000000,
+      "rent_deposit_str": "3,000만원 ~ 2억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2026.05.08 정보공개서",
+      "active_stores": 608,
+      "direct_stores": 9,
+      "yearly_openings": 43,
+      "yearly_closings": 11,
+      "yearly_transfers": 20,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 75900000,
+      "startup_cost_interior_size": "132㎡(40평) 기준",
+      "startup_cost_other": 0
+    },
+    "headquarters": {
+      "company_name": "(주)설빙",
+      "business_start_date": "2013.08.21",
+      "representative": "",
+      "address": "우 : 04527 서울특별시 중구 소월로 10 5층(남대문로5가,단암빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "배스킨라빈스",
+    "category_id": "dessert",
+    "category_name": "디저트",
+    "source_url": "https://myfranchise.kr/20080500015/%EB%B0%B0%EC%8A%A4%ED%82%A8%EB%9D%BC%EB%B9%88%EC%8A%A4",
+    "overview": {
+      "monthly_average_sales_str": "4,383만원",
+      "monthly_average_sales_num": 43830000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "165만원",
+      "education_fee_num": 1650000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "disclosure_reference": "2026.03.16 정보공개서",
+      "active_stores": 1750,
+      "direct_stores": 0,
+      "yearly_openings": 44,
+      "yearly_closings": 25,
+      "yearly_transfers": 78,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 8800000,
+      "startup_cost_education": 1650000,
+      "startup_cost_deposit": 40000000,
+      "startup_cost_interior": 80000000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 148500000
+    },
+    "headquarters": {
+      "company_name": "비알코리아(주)",
+      "business_start_date": "1986.03.31",
+      "representative": "",
+      "address": "우 : 27651 충청북도 음성군 삼성면 금일로 955-25 비알코리아(주)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "요거프레소",
+    "category_id": "dessert",
+    "category_name": "디저트",
+    "source_url": "https://myfranchise.kr/20080100635/%EC%9A%94%EA%B1%B0%ED%94%84%EB%A0%88%EC%86%8C",
+    "overview": {
+      "monthly_average_sales_str": "900만",
+      "monthly_average_sales_num": 9000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "550만원",
+      "education_fee_num": 5500000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "900만",
+      "monthly_average_sales_num": 9000000,
+      "disclosure_reference": "2025.12.05 정보공개서",
+      "active_stores": 225,
+      "direct_stores": 0,
+      "yearly_openings": 1,
+      "yearly_closings": 68,
+      "yearly_transfers": 16,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 22000000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 41900000
+    },
+    "headquarters": {
+      "company_name": "(주)현진홀딩스",
+      "business_start_date": "2007.11.20",
+      "representative": "",
+      "address": "우 : 04038 서울특별시 마포구 양화로 122 B1(서교동,LAB7)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "와플대학",
+    "category_id": "dessert",
+    "category_name": "디저트",
+    "source_url": "https://myfranchise.kr/20141237/%EC%99%80%ED%94%8C%EB%8C%80%ED%95%99",
+    "overview": {
+      "monthly_average_sales_str": "1,380만원",
+      "monthly_average_sales_num": 13800000,
+      "main_menu": "와플, 커피, 아이스크림",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "애플 시나몬 와플",
+        "price": "2,900원"
+      },
+      {
+        "menu_name": "크림와플",
+        "price": "2,300원"
+      },
+      {
+        "menu_name": "딸기 누텔라 와플",
+        "price": "4,500원"
+      },
+      {
+        "menu_name": "초코범벅 젤라또 와플",
+        "price": "5,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 58000000,
+      "total_max": 78000000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "1,800만원",
+      "interior_cost_num": 18000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "1,800만원",
+      "kitchen_equipment_cost_num": 18000000,
+      "initial_goods_cost_str": "500만원",
+      "initial_goods_cost_num": 5000000,
+      "other_cost_str": "1,100만원 ~ 2,000만원",
+      "other_cost_num": 11000000,
+      "rent_deposit_str": "없음"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "disclosure_reference": "2025.12.31 정보공개서",
+      "active_stores": 336,
+      "direct_stores": 4,
+      "yearly_openings": 19,
+      "yearly_closings": 61,
+      "yearly_transfers": 40,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 19800000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 24150000
+    },
+    "headquarters": {
+      "company_name": "(주)와플대학",
+      "business_start_date": "2022.02.03",
+      "representative": "",
+      "address": "우 : 04320 서울특별시 용산구 한강대로 325 1층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "파리바게뜨",
+    "category_id": "bakery",
+    "category_name": "베이커리",
+    "source_url": "https://myfranchise.kr/20080200064/%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8",
+    "overview": {
+      "monthly_average_sales_str": "5,879만원",
+      "monthly_average_sales_num": 58790000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "540만원",
+      "education_fee_num": 5400000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "disclosure_reference": "2026.02.02 정보공개서",
+      "active_stores": 3327,
+      "direct_stores": 25,
+      "yearly_openings": 52,
+      "yearly_closings": 114,
+      "yearly_transfers": 237,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 13000000,
+      "startup_cost_education": 5400000,
+      "startup_cost_deposit": 20000000,
+      "startup_cost_interior": 75500000,
+      "startup_cost_interior_size": "99㎡(30평) 기준",
+      "startup_cost_other": 166700000
+    },
+    "headquarters": {
+      "company_name": "(주)파리크라상",
+      "business_start_date": "2026.01.01",
+      "representative": "",
+      "address": "우 : 13220 경기도 성남시 중원구 사기막골로31번길 18 (상대원동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "뚜레쥬르",
+    "category_id": "bakery",
+    "category_name": "베이커리",
+    "source_url": "https://myfranchise.kr/20080100039/%EB%9A%9C%EB%A0%88%EC%A5%AC%EB%A5%B4",
+    "overview": {
+      "monthly_average_sales_str": "4,829만원",
+      "monthly_average_sales_num": 48290000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "275만원",
+      "education_fee_num": 2750000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2026.01.20 정보공개서",
+      "active_stores": 1307,
+      "direct_stores": 19,
+      "yearly_openings": 76,
+      "yearly_closings": 76,
+      "yearly_transfers": 76,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 14300000,
+      "startup_cost_education": 2750000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 101200000,
+      "startup_cost_interior_size": "132㎡(40평) 기준",
+      "startup_cost_other": 225500000
+    },
+    "headquarters": {
+      "company_name": "씨제이푸드빌(주)",
+      "business_start_date": "2000.07.01",
+      "representative": "",
+      "address": "우 : 04555 서울특별시 중구 마른내로 34 케이티앤지 을지로타워 (초동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "던킨",
+    "category_id": "bakery",
+    "category_name": "베이커리",
+    "source_url": "https://myfranchise.kr/20080500016/%EB%8D%98%ED%82%A8-%EB%8D%98%ED%82%A8%EB%8F%84%EB%84%88%EC%B8%A0",
+    "overview": {
+      "monthly_average_sales_str": "2,839만원",
+      "monthly_average_sales_num": 28390000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "165만원",
+      "education_fee_num": 1650000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2026.03.16 정보공개서",
+      "active_stores": 616,
+      "direct_stores": 45,
+      "yearly_openings": 34,
+      "yearly_closings": 49,
+      "yearly_transfers": 40,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 8800000,
+      "startup_cost_education": 1650000,
+      "startup_cost_deposit": 40000000,
+      "startup_cost_interior": 73000000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 124500000
+    },
+    "headquarters": {
+      "company_name": "비알코리아(주)",
+      "business_start_date": "1986.03.31",
+      "representative": "",
+      "address": "우 : 27651 충청북도 음성군 삼성면 금일로 955-25 비알코리아(주)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "홍루이젠",
+    "category_id": "bakery",
+    "category_name": "베이커리",
+    "source_url": "https://myfranchise.kr/20180512/%ED%99%8D%EB%A3%A8%EC%9D%B4%EC%A0%A0",
+    "overview": {
+      "monthly_average_sales_str": "629만원",
+      "monthly_average_sales_num": 6290000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "220만원",
+      "education_fee_num": 2200000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.12.09 정보공개서",
+      "active_stores": 120,
+      "direct_stores": 1,
+      "yearly_openings": 7,
+      "yearly_closings": 33,
+      "yearly_transfers": 5,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 12100000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 27500000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 30500000
+    },
+    "headquarters": {
+      "company_name": "(주)타이웨이",
+      "business_start_date": "2017.11.10",
+      "representative": "",
+      "address": "우 : 10564 경기도 고양시 덕양구 삼송로 12 7층 701호 702호",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "본죽&비빔밥",
+    "category_id": "korean",
+    "category_name": "한식",
+    "source_url": "https://myfranchise.kr/20141221/%EB%B3%B8%EC%A3%BD-%EB%B9%84%EB%B9%94%EB%B0%A5",
+    "overview": {
+      "monthly_average_sales_str": "2,731만원",
+      "monthly_average_sales_num": 27310000,
+      "main_menu": "비빔밥",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "전복죽",
+        "price": "130,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 91980000,
+      "total_max": 171980000,
+      "franchise_fee_str": "1,120만원",
+      "franchise_fee_num": 11200000,
+      "education_fee_str": "600만원",
+      "education_fee_num": 6000000,
+      "security_deposit_str": "300만원",
+      "security_deposit_num": 3000000,
+      "interior_cost_str": "3,000만원",
+      "interior_cost_num": 30000000,
+      "signboard_cost_str": "724만원",
+      "signboard_cost_num": 7240000,
+      "kitchen_equipment_cost_str": "2,079만원",
+      "kitchen_equipment_cost_num": 20790000,
+      "initial_goods_cost_str": "950만원",
+      "initial_goods_cost_num": 9500000,
+      "other_cost_str": "1,000원 ~ 2,500원",
+      "other_cost_num": 0,
+      "rent_deposit_str": "1,000만원 ~ 8,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.12.29 정보공개서",
+      "active_stores": 1150,
+      "direct_stores": 1,
+      "yearly_openings": 152,
+      "yearly_closings": 5,
+      "yearly_transfers": 78,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 12320000,
+      "startup_cost_education": 6600000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 41250000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 38980000
+    },
+    "headquarters": {
+      "company_name": "본아이에프(주)",
+      "business_start_date": "2004.07.20",
+      "representative": "",
+      "address": "우 : 07268 서울특별시 영등포구 선유로 165 (양평동3가)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "놀부부대찌개",
+    "category_id": "korean",
+    "category_name": "한식",
+    "source_url": "https://myfranchise.kr/brands/1609",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "두찜",
+    "category_id": "korean",
+    "category_name": "한식",
+    "source_url": "https://myfranchise.kr/20160858/%EB%91%90%EC%B0%9C",
+    "overview": {
+      "monthly_average_sales_str": "4,804만원",
+      "monthly_average_sales_num": 48040000,
+      "main_menu": "찜닭, 닭볶음탕, 닭발",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "매운갈비찜닭",
+        "price": "34,800원"
+      },
+      {
+        "menu_name": "실비한우곱찜닭",
+        "price": "34,800원"
+      },
+      {
+        "menu_name": "불닭로제찜닭",
+        "price": "32,800원"
+      },
+      {
+        "menu_name": "마라로제찜닭",
+        "price": "32,800원"
+      },
+      {
+        "menu_name": "까만/빨간찜닭",
+        "price": "26,800원"
+      },
+      {
+        "menu_name": "묵은지찜닭",
+        "price": "30,800원"
+      },
+      {
+        "menu_name": "시래기찜닭",
+        "price": "30,800원"
+      },
+      {
+        "menu_name": "닭볶음탕",
+        "price": "30,800원"
+      },
+      {
+        "menu_name": "한우대창맵닭발",
+        "price": "28,800원"
+      },
+      {
+        "menu_name": "로제닭발",
+        "price": "27,800원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 27010000,
+      "total_max": 45010000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "예상 창업 비용",
+      "education_fee_num": 0,
+      "security_deposit_str": "300만원",
+      "security_deposit_num": 3000000,
+      "interior_cost_str": "673만원",
+      "interior_cost_num": 6730000,
+      "signboard_cost_str": "150만원",
+      "signboard_cost_num": 1500000,
+      "kitchen_equipment_cost_str": "757만원",
+      "kitchen_equipment_cost_num": 7570000,
+      "initial_goods_cost_str": "128만원",
+      "initial_goods_cost_num": 1280000,
+      "other_cost_str": "10만원 ~ 300만원",
+      "other_cost_num": 100000,
+      "rent_deposit_str": "500만원 ~ 1,500만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2026.01.28 정보공개서",
+      "active_stores": 641,
+      "direct_stores": 0,
+      "yearly_openings": 48,
+      "yearly_closings": 37,
+      "yearly_transfers": 79,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 12500000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 12210000
+    },
+    "headquarters": {
+      "company_name": "(주)기영에프앤비",
+      "business_start_date": "2017.08.21",
+      "representative": "",
+      "address": "우 : 06272 서울특별시 강남구 도곡로 212 기영빌딩",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "채선당",
+    "category_id": "korean",
+    "category_name": "한식",
+    "source_url": "https://myfranchise.kr/20080100111/%EC%B1%84%EC%84%A0%EB%8B%B9",
+    "overview": {
+      "monthly_average_sales_str": "4,610만원",
+      "monthly_average_sales_num": 46100000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "1,100만원",
+      "education_fee_num": 11000000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "disclosure_reference": "2025.11.28 정보공개서",
+      "active_stores": 146,
+      "direct_stores": 1,
+      "yearly_openings": 19,
+      "yearly_closings": 26,
+      "yearly_transfers": 10,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 11000000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 281160000,
+      "startup_cost_interior_size": "396㎡(119평) 기준",
+      "startup_cost_other": 66120000
+    },
+    "headquarters": {
+      "company_name": "(주)채선당",
+      "business_start_date": "2005.01.01",
+      "representative": "",
+      "address": "우 : 12128 경기도 남양주시 진건읍 독정로성지3길 30 201호",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "홍콩반점0410",
+    "category_id": "chinese",
+    "category_name": "중식",
+    "source_url": "https://myfranchise.kr/20080100210/%ED%99%8D%EC%BD%A9%EB%B0%98%EC%A0%900410",
+    "overview": {
+      "monthly_average_sales_str": "6,161만원",
+      "monthly_average_sales_num": 61610000,
+      "main_menu": "짜장면, 짬뽕, 탕수육",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "690만원",
+      "benefits_num": 6900000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "짜장면",
+        "price": "6,500원"
+      },
+      {
+        "menu_name": "짬뽕",
+        "price": "7,800원"
+      },
+      {
+        "menu_name": "탕수육",
+        "price": "16,800원"
+      },
+      {
+        "menu_name": "짜장밥",
+        "price": "8,500원"
+      },
+      {
+        "menu_name": "고추짜장",
+        "price": "8,000원"
+      },
+      {
+        "menu_name": "고추짬뽕",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "고기짜장",
+        "price": "8,500원"
+      },
+      {
+        "menu_name": "고기짬뽕",
+        "price": "9,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 135500000,
+      "total_max": 165500000,
+      "franchise_fee_str": "200만원",
+      "franchise_fee_num": 2000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "5,100만원",
+      "interior_cost_num": 51000000,
+      "signboard_cost_str": "350만원",
+      "signboard_cost_num": 3500000,
+      "kitchen_equipment_cost_str": "2,700만원",
+      "kitchen_equipment_cost_num": 27000000,
+      "initial_goods_cost_str": "400만원",
+      "initial_goods_cost_num": 4000000,
+      "other_cost_str": "0원 ~ 1,000만원",
+      "other_cost_num": 0,
+      "rent_deposit_str": "500만원 ~ 2,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "disclosure_reference": "2025.11.21 정보공개서",
+      "active_stores": 293,
+      "direct_stores": 0,
+      "yearly_openings": 18,
+      "yearly_closings": 7,
+      "yearly_transfers": 24,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 2200000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 51000000,
+      "startup_cost_interior_size": "99㎡(30평) 기준",
+      "startup_cost_other": 45110000
+    },
+    "headquarters": {
+      "company_name": "(주)더본코리아",
+      "business_start_date": "1994.01.21",
+      "representative": "",
+      "address": "우 : 06119 서울특별시 강남구 봉은사로1길 39 5층~6층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "보배반점",
+    "category_id": "chinese",
+    "category_name": "중식",
+    "source_url": "https://myfranchise.kr/20181340/%EB%B3%B4%EB%B0%B0%EB%B0%98%EC%A0%90",
+    "overview": {
+      "monthly_average_sales_str": "8,884만원",
+      "monthly_average_sales_num": 88840000,
+      "main_menu": "짜장면, 짬뽕, 탕수육",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "50만원",
+      "benefits_num": 500000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "소고기짬뽕",
+        "price": "11,000원"
+      },
+      {
+        "menu_name": "해물짬뽕",
+        "price": "11,000원"
+      },
+      {
+        "menu_name": "해물간짜장",
+        "price": "10,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 124000000,
+      "total_max": 244000000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "5,100만원",
+      "interior_cost_num": 51000000,
+      "signboard_cost_str": "1,000만원",
+      "signboard_cost_num": 10000000,
+      "kitchen_equipment_cost_str": "3,000만원",
+      "kitchen_equipment_cost_num": 30000000,
+      "initial_goods_cost_str": "600만원",
+      "initial_goods_cost_num": 6000000,
+      "other_cost_str": "1,000만원 ~ 4,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "2,000만원 ~ 8,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "9천만",
+      "monthly_average_sales_num": 90000000,
+      "disclosure_reference": "2026.01.07 정보공개서",
+      "active_stores": 204,
+      "direct_stores": 4,
+      "yearly_openings": 36,
+      "yearly_closings": 7,
+      "yearly_transfers": 21,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 94050000,
+      "startup_cost_interior_size": "149㎡(45평) 기준",
+      "startup_cost_other": 49550000
+    },
+    "headquarters": {
+      "company_name": "(주)보배에프앤비",
+      "business_start_date": "2020.12.01",
+      "representative": "",
+      "address": "우 : 05855 서울특별시 송파구 송파대로 167 에이동 14층 1420호,1421호,1422호(문정동, 문정역테라타워)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "이비가짬뽕",
+    "category_id": "chinese",
+    "category_name": "중식",
+    "source_url": "https://myfranchise.kr/20110500053/%EC%9D%B4%EB%B9%84%EA%B0%80%EC%A7%AC%EB%BD%95",
+    "overview": {
+      "monthly_average_sales_str": "4,895만원",
+      "monthly_average_sales_num": 48950000,
+      "main_menu": "짬뽕",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "이비가짬뽕",
+        "price": "11,000원"
+      },
+      {
+        "menu_name": "탕수육",
+        "price": "16,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 167000000,
+      "total_max": 297000000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "6,000만원",
+      "interior_cost_num": 60000000,
+      "signboard_cost_str": "1,000만원",
+      "signboard_cost_num": 10000000,
+      "kitchen_equipment_cost_str": "4,000만원",
+      "kitchen_equipment_cost_num": 40000000,
+      "initial_goods_cost_str": "700만원",
+      "initial_goods_cost_num": 7000000,
+      "other_cost_str": "1,000만원 ~ 3,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "5,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "disclosure_reference": "2026.05.22 정보공개서",
+      "active_stores": 132,
+      "direct_stores": 4,
+      "yearly_openings": 10,
+      "yearly_closings": 12,
+      "yearly_transfers": 10,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 56100000,
+      "startup_cost_interior_size": "99㎡(30평) 기준",
+      "startup_cost_other": 45900000
+    },
+    "headquarters": {
+      "company_name": "(주)이비가푸드",
+      "business_start_date": "2011.04.27",
+      "representative": "",
+      "address": "우 : 35226 대전광역시 서구 계룡로 199 이비가빌딩",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "소림마라",
+    "category_id": "chinese",
+    "category_name": "중식",
+    "source_url": "https://myfranchise.kr/20210315/%EC%86%8C%EB%A6%BC%EB%A7%88%EB%9D%BC",
+    "overview": {
+      "monthly_average_sales_str": "2,953만원",
+      "monthly_average_sales_num": 29530000,
+      "main_menu": "마라탕, 기타아시안, 기타중식",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "500만원",
+      "benefits_num": 5000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "마라탕",
+        "price": "10,000원"
+      },
+      {
+        "menu_name": "마라샹궈",
+        "price": "15,000원"
+      },
+      {
+        "menu_name": "로제마라샹궈",
+        "price": "17,000원"
+      },
+      {
+        "menu_name": "꿔바로우",
+        "price": "14,000원"
+      },
+      {
+        "menu_name": "치킨 꿔바로우",
+        "price": "12,000원"
+      },
+      {
+        "menu_name": "통새우 꿔바로우",
+        "price": "13,000원"
+      },
+      {
+        "menu_name": "크림 통새우 꿔바로우",
+        "price": "14,000원"
+      },
+      {
+        "menu_name": "볶음밥",
+        "price": "6,000원"
+      },
+      {
+        "menu_name": "마라볶음밥",
+        "price": "8,000원"
+      },
+      {
+        "menu_name": "마라주먹밥",
+        "price": "8,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 61000000,
+      "total_max": 101000000,
+      "franchise_fee_str": "1,000만원500만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "2,000만원",
+      "interior_cost_num": 20000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "1,600만원",
+      "kitchen_equipment_cost_num": 16000000,
+      "initial_goods_cost_str": "500만원",
+      "initial_goods_cost_num": 5000000,
+      "other_cost_str": "500만원 ~ 1,000만원",
+      "other_cost_num": 5000000,
+      "rent_deposit_str": "1,000만원 ~ 3,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2026.01.08 정보공개서",
+      "active_stores": 137,
+      "direct_stores": 1,
+      "yearly_openings": 9,
+      "yearly_closings": 53,
+      "yearly_transfers": 34,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 33000000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 0
+    },
+    "headquarters": {
+      "company_name": "(주)지씨컴퍼니글로벌",
+      "business_start_date": "2020.05.26",
+      "representative": "",
+      "address": "우 : 04387 서울특별시 용산구 한강대로 66 4층 409호",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "역전우동0410",
+    "category_id": "japanese",
+    "category_name": "일식",
+    "source_url": "https://myfranchise.kr/20120100352/%EC%97%AD%EC%A0%84%EC%9A%B0%EB%8F%990410",
+    "overview": {
+      "monthly_average_sales_str": "3,106만원",
+      "monthly_average_sales_num": 31060000,
+      "main_menu": "우동",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "20만원",
+      "benefits_num": 200000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "옛날우동",
+        "price": "4,500원"
+      },
+      {
+        "menu_name": "냉모밀",
+        "price": "6,500원"
+      },
+      {
+        "menu_name": "역전돈까스",
+        "price": "8,500원"
+      },
+      {
+        "menu_name": "매콤치킨마요덮밥",
+        "price": "7,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 86500000,
+      "total_max": 216500000,
+      "franchise_fee_str": "200만원",
+      "franchise_fee_num": 2000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "3,000만원",
+      "interior_cost_num": 30000000,
+      "signboard_cost_str": "700만원",
+      "signboard_cost_num": 7000000,
+      "kitchen_equipment_cost_str": "2,400만원",
+      "kitchen_equipment_cost_num": 24000000,
+      "initial_goods_cost_str": "500만원",
+      "initial_goods_cost_num": 5000000,
+      "other_cost_str": "1,000만원 ~ 3,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "3,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.11.21 정보공개서",
+      "active_stores": 222,
+      "direct_stores": 1,
+      "yearly_openings": 35,
+      "yearly_closings": 9,
+      "yearly_transfers": 15,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 2200000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 27170000,
+      "startup_cost_interior_size": "43㎡(13평) 기준",
+      "startup_cost_other": 37100000
+    },
+    "headquarters": {
+      "company_name": "(주)더본코리아",
+      "business_start_date": "1994.01.21",
+      "representative": "",
+      "address": "우 : 06119 서울특별시 강남구 봉은사로1길 39 5층~6층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "미소야",
+    "category_id": "japanese",
+    "category_name": "일식",
+    "source_url": "https://myfranchise.kr/20080100430/%EB%AF%B8%EC%86%8C%EC%95%BC",
+    "overview": {
+      "monthly_average_sales_str": "2,930만원",
+      "monthly_average_sales_num": 29300000,
+      "main_menu": "돈가스, 우동, 메밀국수",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "1,300만원",
+      "benefits_num": 13000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "로스카츠정식",
+        "price": "12,500원"
+      },
+      {
+        "menu_name": "히레카츠정식",
+        "price": "13,500원"
+      },
+      {
+        "menu_name": "통치즈카츠정식",
+        "price": "15,000원"
+      },
+      {
+        "menu_name": "고구마치즈돈카츠",
+        "price": "12,000원"
+      },
+      {
+        "menu_name": "카츠모밀알밥정식",
+        "price": "12,000원"
+      },
+      {
+        "menu_name": "알밥정식",
+        "price": "11,500원"
+      },
+      {
+        "menu_name": "돈카츠김치우동전골",
+        "price": "11,000원"
+      },
+      {
+        "menu_name": "우삼겹우동전골",
+        "price": "11,000원"
+      },
+      {
+        "menu_name": "냉모밀세트",
+        "price": "11,500원"
+      },
+      {
+        "menu_name": "점보믹스동",
+        "price": "11,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 80670000,
+      "total_max": 165670000,
+      "franchise_fee_str": "없음",
+      "franchise_fee_num": 0,
+      "education_fee_str": "없음",
+      "education_fee_num": 0,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "3,900만원",
+      "interior_cost_num": 39000000,
+      "signboard_cost_str": "430만원",
+      "signboard_cost_num": 4300000,
+      "kitchen_equipment_cost_str": "2,150만원",
+      "kitchen_equipment_cost_num": 21500000,
+      "initial_goods_cost_str": "250만원",
+      "initial_goods_cost_num": 2500000,
+      "other_cost_str": "1,800만원 ~ 2,500만원",
+      "other_cost_num": 18000000,
+      "rent_deposit_str": "3,000만원 ~ 6,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.05.12 정보공개서",
+      "active_stores": 180,
+      "direct_stores": 1,
+      "yearly_openings": 5,
+      "yearly_closings": 14,
+      "yearly_transfers": 5,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 13200000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 41800000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 38140000
+    },
+    "headquarters": {
+      "company_name": "(주)보우앤파트너스",
+      "business_start_date": "1988.04.10",
+      "representative": "",
+      "address": "우 : 05577 서울특별시 송파구 백제고분로 172 5층(잠실동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "아비꼬",
+    "category_id": "japanese",
+    "category_name": "일식",
+    "source_url": "https://myfranchise.kr/20090100504/%EC%95%84%EB%B9%84%EA%BC%AC",
+    "overview": {
+      "monthly_average_sales_str": "3,690만원",
+      "monthly_average_sales_num": 36900000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "220만원",
+      "education_fee_num": 2200000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2025.05.21 정보공개서",
+      "active_stores": 97,
+      "direct_stores": 26,
+      "yearly_openings": 14,
+      "yearly_closings": 12,
+      "yearly_transfers": 8,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 35200000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 37950000
+    },
+    "headquarters": {
+      "company_name": "쿠산코리아(주)",
+      "business_start_date": "2010.11.01",
+      "representative": "",
+      "address": "우 : 06028 서울특별시 강남구 압구정로10길 13 3층(신사동, 마사빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "하루엔소쿠",
+    "category_id": "japanese",
+    "category_name": "일식",
+    "source_url": "https://myfranchise.kr/20160451/%ED%95%98%EB%A3%A8%EC%97%94%EC%86%8C%EC%BF%A0",
+    "overview": {
+      "monthly_average_sales_str": "1,969만원",
+      "monthly_average_sales_num": 19690000,
+      "main_menu": "돈가스, 우동, 라멘",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "800만원",
+      "benefits_num": 8000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "치즈카츠",
+        "price": "12,000원"
+      },
+      {
+        "menu_name": "특히레카츠",
+        "price": "12,500원"
+      },
+      {
+        "menu_name": "돈코츠라멘",
+        "price": "8,500원"
+      },
+      {
+        "menu_name": "냉모밀",
+        "price": "7,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 71900000,
+      "total_max": 159900000,
+      "franchise_fee_str": "700만원",
+      "franchise_fee_num": 7000000,
+      "education_fee_str": "300만원",
+      "education_fee_num": 3000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "2,400만원",
+      "interior_cost_num": 24000000,
+      "signboard_cost_str": "600만원",
+      "signboard_cost_num": 6000000,
+      "kitchen_equipment_cost_str": "2,200만원",
+      "kitchen_equipment_cost_num": 22000000,
+      "initial_goods_cost_str": "200만원",
+      "initial_goods_cost_num": 2000000,
+      "other_cost_str": "500만원 ~ 800만원",
+      "other_cost_num": 5000000,
+      "rent_deposit_str": "1,000만원 ~ 8,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.04.28 정보공개서",
+      "active_stores": 94,
+      "direct_stores": 0,
+      "yearly_openings": 23,
+      "yearly_closings": 26,
+      "yearly_transfers": 7,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 7700000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 26400000,
+      "startup_cost_interior_size": "4950㎡(1486평) 기준",
+      "startup_cost_other": 28490000
+    },
+    "headquarters": {
+      "company_name": "(주)하루에프앤비",
+      "business_start_date": "2016.03.11",
+      "representative": "",
+      "address": "우 : 05353 서울특별시 강동구 양재대로 1473 6층(길동, 희헌타워)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "롤링파스타",
+    "category_id": "western",
+    "category_name": "양식",
+    "source_url": "https://myfranchise.kr/20190227/%EB%A1%A4%EB%A7%81%ED%8C%8C%EC%8A%A4%ED%83%80",
+    "overview": {
+      "monthly_average_sales_str": "5,368만원",
+      "monthly_average_sales_num": 53680000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "550만원",
+      "education_fee_num": 5500000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "1억",
+      "monthly_average_sales_num": 100000000,
+      "disclosure_reference": "2025.11.21 정보공개서",
+      "active_stores": 130,
+      "direct_stores": 0,
+      "yearly_openings": 10,
+      "yearly_closings": 6,
+      "yearly_transfers": 11,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 3300000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 58080000,
+      "startup_cost_interior_size": "99㎡(30평) 기준",
+      "startup_cost_other": 48570000
+    },
+    "headquarters": {
+      "company_name": "(주)더본코리아",
+      "business_start_date": "1994.01.21",
+      "representative": "",
+      "address": "우 : 06119 서울특별시 강남구 봉은사로1길 39 5층~6층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "서가앤쿡",
+    "category_id": "western",
+    "category_name": "양식",
+    "source_url": "https://myfranchise.kr/20110600026/%EC%84%9C%EA%B0%80%EC%95%A4%EC%BF%A1",
+    "overview": {
+      "monthly_average_sales_str": "4,962만원",
+      "monthly_average_sales_num": 49620000,
+      "main_menu": "스테이크, 파스타, 필라프",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "목살 한상",
+        "price": "37,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 227000000,
+      "total_max": 357000000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "500만원",
+      "security_deposit_num": 5000000,
+      "interior_cost_str": "1억 2,000만원",
+      "interior_cost_num": 120000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "3,500만원",
+      "kitchen_equipment_cost_num": 35000000,
+      "initial_goods_cost_str": "2,000만원",
+      "initial_goods_cost_num": 20000000,
+      "other_cost_str": "0원 ~ 3,000만원",
+      "other_cost_num": 0,
+      "rent_deposit_str": "1,500만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2억",
+      "monthly_average_sales_num": 200000000,
+      "disclosure_reference": "2026.06.02 정보공개서",
+      "active_stores": 36,
+      "direct_stores": 7,
+      "yearly_openings": 1,
+      "yearly_closings": 6,
+      "yearly_transfers": null,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 99000000,
+      "startup_cost_interior_size": "198㎡(59평) 기준",
+      "startup_cost_other": 80650000
+    },
+    "headquarters": {
+      "company_name": "(주)에스앤에스컴퍼니",
+      "business_start_date": "2011.04.01",
+      "representative": "",
+      "address": "우 : 42125 대구광역시 수성구 수성로 354 5층 (상동, 수성동2가)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "라라코스트",
+    "category_id": "western",
+    "category_name": "양식",
+    "source_url": "https://myfranchise.kr/20130012/%EB%9D%BC%EB%9D%BC%EC%BD%94%EC%8A%A4%ED%8A%B8-raracost-",
+    "overview": {
+      "monthly_average_sales_str": "5,729만원",
+      "monthly_average_sales_num": 57290000,
+      "main_menu": "스테이크, 파스타, 필라프",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "1,300만원",
+      "benefits_num": 13000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "더블 포크 스테이크",
+        "price": "22,900원"
+      },
+      {
+        "menu_name": "빠네 크림 파스타",
+        "price": "16,900원"
+      },
+      {
+        "menu_name": "콰트로 피자",
+        "price": "19,500원"
+      },
+      {
+        "menu_name": "불고기 필라프",
+        "price": "11,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 189500000,
+      "total_max": 389500000,
+      "franchise_fee_str": "1,100만원",
+      "franchise_fee_num": 11000000,
+      "education_fee_str": "550만원",
+      "education_fee_num": 5500000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "1억원",
+      "interior_cost_num": 100000000,
+      "signboard_cost_str": "1,000만원",
+      "signboard_cost_num": 10000000,
+      "kitchen_equipment_cost_str": "2,500만원",
+      "kitchen_equipment_cost_num": 25000000,
+      "initial_goods_cost_str": "500만원",
+      "initial_goods_cost_num": 5000000,
+      "other_cost_str": "2,000만원 ~ 1억원",
+      "other_cost_num": 100000000,
+      "rent_deposit_str": "3,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "8천만",
+      "monthly_average_sales_num": 80000000,
+      "disclosure_reference": "2026.04.24 정보공개서",
+      "active_stores": 89,
+      "direct_stores": 7,
+      "yearly_openings": 3,
+      "yearly_closings": 4,
+      "yearly_transfers": 6,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 138600000,
+      "startup_cost_interior_size": "198㎡(59평) 기준",
+      "startup_cost_other": 33000000
+    },
+    "headquarters": {
+      "company_name": "(주)라라에프앤비(RARAF&B)",
+      "business_start_date": "2018.01.15",
+      "representative": "",
+      "address": "우 : 42163 대구광역시 수성구 들안로 33-1 3층일부, 4층(상동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "파스타부오노",
+    "category_id": "western",
+    "category_name": "양식",
+    "source_url": "https://myfranchise.kr/20110600022/%ED%8C%8C%EC%8A%A4%ED%83%80%EB%B6%80%EC%98%A4%EB%85%B8",
+    "overview": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "main_menu": "",
+      "store_count_str": "충북",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "330만원",
+      "education_fee_num": 3300000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "disclosure_reference": "2025.06.04 정보공개서",
+      "active_stores": 11,
+      "direct_stores": 0,
+      "yearly_openings": 1,
+      "yearly_closings": 5,
+      "yearly_transfers": null,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 49500000,
+      "startup_cost_interior_size": "83㎡(25평) 기준",
+      "startup_cost_other": 29700000
+    },
+    "headquarters": {
+      "company_name": "원푸드",
+      "business_start_date": "2016.03.02",
+      "representative": "",
+      "address": "우 : 42829 대구광역시 달서구 한실로6길 82-10 1층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "신전떡볶이",
+    "category_id": "snack",
+    "category_name": "분식",
+    "source_url": "https://myfranchise.kr/20110600008/%EC%8B%A0%EC%A0%84%EB%96%A1%EB%B3%B6%EC%9D%B4",
+    "overview": {
+      "monthly_average_sales_str": "2,084만원",
+      "monthly_average_sales_num": 20840000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "220만원",
+      "education_fee_num": 2200000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.11.12 정보공개서",
+      "active_stores": 671,
+      "direct_stores": 1,
+      "yearly_openings": 9,
+      "yearly_closings": 39,
+      "yearly_transfers": 93,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 3300000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 47090000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 39640000
+    },
+    "headquarters": {
+      "company_name": "신전푸드시스",
+      "business_start_date": "2011.03.01",
+      "representative": "",
+      "address": "우 : 41448 대구광역시 북구 관음로 43 신전푸드시스",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "동대문엽기떡볶이",
+    "category_id": "snack",
+    "category_name": "분식",
+    "source_url": "https://myfranchise.kr/20130100283/%EB%B6%88%EB%8B%AD%EB%B0%9C%EB%95%A1%EC%B4%88%EB%8F%99%EB%8C%80%EB%AC%B8%EC%97%BD%EA%B8%B0%EB%96%A1%EB%B3%B6%EC%9D%B4",
+    "overview": {
+      "monthly_average_sales_str": "8천만",
+      "monthly_average_sales_num": 80000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "330만원",
+      "education_fee_num": 3300000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "8천만",
+      "monthly_average_sales_num": 80000000,
+      "disclosure_reference": "2026.03.27 정보공개서",
+      "active_stores": 714,
+      "direct_stores": 0,
+      "yearly_openings": 59,
+      "yearly_closings": 1,
+      "yearly_transfers": 55,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 39600000,
+      "startup_cost_interior_size": "59㎡(18평) 기준",
+      "startup_cost_other": 68650000
+    },
+    "headquarters": {
+      "company_name": "(주)핫시즈너",
+      "business_start_date": "2009.11.13",
+      "representative": "",
+      "address": "우 : 04796 서울특별시 성동구 아차산로11가길 10 7층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "청년다방",
+    "category_id": "snack",
+    "category_name": "분식",
+    "source_url": "https://myfranchise.kr/20150700/%EC%B2%AD%EB%85%84%EB%8B%A4%EB%B0%A9",
+    "overview": {
+      "monthly_average_sales_str": "3,575만원",
+      "monthly_average_sales_num": 35750000,
+      "main_menu": "커피, 떡볶이, 즉석떡볶이",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "(중)차돌떡볶이",
+        "price": "16,500원"
+      },
+      {
+        "menu_name": "(중)차세대떡볶이",
+        "price": "23,500원"
+      },
+      {
+        "menu_name": "(중)통큰오짱떡볶이",
+        "price": "16,500원"
+      },
+      {
+        "menu_name": "(중)감자돌이떡볶이",
+        "price": "17,500원"
+      },
+      {
+        "menu_name": "(중)마라이징떡볶이",
+        "price": "21,500원"
+      },
+      {
+        "menu_name": "(중)맵도전떡볶이",
+        "price": "13,500원"
+      },
+      {
+        "menu_name": "통통순살치킹",
+        "price": "12,500원"
+      },
+      {
+        "menu_name": "허니간장순살치킹",
+        "price": "13,500원"
+      },
+      {
+        "menu_name": "맵치킹",
+        "price": "16,000원"
+      },
+      {
+        "menu_name": "버터치킹",
+        "price": "16,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 124720000,
+      "total_max": 186720000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "300만원면제",
+      "education_fee_num": 0,
+      "security_deposit_str": "300만원",
+      "security_deposit_num": 3000000,
+      "interior_cost_str": "3,750만원",
+      "interior_cost_num": 37500000,
+      "signboard_cost_str": "700만원",
+      "signboard_cost_num": 7000000,
+      "kitchen_equipment_cost_str": "2,675만원",
+      "kitchen_equipment_cost_num": 26750000,
+      "initial_goods_cost_str": "477만원",
+      "initial_goods_cost_num": 4770000,
+      "other_cost_str": "600만원 ~ 1,200만원",
+      "other_cost_num": 6000000,
+      "rent_deposit_str": "2,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "disclosure_reference": "2026.01.27 정보공개서",
+      "active_stores": 352,
+      "direct_stores": 4,
+      "yearly_openings": 5,
+      "yearly_closings": 52,
+      "yearly_transfers": 34,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 37500000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 35350000
+    },
+    "headquarters": {
+      "company_name": "(주)한경기획",
+      "business_start_date": "2010.10.06",
+      "representative": "",
+      "address": "우 : 04150 서울특별시 마포구 대흥로 60 (대흥동, 스카이빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "감탄떡볶이",
+    "category_id": "snack",
+    "category_name": "분식",
+    "source_url": "https://myfranchise.kr/20170454/%EA%B0%90%ED%83%84%EB%96%A1%EB%B3%B6%EC%9D%B4",
+    "overview": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "110만원",
+      "education_fee_num": 1100000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "disclosure_reference": "2026.05.12 정보공개서",
+      "active_stores": 130,
+      "direct_stores": 0,
+      "yearly_openings": 1,
+      "yearly_closings": 37,
+      "yearly_transfers": 6,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 7700000,
+      "startup_cost_education": 1100000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 16000000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 22010000
+    },
+    "headquarters": {
+      "company_name": "(주)오투스페이스",
+      "business_start_date": "2008.03.26",
+      "representative": "",
+      "address": "우 : 05117 서울특별시 광진구 구의강변로 86 4층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "BHC",
+    "category_id": "chicken",
+    "category_name": "치킨",
+    "source_url": "https://myfranchise.kr/20080100655/%EB%B9%84%EC%97%90%EC%9D%B4%EC%B9%98%EC%94%A8-BHC-",
+    "overview": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "242만원",
+      "education_fee_num": 2420000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "6천만",
+      "monthly_average_sales_num": 60000000,
+      "disclosure_reference": "2025.09.16 정보공개서",
+      "active_stores": 2226,
+      "direct_stores": 0,
+      "yearly_openings": 92,
+      "yearly_closings": 140,
+      "yearly_transfers": 308,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 2420000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 46200000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 20400000
+    },
+    "headquarters": {
+      "company_name": "다이닝브랜즈그룹(주)",
+      "business_start_date": "2004.09.09",
+      "representative": "",
+      "address": "우 : 05551 서울특별시 송파구 올림픽로 300 19층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "BBQ",
+    "category_id": "chicken",
+    "category_name": "치킨",
+    "source_url": "https://myfranchise.kr/20161241/%EB%B9%84%EB%B9%84%ED%81%90-BBQ-",
+    "overview": {
+      "monthly_average_sales_str": "4,239만원",
+      "monthly_average_sales_num": 42390000,
+      "main_menu": "후라이드, 구운치킨, 순살치킨",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "500만원",
+      "benefits_num": 5000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "황금올리브치킨™",
+        "price": "23,000원"
+      },
+      {
+        "menu_name": "자메이카 통다리구이",
+        "price": "24,000원"
+      },
+      {
+        "menu_name": "자메이카 소떡만나치킨",
+        "price": "24,000원"
+      },
+      {
+        "menu_name": "땡쇼크",
+        "price": "25,000원"
+      },
+      {
+        "menu_name": "마라핫",
+        "price": "28,000원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 97200000,
+      "total_max": 217200000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "380만원",
+      "education_fee_num": 3800000,
+      "security_deposit_str": "500만원",
+      "security_deposit_num": 5000000,
+      "interior_cost_str": "3,800만원",
+      "interior_cost_num": 38000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "2,400만원",
+      "kitchen_equipment_cost_num": 24000000,
+      "initial_goods_cost_str": "440만원",
+      "initial_goods_cost_num": 4400000,
+      "other_cost_str": "1,000만원 ~ 2,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "500만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2025.10.22 정보공개서",
+      "active_stores": 2316,
+      "direct_stores": 71,
+      "yearly_openings": 216,
+      "yearly_closings": 149,
+      "yearly_transfers": 166,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 4180000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 50600000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 20000000
+    },
+    "headquarters": {
+      "company_name": "(주)제너시스비비큐",
+      "business_start_date": "1995.09.01",
+      "representative": "",
+      "address": "우 : 05833 서울특별시 송파구 중대로 64 제너시스빌딩",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "교촌치킨",
+    "category_id": "chicken",
+    "category_name": "치킨",
+    "source_url": "https://myfranchise.kr/20080600002/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8",
+    "overview": {
+      "monthly_average_sales_str": "6,564만원",
+      "monthly_average_sales_num": 65640000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "390만원",
+      "education_fee_num": 3900000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "disclosure_reference": "2026.05.27 정보공개서",
+      "active_stores": 1361,
+      "direct_stores": 1,
+      "yearly_openings": 8,
+      "yearly_closings": 8,
+      "yearly_transfers": 97,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 6760000,
+      "startup_cost_education": 3900000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 69000000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 66860000
+    },
+    "headquarters": {
+      "company_name": "교촌에프앤비(주)",
+      "business_start_date": "1999.11.12",
+      "representative": "",
+      "address": "우 : 13453 경기도 성남시 수정구 금토로80번길 15-3 교촌1991빌딩",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "굽네치킨",
+    "category_id": "chicken",
+    "category_name": "치킨",
+    "source_url": "https://myfranchise.kr/20080200030/%EA%B5%BD%EB%84%A4%EC%B9%98%ED%82%A8",
+    "overview": {
+      "monthly_average_sales_str": "4,155만원",
+      "monthly_average_sales_num": 41550000,
+      "main_menu": "구운치킨, 피자",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "고추바사삭",
+        "price": "19,900원"
+      },
+      {
+        "menu_name": "볼케이노",
+        "price": "19,900원"
+      },
+      {
+        "menu_name": "치즈바사삭",
+        "price": "19,900원"
+      },
+      {
+        "menu_name": "갈비천왕",
+        "price": "19,900원"
+      },
+      {
+        "menu_name": "페퍼로니 시카고 피자",
+        "price": "18,900원"
+      },
+      {
+        "menu_name": "시카고 딥디쉬 피자",
+        "price": "17,500원"
+      },
+      {
+        "menu_name": "바비큐 시카고 딥디쉬 피자",
+        "price": "18,900원"
+      },
+      {
+        "menu_name": "바게트볼",
+        "price": "3,300원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 84000000,
+      "total_max": 120000000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "200만원",
+      "education_fee_num": 2000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "3,200만원",
+      "interior_cost_num": 32000000,
+      "signboard_cost_str": "600만원",
+      "signboard_cost_num": 6000000,
+      "kitchen_equipment_cost_str": "2,500만원",
+      "kitchen_equipment_cost_num": 25000000,
+      "initial_goods_cost_str": "200만원",
+      "initial_goods_cost_num": 2000000,
+      "other_cost_str": "300만원 ~ 600만원",
+      "other_cost_num": 3000000,
+      "rent_deposit_str": "2,000만원 ~ 3,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2025.07.15 정보공개서",
+      "active_stores": 1246,
+      "direct_stores": 1,
+      "yearly_openings": 69,
+      "yearly_closings": 33,
+      "yearly_transfers": 136,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 2200000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 30250000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 45320000
+    },
+    "headquarters": {
+      "company_name": "(주)지앤푸드",
+      "business_start_date": "2007.03.26",
+      "representative": "",
+      "address": "우 : 07680 서울특별시 강서구 강서로 318 (내발산동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "도미노피자",
+    "category_id": "pizza",
+    "category_name": "피자",
+    "source_url": "https://myfranchise.kr/20080100159/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90",
+    "overview": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "275만원",
+      "education_fee_num": 2750000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "disclosure_reference": "2025.11.04 정보공개서",
+      "active_stores": 482,
+      "direct_stores": 0,
+      "yearly_openings": 4,
+      "yearly_closings": null,
+      "yearly_transfers": 22,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 35200000,
+      "startup_cost_education": 2750000,
+      "startup_cost_deposit": 5000000,
+      "startup_cost_interior": 99000000,
+      "startup_cost_interior_size": "83㎡(25평) 기준",
+      "startup_cost_other": 110550000
+    },
+    "headquarters": {
+      "company_name": "청오디피케이(주)",
+      "business_start_date": "1989.10.28",
+      "representative": "",
+      "address": "우 : 06223 서울특별시 강남구 역삼로25길 35 청오디피케이(주)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "피자스쿨",
+    "category_id": "pizza",
+    "category_name": "피자",
+    "source_url": "https://myfranchise.kr/20080100190/%ED%94%BC%EC%9E%90%EC%8A%A4%EC%BF%A8",
+    "overview": {
+      "monthly_average_sales_str": "1,354만원",
+      "monthly_average_sales_num": 13540000,
+      "main_menu": "피자",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "불닭고구마피자",
+        "price": "13,900원"
+      },
+      {
+        "menu_name": "치즈피자",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "페퍼로니피자",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "포테이토피자",
+        "price": "11,900원"
+      },
+      {
+        "menu_name": "직화파인애플피자",
+        "price": "13,900원"
+      },
+      {
+        "menu_name": "나폴리피자",
+        "price": "12,900원"
+      },
+      {
+        "menu_name": "도이치바이트피자",
+        "price": "14,900원"
+      },
+      {
+        "menu_name": "비프퀘사디아피자",
+        "price": "13,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 64050000,
+      "total_max": 112050000,
+      "franchise_fee_str": "550만원",
+      "franchise_fee_num": 5500000,
+      "education_fee_str": "550만원",
+      "education_fee_num": 5500000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "1,870만원",
+      "interior_cost_num": 18700000,
+      "signboard_cost_str": "385만원",
+      "signboard_cost_num": 3850000,
+      "kitchen_equipment_cost_str": "2,750만원",
+      "kitchen_equipment_cost_num": 27500000,
+      "initial_goods_cost_str": "300만원",
+      "initial_goods_cost_num": 3000000,
+      "other_cost_str": "200만원 ~ 1,800만원",
+      "other_cost_num": 2000000,
+      "rent_deposit_str": "100만원 ~ 3,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "disclosure_reference": "2025.07.28 정보공개서",
+      "active_stores": null,
+      "direct_stores": 0,
+      "yearly_openings": 21,
+      "yearly_closings": 8,
+      "yearly_transfers": 35,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 22000000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 36240000
+    },
+    "headquarters": {
+      "company_name": "(주)피자스쿨",
+      "business_start_date": "2006.05.01",
+      "representative": "",
+      "address": "우 : 06068 서울특별시 강남구 삼성로133길 12 5층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "피자헛",
+    "category_id": "pizza",
+    "category_name": "피자",
+    "source_url": "https://myfranchise.kr/20210577/%ED%94%BC%EC%9E%90%ED%97%9B-Pizza-Hut-",
+    "overview": {
+      "monthly_average_sales_str": "관련 정보가 없습니다",
+      "monthly_average_sales_num": 0,
+      "main_menu": "",
+      "store_count_str": "가맹사업 현황",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "319만원",
+      "education_fee_num": 3190000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "관련 정보가 없습니다",
+      "monthly_average_sales_num": 0,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": 196060000,
+      "startup_cost_franchise": 27450000,
+      "startup_cost_education": 3190000,
+      "startup_cost_deposit": 20000000,
+      "startup_cost_interior": 52800000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 92620000
+    },
+    "headquarters": {
+      "company_name": "(주)피에이치코리아",
+      "business_start_date": "2025.11.10",
+      "representative": "",
+      "address": "우 : 22009 인천광역시 연수구 송도동 98-1 604호 185호실",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "반올림피자샵",
+    "category_id": "pizza",
+    "category_name": "피자",
+    "source_url": "https://myfranchise.kr/brands/11583",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "맘스터치",
+    "category_id": "burger",
+    "category_name": "버거/샌드위치",
+    "source_url": "https://myfranchise.kr/20080100157/%EB%A7%98%EC%8A%A4%ED%84%B0%EC%B9%98",
+    "overview": {
+      "monthly_average_sales_str": "4,541만원",
+      "monthly_average_sales_num": 45410000,
+      "main_menu": "후라이드, 햄버거",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "에드워드 리 비프버거 세트",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "에드워드 리 싸이버거 세트",
+        "price": "10,200원"
+      },
+      {
+        "menu_name": "에드워드 리 빅싸이순살맥스",
+        "price": "22,900원"
+      },
+      {
+        "menu_name": "싸이버거 세트",
+        "price": "7,300원"
+      },
+      {
+        "menu_name": "후라이드 빅싸이순살",
+        "price": "11,900원"
+      },
+      {
+        "menu_name": "싸이플렉스버거 세트",
+        "price": "10,700원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 111620000,
+      "total_max": 441620000,
+      "franchise_fee_str": "500만원",
+      "franchise_fee_num": 5000000,
+      "education_fee_str": "없음",
+      "education_fee_num": 0,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "4,491만원",
+      "interior_cost_num": 44910000,
+      "signboard_cost_str": "573만원",
+      "signboard_cost_num": 5730000,
+      "kitchen_equipment_cost_str": "1,745만원",
+      "kitchen_equipment_cost_num": 17450000,
+      "initial_goods_cost_str": "1,000만원",
+      "initial_goods_cost_num": 10000000,
+      "other_cost_str": "1,000만원 ~ 3,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "1,000만원 ~ 3억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2026.04.14 정보공개서",
+      "active_stores": 1494,
+      "direct_stores": 18,
+      "yearly_openings": 65,
+      "yearly_closings": 30,
+      "yearly_transfers": 144,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 0,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 49280000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 52180000
+    },
+    "headquarters": {
+      "company_name": "(주)맘스터치앤컴퍼니",
+      "business_start_date": "2015.05.19",
+      "representative": "",
+      "address": "우 : 04553 서울특별시 중구 삼일대로6길 5 5층, 6층, 7층, 8층(충무로2가, 조양빌딩신관)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "롯데리아",
+    "category_id": "burger",
+    "category_name": "버거/샌드위치",
+    "source_url": "https://myfranchise.kr/20080100155/%EB%A1%AF%EB%8D%B0%EB%A6%AC%EC%95%84",
+    "overview": {
+      "monthly_average_sales_str": "7,799만원",
+      "monthly_average_sales_num": 77990000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "77만원",
+      "education_fee_num": 770000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "8천만",
+      "monthly_average_sales_num": 80000000,
+      "disclosure_reference": "2026.04.27 정보공개서",
+      "active_stores": 1209,
+      "direct_stores": 77,
+      "yearly_openings": 51,
+      "yearly_closings": 33,
+      "yearly_transfers": 102,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 16500000,
+      "startup_cost_education": 770000,
+      "startup_cost_deposit": 70000000,
+      "startup_cost_interior": 345210000,
+      "startup_cost_interior_size": "198㎡(59평) 기준",
+      "startup_cost_other": 55730000
+    },
+    "headquarters": {
+      "company_name": "롯데지알에스(주)",
+      "business_start_date": "1979.10.25",
+      "representative": "",
+      "address": "우 : 05605 서울특별시 송파구 백제고분로 217 엔제리너스",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "써브웨이",
+    "category_id": "burger",
+    "category_name": "버거/샌드위치",
+    "source_url": "https://myfranchise.kr/20080100727/%EC%8D%A8%EB%B8%8C%EC%9B%A8%EC%9D%B4-Subway-",
+    "overview": {
+      "monthly_average_sales_str": "6,737만원",
+      "monthly_average_sales_num": 67370000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "-",
+      "education_fee_num": 0,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "7천만",
+      "monthly_average_sales_num": 70000000,
+      "disclosure_reference": "2026.04.22 정보공개서",
+      "active_stores": null,
+      "direct_stores": 0,
+      "yearly_openings": 57,
+      "yearly_closings": 6,
+      "yearly_transfers": 37,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 20000000,
+      "startup_cost_education": 0,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 304000000,
+      "startup_cost_interior_size": "353㎡(106평) 기준",
+      "startup_cost_other": 738200000
+    },
+    "headquarters": {
+      "company_name": "청오에스떠블유(주)",
+      "business_start_date": "2025.08.11",
+      "representative": "",
+      "address": "우 : 06535 서울특별시 서초구 강남대로 535 15층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "이삭토스트",
+    "category_id": "burger",
+    "category_name": "버거/샌드위치",
+    "source_url": "https://myfranchise.kr/20080500031/%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8",
+    "overview": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "main_menu": "",
+      "store_count_str": "서울",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "440만원",
+      "education_fee_num": 4400000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "2천만",
+      "monthly_average_sales_num": 20000000,
+      "disclosure_reference": "2025.08.04 정보공개서",
+      "active_stores": 894,
+      "direct_stores": 0,
+      "yearly_openings": 18,
+      "yearly_closings": 41,
+      "yearly_transfers": 95,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 0,
+      "startup_cost_education": 4400000,
+      "startup_cost_deposit": 1000000,
+      "startup_cost_interior": 33000000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 41190000
+    },
+    "headquarters": {
+      "company_name": "(주)이삭",
+      "business_start_date": "2004.08.12",
+      "representative": "",
+      "address": "우 : 35057 대전광역시 중구 산서로53번길 11 (사정동)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "한솥",
+    "category_id": "lunchbox",
+    "category_name": "도시락/덮밥",
+    "source_url": "https://myfranchise.kr/20080100308/%ED%95%9C%EC%86%A5",
+    "overview": {
+      "monthly_average_sales_str": "3,403만원",
+      "monthly_average_sales_num": 34030000,
+      "main_menu": "도시락, 덮밥, 돈가스",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "432만원",
+      "benefits_num": 4320000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "해바라기",
+        "price": "10,000원"
+      },
+      {
+        "menu_name": "진달래",
+        "price": "8,000원"
+      },
+      {
+        "menu_name": "한우 함박스테이크&청양 토네이도 소세지",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "돈까스도련님 고기고기",
+        "price": "7,000원"
+      },
+      {
+        "menu_name": "돈까스도련님",
+        "price": "5,000원"
+      },
+      {
+        "menu_name": "메가치킨마요",
+        "price": "6,500원"
+      },
+      {
+        "menu_name": "제육많이덮밥",
+        "price": "6,200원"
+      },
+      {
+        "menu_name": "왕카레돈까스덮밥",
+        "price": "6,500원"
+      },
+      {
+        "menu_name": "오리지널 치즈 닭갈비 덮밥",
+        "price": "6,300원"
+      },
+      {
+        "menu_name": "치킹 반반순살(후라이드)",
+        "price": "16,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 95960000,
+      "total_max": 155960000,
+      "franchise_fee_str": "600만원",
+      "franchise_fee_num": 6000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "400만원",
+      "security_deposit_num": 4000000,
+      "interior_cost_str": "4,000만원",
+      "interior_cost_num": 40000000,
+      "signboard_cost_str": "450만원",
+      "signboard_cost_num": 4500000,
+      "kitchen_equipment_cost_str": "2,691만원",
+      "kitchen_equipment_cost_num": 26910000,
+      "initial_goods_cost_str": "500만원",
+      "initial_goods_cost_num": 5000000,
+      "other_cost_str": "500만원 ~ 1,000만원",
+      "other_cost_num": 5000000,
+      "rent_deposit_str": "3,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.10.23 정보공개서",
+      "active_stores": 811,
+      "direct_stores": 1,
+      "yearly_openings": 51,
+      "yearly_closings": 33,
+      "yearly_transfers": 60,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 6600000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 4000000,
+      "startup_cost_interior": 38500000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 45650000
+    },
+    "headquarters": {
+      "company_name": "(주)한솥",
+      "business_start_date": "1989.04.03",
+      "representative": "",
+      "address": "우 : 06011 서울특별시 강남구 압구정로 459 (청담동, 한솥빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "본도시락",
+    "category_id": "lunchbox",
+    "category_name": "도시락/덮밥",
+    "source_url": "https://myfranchise.kr/20100100482/%EB%B3%B8%EB%8F%84%EC%8B%9C%EB%9D%BD",
+    "overview": {
+      "monthly_average_sales_str": "2,453만원",
+      "monthly_average_sales_num": 24530000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "660만원",
+      "education_fee_num": 6600000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.12.29 정보공개서",
+      "active_stores": 405,
+      "direct_stores": 1,
+      "yearly_openings": 11,
+      "yearly_closings": 45,
+      "yearly_transfers": 30,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 12100000,
+      "startup_cost_education": 6600000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 30250000,
+      "startup_cost_interior_size": "36㎡(11평) 기준",
+      "startup_cost_other": 34140000
+    },
+    "headquarters": {
+      "company_name": "본아이에프(주)",
+      "business_start_date": "2004.07.20",
+      "representative": "",
+      "address": "우 : 07268 서울특별시 영등포구 선유로 165 (양평동3가)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "토마토도시락",
+    "category_id": "lunchbox",
+    "category_name": "도시락/덮밥",
+    "source_url": "https://myfranchise.kr/20100100165/%ED%86%A0%EB%A7%88%ED%86%A0%EB%8F%84%EC%8B%9C%EB%9D%BD",
+    "overview": {
+      "monthly_average_sales_str": "1,138만원",
+      "monthly_average_sales_num": 11380000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "330만원",
+      "education_fee_num": 3300000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.11.05 정보공개서",
+      "active_stores": 43,
+      "direct_stores": 0,
+      "yearly_openings": 1,
+      "yearly_closings": 19,
+      "yearly_transfers": null,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 3300000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 19800000,
+      "startup_cost_interior_size": "33㎡(10평) 기준",
+      "startup_cost_other": 34590000
+    },
+    "headquarters": {
+      "company_name": "(주)다채원",
+      "business_start_date": "2010.12.01",
+      "representative": "",
+      "address": "우 : 11164 경기도 포천시 가산면 선마로99번길 8 다동",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "핵밥",
+    "category_id": "lunchbox",
+    "category_name": "도시락/덮밥",
+    "source_url": "https://myfranchise.kr/20200463/%ED%95%B5%EB%B0%A5",
+    "overview": {
+      "monthly_average_sales_str": "4,932만원",
+      "monthly_average_sales_num": 49320000,
+      "main_menu": "덮밥, 돈가스, 라멘",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "자루소바(돈카츠)",
+        "price": "15,000원"
+      },
+      {
+        "menu_name": "붓카케우동정식(에비텐)",
+        "price": "14,000원"
+      },
+      {
+        "menu_name": "한우대창덮밥정식",
+        "price": "16,900원"
+      },
+      {
+        "menu_name": "큐브스테이크덮밥정식",
+        "price": "15,900원"
+      },
+      {
+        "menu_name": "연어새우장덮밥정식",
+        "price": "17,900원"
+      },
+      {
+        "menu_name": "항정살덮밥정식",
+        "price": "14,900원"
+      },
+      {
+        "menu_name": "후쿠오카우동돈카츠정식",
+        "price": "15,900원"
+      },
+      {
+        "menu_name": "모듬카츠카레덮밥",
+        "price": "18,900원"
+      },
+      {
+        "menu_name": "돈카츠카레우동",
+        "price": "14,400원"
+      },
+      {
+        "menu_name": "마제소바돈카츠정식",
+        "price": "15,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 83660000,
+      "total_max": 223660000,
+      "franchise_fee_str": "1,000만원500만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "500만원면제",
+      "security_deposit_num": 0,
+      "interior_cost_str": "4,000만원",
+      "interior_cost_num": 40000000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "2,456만원",
+      "kitchen_equipment_cost_num": 24560000,
+      "initial_goods_cost_str": "260만원",
+      "initial_goods_cost_num": 2600000,
+      "other_cost_str": "2,000만원 ~ 4,000만원",
+      "other_cost_num": 20000000,
+      "rent_deposit_str": "1,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "active_stores": 74,
+      "direct_stores": 4,
+      "yearly_openings": 30,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 33000000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 39650000
+    },
+    "headquarters": {
+      "company_name": "(주)핵가족",
+      "business_start_date": "2016.08.11",
+      "representative": "",
+      "address": "우 : 05328 서울특별시 강동구 올림픽로 664 327호",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "샐러디",
+    "category_id": "salad",
+    "category_name": "샐러드/포케",
+    "source_url": "https://myfranchise.kr/20150828/%EC%83%90%EB%9F%AC%EB%94%94",
+    "overview": {
+      "monthly_average_sales_str": "2,617만원",
+      "monthly_average_sales_num": 26170000,
+      "main_menu": "포케, 샐러드, 샌드위치",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [
+      {
+        "menu_name": "멕시칸랩",
+        "price": "7,200원"
+      },
+      {
+        "menu_name": "로스트 닭다리살 샐러디",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "우삼겹메밀면 누들볼",
+        "price": "9,300원"
+      },
+      {
+        "menu_name": "칠리베이컨 포케볼",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "더블 치킨 파스타 박스",
+        "price": "10,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 74200000,
+      "total_max": 184200000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "2,100만원",
+      "interior_cost_num": 21000000,
+      "signboard_cost_str": "600만원",
+      "signboard_cost_num": 6000000,
+      "kitchen_equipment_cost_str": "2,300만원",
+      "kitchen_equipment_cost_num": 23000000,
+      "initial_goods_cost_str": "350만원",
+      "initial_goods_cost_num": 3500000,
+      "other_cost_str": "250만원 ~ 1,000만원",
+      "other_cost_num": 2500000,
+      "rent_deposit_str": "1,000만원 ~ 1억원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2026.03.30 정보공개서",
+      "active_stores": 319,
+      "direct_stores": 8,
+      "yearly_openings": 27,
+      "yearly_closings": 16,
+      "yearly_transfers": 41,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 34650000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 46200000
+    },
+    "headquarters": {
+      "company_name": "(주)샐러디",
+      "business_start_date": "2015.04.10",
+      "representative": "",
+      "address": "우 : 06234 서울특별시 강남구 논현로85길 70 13층(역삼동, 역삼823빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "포케올데이",
+    "category_id": "salad",
+    "category_name": "샐러드/포케",
+    "source_url": "https://myfranchise.kr/20201343/%ED%8F%AC%EC%BC%80%EC%98%AC%EB%8D%B0%EC%9D%B4",
+    "overview": {
+      "monthly_average_sales_str": "4,005만원",
+      "monthly_average_sales_num": 40050000,
+      "main_menu": "샐러드, 포케",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "300만원",
+      "benefits_num": 3000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "소고기 밸런스박스",
+        "price": "14,900원"
+      },
+      {
+        "menu_name": "곡물밥 포케",
+        "price": "10,900원"
+      },
+      {
+        "menu_name": "비건 포케",
+        "price": "10,900원"
+      },
+      {
+        "menu_name": "들기름메밀면샐러드",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "랍스타크런치랩",
+        "price": "4,200원"
+      },
+      {
+        "menu_name": "크리미어니언치킨랩",
+        "price": "4,200원"
+      },
+      {
+        "menu_name": "두부볼",
+        "price": "2,900원"
+      },
+      {
+        "menu_name": "단호박스프",
+        "price": "4,500원"
+      },
+      {
+        "menu_name": "양송이스프",
+        "price": "4,500원"
+      },
+      {
+        "menu_name": "애사비 콤부차",
+        "price": "4,500원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 91000000,
+      "total_max": 161000000,
+      "franchise_fee_str": "1,000만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "없음",
+      "security_deposit_num": 0,
+      "interior_cost_str": "4,000만원",
+      "interior_cost_num": 40000000,
+      "signboard_cost_str": "100만원",
+      "signboard_cost_num": 1000000,
+      "kitchen_equipment_cost_str": "1,250만원",
+      "kitchen_equipment_cost_num": 12500000,
+      "initial_goods_cost_str": "150만원",
+      "initial_goods_cost_num": 1500000,
+      "other_cost_str": "1,000만원 ~ 2,000만원",
+      "other_cost_num": 10000000,
+      "rent_deposit_str": "2,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "5천만",
+      "monthly_average_sales_num": 50000000,
+      "disclosure_reference": "2026.04.21 정보공개서",
+      "active_stores": 150,
+      "direct_stores": 6,
+      "yearly_openings": 27,
+      "yearly_closings": 7,
+      "yearly_transfers": 22,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 0,
+      "startup_cost_interior": 44000000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 33000000
+    },
+    "headquarters": {
+      "company_name": "(주)네오에프엔비",
+      "business_start_date": "2021.08.11",
+      "representative": "",
+      "address": "우 : 22007 인천광역시 연수구 인천타워대로 323 에이동2007호,2008호2009호,2010호(송도동, 송도센트로드",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "슬로우캘리",
+    "category_id": "salad",
+    "category_name": "샐러드/포케",
+    "source_url": "https://myfranchise.kr/20212429/%EC%8A%AC%EB%A1%9C%EC%9A%B0%EC%BA%98%EB%A6%AC",
+    "overview": {
+      "monthly_average_sales_str": "3,530만원",
+      "monthly_average_sales_num": 35300000,
+      "main_menu": "샐러드, 포케, 샌드위치",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "초기 목돈 부담은 낮추고, 아낀 자금은 오피스·대학상권 좋은 입지와 운영 준비금에 투자하세요. 당장 목돈이 부담이었다면 지금이 절호의 찬스!",
+      "benefits_num": 0
+    },
+    "representative_menu": [
+      {
+        "menu_name": "연어 포케",
+        "price": "12,900원"
+      },
+      {
+        "menu_name": "올인원 포케",
+        "price": "14,900원"
+      },
+      {
+        "menu_name": "참치 포케",
+        "price": "12,500원"
+      },
+      {
+        "menu_name": "하와이안 갈릭 쉬림프",
+        "price": "14,500원"
+      },
+      {
+        "menu_name": "로스팅 닭다리살 샐러드",
+        "price": "10,500원"
+      },
+      {
+        "menu_name": "훈제오리 샐러드",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "부채살 스테이크 통밀랩",
+        "price": "11,900원"
+      },
+      {
+        "menu_name": "블랙페퍼 치킨 통밀랩",
+        "price": "9,500원"
+      },
+      {
+        "menu_name": "스파이시 토마토 야채 스프",
+        "price": "4,900원"
+      },
+      {
+        "menu_name": "트러플 머쉬룸 스프",
+        "price": "4,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 62000000,
+      "total_max": 117000000,
+      "franchise_fee_str": "1,000만원700만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원300만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "300만원면제",
+      "security_deposit_num": 0,
+      "interior_cost_str": "3,500만원",
+      "interior_cost_num": 35000000,
+      "signboard_cost_str": "200만원",
+      "signboard_cost_num": 2000000,
+      "kitchen_equipment_cost_str": "950만원",
+      "kitchen_equipment_cost_num": 9500000,
+      "initial_goods_cost_str": "100만원",
+      "initial_goods_cost_num": 1000000,
+      "other_cost_str": "100만원 ~ 500만원",
+      "other_cost_num": 1000000,
+      "rent_deposit_str": "1,000만원 ~ 5,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.08.25 정보공개서",
+      "active_stores": 136,
+      "direct_stores": 0,
+      "yearly_openings": 31,
+      "yearly_closings": 9,
+      "yearly_transfers": 6,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 3000000,
+      "startup_cost_interior": 33000000,
+      "startup_cost_interior_size": "50㎡(15평) 기준",
+      "startup_cost_other": 30050000
+    },
+    "headquarters": {
+      "company_name": "(유)에브라임이노베이션",
+      "business_start_date": "2009.09.09",
+      "representative": "",
+      "address": "우 : 04102 서울특별시 마포구 고산길 23 3층",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "투고샐러드",
+    "category_id": "salad",
+    "category_name": "샐러드/포케",
+    "source_url": "https://myfranchise.kr/20161076/%ED%88%AC%EA%B3%A0%EC%83%90%EB%9F%AC%EB%93%9C--TOGOSALAD-",
+    "overview": {
+      "monthly_average_sales_str": "2,473만원",
+      "monthly_average_sales_num": 24730000,
+      "main_menu": "샐러드, 파스타, 포케",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "1,900만원",
+      "benefits_num": 19000000
+    },
+    "representative_menu": [
+      {
+        "menu_name": "목살스테이크(샐러드류)",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "닭가슴살스테이크(샐러드류)",
+        "price": "8,900원"
+      },
+      {
+        "menu_name": "치폴레파스타(샐러드류)",
+        "price": "7,200원"
+      },
+      {
+        "menu_name": "바질파스타(샐러드류)",
+        "price": "7,900원"
+      },
+      {
+        "menu_name": "리코타치즈(샐러드류)",
+        "price": "8,500원"
+      },
+      {
+        "menu_name": "쉬림프(샐러드류)",
+        "price": "9,500원"
+      },
+      {
+        "menu_name": "분짜(샐러드류)",
+        "price": "9,500원"
+      },
+      {
+        "menu_name": "닭다리살통곡물(포케류)",
+        "price": "9,900원"
+      },
+      {
+        "menu_name": "치폴레포크그랩(샌드위치류)",
+        "price": "6,500원"
+      },
+      {
+        "menu_name": "단호박스프(스프류)",
+        "price": "3,900원"
+      }
+    ],
+    "startup_cost_detailed": {
+      "total_min": 59800000,
+      "total_max": 119800000,
+      "franchise_fee_str": "1,000만원500만원",
+      "franchise_fee_num": 10000000,
+      "education_fee_str": "500만원300만원",
+      "education_fee_num": 5000000,
+      "security_deposit_str": "200만원",
+      "security_deposit_num": 2000000,
+      "interior_cost_str": "2,160만원",
+      "interior_cost_num": 21600000,
+      "signboard_cost_str": "500만원",
+      "signboard_cost_num": 5000000,
+      "kitchen_equipment_cost_str": "1,500만원",
+      "kitchen_equipment_cost_num": 15000000,
+      "initial_goods_cost_str": "100만원",
+      "initial_goods_cost_num": 1000000,
+      "other_cost_str": "1,500만원 ~ 3,000만원",
+      "other_cost_num": 15000000,
+      "rent_deposit_str": "1,500만원 ~ 3,000만원"
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "3천만",
+      "monthly_average_sales_num": 30000000,
+      "disclosure_reference": "2025.10.30 정보공개서",
+      "active_stores": 23,
+      "direct_stores": 0,
+      "yearly_openings": 4,
+      "yearly_closings": 5,
+      "yearly_transfers": 3,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 11000000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 23760000,
+      "startup_cost_interior_size": "40㎡(12평) 기준",
+      "startup_cost_other": 24530000
+    },
+    "headquarters": {
+      "company_name": "(주)브로스고",
+      "business_start_date": "2017.09.07",
+      "representative": "",
+      "address": "우 : 02844 서울특별시 성북구 보문로32길 84 3층(동선동2가)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "역전할머니맥주",
+    "category_id": "pub",
+    "category_name": "주점",
+    "source_url": "https://myfranchise.kr/brand/1000572",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "크라운호프",
+    "category_id": "pub",
+    "category_name": "주점",
+    "source_url": "https://myfranchise.kr/20171244/%ED%81%AC%EB%9D%BC%EC%9A%B4%ED%98%B8%ED%94%84%EB%B3%B4%EB%A6%AC%EC%9E%A5%EC%9D%B8",
+    "overview": {
+      "monthly_average_sales_str": "2,485만원",
+      "monthly_average_sales_num": 24850000,
+      "main_menu": "",
+      "store_count_str": "월평균 매출",
+      "store_count_num": 0,
+      "benefits_str": "17개 브랜드",
+      "benefits_num": 17
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "550만원",
+      "education_fee_num": 5500000,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "4천만",
+      "monthly_average_sales_num": 40000000,
+      "disclosure_reference": "2025.07.04 정보공개서",
+      "active_stores": 456,
+      "direct_stores": 1,
+      "yearly_openings": 23,
+      "yearly_closings": 21,
+      "yearly_transfers": 41,
+      "startup_cost_total": 0,
+      "startup_cost_franchise": 5500000,
+      "startup_cost_education": 5500000,
+      "startup_cost_deposit": 2000000,
+      "startup_cost_interior": 33000000,
+      "startup_cost_interior_size": "66㎡(20평) 기준",
+      "startup_cost_other": 18700000
+    },
+    "headquarters": {
+      "company_name": "피에스피에프앤디㈜",
+      "business_start_date": "2013.06.14",
+      "representative": "",
+      "address": "우 : 05714 서울특별시 송파구 송이로 99 2층(가락동, PSP빌딩)",
+      "disclosure_update_date": "자세히"
+    }
+  },
+  {
+    "brand_name": "한신포차",
+    "category_id": "pub",
+    "category_name": "주점",
+    "source_url": "https://myfranchise.kr/brand/1000632",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "투다리",
+    "category_id": "pub",
+    "category_name": "주점",
+    "source_url": "https://myfranchise.kr/brand/1001353",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "공차",
+    "category_id": "bubbletea",
+    "category_name": "버블티/음료",
+    "source_url": "https://myfranchise.kr/brand/gongcha",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "아마스빈",
+    "category_id": "bubbletea",
+    "category_name": "버블티/음료",
+    "source_url": "https://myfranchise.kr/brands/1138",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "팔공티",
+    "category_id": "bubbletea",
+    "category_name": "버블티/음료",
+    "source_url": "https://myfranchise.kr/brands/1169",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  },
+  {
+    "brand_name": "쥬씨",
+    "category_id": "bubbletea",
+    "category_name": "버블티/음료",
+    "source_url": "https://myfranchise.kr/brands/1066",
+    "overview": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "main_menu": "",
+      "store_count_str": "",
+      "store_count_num": null,
+      "benefits_str": "",
+      "benefits_num": null
+    },
+    "representative_menu": [],
+    "startup_cost_detailed": {
+      "total_min": null,
+      "total_max": null,
+      "franchise_fee_str": "",
+      "franchise_fee_num": null,
+      "education_fee_str": "",
+      "education_fee_num": null,
+      "security_deposit_str": "",
+      "security_deposit_num": null,
+      "interior_cost_str": "",
+      "interior_cost_num": null,
+      "signboard_cost_str": "",
+      "signboard_cost_num": null,
+      "kitchen_equipment_cost_str": "",
+      "kitchen_equipment_cost_num": null,
+      "initial_goods_cost_str": "",
+      "initial_goods_cost_num": null,
+      "other_cost_str": "",
+      "other_cost_num": null,
+      "rent_deposit_str": ""
+    },
+    "franchise_disclosure": {
+      "monthly_average_sales_str": "",
+      "monthly_average_sales_num": null,
+      "active_stores": null,
+      "direct_stores": null,
+      "yearly_openings": null,
+      "yearly_closings": null,
+      "yearly_transfers": null,
+      "startup_cost_total": null,
+      "startup_cost_franchise": null,
+      "startup_cost_education": null,
+      "startup_cost_deposit": null,
+      "startup_cost_interior": null,
+      "startup_cost_interior_size": null,
+      "startup_cost_other": null
+    },
+    "headquarters": {
+      "company_name": "",
+      "business_start_date": "",
+      "representative": "",
+      "address": "",
+      "disclosure_update_date": ""
+    }
+  }
+]

@@ -6,6 +6,10 @@ test("franchise page prioritizes industry average and keeps brand examples as su
   await page.goto(`${baseURL}/dashboard/startup/franchise`);
   await expect(page.getByText("업종 평균 우선", { exact: true })).toBeVisible();
   await expect(page.getByText("내 브랜드안", { exact: true })).toBeVisible();
+  await expect(page.locator("[data-testid='collected-franchise-details']")).toContainText("공개 브랜드 4개");
+  await expect(page.locator("[data-testid='collected-franchise-details']")).toContainText("한솥");
+  await expect(page.locator("[data-testid='collected-franchise-details']")).toContainText("월평균 매출");
+  await expect(page.locator("[data-testid='collected-franchise-details']")).toContainText("대표 메뉴 가격");
   await expect(page.getByText("예시 브랜드 4개 보기", { exact: true })).toBeVisible();
   await page.getByText("예시 브랜드 4개 보기", { exact: true }).click();
   await expect(page.locator("[data-testid='resolved-brand-examples']")).toContainText("한솥");

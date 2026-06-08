@@ -4,6 +4,7 @@ import realFranchiseCohorts from "@/src/data/branch/real/franchise/franchise_coh
 import realFranchiseSummary from "@/src/data/branch/real/franchise/franchise_benchmark_summary.json";
 import realFranchiseQuality from "@/src/data/branch/real/franchise/franchise_data_quality.json";
 import resolvedBrandsByCategory from "@/src/data/branch/real/franchise/resolved_brands_by_category.json";
+import collectedBrandDetailsByCategory from "@/src/data/branch/real/franchise/collected_brand_details_by_category.json";
 import realSuppliers from "@/src/data/branch/real/suppliers/suppliers.json";
 import realSupplierProducts from "@/src/data/branch/real/suppliers/supplier_products.json";
 import realSupplierSnapshots from "@/src/data/branch/real/suppliers/supplier_price_snapshots.json";
@@ -17,7 +18,7 @@ import realMenuCosts from "@/src/data/branch/real/cost/menu_costs.json";
 import realProfitSimulations from "@/src/data/branch/real/cost/profit_simulations.json";
 import realReadiness from "@/src/data/branch/real/readiness/demo_readiness.json";
 import { getDefaultFranchise, getFranchiseBenchmarks, getGroupbuyCandidates, getMenuCosts, getProfitSimulations, getSupplierCandidates } from "./data";
-import type { FranchiseBenchmarkSummary, FranchiseBrand, FranchiseCohort, IngredientMaster, IngredientProductMatch, RealMenuCost, ResolvedFranchiseBrandsByCategory, SupplierProduct } from "./real-types";
+import type { CollectedFranchiseDetailsByCategory, FranchiseBenchmarkSummary, FranchiseBrand, FranchiseCohort, IngredientMaster, IngredientProductMatch, RealMenuCost, ResolvedFranchiseBrandsByCategory, SupplierProduct } from "./real-types";
 
 export function hasRealBranchData() {
   return Boolean((realManifest as { generatedAt?: string }).generatedAt);
@@ -115,6 +116,14 @@ export function getResolvedFranchiseBrandsByCategory() {
 
 export function getResolvedFranchiseExamples(categoryId: string) {
   return getResolvedFranchiseBrandsByCategory()[categoryId] ?? [];
+}
+
+export function getCollectedFranchiseDetailsByCategory() {
+  return collectedBrandDetailsByCategory as CollectedFranchiseDetailsByCategory;
+}
+
+export function getCollectedFranchiseDetails(categoryId: string) {
+  return getCollectedFranchiseDetailsByCategory()[categoryId] ?? null;
 }
 
 export function getRealSuppliers() {
