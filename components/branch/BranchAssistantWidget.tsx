@@ -3,7 +3,8 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import { Bot, LoaderCircle, Send, Sparkles, X } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import { readFinanceSelection, readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import { readSelectedLocation } from "@/lib/branch/storage/experience-state-storage";
 
 type Message = {
   role: "user" | "assistant";
@@ -77,6 +78,8 @@ export function BranchAssistantWidget() {
           sessionKey,
           pathname,
           startupInput: readStartupInput(),
+          selectedLocation: readSelectedLocation(),
+          financeSelection: readFinanceSelection(),
           messages: nextMessages
         })
       });

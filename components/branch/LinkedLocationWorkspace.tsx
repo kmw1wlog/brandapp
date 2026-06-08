@@ -5,6 +5,9 @@ import type { ComponentType } from "react";
 import { Activity, BarChart3, CloudSun, Map, MapPinned, Megaphone, Navigation, Search, Store, TrendingUp, Truck, Users } from "lucide-react";
 import { Badge } from "@/components/branch/Common";
 import { KakaoLocationMap } from "@/components/branch/KakaoLocationMap";
+import { readStartupInput, saveStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import { saveSelectedExperienceCategory, saveSelectedLocation } from "@/lib/branch/storage/experience-state-storage";
+import { normalizeStartupInput } from "@/lib/branch/user-input";
 import type {
   CategoryRadiusRule,
   ExperienceCategory,
@@ -79,6 +82,18 @@ export function LinkedLocationWorkspace({
     selectedCandidate
   );
   const activeAdjustmentBand = financeAdjustments.filter((item) => item.category_id === selectedCategoryId);
+
+  useEffect(() => {
+    if (!selectedCategory) return;
+    saveSelectedExperienceCategory({ categoryId: selectedCategory.category_id, displayName: selectedCategory.display_name });
+    const currentInput = readStartupInput();
+    saveStartupInput(normalizeStartupInput({ ...currentInput, category: selectedCategory.display_name, operation_type: selectedCandidate?.recommended_operation_type ?? currentInput.operation_type }));
+  }, [selectedCategory, selectedCandidate]);
+
+  useEffect(() => {
+    if (!selectedCandidate) return;
+    saveSelectedLocation(selectedCandidate, financeAdjustments);
+  }, [selectedCandidate, financeAdjustments]);
 
   return (
     <section className="grid gap-5 xl:grid-cols-[360px_minmax(0,1fr)]" data-testid="location-linked-workspace">

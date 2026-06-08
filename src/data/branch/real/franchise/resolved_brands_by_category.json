@@ -1,0 +1,332 @@
+{
+  "rice_bowl": [
+    {
+      "brand_name": "한솥",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20080100308/%ED%95%9C%EC%86%A5",
+      "display_order": 1
+    },
+    {
+      "brand_name": "본도시락",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20100100482/%EB%B3%B8%EB%8F%84%EC%8B%9C%EB%9D%BD",
+      "display_order": 2
+    },
+    {
+      "brand_name": "토마토도시락",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20100100165/%ED%86%A0%EB%A7%88%ED%86%A0%EB%8F%84%EC%8B%9C%EB%9D%BD",
+      "display_order": 3
+    },
+    {
+      "brand_name": "핵밥",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20200463/%ED%95%B5%EB%B0%A5",
+      "display_order": 4
+    }
+  ],
+  "coffee_drink": [
+    {
+      "brand_name": "메가엠지씨커피",
+      "source_category_id": "coffee",
+      "source_category_name": "커피",
+      "resolved_url": "https://myfranchise.kr/20160628/%EB%A9%94%EA%B0%80%EC%97%A0%EC%A7%80%EC%94%A8%EC%BB%A4%ED%94%BC-MEGA-MGC-COFFEE-",
+      "display_order": 1
+    },
+    {
+      "brand_name": "컴포즈커피",
+      "source_category_id": "coffee",
+      "source_category_name": "커피",
+      "resolved_url": "https://myfranchise.kr/20141250/%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%BB%A4%ED%94%BC-COMPOSE-COFFEE-",
+      "display_order": 2
+    },
+    {
+      "brand_name": "빽다방",
+      "source_category_id": "coffee",
+      "source_category_name": "커피",
+      "resolved_url": "https://myfranchise.kr/20090100502/%EB%B9%BD%EB%8B%A4%EB%B0%A9",
+      "display_order": 3
+    },
+    {
+      "brand_name": "더벤티",
+      "source_category_id": "coffee",
+      "source_category_name": "커피",
+      "resolved_url": "https://myfranchise.kr/20140722/%EB%8D%94%EB%B2%A4%ED%8B%B0",
+      "display_order": 4
+    }
+  ],
+  "dessert_bakery": [
+    {
+      "brand_name": "설빙",
+      "source_category_id": "dessert",
+      "source_category_name": "디저트",
+      "resolved_url": "https://myfranchise.kr/20130249/%EC%84%A4%EB%B9%99",
+      "display_order": 1
+    },
+    {
+      "brand_name": "배스킨라빈스",
+      "source_category_id": "dessert",
+      "source_category_name": "디저트",
+      "resolved_url": "https://myfranchise.kr/20080500015/%EB%B0%B0%EC%8A%A4%ED%82%A8%EB%9D%BC%EB%B9%88%EC%8A%A4",
+      "display_order": 2
+    },
+    {
+      "brand_name": "요거프레소",
+      "source_category_id": "dessert",
+      "source_category_name": "디저트",
+      "resolved_url": "https://myfranchise.kr/20080100635/%EC%9A%94%EA%B1%B0%ED%94%84%EB%A0%88%EC%86%8C",
+      "display_order": 3
+    },
+    {
+      "brand_name": "와플대학",
+      "source_category_id": "dessert",
+      "source_category_name": "디저트",
+      "resolved_url": "https://myfranchise.kr/20141237/%EC%99%80%ED%94%8C%EB%8C%80%ED%95%99",
+      "display_order": 4
+    }
+  ],
+  "korean_food": [
+    {
+      "brand_name": "본죽&비빔밥",
+      "source_category_id": "korean",
+      "source_category_name": "한식",
+      "resolved_url": "https://myfranchise.kr/20141221/%EB%B3%B8%EC%A3%BD-%EB%B9%84%EB%B9%94%EB%B0%A5",
+      "display_order": 1
+    },
+    {
+      "brand_name": "놀부부대찌개",
+      "source_category_id": "korean",
+      "source_category_name": "한식",
+      "resolved_url": "https://myfranchise.kr/brands/1609",
+      "display_order": 2
+    },
+    {
+      "brand_name": "두찜",
+      "source_category_id": "korean",
+      "source_category_name": "한식",
+      "resolved_url": "https://myfranchise.kr/20160858/%EB%91%90%EC%B0%9C",
+      "display_order": 3
+    },
+    {
+      "brand_name": "채선당",
+      "source_category_id": "korean",
+      "source_category_name": "한식",
+      "resolved_url": "https://myfranchise.kr/20080100111/%EC%B1%84%EC%84%A0%EB%8B%B9",
+      "display_order": 4
+    }
+  ],
+  "chinese_food": [
+    {
+      "brand_name": "홍콩반점0410",
+      "source_category_id": "chinese",
+      "source_category_name": "중식",
+      "resolved_url": "https://myfranchise.kr/20080100210/%ED%99%8D%EC%BD%A9%EB%B0%98%EC%A0%900410",
+      "display_order": 1
+    },
+    {
+      "brand_name": "보배반점",
+      "source_category_id": "chinese",
+      "source_category_name": "중식",
+      "resolved_url": "https://myfranchise.kr/20181340/%EB%B3%B4%EB%B0%B0%EB%B0%98%EC%A0%90",
+      "display_order": 2
+    },
+    {
+      "brand_name": "이비가짬뽕",
+      "source_category_id": "chinese",
+      "source_category_name": "중식",
+      "resolved_url": "https://myfranchise.kr/20110500053/%EC%9D%B4%EB%B9%84%EA%B0%80%EC%A7%AC%EB%BD%95",
+      "display_order": 3
+    },
+    {
+      "brand_name": "소림마라",
+      "source_category_id": "chinese",
+      "source_category_name": "중식",
+      "resolved_url": "https://myfranchise.kr/20210315/%EC%86%8C%EB%A6%BC%EB%A7%88%EB%9D%BC",
+      "display_order": 4
+    }
+  ],
+  "japanese_food": [
+    {
+      "brand_name": "역전우동0410",
+      "source_category_id": "japanese",
+      "source_category_name": "일식",
+      "resolved_url": "https://myfranchise.kr/20120100352/%EC%97%AD%EC%A0%84%EC%9A%B0%EB%8F%990410",
+      "display_order": 1
+    },
+    {
+      "brand_name": "미소야",
+      "source_category_id": "japanese",
+      "source_category_name": "일식",
+      "resolved_url": "https://myfranchise.kr/20080100430/%EB%AF%B8%EC%86%8C%EC%95%BC",
+      "display_order": 2
+    },
+    {
+      "brand_name": "아비꼬",
+      "source_category_id": "japanese",
+      "source_category_name": "일식",
+      "resolved_url": "https://myfranchise.kr/20090100504/%EC%95%84%EB%B9%84%EA%BC%AC",
+      "display_order": 3
+    },
+    {
+      "brand_name": "하루엔소쿠",
+      "source_category_id": "japanese",
+      "source_category_name": "일식",
+      "resolved_url": "https://myfranchise.kr/20160451/%ED%95%98%EB%A3%A8%EC%97%94%EC%86%8C%EC%BF%A0",
+      "display_order": 4
+    }
+  ],
+  "western_pizza": [
+    {
+      "brand_name": "롤링파스타",
+      "source_category_id": "western",
+      "source_category_name": "양식",
+      "resolved_url": "https://myfranchise.kr/20190227/%EB%A1%A4%EB%A7%81%ED%8C%8C%EC%8A%A4%ED%83%80",
+      "display_order": 1
+    },
+    {
+      "brand_name": "서가앤쿡",
+      "source_category_id": "western",
+      "source_category_name": "양식",
+      "resolved_url": "https://myfranchise.kr/20110600026/%EC%84%9C%EA%B0%80%EC%95%A4%EC%BF%A1",
+      "display_order": 2
+    },
+    {
+      "brand_name": "라라코스트",
+      "source_category_id": "western",
+      "source_category_name": "양식",
+      "resolved_url": "https://myfranchise.kr/20130012/%EB%9D%BC%EB%9D%BC%EC%BD%94%EC%8A%A4%ED%8A%B8-raracost-",
+      "display_order": 3
+    },
+    {
+      "brand_name": "파스타부오노",
+      "source_category_id": "western",
+      "source_category_name": "양식",
+      "resolved_url": "https://myfranchise.kr/20110600022/%ED%8C%8C%EC%8A%A4%ED%83%80%EB%B6%80%EC%98%A4%EB%85%B8",
+      "display_order": 4
+    }
+  ],
+  "snack_chicken": [
+    {
+      "brand_name": "신전떡볶이",
+      "source_category_id": "snack",
+      "source_category_name": "분식",
+      "resolved_url": "https://myfranchise.kr/20110600008/%EC%8B%A0%EC%A0%84%EB%96%A1%EB%B3%B6%EC%9D%B4",
+      "display_order": 1
+    },
+    {
+      "brand_name": "동대문엽기떡볶이",
+      "source_category_id": "snack",
+      "source_category_name": "분식",
+      "resolved_url": "https://myfranchise.kr/20130100283/%EB%B6%88%EB%8B%AD%EB%B0%9C%EB%95%A1%EC%B4%88%EB%8F%99%EB%8C%80%EB%AC%B8%EC%97%BD%EA%B8%B0%EB%96%A1%EB%B3%B6%EC%9D%B4",
+      "display_order": 2
+    },
+    {
+      "brand_name": "청년다방",
+      "source_category_id": "snack",
+      "source_category_name": "분식",
+      "resolved_url": "https://myfranchise.kr/20150700/%EC%B2%AD%EB%85%84%EB%8B%A4%EB%B0%A9",
+      "display_order": 3
+    },
+    {
+      "brand_name": "감탄떡볶이",
+      "source_category_id": "snack",
+      "source_category_name": "분식",
+      "resolved_url": "https://myfranchise.kr/20170454/%EA%B0%90%ED%83%84%EB%96%A1%EB%B3%B6%EC%9D%B4",
+      "display_order": 4
+    }
+  ],
+  "burger_sandwich": [
+    {
+      "brand_name": "맘스터치",
+      "source_category_id": "burger",
+      "source_category_name": "버거/샌드위치",
+      "resolved_url": "https://myfranchise.kr/20080100157/%EB%A7%98%EC%8A%A4%ED%84%B0%EC%B9%98",
+      "display_order": 1
+    },
+    {
+      "brand_name": "롯데리아",
+      "source_category_id": "burger",
+      "source_category_name": "버거/샌드위치",
+      "resolved_url": "https://myfranchise.kr/20080100155/%EB%A1%AF%EB%8D%B0%EB%A6%AC%EC%95%84",
+      "display_order": 2
+    },
+    {
+      "brand_name": "써브웨이",
+      "source_category_id": "burger",
+      "source_category_name": "버거/샌드위치",
+      "resolved_url": "https://myfranchise.kr/20080100727/%EC%8D%A8%EB%B8%8C%EC%9B%A8%EC%9D%B4-Subway-",
+      "display_order": 3
+    },
+    {
+      "brand_name": "이삭토스트",
+      "source_category_id": "burger",
+      "source_category_name": "버거/샌드위치",
+      "resolved_url": "https://myfranchise.kr/20080500031/%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8",
+      "display_order": 4
+    }
+  ],
+  "lunchbox": [
+    {
+      "brand_name": "한솥",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20080100308/%ED%95%9C%EC%86%A5",
+      "display_order": 1
+    },
+    {
+      "brand_name": "본도시락",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20100100482/%EB%B3%B8%EB%8F%84%EC%8B%9C%EB%9D%BD",
+      "display_order": 2
+    },
+    {
+      "brand_name": "토마토도시락",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20100100165/%ED%86%A0%EB%A7%88%ED%86%A0%EB%8F%84%EC%8B%9C%EB%9D%BD",
+      "display_order": 3
+    },
+    {
+      "brand_name": "핵밥",
+      "source_category_id": "lunchbox",
+      "source_category_name": "도시락/덮밥",
+      "resolved_url": "https://myfranchise.kr/20200463/%ED%95%B5%EB%B0%A5",
+      "display_order": 4
+    }
+  ],
+  "salad_poke": [
+    {
+      "brand_name": "샐러디",
+      "source_category_id": "salad",
+      "source_category_name": "샐러드/포케",
+      "resolved_url": "https://myfranchise.kr/20150828/%EC%83%90%EB%9F%AC%EB%94%94",
+      "display_order": 1
+    },
+    {
+      "brand_name": "포케올데이",
+      "source_category_id": "salad",
+      "source_category_name": "샐러드/포케",
+      "resolved_url": "https://myfranchise.kr/20201343/%ED%8F%AC%EC%BC%80%EC%98%AC%EB%8D%B0%EC%9D%B4",
+      "display_order": 2
+    },
+    {
+      "brand_name": "슬로우캘리",
+      "source_category_id": "salad",
+      "source_category_name": "샐러드/포케",
+      "resolved_url": "https://myfranchise.kr/20212429/%EC%8A%AC%EB%A1%9C%EC%9A%B0%EC%BA%98%EB%A6%AC",
+      "display_order": 3
+    },
+    {
+      "brand_name": "투고샐러드",
+      "source_category_id": "salad",
+      "source_category_name": "샐러드/포케",
+      "resolved_url": "https://myfranchise.kr/20161076/%ED%88%AC%EA%B3%A0%EC%83%90%EB%9F%AC%EB%93%9C--TOGOSALAD-",
+      "display_order": 4
+    }
+  ]
+}

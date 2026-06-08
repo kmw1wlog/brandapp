@@ -1,7 +1,7 @@
 "use client";
 
 import { defaultStartupInput, normalizeStartupInput } from "@/lib/branch/user-input";
-import type { FinanceScenarioKey, StartupUserInput } from "@/lib/branch/finance/finance-types";
+import type { FinanceScenarioKey, LocationFinanceContext, StartupUserInput } from "@/lib/branch/finance/finance-types";
 
 export const BRANCH_USER_INPUT_KEY = "branch_user_input_v1";
 export const BRANCH_SELECTED_BRAND_KEY = "branch_selected_brand_v1";
@@ -16,6 +16,7 @@ export type SavedFinanceSelection = {
   targetDailyOrders: number;
   deliveryShare: number;
   endingCash: number;
+  selectedLocation?: LocationFinanceContext | null;
   updatedAt: string;
 };
 

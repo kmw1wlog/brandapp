@@ -75,6 +75,16 @@ export type FranchiseBenchmarkSummary = {
   featuredBrandId: string;
 };
 
+export type ResolvedFranchiseBrandExample = {
+  brand_name: string;
+  source_category_id: string;
+  source_category_name: string;
+  resolved_url: string;
+  display_order: number;
+};
+
+export type ResolvedFranchiseBrandsByCategory = Record<string, ResolvedFranchiseBrandExample[]>;
+
 export type SupplierProduct = {
   id: string;
   source: "gpt" | "perplexity";

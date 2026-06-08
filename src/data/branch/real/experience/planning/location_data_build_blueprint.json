@@ -1,0 +1,239 @@
+{
+  "generatedAt": "2026-06-08T19:20:00+09:00",
+  "purpose": "next-turn implementation blueprint for founder-facing location intelligence",
+  "currentReality": {
+    "locationProfilesAvailable": 2,
+    "sbiz365NormalizedCacheAvailable": false,
+    "financeUsesRealLocation": false,
+    "kakaoMapJsDomainRegistered": false
+  },
+  "mustBuildDatasets": [
+    {
+      "datasetId": "category_radius_rules",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "manual rules backed by existing experience category traits",
+      "fields": [
+        "category_id",
+        "recommended_radius_meters",
+        "secondary_radius_meters",
+        "reason",
+        "delivery_bias",
+        "hall_bias"
+      ],
+      "exampleRules": [
+        {
+          "category_id": "coffee_drink",
+          "recommended_radius_meters": 300,
+          "secondary_radius_meters": 500,
+          "reason": "도보 체류와 재방문 빈도가 높아 근거리 경쟁이 중요"
+        },
+        {
+          "category_id": "korean_food",
+          "recommended_radius_meters": 500,
+          "secondary_radius_meters": 800,
+          "reason": "식사 목적 이동 범위가 카페보다 넓음"
+        },
+        {
+          "category_id": "delivery_only_proxy",
+          "recommended_radius_meters": 800,
+          "secondary_radius_meters": 1200,
+          "reason": "배달 수요 반영 범위가 더 넓음"
+        }
+      ]
+    },
+    {
+      "datasetId": "sbiz365_response_blueprints",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "capture one or more real responses per module, then define normalized field mapping",
+      "fields": [
+        "module_id",
+        "official_route",
+        "query_params_example",
+        "raw_response_shape",
+        "normalized_fields",
+        "simulator_fields",
+        "drilldown_fields"
+      ]
+    },
+    {
+      "datasetId": "sbiz365_module_cache",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "on-demand fetch then cache by lat/lng/radius/category/date",
+      "cacheKey": "lat,lng:radiusMeters:categoryId:queryDate:moduleId",
+      "minimumModules": [
+        "simple",
+        "detail",
+        "store_status",
+        "sales_trend",
+        "delivery",
+        "business_age",
+        "sns",
+        "tour",
+        "weather",
+        "theme",
+        "map"
+      ],
+      "normalizedFields": [
+        "summaryScore",
+        "riskLevel",
+        "monthlySalesTrend",
+        "sameCategoryStoreCount",
+        "deliveryDemandIndex",
+        "deliveryCompetitionIndex",
+        "businessAgeMix",
+        "snsKeywords",
+        "eventCalendar",
+        "founderAdvice",
+        "sourceTimestamp"
+      ]
+    },
+    {
+      "datasetId": "location_profile_cache",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "merge sdsc2 store counts + sbiz365 normalized modules into one founder-facing profile",
+      "cacheKey": "lat,lng:radiusMeters:categoryId:queryDate",
+      "fields": [
+        "administrativeDistrict",
+        "commercialZoneNumber",
+        "candidateLabel",
+        "sameSmallStoresInRadius",
+        "sameSmallStoreDensityPerKm2",
+        "salesTrendIndex",
+        "deliveryFitScore",
+        "deliveryCompetitionScore",
+        "businessAgeStabilityScore",
+        "snsKeywordScore",
+        "tourismEventScore",
+        "advantageSignals",
+        "cautionSignals",
+        "nearbyCompetitors",
+        "summaryLocationScore"
+      ]
+    },
+    {
+      "datasetId": "location_candidate_rankings",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "pre-seed several showcase candidates per region/category and later allow user-entered address comparisons",
+      "fields": [
+        "candidate_id",
+        "region_label",
+        "category_id",
+        "latitude",
+        "longitude",
+        "radius_meters",
+        "headline_score",
+        "sales_score",
+        "competition_score",
+        "delivery_score",
+        "stability_score",
+        "event_bonus_score",
+        "rent_pressure_score",
+        "recommended_operation_type",
+        "summary"
+      ]
+    },
+    {
+      "datasetId": "finance_location_adjustments",
+      "priority": "P0",
+      "storage": "json",
+      "buildMode": "derive modifiers from category rules + location profile + FTC medians",
+      "fields": [
+        "category_id",
+        "location_score_band",
+        "daily_order_multiplier",
+        "delivery_share_adjustment",
+        "rent_guardrail_ratio",
+        "marketing_ramp_adjustment",
+        "confidence_label"
+      ]
+    },
+    {
+      "datasetId": "location_cost_proxy",
+      "priority": "P1",
+      "storage": "json",
+      "buildMode": "manual benchmark table until real rent source is secured",
+      "fields": [
+        "region_type",
+        "size_pyeong_band",
+        "deposit_band_krw",
+        "monthly_rent_band_krw",
+        "key_money_band_krw",
+        "confidence"
+      ]
+    },
+    {
+      "datasetId": "brand_menu_price_samples",
+      "priority": "P1",
+      "storage": "json",
+      "buildMode": "manual collection and normalization",
+      "fields": [
+        "brand_name",
+        "category_id",
+        "menu_name",
+        "price_krw",
+        "menu_group",
+        "source_type",
+        "source_url_or_note",
+        "captured_at"
+      ]
+    }
+  ],
+  "kakaoMapIntegration": {
+    "status": "blocked_until_domain_registration",
+    "requiredBeforeImplementation": [
+      "local preview domain registration",
+      "production domain registration",
+      "SDK loader validation"
+    ],
+    "mustRender": [
+      "candidate pins",
+      "selected candidate radius circle",
+      "direct competitor markers",
+      "selected candidate summary card"
+    ],
+    "fallbackIfBlocked": "다음 턴 초기 구현에서는 정적 좌표 패널과 목록형 후보 카드로 우선 구현 가능"
+  },
+  "uiModulesToBuildNextTurn": [
+    {
+      "moduleId": "location_shortlist_map",
+      "dependsOn": [
+        "location_candidate_rankings",
+        "kakaoMapIntegration"
+      ]
+    },
+    {
+      "moduleId": "location_reason_cards",
+      "dependsOn": [
+        "location_profile_cache"
+      ]
+    },
+    {
+      "moduleId": "location_vs_finance_comparison",
+      "dependsOn": [
+        "finance_location_adjustments",
+        "location_candidate_rankings"
+      ]
+    },
+    {
+      "moduleId": "sbiz365_drilldown_tabs",
+      "dependsOn": [
+        "sbiz365_module_cache",
+        "sbiz365_response_blueprints"
+      ]
+    }
+  ],
+  "implementationOrder": [
+    "category_radius_rules",
+    "sbiz365_response_blueprints",
+    "sbiz365_module_cache",
+    "location_profile_cache",
+    "location_candidate_rankings",
+    "finance_location_adjustments",
+    "kakao map rendering"
+  ]
+}

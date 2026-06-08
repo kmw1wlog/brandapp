@@ -4,6 +4,10 @@ function getBaseUrl() {
   return (process.env.KIE_BASE_URL || "https://api.kie.ai").replace(/\/$/, "");
 }
 
+function getKieApiKey() {
+  return process.env.KIE_API_KEY || process.env.KIE_AI_API_KEY || process.env.KIE_TOKEN || "";
+}
+
 export function buildKieCreateTaskPayload({ prompt, templateUrl }: { prompt: string; templateUrl?: string }): KieCreateTaskPayload {
   return {
     model: process.env.KIE_MODEL || "nano-banana-pro",
@@ -19,7 +23,7 @@ export function buildKieCreateTaskPayload({ prompt, templateUrl }: { prompt: str
 }
 
 export function kieEnabled() {
-  return Boolean(process.env.KIE_API_KEY);
+  return Boolean(getKieApiKey());
 }
 
 export async function createKieBrandImageJob({
@@ -55,7 +59,7 @@ export async function createKieBrandImageJob({
   const response = await fetch(`${getBaseUrl()}/api/v1/jobs/createTask`, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${process.env.KIE_API_KEY}`,
+      Authorization: `Bearer ${getKieApiKey()}`,
       "Content-Type": "application/json"
     },
     body: JSON.stringify(payload)
@@ -88,7 +92,7 @@ export async function fetchKieJobStatus(taskId: string) {
 
   const response = await fetch(`${getBaseUrl()}/api/v1/jobs/recordInfo?taskId=${encodeURIComponent(taskId)}`, {
     headers: {
-      Authorization: `Bearer ${process.env.KIE_API_KEY}`
+      Authorization: `Bearer ${getKieApiKey()}`
     }
   });
   const json = await response.json();

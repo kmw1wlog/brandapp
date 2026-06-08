@@ -3,6 +3,7 @@ import realFranchiseBrands from "@/src/data/branch/real/franchise/franchise_bran
 import realFranchiseCohorts from "@/src/data/branch/real/franchise/franchise_cohorts.json";
 import realFranchiseSummary from "@/src/data/branch/real/franchise/franchise_benchmark_summary.json";
 import realFranchiseQuality from "@/src/data/branch/real/franchise/franchise_data_quality.json";
+import resolvedBrandsByCategory from "@/src/data/branch/real/franchise/resolved_brands_by_category.json";
 import realSuppliers from "@/src/data/branch/real/suppliers/suppliers.json";
 import realSupplierProducts from "@/src/data/branch/real/suppliers/supplier_products.json";
 import realSupplierSnapshots from "@/src/data/branch/real/suppliers/supplier_price_snapshots.json";
@@ -16,7 +17,7 @@ import realMenuCosts from "@/src/data/branch/real/cost/menu_costs.json";
 import realProfitSimulations from "@/src/data/branch/real/cost/profit_simulations.json";
 import realReadiness from "@/src/data/branch/real/readiness/demo_readiness.json";
 import { getDefaultFranchise, getFranchiseBenchmarks, getGroupbuyCandidates, getMenuCosts, getProfitSimulations, getSupplierCandidates } from "./data";
-import type { FranchiseBenchmarkSummary, FranchiseBrand, FranchiseCohort, IngredientMaster, IngredientProductMatch, RealMenuCost, SupplierProduct } from "./real-types";
+import type { FranchiseBenchmarkSummary, FranchiseBrand, FranchiseCohort, IngredientMaster, IngredientProductMatch, RealMenuCost, ResolvedFranchiseBrandsByCategory, SupplierProduct } from "./real-types";
 
 export function hasRealBranchData() {
   return Boolean((realManifest as { generatedAt?: string }).generatedAt);
@@ -106,6 +107,14 @@ export function getRealSupplierQuality() {
 
 export function getRealFranchiseQuality() {
   return realFranchiseQuality as Record<string, unknown>;
+}
+
+export function getResolvedFranchiseBrandsByCategory() {
+  return resolvedBrandsByCategory as ResolvedFranchiseBrandsByCategory;
+}
+
+export function getResolvedFranchiseExamples(categoryId: string) {
+  return getResolvedFranchiseBrandsByCategory()[categoryId] ?? [];
 }
 
 export function getRealSuppliers() {

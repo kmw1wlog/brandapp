@@ -725,6 +725,7 @@ function main() {
   const ownerConversionDemo = readJson("src/data/branch/real/owner_conversion_demo.json");
   const consultationRfpTemplates = readJson("src/data/branch/real/consultation_rfp_templates.json");
   const marketServices = readJson("src/data/branch/real/market_services.json");
+  const resolvedBrandsByCategory = readJson("DB_real/franchise_resolved_brands/resolved_brands_by_category.json");
   const ftcCollectionReport = fs.existsSync(path.join(root, "DB_real/ftc_franchise_db/metadata/collection_report.json"))
     ? readJson("DB_real/ftc_franchise_db/metadata/collection_report.json")
     : null;
@@ -741,8 +742,6 @@ function main() {
   const costAssumptions = readJson("src/data/branch/cost/cost_assumptions.json");
   const scenario = readJson("src/data/branch/scenarios/busan_meatbowl.json");
 
-  fs.rmSync(outRoot, { recursive: true, force: true });
-
   writeJson("manifest.json", {
     generatedAt: new Date().toISOString(),
     sourceRoots: [
@@ -751,7 +750,8 @@ function main() {
       "DB_real/perplexity_supplier_db",
       "DB_real/ftc_franchise_db",
       "DB_real/sbiz_location_db",
-      "DB_real/experience_db"
+      "DB_real/experience_db",
+      "DB_real/franchise_resolved_brands"
     ],
     counts: {
       franchiseBrandCount: brands.length,
@@ -770,6 +770,7 @@ function main() {
   writeJson("franchise/franchise_brands.json", brands);
   writeJson("franchise/franchise_cohorts.json", cohorts);
   writeJson("franchise/franchise_benchmark_summary.json", benchmarkSummary);
+  writeJson("franchise/resolved_brands_by_category.json", resolvedBrandsByCategory);
   writeJson("franchise/franchise_data_quality.json", {
     directCohortBrandCount: directBrandNames.length,
     quantifiedDirectBrandCount: brands.filter((brand) => brand.comparisonGroup === "direct" && brand.monthlyAverageSales != null).length,

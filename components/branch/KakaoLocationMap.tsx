@@ -14,16 +14,28 @@ let kakaoMapLoader: Promise<void> | null = null;
 
 function loadKakaoMapSdk() {
   if (typeof window === "undefined") return Promise.resolve();
-  if (window.kakao?.maps) return Promise.resolve();
+  if (window.kakao?.maps?.LatLng) return Promise.resolve();
+  if (window.kakao?.maps?.load) {
+    return new Promise<void>((resolve) => window.kakao.maps.load(resolve));
+  }
   if (kakaoMapLoader) return kakaoMapLoader;
 
   const key = process.env.NEXT_PUBLIC_KAKAO_MAP_JS_KEY;
   if (!key) return Promise.reject(new Error("NEXT_PUBLIC_KAKAO_MAP_JS_KEY is missing"));
 
   kakaoMapLoader = new Promise((resolve, reject) => {
+    const resolveWhenReady = () => {
+      if (window.kakao?.maps?.LatLng) resolve();
+      else if (window.kakao?.maps?.load) window.kakao.maps.load(resolve);
+      else reject(new Error("Kakao map sdk loaded without maps API"));
+    };
     const existing = document.querySelector<HTMLScriptElement>("script[data-kakao-map-sdk='true']");
     if (existing) {
-      existing.addEventListener("load", () => window.kakao.maps.load(resolve), { once: true });
+      if (existing.dataset.loaded === "true") {
+        resolveWhenReady();
+        return;
+      }
+      existing.addEventListener("load", resolveWhenReady, { once: true });
       existing.addEventListener("error", () => reject(new Error("Kakao map sdk failed to load")), { once: true });
       return;
     }
@@ -32,7 +44,10 @@ function loadKakaoMapSdk() {
     script.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${key}&autoload=false`;
     script.async = true;
     script.dataset.kakaoMapSdk = "true";
-    script.onload = () => window.kakao.maps.load(resolve);
+    script.onload = () => {
+      script.dataset.loaded = "true";
+      resolveWhenReady();
+    };
     script.onerror = () => reject(new Error("Kakao map sdk failed to load"));
     document.head.appendChild(script);
   });

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { calculateFinanceSimulation } from "@/lib/branch/finance/finance-calculator";
 import type { FinanceScenarioKey } from "@/lib/branch/finance/finance-types";
 import { readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import { readSelectedLocation } from "@/lib/branch/storage/experience-state-storage";
 import { FinanceInputSummary } from "./FinanceInputSummary";
 import { RegionAssumptionPanel } from "./RegionAssumptionPanel";
 import { ScenarioTabs } from "./ScenarioTabs";
@@ -17,12 +18,14 @@ import { FinanceSaveToReportButton } from "./FinanceSaveToReportButton";
 export function FinanceSimulationPage() {
   const [scenarioKey, setScenarioKey] = useState<FinanceScenarioKey>("base");
   const [input, setInput] = useState(readStartupInput());
+  const [selectedLocation, setSelectedLocation] = useState<ReturnType<typeof readSelectedLocation>>(null);
 
   useEffect(() => {
     setInput(readStartupInput());
+    setSelectedLocation(readSelectedLocation());
   }, []);
 
-  const result = calculateFinanceSimulation(input);
+  const result = calculateFinanceSimulation(input, selectedLocation);
   const scenario = result.scenarios[scenarioKey];
 
   return (
@@ -37,8 +40,8 @@ export function FinanceSimulationPage() {
           임대료, 권리금, 배달앱 수수료, 인건비, 상권 수요는 실제 계약과 운영 조건에 따라 달라질 수 있습니다.
         </p>
       </header>
-      <FinanceInputSummary input={input} />
-      <RegionAssumptionPanel profile={result.regionProfile} />
+      <FinanceInputSummary input={input} selectedLocation={selectedLocation} />
+      <RegionAssumptionPanel profile={result.regionProfile} locationContext={result.locationContext} />
       <ScenarioTabs value={scenarioKey} onChange={setScenarioKey} />
       <FourMonthLedgerTable scenario={scenario} />
       <div className="grid gap-5 lg:grid-cols-[1fr_360px]">

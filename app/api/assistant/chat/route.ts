@@ -20,6 +20,8 @@ export async function POST(request: Request) {
     const pathname = String(body?.pathname ?? "/");
     const sessionKey = String(body?.sessionKey ?? crypto.randomUUID());
     const startupInput = (body?.startupInput ?? {}) as Record<string, unknown>;
+    const selectedLocation = (body?.selectedLocation ?? null) as Record<string, unknown> | null;
+    const financeSelection = (body?.financeSelection ?? null) as Record<string, unknown> | null;
     const history = Array.isArray(body?.messages) ? (body.messages as IncomingMessage[]).slice(-8) : [];
     const latestUserMessage = [...history].reverse().find((item) => item.role === "user")?.content ?? "";
 
@@ -33,7 +35,9 @@ export async function POST(request: Request) {
 
     const contextSummary = JSON.stringify({
       pathname,
-      startupInput
+      startupInput,
+      selectedLocation,
+      financeSelection
     });
 
     const messages = [
@@ -48,7 +52,11 @@ export async function POST(request: Request) {
       session_key: sessionKey,
       pathname,
       context_summary: latestUserMessage.slice(0, 200),
-      startup_input: startupInput
+      startup_input: {
+        ...startupInput,
+        selectedLocation,
+        financeSelection
+      }
     });
     await saveChatMessage({
       session_key: sessionKey,
