@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { ComponentType } from "react";
 import { Activity, BarChart3, CloudSun, Map, MapPinned, Megaphone, Navigation, Search, Store, TrendingUp, Truck, Users } from "lucide-react";
 import { Badge } from "@/components/branch/Common";
+import { KakaoLocationMap } from "@/components/branch/KakaoLocationMap";
 import type {
   CategoryRadiusRule,
   ExperienceCategory,
@@ -274,6 +275,24 @@ export function LinkedLocationWorkspace({
         </section>
 
         <section className="grid gap-5 xl:grid-cols-[1.15fr_0.85fr]">
+          <div className="rounded-[28px] border border-[#ddd2c0] bg-white p-5">
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <h4 className="text-xl font-black text-[#164033]">브랜치 후보 지도</h4>
+                <p className="mt-1 text-sm font-bold text-[#655d52]">카카오맵 위에 후보 입지 5곳과 현재 권장 반경을 직접 표시합니다.</p>
+              </div>
+              <Badge tone="success">Kakao Maps</Badge>
+            </div>
+            <div className="mt-4">
+              <KakaoLocationMap
+                candidates={rankedCandidates}
+                selectedCandidateId={selectedCandidate?.candidate_id}
+                radiusMeters={selectedCandidate?.radius_meters ?? selectedRule?.recommended_radius_meters ?? 500}
+                onSelectCandidate={setSelectedCandidateId}
+              />
+            </div>
+          </div>
+
           <div className="rounded-[28px] border border-[#ddd2c0] bg-white p-5" data-testid="location-ranking-table">
             <div className="flex items-center justify-between gap-3">
               <div>

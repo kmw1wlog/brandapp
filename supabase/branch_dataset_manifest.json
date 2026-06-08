@@ -1,0 +1,92 @@
+[
+  {
+    "dataset_id": "experience_category_master",
+    "dataset_name": "Experience Category Master",
+    "domain": "experience",
+    "source_path": "src/data/branch/real/experience/category_master.json",
+    "description": "체험용 업종 마스터",
+    "json_version": "2026-06-08",
+    "tags": ["experience", "category", "master"]
+  },
+  {
+    "dataset_id": "experience_brand_benchmarks",
+    "dataset_name": "Experience Brand Benchmarks",
+    "domain": "experience",
+    "source_path": "src/data/branch/real/experience/brand_benchmarks_by_category.json",
+    "description": "공정위 기반 업종 벤치마크",
+    "json_version": "2026-06-08",
+    "tags": ["experience", "benchmark", "ftc"]
+  },
+  {
+    "dataset_id": "experience_menu_economics",
+    "dataset_name": "Experience Menu Economics",
+    "domain": "experience",
+    "source_path": "src/data/branch/real/experience/menu_economics.json",
+    "description": "업종별 메뉴 가격/원가/마진 구조",
+    "json_version": "2026-06-08",
+    "tags": ["experience", "menu", "economics"]
+  },
+  {
+    "dataset_id": "experience_image_templates",
+    "dataset_name": "Experience Image Templates",
+    "domain": "experience",
+    "source_path": "src/data/branch/real/experience/image_templates.json",
+    "description": "KIE 템플릿용 이미지 메타",
+    "json_version": "2026-06-08",
+    "tags": ["experience", "image", "template"]
+  },
+  {
+    "dataset_id": "experience_simulation_rules",
+    "dataset_name": "Experience Simulation Rules",
+    "domain": "experience",
+    "source_path": "src/data/branch/real/experience/simulation_rules.json",
+    "description": "업종별 설명 가능한 룰엔진 기준값",
+    "json_version": "2026-06-08",
+    "tags": ["experience", "simulation", "rules"]
+  },
+  {
+    "dataset_id": "location_radius_rules",
+    "dataset_name": "Location Radius Rules",
+    "domain": "location",
+    "source_path": "src/data/branch/real/experience/category_radius_rules.json",
+    "description": "업종별 권장 반경",
+    "json_version": "2026-06-08",
+    "tags": ["location", "radius", "rules"]
+  },
+  {
+    "dataset_id": "location_candidate_rankings",
+    "dataset_name": "Location Candidate Rankings",
+    "domain": "location",
+    "source_path": "src/data/branch/real/experience/location_candidate_rankings.json",
+    "description": "후보 입지 점수 테이블",
+    "json_version": "2026-06-08",
+    "tags": ["location", "ranking", "sbiz365"]
+  },
+  {
+    "dataset_id": "location_module_cache",
+    "dataset_name": "Location Module Cache",
+    "domain": "location",
+    "source_path": "src/data/branch/real/experience/sbiz365_module_cache.json",
+    "description": "SBIZ365 정규화 캐시",
+    "json_version": "2026-06-08",
+    "tags": ["location", "cache", "sbiz365"]
+  },
+  {
+    "dataset_id": "location_blueprints",
+    "dataset_name": "Location Response Blueprints",
+    "domain": "location",
+    "source_path": "src/data/branch/real/experience/sbiz365_response_blueprints.json",
+    "description": "SBIZ365 응답 구조와 필드 매핑",
+    "json_version": "2026-06-08",
+    "tags": ["location", "blueprint", "sbiz365"]
+  },
+  {
+    "dataset_id": "finance_location_adjustments",
+    "dataset_name": "Finance Location Adjustments",
+    "domain": "finance",
+    "source_path": "src/data/branch/real/experience/finance_location_adjustments.json",
+    "description": "입지 점수에 따른 손익 보정 룰",
+    "json_version": "2026-06-08",
+    "tags": ["finance", "location", "adjustment"]
+  }
+]

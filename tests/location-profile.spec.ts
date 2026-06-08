@@ -14,6 +14,9 @@ test("location profile page renders linked SBIZ365 workspace", async ({ page }) 
   await expect(page.locator("[data-testid='location-candidate-list'] button")).toHaveCount(5);
   await expect(page.locator("[data-testid='sbiz365-iframe']")).toHaveCount(1);
   await expect(page.locator("[data-testid='sbiz365-iframe']")).toHaveAttribute("src", /bigdata\.sbiz\.or\.kr\/gis\/openApi\/simple/);
+  await expect(page.getByRole("heading", { name: "브랜치 후보 지도", exact: true })).toBeVisible();
+  await expect(page.locator("[data-testid='kakao-location-map']")).toHaveCount(1);
+  await expect(page.locator("[data-testid='assistant-open-button']")).toBeVisible();
 
   const frame = page.frameLocator("[data-testid='sbiz365-iframe']");
   await expect(frame.getByText("간단분석").first()).toBeVisible();

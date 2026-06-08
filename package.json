@@ -16,7 +16,10 @@
     "db:validate": "node scripts/validate-branch-db.mjs",
     "db:real:audit": "node scripts/audit-real-db.mjs",
     "db:real:build": "node scripts/build-real-branch-db.mjs",
-    "db:real:validate": "node scripts/validate-real-branch-db.mjs"
+    "db:real:validate": "node scripts/validate-real-branch-db.mjs",
+    "db:supabase:apply": "node scripts/apply-supabase-framework.mjs",
+    "db:supabase:sync": "node scripts/sync-supabase-datasets.mjs",
+    "db:supabase:verify": "node scripts/verify-supabase-framework.mjs"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
@@ -26,6 +29,7 @@
     "@fullcalendar/timegrid": "^6.1.20",
     "lucide-react": "^0.468.0",
     "next": "15.5.19",
+    "pg": "^8.21.0",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },

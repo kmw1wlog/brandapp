@@ -12,16 +12,24 @@ export function FeedbackFloatingWidget() {
   const [open, setOpen] = useState(false);
   const [saved, setSaved] = useState(false);
 
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
-    saveFeedback({
+    const payload = {
       stage: String(form.get("stage") ?? ""),
       blocker: String(form.get("blocker") ?? ""),
       feature: String(form.get("feature") ?? ""),
       consultation: form.get("consultation") === "on",
       contact: String(form.get("contact") ?? "")
-    });
+    };
+    saveFeedback(payload);
+    try {
+      await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+    } catch {}
     trackEvent("feedback_submit");
     setSaved(true);
   }

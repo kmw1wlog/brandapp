@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Building2, CalendarDays, ChartNoAxesCombined, ClipboardList, FileSignature, FileText, Handshake, LayoutDashboard, MapPinned, Store, WalletCards } from "lucide-react";
 import { useEffect, useState } from "react";
+import { BranchAssistantWidget } from "./BranchAssistantWidget";
 import { FeedbackFloatingWidget } from "./FeedbackFloatingWidget";
 import { trackEvent } from "@/lib/branch/events";
 
@@ -88,6 +89,7 @@ export function BranchAppShell({ children }: { children: React.ReactNode }) {
           <Link href={next.href} className="block rounded-xl bg-[color:var(--branch-primary)] px-4 py-3 text-center text-sm font-black text-white">다음 단계: {next.label}</Link>
         </div>
       ) : null}
+      <BranchAssistantWidget />
       <FeedbackFloatingWidget />
     </div>
   );
