@@ -1,0 +1,101 @@
+[
+  {
+    "category_id": "rice_bowl",
+    "display_name": "덮밥",
+    "recommended_radius_meters": 600,
+    "secondary_radius_meters": 800,
+    "reason": "식사형 업종이라 점심 이동 반경과 배달 수요를 같이 봐야 함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "coffee_drink",
+    "display_name": "커피/버블티/음료",
+    "recommended_radius_meters": 300,
+    "secondary_radius_meters": 500,
+    "reason": "도보 접근과 재방문 빈도가 높아 근거리 경쟁이 중요함",
+    "delivery_bias": "medium",
+    "hall_bias": "high"
+  },
+  {
+    "category_id": "dessert_bakery",
+    "display_name": "디저트/베이커리",
+    "recommended_radius_meters": 350,
+    "secondary_radius_meters": 550,
+    "reason": "간식 수요는 근거리 체류 인구와 테이크아웃 흐름 영향이 큼",
+    "delivery_bias": "medium",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "korean_food",
+    "display_name": "한식",
+    "recommended_radius_meters": 500,
+    "secondary_radius_meters": 800,
+    "reason": "식사류는 근거리 직장/주거 수요와 배달을 함께 봐야 함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "chinese_food",
+    "display_name": "중식",
+    "recommended_radius_meters": 500,
+    "secondary_radius_meters": 800,
+    "reason": "배달과 홀 수요가 동시에 발생해 중거리 반경이 적합함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "japanese_food",
+    "display_name": "일식",
+    "recommended_radius_meters": 450,
+    "secondary_radius_meters": 700,
+    "reason": "점심 식사와 저녁 목적 방문이 섞여 중간 반경을 사용함",
+    "delivery_bias": "medium",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "western_pizza",
+    "display_name": "양식/피자",
+    "recommended_radius_meters": 700,
+    "secondary_radius_meters": 1000,
+    "reason": "배달 영향이 커서 넓은 반경과 저녁 수요를 함께 봐야 함",
+    "delivery_bias": "high",
+    "hall_bias": "low"
+  },
+  {
+    "category_id": "snack_chicken",
+    "display_name": "분식/치킨",
+    "recommended_radius_meters": 600,
+    "secondary_radius_meters": 900,
+    "reason": "야식과 배달 수요 비중이 높아 넓은 반경 평가가 필요함",
+    "delivery_bias": "high",
+    "hall_bias": "low"
+  },
+  {
+    "category_id": "burger_sandwich",
+    "display_name": "버거/샌드위치",
+    "recommended_radius_meters": 450,
+    "secondary_radius_meters": 700,
+    "reason": "점심 간편식과 배달 수요가 함께 발생함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "lunchbox",
+    "display_name": "도시락",
+    "recommended_radius_meters": 600,
+    "secondary_radius_meters": 850,
+    "reason": "주문형 식사 수요와 단체 주문 가능성을 같이 봐야 함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  },
+  {
+    "category_id": "salad_poke",
+    "display_name": "샐러드/포케",
+    "recommended_radius_meters": 400,
+    "secondary_radius_meters": 650,
+    "reason": "직장인 점심과 건강식 수요가 핵심이라 중거리 반경을 사용함",
+    "delivery_bias": "high",
+    "hall_bias": "medium"
+  }
+]

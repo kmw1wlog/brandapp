@@ -1,0 +1,492 @@
+[
+  {
+    "module_id": "sns",
+    "name": "SNS 분석",
+    "official_route": "snsAnaly",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/snsAnaly?certKey=c9b8baf919fd5471ef16e3c067a74fdf643b7c7b5546624a48859affd9b0e587",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/snsAnaly?certKey=c9b8baf919fd5471ef16e3c067a74fdf643b7c7b5546624a48859affd9b0e587&type=snsAnaly&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "theme",
+    "name": "테마상권 분석",
+    "official_route": "hpReport",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/hpReport?certKey=55b7f6e3e8d780ec44875d88f2da415aa5eb21c0a3c5e6a67ba52a1add4fe55e",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/hpReport?certKey=55b7f6e3e8d780ec44875d88f2da415aa5eb21c0a3c5e6a67ba52a1add4fe55e&type=hpReport&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "actual_endpoint_mapped",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [
+      "/gis/simpleAnls/getPopularInfo.json"
+    ],
+    "raw_field_paths": [
+      "analyNo",
+      "population.dayAvg",
+      "population.secondHour",
+      "population.thur",
+      "population.sat",
+      "population.weekend",
+      "population.sixthHour",
+      "population.mon",
+      "population.sun",
+      "population.fifthHour",
+      "population.fourthHour",
+      "population.wed",
+      "population.tues",
+      "population.fri",
+      "population.firstHour",
+      "population.stdYm",
+      "population.day",
+      "population.thirdHour"
+    ],
+    "field_mapping": {
+      "population.dayAvg": "dailyFloatingPopulation",
+      "population.mon~sun": "peakWeekday",
+      "population.tm00~tm21": "peakTimeRange"
+    },
+    "normalized_fields": [
+      "dailyFloatingPopulation",
+      "peakWeekday",
+      "peakTimeRange",
+      "themeFitScore"
+    ],
+    "simulator_fields": [
+      "dailyFloatingPopulation",
+      "themeFitScore"
+    ],
+    "drilldown_fields": [
+      "population"
+    ]
+  },
+  {
+    "module_id": "weather",
+    "name": "창업기상도",
+    "official_route": "weather",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/weather?certKey=95001e176aea1bea143d29813ffcf80ae495f767b75762be9c2bcfb27e4691cf",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/weather?certKey=95001e176aea1bea143d29813ffcf80ae495f767b75762be9c2bcfb27e4691cf&type=weather&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "sales_trend",
+    "name": "점포당 매출액 추이",
+    "official_route": "slsIdex",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/slsIdex?certKey=abf25476f31af7e82f38ce61bd3e57f2e286343bf5c897bfc6a9e4f698e0df84",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/slsIdex?certKey=abf25476f31af7e82f38ce61bd3e57f2e286343bf5c897bfc6a9e4f698e0df84&type=slsIdex&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "actual_endpoint_mapped",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [
+      "/gis/simpleAnls/getAvgAmtInfo.json"
+    ],
+    "raw_field_paths": [
+      "[].saleAmt",
+      "[].yymm",
+      "[].maxAmt",
+      "[].minAmt"
+    ],
+    "field_mapping": {
+      "annualSales[].yymm": "annualSales[].yyyymm",
+      "annualSales[].saleAmt": "annualSales[].monthly_average_sales_thousand_krw",
+      "annualSales[].maxAmt": "annualSales[].top_quartile_sales_thousand_krw",
+      "annualSales[].minAmt": "annualSales[].bottom_quartile_sales_thousand_krw"
+    },
+    "normalized_fields": [
+      "annualSales",
+      "trendIndex"
+    ],
+    "simulator_fields": [
+      "annualSales",
+      "trendIndex"
+    ],
+    "drilldown_fields": [
+      "annualSales"
+    ]
+  },
+  {
+    "module_id": "store_status",
+    "name": "업소현황",
+    "official_route": "storSttus",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/storSttus?certKey=cd749a16e4bd3d322957ca130d030005afca30d73f0cfdc006b18a72516a392b",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/storSttus?certKey=cd749a16e4bd3d322957ca130d030005afca30d73f0cfdc006b18a72516a392b&type=storSttus&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "actual_endpoint_mapped",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [
+      "/gis/simpleAnls/getAvgAmtInfo.json"
+    ],
+    "raw_field_paths": [
+      "storeCnt[].storeCnt",
+      "storeCnt[].areaGb",
+      "storeCnt[].yymm",
+      "storeCntAdmin[].storeCnt",
+      "storeCntAdmin[].areaGb",
+      "storeCntAdmin[].yymm"
+    ],
+    "field_mapping": {
+      "saleCnt": "sameCategoryStoreCount",
+      "saleGuCnt": "guStoreCount",
+      "storeCnt": "districtStoreCounts",
+      "storeCntAdmin": "administrativeStoreCounts"
+    },
+    "normalized_fields": [
+      "sameCategoryStoreCount",
+      "districtStoreCounts",
+      "administrativeStoreCounts"
+    ],
+    "simulator_fields": [
+      "sameCategoryStoreCount"
+    ],
+    "drilldown_fields": [
+      "districtStoreCounts",
+      "administrativeStoreCounts"
+    ]
+  },
+  {
+    "module_id": "business_age",
+    "name": "업력현황",
+    "official_route": "stcarSttus",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/stcarSttus?certKey=8e7c634e896fda5625f4915a3da916d8c5d40f37059c2446a0b96d1a49cdaaad",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/stcarSttus?certKey=8e7c634e896fda5625f4915a3da916d8c5d40f37059c2446a0b96d1a49cdaaad&type=stcarSttus&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "map",
+    "name": "상권지도",
+    "official_route": "startupPublic",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/startupPublic?certKey=3a0b450af5f1377cbcfae88fa63a3c9a5c2cc3791f71f77336d924552b2636fb",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/startupPublic?certKey=3a0b450af5f1377cbcfae88fa63a3c9a5c2cc3791f71f77336d924552b2636fb&type=map&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "detail",
+    "name": "상세분석",
+    "official_route": "detail",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/detail?certKey=0eec239dccd128e723cd803950dedb096cf8ecc29dcd5d56bd8ed5cfff0fa88a",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/detail?certKey=0eec239dccd128e723cd803950dedb096cf8ecc29dcd5d56bd8ed5cfff0fa88a&type=detail&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "delivery",
+    "name": "배달분석",
+    "official_route": "delivery",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/delivery?certKey=fe7bf0b9eb0102d71e54dcf9cd07c363a4510d56eed9a82f075a1528afcade2f",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/delivery?certKey=fe7bf0b9eb0102d71e54dcf9cd07c363a4510d56eed9a82f075a1528afcade2f&type=delivery&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "actual_endpoint_mapped",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [
+      "/gis/simpleAnls/getBaeminInfo.json"
+    ],
+    "raw_field_paths": [
+      "deliveryList[].avgCnt",
+      "deliveryList[].maxCnt",
+      "deliveryList[].stdYm",
+      "deliveryList[].minCnt",
+      "deliveryList[].baeminTbizClsNm",
+      "most.thu",
+      "most.tue",
+      "most.secondHour",
+      "most.weekend",
+      "most.sixthHour",
+      "most.mon",
+      "most.sun",
+      "most.gen60",
+      "most.fifthHour",
+      "most.gen20",
+      "most.areaNm",
+      "most.gen40",
+      "most.wed",
+      "most.female",
+      "most.fri",
+      "most.firstHour",
+      "most.stdYm",
+      "most.day",
+      "most.sat",
+      "most.gen50",
+      "most.fourthHour",
+      "most.gen10",
+      "most.gen30",
+      "most.thirdHour",
+      "most.male",
+      "siBaeCnt",
+      "guBaeCnt",
+      "siBaeMin",
+      "analyNo",
+      "guBaeMax",
+      "guBaeMin",
+      "siBaeMax"
+    ],
+    "field_mapping": {
+      "deliveryList[0].avgCnt": "averageMonthlyDeliveryCount",
+      "deliveryList[1].avgCnt": "previousMonthAverageDeliveryCount",
+      "deliveryList[2].avgCnt": "previousYearAverageDeliveryCount",
+      "deliveryList[0].minCnt": "minimumMonthlyDeliveryCount",
+      "deliveryList[0].maxCnt": "maximumMonthlyDeliveryCount"
+    },
+    "normalized_fields": [
+      "averageMonthlyDeliveryCount",
+      "previousMonthAverageDeliveryCount",
+      "previousYearAverageDeliveryCount",
+      "deliveryFitScore"
+    ],
+    "simulator_fields": [
+      "averageMonthlyDeliveryCount",
+      "deliveryFitScore"
+    ],
+    "drilldown_fields": [
+      "deliveryList"
+    ]
+  },
+  {
+    "module_id": "tour",
+    "name": "관광 축제 정보",
+    "official_route": "tour",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/tour?certKey=9dd56e575a2e7db7ea0e93ebfc262f0a6985145a75616aba02f3eff00762eff6",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/tour?certKey=9dd56e575a2e7db7ea0e93ebfc262f0a6985145a75616aba02f3eff00762eff6&type=tour&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "official_page_linked",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [],
+    "raw_field_paths": [],
+    "field_mapping": {},
+    "normalized_fields": [
+      "officialIframeUrl",
+      "integrationStatus"
+    ],
+    "simulator_fields": [],
+    "drilldown_fields": [
+      "officialIframeUrl"
+    ]
+  },
+  {
+    "module_id": "simple",
+    "name": "간단분석",
+    "official_route": "simple",
+    "official_hash_url": "https://bigdata.sbiz.or.kr/#/openApi/simple?certKey=778d83fdeeec1660be6f3eca1835a4dad7be67f0aee9e88c30237f42ef062668",
+    "iframe_url_template": "https://bigdata.sbiz.or.kr/gis/openApi/simple?certKey=778d83fdeeec1660be6f3eca1835a4dad7be67f0aee9e88c30237f42ef062668&type=simple&lat=%7Blat%7D&lng=%7Blng%7D&dong=%7Bdong%7D",
+    "collection_status": "actual_endpoint_mapped",
+    "generatedAt": "2026-06-08T08:20:04.594Z",
+    "query_params_example": {
+      "lat": 35.23125,
+      "lng": 129.08412,
+      "dong": "부산광역시 금정구 장전2동",
+      "category_code": "I21201"
+    },
+    "discovered_endpoints": [
+      "/gis/simpleAnls/getAvgAmtInfo.json",
+      "/gis/simpleAnls/getBaeminInfo.json",
+      "/gis/simpleAnls/getPopularInfo.json"
+    ],
+    "raw_field_paths": [
+      "baeminStdYm",
+      "prevYearGuAmt",
+      "prevYearCnt",
+      "maxAmt",
+      "mililis",
+      "baemin",
+      "storeCnt[].storeCnt",
+      "storeCnt[].areaGb",
+      "storeCnt[].yymm",
+      "path",
+      "saleAmt",
+      "prevMonCnt",
+      "stdYmCh",
+      "siAmt",
+      "prevMonGuAmt",
+      "siMin",
+      "guAmt",
+      "annualSales[].saleAmt",
+      "annualSales[].yymm",
+      "annualSales[].maxAmt",
+      "annualSales[].minAmt",
+      "adminMaxCnt",
+      "prevYearGuCnt",
+      "prevYearAmt",
+      "guMin",
+      "ctyMaxCnt",
+      "prevMonAmt",
+      "siMax",
+      "minAmt",
+      "upjongTypeMap.upjong1nm",
+      "upjongTypeMap.storeCnt",
+      "upjongTypeMap.ixgWordCn",
+      "upjongTypeMap.upjong2cd",
+      "upjongTypeMap.upjong3cd",
+      "upjongTypeMap.upjong2nm",
+      "upjongTypeMap.upjong1cd",
+      "upjongTypeMap.upjong3nm",
+      "loginChk",
+      "storeCntAdmin[].storeCnt",
+      "storeCntAdmin[].areaGb",
+      "storeCntAdmin[].yymm",
+      "topFive[].storeCnt",
+      "topFive[].saleAmt",
+      "topFive[].admiNm",
+      "topFive[].dayAvg",
+      "topFive[].yymm",
+      "topFive[].admiCd",
+      "topFive[].maxAmt",
+      "topFive[].minAmt",
+      "topFive[].ro",
+      "topFive[].megaNm",
+      "topFive[].ctyNm",
+      "saleCnt",
+      "prevMonRate",
+      "prevMonGuCnt",
+      "prevYearRate",
+      "prevMonCntRate",
+      "avgList[].saleAmt",
+      "avgList[].maxAmt",
+      "avgList[].minAmt",
+      "avgList[].crtrYm",
+      "guMax",
+      "megaMaxCnt",
+      "analyNo",
+      "storeStdYm",
+      "amtStdYm",
+      "prevYearCntRate",
+      "saleGuCnt"
+    ],
+    "field_mapping": {
+      "saleAmt": "monthlyAverageSalesThousandKrw",
+      "saleCnt": "sameCategoryStoreCount",
+      "saleGuCnt": "districtStoreCount",
+      "prevMonRate": "salesMomentumVsPrevMonth",
+      "prevYearRate": "salesMomentumVsPrevYear",
+      "path": "analysisPath",
+      "upjongTypeMap.upjong3nm": "upjongName"
+    },
+    "normalized_fields": [
+      "monthlyAverageSalesThousandKrw",
+      "sameCategoryStoreCount",
+      "salesMomentumVsPrevMonth",
+      "salesMomentumVsPrevYear",
+      "analysisPath"
+    ],
+    "simulator_fields": [
+      "monthlyAverageSalesThousandKrw",
+      "sameCategoryStoreCount",
+      "salesMomentumVsPrevMonth"
+    ],
+    "drilldown_fields": [
+      "annualSales",
+      "districtStoreCounts",
+      "topFive"
+    ]
+  }
+]

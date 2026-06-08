@@ -10,6 +10,7 @@
     "db:bootstrap": "node scripts/bootstrap-gpt-db.mjs",
     "db:ftc:collect": "node scripts/collect-ftc-franchise-db.mjs",
     "db:sbiz:collect": "node scripts/collect-sbiz-location-db.mjs",
+    "db:sbiz365:build": "node scripts/build-sbiz365-linked-data.mjs",
     "db:experience:build": "node scripts/build-experience-db.mjs",
     "db:ver2": "node scripts/sync-ver2-data.mjs",
     "db:validate": "node scripts/validate-branch-db.mjs",
