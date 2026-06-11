@@ -1,7 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const SERVICE_KEY = "b64f9dbd58a98458e83e0f197e8b9452c257855e30ebf60198fda6d6b120da89";
+const SERVICE_KEY = process.env.PUBLIC_DATA_SERVICE_KEY;
+if (!SERVICE_KEY) {
+  throw new Error("PUBLIC_DATA_SERVICE_KEY is required to collect FTC franchise data.");
+}
 const root = process.cwd();
 const outRoot = path.join(root, "DB_real/ftc_franchise_db");
 const latestSupportedYear = 2025;

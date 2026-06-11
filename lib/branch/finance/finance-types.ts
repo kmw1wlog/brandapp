@@ -50,22 +50,6 @@ export type RegionProfile = {
 
 export type FinanceScenarioKey = "conservative" | "base" | "optimistic";
 
-export type LocationFinanceContext = {
-  candidateId: string;
-  categoryId: string;
-  summary: string;
-  regionLabel: string;
-  headlineScore: number;
-  scoreBand: "caution" | "neutral" | "strong";
-  recommendedOperationType: string;
-  dailyOrderMultiplier: number;
-  deliveryShareAdjustment: number;
-  rentGuardrailRatio: number | null;
-  marketingRampAdjustment: number;
-  confidenceLabel: string;
-  updatedAt: string;
-};
-
 export type FinanceAssumptions = {
   operating_days_per_month: number;
   average_order_value: number;
@@ -129,6 +113,5 @@ export type FinanceSimulationResult = {
   input: StartupUserInput;
   regionProfile: RegionProfile;
   assumptions: FinanceAssumptions;
-  locationContext?: LocationFinanceContext | null;
   scenarios: Record<FinanceScenarioKey, FinanceScenarioResult>;
 };

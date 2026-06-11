@@ -1,10 +1,11 @@
 "use client";
 
-import type { BranchEvent, ConsultationLead, FeedbackEntry } from "./types";
+import type { BetaSignup, BranchEvent, ConsultationLead, FeedbackEntry } from "./types";
 
 const EVENT_KEY = "branch_events_v2";
 const LEAD_KEY = "branch_consultation_leads_v2";
 const FEEDBACK_KEY = "branch_feedback_v2";
+const BETA_SIGNUP_KEY = "branch_beta_signups_v1";
 const SELECTED_BRAND_KEY = "branch_selected_brand_v2";
 const TIMELINE_KEY = "branch_timeline_v2";
 const OWNER_PREVIEW_KEY = "branch_owner_preview_v2";
@@ -60,6 +61,21 @@ export function getFeedback() {
   return readJson<FeedbackEntry[]>(FEEDBACK_KEY, []);
 }
 
+export function saveBetaSignup(input: Omit<BetaSignup, "id" | "timestamp" | "pagePath">) {
+  const next: BetaSignup = {
+    ...input,
+    id: crypto.randomUUID(),
+    timestamp: new Date().toISOString(),
+    pagePath: typeof window === "undefined" ? undefined : window.location.pathname + window.location.search
+  };
+  writeJson(BETA_SIGNUP_KEY, [...getBetaSignups(), next]);
+  return next;
+}
+
+export function getBetaSignups() {
+  return readJson<BetaSignup[]>(BETA_SIGNUP_KEY, []);
+}
+
 export function saveSelectedBrand(brandId: string) {
   writeJson(SELECTED_BRAND_KEY, brandId);
 }
@@ -86,6 +102,7 @@ export function exportBetaData() {
     events: getEvents(),
     consultationLeads: getConsultationLeads(),
     feedback: getFeedback(),
+    betaSignups: getBetaSignups(),
     timeline: getTimelineStatus(),
     selectedBrand: getSelectedBrandId(),
     ownerPreview: readJson<boolean>(OWNER_PREVIEW_KEY, false)

@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { formatManwon, formatPercentValue } from "@/lib/branch/finance/finance-format";
-import type { LocationFinanceContext, StartupUserInput } from "@/lib/branch/finance/finance-types";
+import type { StartupUserInput } from "@/lib/branch/finance/finance-types";
 
-export function FinanceInputSummary({ input, selectedLocation }: { input: StartupUserInput; selectedLocation?: LocationFinanceContext | null }) {
+export function FinanceInputSummary({ input }: { input: StartupUserInput }) {
   return (
     <section className="rounded-lg border border-[#ddd2c0] bg-white p-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -20,11 +20,6 @@ export function FinanceInputSummary({ input, selectedLocation }: { input: Startu
         <Metric label="목표 월소득" value={formatManwon(input.target_owner_income)} />
         <Metric label="배달 비중" value={formatPercentValue(input.delivery_share ?? 0.45)} />
       </div>
-      {selectedLocation ? (
-        <div className="mt-3 rounded-lg bg-[#e9f4ee] p-3 text-sm font-black text-[#164033]" data-testid="selected-location-finance-summary">
-          선택 입지 반영: {selectedLocation.summary} · 점수 {selectedLocation.headlineScore} · 일주문 x{selectedLocation.dailyOrderMultiplier}
-        </div>
-      ) : null}
     </section>
   );
 }

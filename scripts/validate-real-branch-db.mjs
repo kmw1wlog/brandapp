@@ -22,7 +22,6 @@ function hasNoInvalidCost(menuCosts) {
 
 const franchiseBrands = readJson("franchise/franchise_brands.json");
 const franchiseCohorts = readJson("franchise/franchise_cohorts.json");
-const collectedBrandDetails = readJson("franchise/collected_brand_details_by_category.json");
 const supplierProducts = readJson("suppliers/supplier_products.json");
 const supplierLeads = readJson("suppliers/supplier_leads.json");
 const rejectedUrls = readJson("suppliers/rejected_supplier_urls.json");
@@ -60,9 +59,6 @@ const direct = franchiseCohorts.find((cohort) => cohort.id === "cohort_direct_me
 assert(Boolean(direct), "franchise direct cohort exists");
 assert((direct?.includedBrandIds?.length ?? 0) >= 7, "franchise direct cohort에 최소 7개 브랜드 존재");
 assert(franchiseBrands.some((brand) => brand.name === "덮덮밥"), "덮덮밥 record 존재");
-assert(collectedBrandDetails.coffee_drink?.brand_count >= 8, "수집 브랜드 상세 coffee_drink 8개 이상 존재");
-assert(collectedBrandDetails.lunchbox?.brands?.some((brand) => brand.brand_name === "한솥"), "수집 브랜드 상세 한솥 record 존재");
-assert(Object.values(collectedBrandDetails).reduce((sum, category) => sum + category.brand_count, 0) >= 44, "수집 브랜드 상세 앱 업종 기준 44개 이상 존재");
 assert(supplierProducts.length >= 80, "supplier_products에 최소 80개 canonical 상품 존재");
 assert(supplierProducts.filter((product) => product.source === "perplexity").length >= 10, "perplexity delta 유효 상품 최소 10개 이상 병합");
 assert(rejectedUrls.length > 0, "rejected_supplier_urls 존재");

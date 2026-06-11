@@ -2,26 +2,25 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Building2, CalendarDays, ChartNoAxesCombined, ClipboardList, FileSignature, FileText, Handshake, LayoutDashboard, MapPinned, Store, WalletCards } from "lucide-react";
+import { Building2, CalendarDays, ChartNoAxesCombined, ClipboardList, FileSignature, Handshake, LayoutDashboard, MapPinned, Store, Truck, Utensils, WalletCards } from "lucide-react";
 import { useEffect, useState } from "react";
-import { BranchAssistantWidget } from "./BranchAssistantWidget";
 import { FeedbackFloatingWidget } from "./FeedbackFloatingWidget";
 import { trackEvent } from "@/lib/branch/events";
 
 const nav = [
-  { label: "사용자 입력", href: "/dashboard/startup/input", icon: ClipboardList },
-  { label: "입지 분석", href: "/dashboard/startup/location", icon: MapPinned },
-  { label: "비교", href: "/dashboard/startup/new", icon: ChartNoAxesCombined },
-  { label: "브랜드 실행안", href: "/dashboard/startup/brand", icon: Building2 },
-  { label: "4개월 회계", href: "/dashboard/startup/finance", icon: WalletCards },
-  { label: "메뉴·원가", href: "/dashboard/startup/cost", icon: ClipboardList },
-  { label: "공급처·공동구매", href: "/dashboard/startup/suppliers", icon: MapPinned },
-  { label: "시공 요구사항서", href: "/dashboard/startup/build", icon: FileText },
+  { label: "창업 플랜", href: "/dashboard/startup/new", icon: ChartNoAxesCombined },
+  { label: "조건 입력", href: "/dashboard/startup/input", icon: ClipboardList },
+  { label: "브랜드 청사진", href: "/dashboard/startup/brand", icon: Building2 },
   { label: "개점 타임테이블", href: "/dashboard/startup/timetable", icon: CalendarDays },
-  { label: "상담신청", href: "/dashboard/startup/consultation", icon: Handshake },
+  { label: "상담 질문지", href: "/dashboard/startup/consultation", icon: Handshake },
   { label: "원클릭 발주", href: "/dashboard/startup/consultation/rfp", icon: FileSignature },
-  { label: "점주 전환", href: "/dashboard/startup/owner-conversion", icon: Store },
-  { label: "점주 대시보드", href: "/dashboard/startup/owner-preview", icon: LayoutDashboard }
+  { label: "메뉴·원가", href: "/dashboard/startup/cost", icon: Utensils },
+  { label: "공급처·공동구매", href: "/dashboard/startup/suppliers", icon: Truck },
+  { label: "브랜드 비교", href: "/dashboard/startup/franchise", icon: ChartNoAxesCombined },
+  { label: "4개월 회계", href: "/dashboard/startup/finance", icon: WalletCards },
+  { label: "입지 분석", href: "/dashboard/startup/location", icon: MapPinned },
+  { label: "점주 대시보드", href: "/dashboard/startup/owner-preview", icon: LayoutDashboard },
+  { label: "점주 전환", href: "/dashboard/startup/owner-conversion", icon: Store }
 ];
 
 export function BranchAppShell({ children }: { children: React.ReactNode }) {
@@ -65,7 +64,7 @@ export function BranchAppShell({ children }: { children: React.ReactNode }) {
           })}
         </nav>
         <div className="mx-5 hidden rounded-lg border border-white/15 p-3 text-sm text-white/78 lg:block">
-          부산 대학가 · 5,000만원 · 고기덮밥 비교
+          샘플 조건 · 업종 변경 시 브랜드/메뉴/수익이 함께 변경
         </div>
       </aside>
       <main className="px-4 py-5 sm:px-6 lg:ml-64 lg:px-8">
@@ -89,7 +88,6 @@ export function BranchAppShell({ children }: { children: React.ReactNode }) {
           <Link href={next.href} className="block rounded-xl bg-[color:var(--branch-primary)] px-4 py-3 text-center text-sm font-black text-white">다음 단계: {next.label}</Link>
         </div>
       ) : null}
-      <BranchAssistantWidget />
       <FeedbackFloatingWidget />
     </div>
   );

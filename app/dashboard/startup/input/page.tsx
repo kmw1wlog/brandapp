@@ -1,164 +1,134 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { PageHeader } from "@/components/branch/Common";
+import Link from "next/link";
+import { CalendarDays, ChevronDown, Info, MapPin, Settings, Store, Wallet } from "lucide-react";
+import type React from "react";
+import { BrandConceptPreview, CategoryChips, formatManwon, useDemoExperience } from "@/components/branch/DemoExperience";
 import { getExperienceCategories } from "@/lib/branch/experience-data";
-import { defaultStartupInput, getRegionProfiles, getUserInputSchema, normalizeStartupInput } from "@/lib/branch/user-input";
-import { readStartupInput, saveStartupInput } from "@/lib/branch/storage/startup-flow-storage";
-import type { OpeningTarget, StartupUserInput } from "@/lib/branch/finance/finance-types";
-import { formatManwon } from "@/lib/branch/finance/finance-format";
+import { getRegionProfiles } from "@/lib/branch/user-input";
+import type { OpeningTarget } from "@/lib/branch/finance/finance-types";
 
-const budgetOptions = [30_000_000, 50_000_000, 80_000_000];
-const incomeOptions = [3_000_000, 5_000_000, 7_000_000];
-const categories = getExperienceCategories().map((category) => category.display_name);
-const operationTypes = ["점포형", "배달형", "점포+배달 혼합형"];
-const ownerWorkingTypes = [
-  { value: "full_time", label: "풀타임 근무" },
-  { value: "peak_time", label: "피크타임만 근무" },
-  { value: "staff_centered", label: "직원 중심 운영" }
+const budgetOptions = [
+  { label: "3,000만원 미만", value: 30_000_000 },
+  { label: "5,000만원", value: 50_000_000 },
+  { label: "7,000만원 ~ 1억원 미만", value: 80_000_000 },
+  { label: "1억원 이상", value: 120_000_000 }
 ];
 
+const operationTypes = ["점포+배달 혼합형", "점포형", "배달형", "포장 전문형"];
+
 export default function StartupInputPage() {
-  const router = useRouter();
-  const schema = getUserInputSchema();
-  const [input, setInput] = useState<StartupUserInput>(defaultStartupInput);
-  const [customBudget, setCustomBudget] = useState("");
-  const [customRegion, setCustomRegion] = useState("");
-  const [customCategory, setCustomCategory] = useState("");
-  const [customIncome, setCustomIncome] = useState("");
-  const [advancedOpen, setAdvancedOpen] = useState(false);
-
-  useEffect(() => {
-    setInput(readStartupInput());
-  }, []);
-
-  function patch(patchValue: Partial<StartupUserInput>) {
-    setInput((current) => normalizeStartupInput({ ...current, ...patchValue }));
-  }
+  const { input, simulation, patchInput } = useDemoExperience();
+  const regions = getRegionProfiles().slice(0, 6);
 
   function setOpeningTarget(target: OpeningTarget) {
-    patch({ opening_target: target });
-  }
-
-  function saveAndContinue() {
-    const normalized = normalizeStartupInput(input);
-    saveStartupInput(normalized);
-    router.push("/dashboard/startup/new");
+    patchInput({ opening_target: target });
   }
 
   return (
-    <div className="grid gap-5">
-      <PageHeader
-        title="사용자 입력"
-        subtitle="창업 예산과 개점 목표를 먼저 정해 브랜드 비교와 4개월 회계 시뮬레이션에 반영합니다."
-        warning="실데이터, 공개정보 기반, 지역 추정값, 샘플 가정은 화면에서 구분해 표시합니다."
-      />
-      <section className="rounded-lg border border-[#ddd2c0] bg-white p-5">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+    <div className="grid gap-8">
+      <header className="rounded-[28px] border border-[#eadfce] bg-white px-6 py-5 shadow-[0_18px_50px_rgba(61,45,27,0.06)]">
+        <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <h3 className="text-xl font-black text-[#164033]">필수 입력 8개</h3>
-            <p className="mt-1 text-sm font-bold text-[#655d52]">{schema.required_inputs.length}개 항목 저장 · 새로고침 후 유지</p>
+            <p className="text-sm font-black text-[#0f7b54]">창업안 생성</p>
+            <h2 className="mt-2 text-4xl font-black tracking-[-0.03em] text-[#171717]">당신의 브랜드 창업안을 생성합니다</h2>
+            <p className="mt-2 text-sm font-bold text-[#6a6258]">몇 가지 정보를 입력하면 시장에 최적화된 브랜드 창업안을 제안합니다.</p>
           </div>
-          <span className="rounded-md bg-[#dff1e5] px-2 py-1 text-xs font-black text-[#164033]">저장 방식 localStorage</span>
+          <div className="hidden items-center gap-3 text-sm font-black text-[#7b6a59] lg:flex">
+            <span className="rounded-full border border-[#e4dacb] px-4 py-2">1 서비스 소개</span>
+            <span className="rounded-full border border-[#e4dacb] px-4 py-2">2 시장/상권 분석</span>
+            <span className="rounded-full border border-[#e4dacb] px-4 py-2">3 인사이트</span>
+            <span className="rounded-full bg-[#073d2d] px-4 py-2 text-white">4 창업안 생성</span>
+          </div>
         </div>
-        <div className="mt-5 grid gap-5">
-          <OptionGroup title="창업 예산" value={input.budget} options={budgetOptions.map((value) => ({ label: formatManwon(value), value }))} onSelect={(value) => patch({ budget: value, capital_structure: { own_capital: value, loan_amount: 0 } })} />
-          <InlineNumber label="직접 입력 예산" value={customBudget} onChange={setCustomBudget} onApply={() => customBudget && patch({ budget: Number(customBudget), capital_structure: { ...input.capital_structure, own_capital: Number(customBudget) } })} />
-          <div>
-            <h4 className="font-black text-[#164033]">자기자본 / 대출</h4>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button type="button" onClick={() => patch({ capital_structure: { own_capital: input.budget, loan_amount: 0 } })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">전액 자기자본</button>
-              <button type="button" onClick={() => patch({ capital_structure: { own_capital: Math.round(input.budget * 0.6), loan_amount: Math.round(input.budget * 0.4) } })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">일부 대출</button>
-              <button type="button" onClick={() => patch({ capital_structure: { own_capital: input.budget, loan_amount: 0 } })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">아직 미정</button>
-            </div>
-            <p className="mt-2 text-sm font-bold text-[#655d52]">현재 {formatManwon(input.capital_structure.own_capital)} / 대출 {formatManwon(input.capital_structure.loan_amount)}</p>
+      </header>
+
+      <section className="grid gap-8 xl:grid-cols-[0.92fr_1.08fr]">
+        <div className="rounded-[28px] border border-[#e4dacb] bg-white p-6 shadow-[0_20px_60px_rgba(61,45,27,0.07)]">
+          <div className="grid gap-4">
+            <FieldRow icon={<MapPin size={22} />} label="창업 지역">
+              <div className="grid gap-3 sm:grid-cols-3">
+                <Select value={input.region} onChange={(value) => patchInput({ region: value })} options={regions.map((region) => region.display_name)} />
+                <Select value="구/군 선택" onChange={() => undefined} options={["구/군 선택", "마포구", "수성구", "연제구"]} />
+                <Select value="상권 선택" onChange={() => undefined} options={["상권 선택", "홍대입구역 인근", "대학가 인근", "반월당역 인근"]} />
+              </div>
+            </FieldRow>
+
+            <FieldRow icon={<Wallet size={22} />} label="창업 자본">
+              <Select value={formatManwon(input.budget)} onChange={(label) => patchInput({ budget: budgetOptions.find((item) => item.label === label)?.value ?? input.budget })} options={budgetOptions.map((item) => item.label)} />
+            </FieldRow>
+
+            <FieldRow icon={<Store size={22} />} label="업종">
+              <CategoryChips selected={simulation.category.display_name} onSelect={(category) => patchInput({ category })} />
+              <Select value={simulation.category.display_name} onChange={(category) => patchInput({ category })} options={getExperienceCategories().map((category) => category.display_name)} />
+            </FieldRow>
+
+            <FieldRow icon={<Store size={22} />} label="운영 형태">
+              <Select value={input.operation_type} onChange={(operation_type) => patchInput({ operation_type })} options={operationTypes} />
+            </FieldRow>
+
+            <FieldRow icon={<CalendarDays size={22} />} label="목표 개점일">
+              <div className="grid gap-3 sm:grid-cols-3">
+                <button type="button" onClick={() => setOpeningTarget({ type: "days_from_now", days: 30 })} className="rounded-xl border border-[#e4dacb] px-4 py-3 text-sm font-black text-[#4a2a18]">30일</button>
+                <button type="button" onClick={() => setOpeningTarget({ type: "days_from_now", days: 45 })} className="rounded-xl bg-[#073d2d] px-4 py-3 text-sm font-black text-white">45일</button>
+                <input type="date" onChange={(event) => setOpeningTarget({ type: "date", date: event.target.value })} className="rounded-xl border border-[#e4dacb] px-4 py-3 text-sm font-black text-[#4a2a18]" />
+              </div>
+            </FieldRow>
+
+            <button type="button" className="flex items-center justify-between rounded-2xl border border-[#e4dacb] bg-[#fffaf3] px-5 py-4 text-left" aria-expanded="false">
+              <span>
+                <span className="flex items-center gap-2 text-base font-black text-[#2b1e16]"><Settings size={19} /> 고급 설정 선택</span>
+                <span className="mt-1 block text-sm font-bold text-[#7b6a59]">타깃 고객, 객단가, 매장 규모 등 세부 조건은 다음 단계에서 조정합니다.</span>
+              </span>
+              <ChevronDown size={18} />
+            </button>
+
+            <Link
+              href="/dashboard/startup/brand"
+              className="rounded-2xl bg-[#073d2d] px-6 py-5 text-center text-lg font-black text-white shadow-[0_18px_34px_rgba(7,61,45,0.18)]"
+            >
+              내 브랜드 창업안 생성하기
+              <span className="mt-1 block text-sm font-bold text-white/78">약 30초 소요</span>
+            </Link>
+
+            <p className="flex items-center justify-center gap-2 text-xs font-bold text-[#8a7b6c]">
+              <Info size={15} /> 입력 정보는 브라우저에 저장되며 체험용 데모에서만 사용됩니다.
+            </p>
           </div>
-          <OptionGroup title="희망 지역" value={input.region} options={getRegionProfiles().map((profile) => ({ label: profile.display_name, value: profile.display_name }))} onSelect={(value) => patch({ region: value })} />
-          <InlineText label="직접 입력 지역" value={customRegion} onChange={setCustomRegion} onApply={() => customRegion && patch({ region: customRegion })} />
-          <OptionGroup title="희망 업종" value={input.category} options={categories.map((value) => ({ label: value, value }))} onSelect={(value) => patch({ category: value })} />
-          <InlineText label="직접 입력 업종" value={customCategory} onChange={setCustomCategory} onApply={() => customCategory && patch({ category: customCategory })} />
-          <OptionGroup title="운영 형태" value={input.operation_type} options={operationTypes.map((value) => ({ label: value, value }))} onSelect={(value) => patch({ operation_type: value })} />
-          <div>
-            <h4 className="font-black text-[#164033]">개점 목표</h4>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button type="button" onClick={() => setOpeningTarget({ type: "days_from_now", days: 14 })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">2주 안</button>
-              <button type="button" onClick={() => setOpeningTarget({ type: "days_from_now", days: 30 })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">1개월 안</button>
-              <button type="button" onClick={() => setOpeningTarget({ type: "days_from_now", days: 45 })} className="rounded-lg bg-[#164033] px-3 py-2 text-sm font-black text-white">45일 뒤</button>
-              <button type="button" onClick={() => setOpeningTarget({ type: "months_from_now", months: 2 })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">2개월 안</button>
-              <button type="button" onClick={() => setOpeningTarget({ type: "unknown" })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-black">아직 미정</button>
-              <input type="date" onChange={(event) => setOpeningTarget({ type: "date", date: event.target.value })} className="rounded-lg border border-[#ddd2c0] px-3 py-2 text-sm font-bold" />
+        </div>
+
+        <div className="grid gap-5">
+          <BrandConceptPreview simulation={simulation} />
+          <section className="rounded-[28px] border border-[#e4dacb] bg-white p-5">
+            <h3 className="text-lg font-black text-[#2b1e16]">창업안 하이라이트</h3>
+            <div className="mt-4 grid gap-3 text-sm font-bold text-[#6a6258]">
+              <p className="rounded-xl bg-[#f3faf6] p-4">✓ {input.region}의 반경 1km 수요와 업종 밀도를 창업안에 반영합니다.</p>
+              <p className="rounded-xl bg-[#f3faf6] p-4">✓ {simulation.category.display_name} 평균 객단가와 원가율로 메뉴/가격을 설계합니다.</p>
+              <p className="rounded-xl bg-[#f3faf6] p-4">✓ 초기 투자비 대비 회수 가능한 수익 모델을 다음 단계에서 계산합니다.</p>
             </div>
-          </div>
-          <OptionGroup title="목표 월소득" value={input.target_owner_income} options={incomeOptions.map((value) => ({ label: formatManwon(value), value }))} onSelect={(value) => patch({ target_owner_income: value })} />
-          <InlineNumber label="직접 입력 목표 월소득" value={customIncome} onChange={setCustomIncome} onApply={() => customIncome && patch({ target_owner_income: Number(customIncome) })} />
-          <OptionGroup title="점주 직접 근무 형태" value={input.owner_working_type} options={ownerWorkingTypes} onSelect={(value) => patch({ owner_working_type: value })} />
+          </section>
         </div>
       </section>
-      <section className="rounded-lg border border-[#ddd2c0] bg-white p-5">
-        <button type="button" onClick={() => setAdvancedOpen((open) => !open)} className="font-black text-[#164033]">고급 입력 {advancedOpen ? "접기" : "펼치기"}</button>
-        {advancedOpen ? (
-          <div className="mt-4 grid gap-3 md:grid-cols-3">
-            <NumberField label="희망 평수" value={input.desired_size_pyeong ?? 15} onChange={(value) => patch({ desired_size_pyeong: value })} />
-            <NumberField label="예상 보증금" value={input.expected_deposit ?? 0} onChange={(value) => patch({ expected_deposit: value })} />
-            <NumberField label="예상 월세" value={input.expected_monthly_rent ?? 0} onChange={(value) => patch({ expected_monthly_rent: value })} />
-            <NumberField label="권리금" value={input.key_money ?? 0} onChange={(value) => patch({ key_money: value })} />
-            <NumberField label="인테리어 예산" value={input.interior_budget ?? 0} onChange={(value) => patch({ interior_budget: value })} />
-            <NumberField label="주방설비 예산" value={input.equipment_budget ?? 0} onChange={(value) => patch({ equipment_budget: value })} />
-            <NumberField label="배달 비중(0~0.9)" value={input.delivery_share ?? 0.45} step="0.05" onChange={(value) => patch({ delivery_share: value })} />
-            <NumberField label="직원 수" value={input.staff_count ?? 1} onChange={(value) => patch({ staff_count: value })} />
-            <NumberField label="마케팅 예산" value={input.marketing_budget ?? 0} onChange={(value) => patch({ marketing_budget: value })} />
-          </div>
-        ) : null}
-      </section>
-      <div className="flex flex-wrap gap-3">
-        <button type="button" onClick={saveAndContinue} className="rounded-lg bg-[#b8642f] px-4 py-3 text-sm font-black text-white">저장 후 비교 화면으로 이동</button>
-        <button type="button" onClick={() => setInput(defaultStartupInput)} className="rounded-lg border border-[#cbbda8] px-4 py-3 text-sm font-black text-[#574d42]">기본값으로 시작</button>
-      </div>
     </div>
   );
 }
 
-function OptionGroup<T extends string | number>({ title, value, options, onSelect }: { title: string; value: T; options: Array<{ label: string; value: T }>; onSelect: (value: T) => void }) {
+function FieldRow({ icon, label, children }: { icon: React.ReactNode; label: string; children: React.ReactNode }) {
   return (
-    <div>
-      <h4 className="font-black text-[#164033]">{title}</h4>
-      <div className="mt-3 flex flex-wrap gap-2">
-        {options.map((option) => (
-          <button key={String(option.value)} type="button" onClick={() => onSelect(option.value)} className={`rounded-lg px-3 py-2 text-sm font-black ${value === option.value ? "bg-[#164033] text-white" : "border border-[#ddd2c0] bg-white text-[#574d42]"}`}>
-            {option.label}
-          </button>
-        ))}
+    <div className="grid gap-3 border-b border-[#f0e7d9] pb-4 last:border-0">
+      <div className="flex items-center gap-3 text-lg font-black text-[#2b1e16]">
+        <span className="text-[#0f7b54]">{icon}</span>
+        {label}
       </div>
+      {children}
     </div>
   );
 }
 
-function InlineNumber({ label, value, onChange, onApply }: { label: string; value: string; onChange: (value: string) => void; onApply: () => void }) {
+function Select({ value, options, onChange }: { value: string; options: string[]; onChange: (value: string) => void }) {
   return (
-    <label className="flex flex-wrap items-center gap-2 text-sm font-bold text-[#655d52]">
-      {label}
-      <input type="number" value={value} onChange={(event) => onChange(event.target.value)} className="rounded-lg border border-[#ddd2c0] px-3 py-2" />
-      <button type="button" onClick={onApply} className="rounded-lg border border-[#cbbda8] px-3 py-2 font-black text-[#574d42]">적용</button>
-    </label>
-  );
-}
-
-function InlineText({ label, value, onChange, onApply }: { label: string; value: string; onChange: (value: string) => void; onApply: () => void }) {
-  return (
-    <label className="flex flex-wrap items-center gap-2 text-sm font-bold text-[#655d52]">
-      {label}
-      <input value={value} onChange={(event) => onChange(event.target.value)} className="rounded-lg border border-[#ddd2c0] px-3 py-2" />
-      <button type="button" onClick={onApply} className="rounded-lg border border-[#cbbda8] px-3 py-2 font-black text-[#574d42]">적용</button>
-    </label>
-  );
-}
-
-function NumberField({ label, value, step, onChange }: { label: string; value: number; step?: string; onChange: (value: number) => void }) {
-  return (
-    <label className="grid gap-1 text-sm font-bold text-[#655d52]">
-      {label}
-      <input type="number" step={step} value={value} onChange={(event) => onChange(Number(event.target.value))} className="rounded-lg border border-[#ddd2c0] px-3 py-2" />
-    </label>
+    <select value={value} onChange={(event) => onChange(event.target.value)} className="w-full rounded-xl border border-[#e4dacb] bg-white px-4 py-3 text-sm font-black text-[#2b1e16]">
+      {options.map((option) => <option key={option}>{option}</option>)}
+    </select>
   );
 }

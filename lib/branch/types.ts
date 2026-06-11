@@ -323,12 +323,28 @@ export type ConsultationLead = {
   taskId?: string;
 };
 
+export type BetaSignup = {
+  id: string;
+  timestamp: string;
+  email: string;
+  phone?: string;
+  purpose: string;
+  benefit: string;
+  category?: string;
+  openDate?: string;
+  note?: string;
+  pagePath?: string;
+};
+
 export type FeedbackEntry = {
   id: string;
   timestamp: string;
   stage: string;
   blocker: string;
-  feature: string;
+  openTimeline: string;
+  budgetRange: string;
+  desiredBenefit: string;
   consultation: boolean;
   contact?: string;
+  note?: string;
 };

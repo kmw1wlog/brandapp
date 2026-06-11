@@ -1,10 +1,10 @@
 import { getRegionProfile, normalizeStartupInput } from "@/lib/branch/user-input";
 import { getFinanceAssumptions, scenarioLabels, scenarioRamp } from "./finance-defaults";
-import type { FinanceAssumptions, FinanceScenarioKey, FinanceScenarioResult, FinanceSimulationResult, LocationFinanceContext, RegionProfile, StartupUserInput } from "./finance-types";
+import type { FinanceAssumptions, FinanceScenarioKey, FinanceScenarioResult, FinanceSimulationResult, RegionProfile, StartupUserInput } from "./finance-types";
 
 const scenarioKeys: FinanceScenarioKey[] = ["conservative", "base", "optimistic"];
 
-export function calculateFinanceSimulation(input: StartupUserInput, locationContext?: LocationFinanceContext | null): FinanceSimulationResult {
+export function calculateFinanceSimulation(input: StartupUserInput): FinanceSimulationResult {
   const normalized = normalizeStartupInput(input);
   const assumptions = getFinanceAssumptions();
   const regionProfile = getRegionProfile(normalized);
@@ -12,9 +12,8 @@ export function calculateFinanceSimulation(input: StartupUserInput, locationCont
     input: normalized,
     assumptions,
     regionProfile,
-    locationContext: locationContext ?? null,
     scenarios: Object.fromEntries(
-      scenarioKeys.map((key) => [key, calculateScenario(key, normalized, regionProfile, assumptions, locationContext)])
+      scenarioKeys.map((key) => [key, calculateScenario(key, normalized, regionProfile, assumptions)])
     ) as Record<FinanceScenarioKey, FinanceScenarioResult>
   };
 }
@@ -23,12 +22,10 @@ export function calculateScenario(
   key: FinanceScenarioKey,
   input: StartupUserInput,
   region: RegionProfile,
-  assumptions: FinanceAssumptions,
-  locationContext?: LocationFinanceContext | null
+  assumptions: FinanceAssumptions
 ): FinanceScenarioResult {
-  const regionDailyOrders = key === "conservative" ? region.conservative_daily_orders : key === "optimistic" ? region.optimistic_daily_orders : region.base_daily_orders;
-  const baseDailyOrders = regionDailyOrders * (locationContext?.dailyOrderMultiplier ?? 1);
-  const deliveryShare = clamp((input.delivery_share ?? assumptions.delivery_share) + (locationContext?.deliveryShareAdjustment ?? 0), 0, 0.9);
+  const baseDailyOrders = key === "conservative" ? region.conservative_daily_orders : key === "optimistic" ? region.optimistic_daily_orders : region.base_daily_orders;
+  const deliveryShare = input.delivery_share ?? assumptions.delivery_share;
   const fixedCosts = (input.expected_monthly_rent ?? median(region.rent_range_monthly)) + assumptions.management_fee + assumptions.utilities + assumptions.internet_pos + assumptions.insurance + assumptions.waste_disposal;
   const laborCost = calculateLaborCost(input.owner_working_type, input.staff_count ?? 1);
   const loanPayment = calculateLoanPayment(input.capital_structure.loan_amount);
@@ -79,7 +76,7 @@ export function calculateScenario(
     const packagingCost = safeMoney(orders * assumptions.packaging_cost_per_order);
     const deliveryPlatformFee = safeMoney(deliverySales * assumptions.delivery_platform_fee_rate);
     const cardFee = safeMoney(grossSales * assumptions.card_fee_rate);
-    const marketingCost = safeMoney((assumptions.monthly_marketing[`month_${month}`] ?? input.marketing_budget ?? 500_000) * (locationContext?.marketingRampAdjustment ?? 1));
+    const marketingCost = assumptions.monthly_marketing[`month_${month}`] ?? input.marketing_budget ?? 500_000;
     const operatingProfit = safeMoney(grossSales - foodCost - packagingCost - deliveryPlatformFee - cardFee - fixedCosts - laborCost - marketingCost);
     const ownerTakeHome = operatingProfit > input.target_owner_income ? input.target_owner_income : Math.max(0, safeMoney(operatingProfit * 0.5));
     const endingCash = safeMoney(previousEndingCash + operatingProfit - ownerTakeHome - loanPayment);
@@ -129,8 +126,4 @@ function safeNumber(value: number) {
 
 function safeMoney(value: number) {
   return Number.isFinite(value) ? Math.round(value) : 0;
-}
-
-function clamp(value: number, min: number, max: number) {
-  return Math.min(max, Math.max(min, value));
 }

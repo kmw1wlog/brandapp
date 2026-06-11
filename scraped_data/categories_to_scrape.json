@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "category_id": "coffee",
+      "category_name": "커피",
+      "brands": ["메가엠지씨커피", "컴포즈커피", "빽다방", "더벤티"]
+    },
+    {
+      "category_id": "dessert",
+      "category_name": "디저트",
+      "brands": ["설빙", "배스킨라빈스", "요거프레소", "와플대학"]
+    },
+    {
+      "category_id": "bakery",
+      "category_name": "베이커리",
+      "brands": ["파리바게뜨", "뚜레쥬르", "던킨", "홍루이젠"]
+    },
+    {
+      "category_id": "korean",
+      "category_name": "한식",
+      "brands": ["본죽&비빔밥", "놀부부대찌개", "두찜", "채선당"]
+    },
+    {
+      "category_id": "chinese",
+      "category_name": "중식",
+      "brands": ["홍콩반점0410", "보배반점", "이비가짬뽕", "소림마라"]
+    },
+    {
+      "category_id": "japanese",
+      "category_name": "일식",
+      "brands": ["역전우동0410", "미소야", "아비꼬", "하루엔소쿠"]
+    },
+    {
+      "category_id": "western",
+      "category_name": "양식",
+      "brands": ["롤링파스타", "서가앤쿡", "라라코스트", "파스타부오노"]
+    },
+    {
+      "category_id": "snack",
+      "category_name": "분식",
+      "brands": ["신전떡볶이", "동대문엽기떡볶이", "청년다방", "감탄떡볶이"]
+    },
+    {
+      "category_id": "chicken",
+      "category_name": "치킨",
+      "brands": ["BHC", "BBQ", "교촌치킨", "굽네치킨"]
+    },
+    {
+      "category_id": "pizza",
+      "category_name": "피자",
+      "brands": ["도미노피자", "피자스쿨", "피자헛", "반올림피자샵"]
+    },
+    {
+      "category_id": "burger",
+      "category_name": "버거/샌드위치",
+      "brands": ["맘스터치", "롯데리아", "써브웨이", "이삭토스트"]
+    },
+    {
+      "category_id": "lunchbox",
+      "category_name": "도시락/덮밥",
+      "brands": ["한솥", "본도시락", "토마토도시락", "핵밥"]
+    },
+    {
+      "category_id": "salad",
+      "category_name": "샐러드/포케",
+      "brands": ["샐러디", "포케올데이", "슬로우캘리", "투고샐러드"]
+    },
+    {
+      "category_id": "pub",
+      "category_name": "주점",
+      "brands": ["역전할머니맥주", "크라운호프", "한신포차", "투다리"]
+    },
+    {
+      "category_id": "bubbletea",
+      "category_name": "버블티/음료",
+      "brands": ["공차", "아마스빈", "팔공티", "쥬씨"]
+    }
+  ]
+}

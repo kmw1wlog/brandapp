@@ -3,6 +3,7 @@ import { chromium } from "playwright";
 export default async function globalSetup() {
   const baseURL = process.env.BASE_URL ?? "http://localhost:3003";
   const routes = [
+    "/onboarding",
     "/dashboard/startup/input",
     "/dashboard/startup/location",
     "/dashboard/startup/new",

@@ -148,6 +148,8 @@ export function getExperienceCategories() {
 export function resolveExperienceCategory(inputCategory: string) {
   const normalized = normalize(inputCategory);
   const categories = getExperienceCategories();
+  const exact = categories.find((category) => normalize(category.display_name) === normalized || category.aliases.some((alias) => normalize(alias) === normalized));
+  if (exact) return exact;
   return categories.find((category) => [category.display_name, ...category.aliases].some((alias) => normalize(alias).includes(normalized) || normalized.includes(normalize(alias)))) ?? categories[0];
 }
 

@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { getDefaultBrand, getScenario } from "@/lib/branch/data";
-import { buildExperienceSimulation, type ExperienceSimulation } from "@/lib/branch/experience-data";
 import { trackEvent } from "@/lib/branch/events";
-import { getCollectedFranchiseDetails, getRealFeaturedFranchise, getRealFranchiseSummaryOrFallback } from "@/lib/branch/real-data";
-import { readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import { getRealFeaturedFranchise, getRealFranchiseSummaryOrFallback } from "@/lib/branch/real-data";
 import { InputSummaryBar } from "./InputSummaryBar";
 import { OwnBrandCard } from "./OwnBrandCard";
 import { FranchiseCompareCard } from "./FranchiseCompareCard";
@@ -16,13 +14,7 @@ export function ComparisonHero() {
   const brand = getDefaultBrand();
   const franchise = getRealFeaturedFranchise();
   const summary = getRealFranchiseSummaryOrFallback();
-  const [simulation, setSimulation] = useState<ExperienceSimulation>(() => buildExperienceSimulation(readStartupInput()));
   const [operatingType, setOperatingType] = useState("점포형");
-  const collectedDetails = getCollectedFranchiseDetails(simulation.category.category_id);
-
-  useEffect(() => {
-    setSimulation(buildExperienceSimulation(readStartupInput()));
-  }, []);
 
   return (
     <div>
@@ -36,7 +28,7 @@ export function ComparisonHero() {
       </div>
       <div className="grid gap-5 lg:grid-cols-[1.35fr_0.9fr]">
         <OwnBrandCard brand={brand} operatingType={operatingType} onDetail={() => trackEvent("own_brand_detail_click", { brandId: brand.id, operatingType })} />
-        {franchise ? <FranchiseCompareCard franchise={franchise} summary={summary} collectedDetails={collectedDetails} onDetail={() => trackEvent("franchise_detail_click", { franchiseId: franchise.id, categoryId: simulation.category.category_id })} /> : null}
+        {franchise ? <FranchiseCompareCard franchise={franchise} summary={summary} onDetail={() => trackEvent("franchise_detail_click", { franchiseId: franchise.id })} /> : null}
       </div>
     </div>
   );

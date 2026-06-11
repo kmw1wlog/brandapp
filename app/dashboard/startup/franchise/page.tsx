@@ -1,175 +1,155 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { PageHeader } from "@/components/branch/Common";
-import { DataSourceNote } from "@/components/branch/data/DataSourceNote";
-import { BranchBadge } from "@/components/branch/ui/BranchBadge";
-import { BranchButton } from "@/components/branch/ui/BranchButton";
-import { BranchCard } from "@/components/branch/ui/BranchCard";
-import { buildExperienceSimulation, type ExperienceSimulation } from "@/lib/branch/experience-data";
-import { formatKRW, formatRange } from "@/lib/branch/format";
-import { getCollectedFranchiseDetails, getRealFranchiseBrands, getRealFranchiseQuality, getResolvedFranchiseExamples } from "@/lib/branch/real-data";
-import { readStartupInput } from "@/lib/branch/storage/startup-flow-storage";
+import Link from "next/link";
+import { Download, SlidersHorizontal } from "lucide-react";
+import { formatKrw, useDemoExperience } from "@/components/branch/DemoExperience";
+import { InlineWaitlistCta } from "@/components/branch/InlineWaitlistCta";
+import { getRealFranchiseBrands } from "@/lib/branch/real-data";
+import { formatRange } from "@/lib/branch/format";
+
+const rows = [
+  ["초기 자본", "startup"],
+  ["준비 기간", "period"],
+  ["예상 월매출 (4개월차)", "sales"],
+  ["점주 순이익 (4개월차)", "profit"],
+  ["가맹비", "fee"],
+  ["교육비", "education"],
+  ["로열티", "royalty"],
+  ["공급처 자유도", "supplier"],
+  ["브랜드 자유도", "brand"],
+  ["본사 지원", "support"]
+];
 
 export default function FranchisePage() {
-  const [simulation, setSimulation] = useState<ExperienceSimulation>(() => buildExperienceSimulation(readStartupInput()));
+  const { input, simulation } = useDemoExperience();
+  const brands = getRealFranchiseBrands().slice(0, 8);
+  const franchiseStartup = simulation.benchmark.startup_cost_krw.median ?? input.budget + 20_000_000;
+  const ownSales = simulation.results.monthlySales;
+  const franchiseSales = Math.round(ownSales * 1.1);
+  const ownProfit = simulation.results.estimatedOwnerProfit;
+  const franchiseProfit = Math.round(ownProfit * 0.88);
 
-  useEffect(() => {
-    setSimulation(buildExperienceSimulation(readStartupInput()));
-  }, []);
-
-  const examples = getResolvedFranchiseExamples(simulation.category.category_id);
-  const collectedDetails = getCollectedFranchiseDetails(simulation.category.category_id);
-  const quality = getRealFranchiseQuality() as { warningNotes?: string[] };
-  const legacyBrands = getRealFranchiseBrands();
-  const benchmark = simulation.benchmark;
+  const values: Record<string, [string, string]> = {
+    startup: [formatKrw(Math.min(input.budget, franchiseStartup * 0.72)), formatKrw(franchiseStartup)],
+    period: ["45일", "30일"],
+    sales: [formatKrw(ownSales), formatKrw(franchiseSales)],
+    profit: [`${formatKrw(ownProfit)} (${Math.round((ownProfit / ownSales) * 100)}%)`, `${formatKrw(franchiseProfit)} (${Math.round((franchiseProfit / franchiseSales) * 100)}%)`],
+    fee: ["0원", "1,000만원 내외"],
+    education: ["0원", "150만원 내외"],
+    royalty: ["0%", "매출 3~5%"],
+    supplier: ["높음", "낮음"],
+    brand: ["높음", "낮음"],
+    support: ["제한적", "높음"]
+  };
 
   return (
-    <div className="grid gap-5">
-      <PageHeader
-        title="프랜차이즈 비교"
-        subtitle="현재 업종 평균과 자가 브랜드안을 먼저 비교하고, 아래에서 수집된 브랜드별 공개정보를 확인합니다."
-        warning="수집값은 공개 페이지와 정보공개서 표시값 기반입니다. 계약 전 최신 정보공개서와 본사 상담으로 재확인해야 합니다."
-      />
-
-      <section className="grid gap-5 lg:grid-cols-[1fr_0.85fr]">
-        <BranchCard>
-          <p className="text-xs font-black uppercase text-[#b8642f]">업종 평균 우선</p>
-          <h2 className="mt-2 text-3xl font-black text-[color:var(--branch-primary)]">{simulation.category.display_name}</h2>
-          <p className="mt-2 text-sm font-bold leading-6 text-[color:var(--branch-ink-muted)]">
-            공정위 가맹정보 기준 {benchmark.source_year}년 표본 {benchmark.sample_size}개로 만든 업종 평균입니다.
-          </p>
-          <div className="mt-5 grid gap-3 sm:grid-cols-2">
-            <Metric label="월매출 중앙값" value={formatKRW(benchmark.monthly_sales_krw.median)} />
-            <Metric label="창업비용 중앙값" value={formatKRW(benchmark.startup_cost_krw.median)} />
-            <Metric label="가맹점 수 중앙값" value={`${benchmark.store_count.median?.toLocaleString("ko-KR") ?? "확인 필요"}개`} />
-            <Metric label="폐점 유사율" value={`${Math.round(benchmark.open_close.closure_like_rate_by_store * 100)}%`} />
+    <div className="grid gap-6">
+      <header className="rounded-[28px] border border-[#d7e7df] bg-white p-6 shadow-[0_18px_50px_rgba(31,53,42,0.07)]">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <p className="text-sm font-black text-[#0f7b54]">브랜드 비교 · 내 브랜드 vs 프랜차이즈</p>
+            <h2 className="mt-3 text-4xl font-black text-[#172033]">내 브랜드 vs 프랜차이즈 비교 & 1~4개월 시뮬레이션</h2>
+            <p className="mt-2 text-sm font-bold text-[#5d6876]">초기 투자부터 수익성까지 두 선택지를 같은 조건으로 비교합니다.</p>
           </div>
-        </BranchCard>
-
-        <BranchCard>
-          <p className="text-xs font-black uppercase text-[#b8642f]">내 브랜드안</p>
-          <h2 className="mt-2 text-3xl font-black text-[color:var(--branch-primary)]">{simulation.virtualBrand.name}</h2>
-          <p className="mt-2 text-sm font-bold leading-6 text-[color:var(--branch-ink-muted)]">{simulation.virtualBrand.tagline}</p>
-          <div className="mt-5 grid gap-3 sm:grid-cols-2">
-            <Metric label="예상 월매출" value={formatKRW(simulation.results.monthlySales)} />
-            <Metric label="예상 점주 수익" value={formatKRW(simulation.results.estimatedOwnerProfit)} />
-            <Metric label="일 주문" value={`${simulation.results.adjustedDailyOrders}건`} />
-            <Metric label="입지 점수" value={`${Math.round(simulation.results.locationScore * 100)}점`} />
+          <div className="flex gap-3">
+            <Link href="/dashboard/startup/input" className="inline-flex items-center gap-2 rounded-xl border border-[#d7e7df] px-4 py-3 text-sm font-black text-[#0f5d43]"><SlidersHorizontal size={16} /> 조건 수정</Link>
+            <button type="button" className="inline-flex items-center gap-2 rounded-xl bg-[#0f7b54] px-4 py-3 text-sm font-black text-white"><Download size={16} /> PDF 다운로드</button>
           </div>
-        </BranchCard>
+        </div>
+      </header>
+
+      <section className="rounded-[28px] border border-[#d7e7df] bg-white p-6 shadow-[0_18px_50px_rgba(31,53,42,0.07)]">
+        <div className="overflow-hidden rounded-2xl border border-[#e1e9e4]">
+          <table className="w-full text-left text-sm">
+            <thead>
+              <tr className="bg-[#f8fbf9]">
+                <th className="w-1/5 p-4 text-center font-black text-[#172033]">항목</th>
+                <th className="p-4 text-center text-xl font-black text-[#0f7b54]">내 브랜드</th>
+                <th className="p-4 text-center text-xl font-black text-[#0f5d9c]">프랜차이즈</th>
+              </tr>
+            </thead>
+            <tbody className="font-bold text-[#26313f]">
+              {rows.map(([label, key]) => (
+                <tr key={key} className="border-t border-[#e1e9e4]">
+                  <td className="bg-[#fbfcfb] p-4 font-black">{label}</td>
+                  <td className={`p-4 text-center ${["profit", "supplier", "brand"].includes(key) ? "font-black text-[#0f7b54]" : ""}`}>{values[key][0]}</td>
+                  <td className={`p-4 text-center ${["supplier", "brand"].includes(key) ? "font-black text-[#e14d3d]" : key === "support" ? "font-black text-[#0f7b54]" : ""}`}>{values[key][1]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
-      {collectedDetails ? (
-        <section className="grid gap-4 rounded-2xl border border-[color:var(--branch-border)] bg-white p-5 shadow-[var(--branch-shadow)]" data-testid="collected-franchise-details">
-          <div className="flex flex-wrap items-start justify-between gap-3">
-            <div>
-              <p className="text-xs font-black uppercase text-[#b8642f]">수집 브랜드 상세</p>
-              <h2 className="mt-1 text-2xl font-black text-[color:var(--branch-primary)]">
-                {simulation.category.display_name} 공개 브랜드 {collectedDetails.brand_count}개
-              </h2>
-              <p className="mt-2 text-sm font-bold leading-6 text-[color:var(--branch-ink-muted)]">
-                마이프차 공개 페이지에서 월평균 매출, 창업비, 점포수, 대표 메뉴, 본사 정보를 수집해 화면에 연결했습니다.
-              </p>
-            </div>
-            <BranchBadge tone="success">수집 상세 반영</BranchBadge>
-          </div>
-          <div className="grid gap-3 md:grid-cols-3">
-            <Metric label="수집 브랜드 월매출 평균" value={formatKRW(collectedDetails.summary.monthly_average_sales)} />
-            <Metric label="창업비 범위 평균" value={formatRange(collectedDetails.summary.startup_cost_min, collectedDetails.summary.startup_cost_max)} />
-            <Metric label="평균 가맹점 수" value={`${collectedDetails.summary.active_stores?.toLocaleString("ko-KR") ?? "확인 필요"}개`} />
-          </div>
-          <div className="grid gap-4 lg:grid-cols-2">
-            {collectedDetails.brands.map((brand) => (
-              <article key={`${brand.source_category_id}-${brand.brand_name}`} className="rounded-2xl border border-[color:var(--branch-border)] bg-[color:var(--branch-surface-muted)] p-4">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <p className="text-xs font-black text-[#b8642f]">{brand.source_category_name}</p>
-                    <h3 className="mt-1 text-xl font-black text-[color:var(--branch-primary)]">{brand.brand_name}</h3>
-                    <p className="mt-1 text-sm font-bold text-[color:var(--branch-ink-muted)]">{brand.main_menu || "대표 메뉴 확인 필요"}</p>
-                  </div>
-                  <a href={brand.source_url} target="_blank" rel="noopener noreferrer" className="rounded-xl border border-[color:var(--branch-border)] bg-white px-3 py-2 text-xs font-black text-[color:var(--branch-primary)]">
-                    원문
-                  </a>
-                </div>
-                <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                  <Metric label="월평균 매출" value={formatKRW(brand.monthly_average_sales)} />
-                  <Metric label="창업비" value={formatRange(brand.startup_cost_min, brand.startup_cost_max)} />
-                  <Metric label="가맹점" value={`${brand.active_stores?.toLocaleString("ko-KR") ?? "확인 필요"}개`} />
-                </div>
-                <div className="mt-4 grid gap-2 text-xs font-bold text-[color:var(--branch-ink-muted)] sm:grid-cols-2">
-                  <p>개점/폐점: {brand.yearly_openings?.toLocaleString("ko-KR") ?? "확인 필요"} / {brand.yearly_closings?.toLocaleString("ko-KR") ?? "확인 필요"}</p>
-                  <p>직영점: {brand.direct_stores?.toLocaleString("ko-KR") ?? "확인 필요"}개</p>
-                  <p>가맹비: {formatKRW(brand.franchise_fee)}</p>
-                  <p>교육비: {formatKRW(brand.education_fee)}</p>
-                  <p>인테리어: {formatKRW(brand.interior_cost)} {brand.interior_size ? `· ${brand.interior_size}` : ""}</p>
-                  <p>주방/설비: {formatKRW(brand.kitchen_equipment_cost)}</p>
-                </div>
-                {brand.representative_menu.length > 0 ? (
-                  <div className="mt-4">
-                    <p className="text-xs font-black text-[color:var(--branch-primary)]">대표 메뉴 가격</p>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {brand.representative_menu.slice(0, 5).map((menu) => (
-                        <span key={`${brand.brand_name}-${menu.menu_name}`} className="rounded-full bg-white px-3 py-1 text-xs font-bold text-[color:var(--branch-ink-muted)]">
-                          {menu.menu_name} {menu.price}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                ) : null}
-                <p className="mt-4 text-xs font-bold leading-5 text-[color:var(--branch-ink-muted)]">
-                  {brand.headquarters.company_name || "본사 확인 필요"} · {brand.disclosure_reference || "정보공개서 기준일 확인 필요"}
-                </p>
-              </article>
-            ))}
-          </div>
-        </section>
-      ) : null}
+      <section className="grid gap-5 lg:grid-cols-2">
+        <ChartCard title="월별 예상 매출 추이" own={[0.45, 0.66, 0.86, 1]} franchise={[0.58, 0.82, 0.95, 1.1]} unit="만원" base={ownSales / 10_000} />
+        <ChartCard title="월별 점주 순이익 추이" own={[0.3, 0.55, 0.78, 1]} franchise={[0.42, 0.64, 0.79, 0.88]} unit="만원" base={ownProfit / 10_000} />
+      </section>
 
-      <details className="rounded-2xl border border-[color:var(--branch-border)] bg-white p-5 shadow-[var(--branch-shadow)]" data-testid="resolved-brand-examples">
-        <summary className="cursor-pointer text-lg font-black text-[color:var(--branch-primary)]">예시 브랜드 4개 보기</summary>
-        <p className="mt-3 text-sm font-bold text-[color:var(--branch-ink-muted)]">
-          이 목록은 URL resolve 확인용 보조 목록입니다. 실제 상세 수치는 위 수집 브랜드 상세 카드에서 확인합니다.
-        </p>
-        <div className="mt-4 grid gap-3 md:grid-cols-2">
-          {examples.map((brand) => (
-            <a key={`${brand.source_category_id}-${brand.brand_name}`} href={brand.resolved_url} target="_blank" rel="noopener noreferrer" className="rounded-xl border border-[color:var(--branch-border)] p-4">
-              <p className="font-black text-[color:var(--branch-primary)]">{brand.brand_name}</p>
-              <p className="mt-1 text-sm text-[color:var(--branch-ink-muted)]">{brand.source_category_name}</p>
-            </a>
-          ))}
-        </div>
-      </details>
+      <p className="rounded-2xl border border-[#f1dfb9] bg-[#fff8e8] p-4 text-sm font-bold leading-6 text-[#7d5a1d]">
+        본 시뮬레이션은 입력한 가정과 시장 데이터를 기반으로 산출된 예측치입니다. 프랜차이즈가 항상 불리한 것은 아니며, 업종과 점주의 경험에 따라 더 나은 선택일 수 있습니다.
+      </p>
 
-      <details className="rounded-2xl border border-[color:var(--branch-border)] bg-white p-5 shadow-[var(--branch-shadow)]">
-        <summary className="cursor-pointer text-lg font-black text-[color:var(--branch-primary)]">기존 고기덮밥 수집 상세 보관함</summary>
-        <div className="mt-4 grid gap-3 md:grid-cols-2">
-          {legacyBrands.slice(0, 7).map((brand) => (
-            <div key={brand.id} className="rounded-xl border border-[color:var(--branch-border)] p-4">
-              <div className="flex flex-wrap items-start justify-between gap-2">
-                <p className="font-black text-[color:var(--branch-primary)]">{brand.name}</p>
-                <BranchBadge tone={brand.confidenceScore < 0.8 ? "warning" : "success"}>{brand.confidenceScore < 0.8 ? "추가 수집" : "공개정보"}</BranchBadge>
+      <InlineWaitlistCta
+        title="비교 결과를 저장하고 더 구체적인 비교안을 받아보세요"
+        description="업종별 직접 비교군이 늘어나거나 PDF 저장 기능이 열리면 가장 먼저 알려드립니다."
+        purpose="franchise_compare_waitlist"
+        submitLabel="비교 결과 업데이트 받기"
+        benefits={["내 브랜드 vs 프랜차이즈 PDF", "동종 브랜드 비교 업데이트", "상담 전 체크리스트 받기"]}
+        defaultBenefit="내 브랜드 vs 프랜차이즈 PDF"
+        category={simulation.category.display_name}
+        testId="franchise-waitlist"
+      />
+
+      <details className="rounded-[28px] border border-[#d7e7df] bg-white p-6">
+        <summary className="cursor-pointer text-xl font-black text-[#172033]">수집된 프랜차이즈 브랜드 상세 보기</summary>
+        <div className="mt-5 grid gap-4 md:grid-cols-2">
+          {brands.map((brand) => (
+            <article key={brand.id} className="rounded-2xl border border-[#e1e9e4] p-4">
+              <h3 className="text-xl font-black text-[#172033]">{brand.name}</h3>
+              <p className="mt-2 text-sm font-bold text-[#5d6876]">{brand.mainMenu?.join(", ") || "대표 메뉴 추가 수집 예정"}</p>
+              <div className="mt-4 grid gap-2 text-sm">
+                <Mini label="월평균 매출" value={brand.monthlyAverageSalesText ?? formatKrw(brand.monthlyAverageSales ?? 0)} />
+                <Mini label="창업비용" value={formatRange(brand.startupCostMin, brand.startupCostMax)} />
+                <Mini label="가맹점 수" value={brand.franchiseStoreCount?.toLocaleString("ko-KR") ?? "확인 필요"} />
               </div>
-              <p className="mt-2 text-sm text-[color:var(--branch-ink-muted)]">{formatKRW(brand.monthlyAverageSales)} · {formatKRW(brand.startupCostMin)}</p>
-            </div>
+            </article>
           ))}
         </div>
       </details>
 
-      <DataSourceNote>{quality.warningNotes?.join(" / ") ?? "브랜드 상세값은 출처와 누락 상태를 함께 표시합니다."}</DataSourceNote>
-      <div className="flex flex-wrap gap-3">
-        <BranchButton href="/dashboard/startup/cost">원가 비교 보기</BranchButton>
-        <BranchButton href="/dashboard/startup/consultation?category=창업%20컨설턴트" variant="secondary">계약 전 질문 상담</BranchButton>
+      <div className="flex justify-end">
+        <Link href="/dashboard/startup/owner-preview" className="rounded-2xl bg-[#073d2d] px-6 py-4 text-sm font-black text-white">점주 대시보드 미리보기</Link>
       </div>
     </div>
   );
 }
 
-function Metric({ label, value }: { label: string; value: string }) {
+function ChartCard({ title, own, franchise, base, unit }: { title: string; own: number[]; franchise: number[]; base: number; unit: string }) {
   return (
-    <div className="rounded-xl border border-[color:var(--branch-border)] p-3">
-      <p className="text-xs font-bold text-[color:var(--branch-ink-muted)]">{label}</p>
-      <p className="mt-1 font-black text-[color:var(--branch-primary)]">{value}</p>
-    </div>
+    <article className="rounded-[28px] border border-[#d7e7df] bg-white p-6 shadow-[0_18px_50px_rgba(31,53,42,0.07)]">
+      <h3 className="text-xl font-black text-[#172033]">{title}</h3>
+      <div className="mt-5 grid gap-4">
+        {["1개월차", "2개월차", "3개월차", "4개월차"].map((month, index) => (
+          <div key={month} className="grid grid-cols-[72px_1fr_80px] items-center gap-3 text-sm font-bold">
+            <span>{month}</span>
+            <div className="grid gap-2">
+              <Bar value={own[index]} color="#0f7b54" />
+              <Bar value={franchise[index]} color="#2878d9" />
+            </div>
+            <span className="text-right">{Math.round(base * own[index]).toLocaleString("ko-KR")}{unit}</span>
+          </div>
+        ))}
+      </div>
+      <div className="mt-5 flex gap-4 text-xs font-black"><span className="text-[#0f7b54]">내 브랜드</span><span className="text-[#2878d9]">프랜차이즈</span></div>
+    </article>
   );
+}
+
+function Bar({ value, color }: { value: number; color: string }) {
+  return <div className="h-3 overflow-hidden rounded-full bg-[#edf1ec]"><div className="h-full rounded-full" style={{ width: `${Math.min(100, value * 86)}%`, background: color }} /></div>;
+}
+
+function Mini({ label, value }: { label: string; value: string }) {
+  return <p className="flex justify-between gap-3 rounded-xl bg-[#f8fbf9] p-3"><span className="text-[#5d6876]">{label}</span><strong>{value}</strong></p>;
 }

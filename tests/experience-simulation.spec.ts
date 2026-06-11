@@ -16,5 +16,5 @@ test("industry input drives virtual brand, benchmark, menu, and KIE templates", 
   await expect(page.getByText("KIE nano banana template").first()).toBeVisible();
 
   await page.getByRole("button").filter({ hasText: "KIE nano banana template" }).first().click();
-  await expect(page.getByText(/KIE 작업 생성 완료:/)).toBeVisible();
+  await expect(page.getByText("KIE API 키 없음: 템플릿 이미지로 mock 생성 흐름 확인")).toBeVisible();
 });

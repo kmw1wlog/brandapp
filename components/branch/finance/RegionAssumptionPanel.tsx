@@ -1,8 +1,8 @@
 import { getMarketServices } from "@/lib/branch/user-input";
 import { formatManwon } from "@/lib/branch/finance/finance-format";
-import type { LocationFinanceContext, RegionProfile } from "@/lib/branch/finance/finance-types";
+import type { RegionProfile } from "@/lib/branch/finance/finance-types";
 
-export function RegionAssumptionPanel({ profile, locationContext }: { profile: RegionProfile; locationContext?: LocationFinanceContext | null }) {
+export function RegionAssumptionPanel({ profile }: { profile: RegionProfile }) {
   const services = getMarketServices().filter((service) => service.useInSimulation).sort((a, b) => a.priority - b.priority);
   return (
     <section className="rounded-lg border border-[#ddd2c0] bg-white p-5">
@@ -15,20 +15,9 @@ export function RegionAssumptionPanel({ profile, locationContext }: { profile: R
       </div>
       <div className="mt-4 grid gap-3 text-sm md:grid-cols-3">
         <Metric label="월세 범위" value={`${formatManwon(profile.rent_range_monthly[0])}~${formatManwon(profile.rent_range_monthly[1])}`} />
-        <Metric label="기준 일 주문" value={locationContext ? `${Math.round(profile.base_daily_orders * locationContext.dailyOrderMultiplier)}건` : `${profile.base_daily_orders}건`} />
-        <Metric label="추천 운영" value={locationContext?.recommendedOperationType ?? profile.recommended_operation_type} />
+        <Metric label="기준 일 주문" value={`${profile.base_daily_orders}건`} />
+        <Metric label="추천 운영" value={profile.recommended_operation_type} />
       </div>
-      {locationContext ? (
-        <div className="mt-4 rounded-lg border border-[#cddfce] bg-[#eef7ef] p-4" data-testid="location-finance-context">
-          <h4 className="font-black text-[#164033]">선택 입지 보정</h4>
-          <p className="mt-1 text-sm font-bold text-[#486457]">{locationContext.summary}</p>
-          <div className="mt-3 grid gap-2 text-sm md:grid-cols-3">
-            <Metric label="점수 밴드" value={`${locationContext.scoreBand} · ${locationContext.confidenceLabel}`} />
-            <Metric label="일주문 보정" value={`x${locationContext.dailyOrderMultiplier}`} />
-            <Metric label="배달비중 보정" value={`${Math.round(locationContext.deliveryShareAdjustment * 100)}%p`} />
-          </div>
-        </div>
-      ) : null}
       <div className="mt-5 rounded-lg bg-[#f6f1e8] p-4">
         <h4 className="font-black text-[#164033]">상권 근거 확인</h4>
         <p className="mt-1 text-sm font-bold text-[#655d52]">소상공인365 연동 준비중. 현재는 지역 단위 추정값으로 회계 시뮬레이션을 생성합니다.</p>

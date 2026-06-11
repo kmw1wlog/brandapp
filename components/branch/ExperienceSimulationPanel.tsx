@@ -42,7 +42,7 @@ export function ExperienceSimulationPanel() {
       })
     });
     const json = await response.json();
-    setMessage(json.mock ? "KIE API 키가 없어 템플릿 이미지만 유지했습니다." : `KIE 작업 생성 완료: ${json.taskId ?? json.status}`);
+    setMessage(json.mock ? "KIE API 키 없음: 템플릿 이미지로 mock 생성 흐름 확인" : `KIE 작업 생성: ${json.taskId ?? json.status}`);
   }
 
   return (

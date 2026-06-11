@@ -295,93 +295,6 @@ function buildFranchiseSummary(cohorts) {
   };
 }
 
-const appCategoryToCollectedCategoryIds = {
-  rice_bowl: ["lunchbox"],
-  coffee_drink: ["coffee", "bubbletea"],
-  dessert_bakery: ["dessert", "bakery"],
-  korean_food: ["korean"],
-  chinese_food: ["chinese"],
-  japanese_food: ["japanese"],
-  western_pizza: ["western", "pizza"],
-  snack_chicken: ["snack", "chicken"],
-  burger_sandwich: ["burger"],
-  lunchbox: ["lunchbox"],
-  salad_poke: ["salad"]
-};
-
-function averageNullable(values) {
-  const filtered = values.filter((value) => Number.isFinite(value));
-  return filtered.length > 0 ? Math.round(filtered.reduce((sum, value) => sum + value, 0) / filtered.length) : null;
-}
-
-function normalizeCollectedBrand(raw, displayOrder) {
-  return {
-    brand_name: raw.brand_name,
-    source_category_id: raw.category_id,
-    source_category_name: raw.category_name,
-    source_url: raw.source_url,
-    monthly_average_sales: raw.franchise_disclosure?.monthly_average_sales_num ?? raw.overview?.monthly_average_sales_num ?? null,
-    monthly_average_sales_text: raw.franchise_disclosure?.monthly_average_sales_str ?? raw.overview?.monthly_average_sales_str ?? null,
-    main_menu: raw.overview?.main_menu ?? "",
-    active_stores: raw.franchise_disclosure?.active_stores ?? null,
-    direct_stores: raw.franchise_disclosure?.direct_stores ?? null,
-    yearly_openings: raw.franchise_disclosure?.yearly_openings ?? null,
-    yearly_closings: raw.franchise_disclosure?.yearly_closings ?? null,
-    yearly_transfers: raw.franchise_disclosure?.yearly_transfers ?? null,
-    startup_cost_min: raw.startup_cost_detailed?.total_min ?? raw.franchise_disclosure?.startup_cost_total ?? null,
-    startup_cost_max: raw.startup_cost_detailed?.total_max ?? raw.startup_cost_detailed?.total_min ?? raw.franchise_disclosure?.startup_cost_total ?? null,
-    franchise_fee: raw.startup_cost_detailed?.franchise_fee_num ?? raw.franchise_disclosure?.startup_cost_franchise ?? null,
-    education_fee: raw.startup_cost_detailed?.education_fee_num ?? raw.franchise_disclosure?.startup_cost_education ?? null,
-    security_deposit: raw.startup_cost_detailed?.security_deposit_num ?? raw.franchise_disclosure?.startup_cost_deposit ?? null,
-    interior_cost: raw.startup_cost_detailed?.interior_cost_num ?? raw.franchise_disclosure?.startup_cost_interior ?? null,
-    kitchen_equipment_cost: raw.startup_cost_detailed?.kitchen_equipment_cost_num ?? null,
-    signboard_cost: raw.startup_cost_detailed?.signboard_cost_num ?? null,
-    initial_goods_cost: raw.startup_cost_detailed?.initial_goods_cost_num ?? null,
-    other_cost: raw.startup_cost_detailed?.other_cost_num ?? raw.franchise_disclosure?.startup_cost_other ?? null,
-    rent_deposit_text: raw.startup_cost_detailed?.rent_deposit_str ?? "",
-    representative_menu: (raw.representative_menu ?? []).slice(0, 8).map((menu) => ({
-      menu_name: menu.menu_name,
-      price: menu.price
-    })),
-    disclosure_reference: raw.franchise_disclosure?.disclosure_reference ?? "",
-    interior_size: raw.franchise_disclosure?.startup_cost_interior_size ?? "",
-    headquarters: {
-      company_name: raw.headquarters?.company_name ?? "",
-      business_start_date: raw.headquarters?.business_start_date ?? "",
-      address: raw.headquarters?.address ?? ""
-    },
-    data_status: "myfranchise_collected",
-    display_order: displayOrder
-  };
-}
-
-function buildCollectedBrandDetails() {
-  const rawBrands = readJson("DB_real/franchise_collected_categories/collected_categories_data.json");
-  const output = {};
-
-  for (const [categoryId, sourceCategoryIds] of Object.entries(appCategoryToCollectedCategoryIds)) {
-    const brands = rawBrands
-      .filter((brand) => sourceCategoryIds.includes(brand.category_id))
-      .map((brand, index) => normalizeCollectedBrand(brand, index + 1));
-
-    output[categoryId] = {
-      source_category_ids: sourceCategoryIds,
-      brand_count: brands.length,
-      summary: {
-        monthly_average_sales: averageNullable(brands.map((brand) => brand.monthly_average_sales)),
-        startup_cost_min: averageNullable(brands.map((brand) => brand.startup_cost_min)),
-        startup_cost_max: averageNullable(brands.map((brand) => brand.startup_cost_max)),
-        active_stores: averageNullable(brands.map((brand) => brand.active_stores)),
-        yearly_openings: averageNullable(brands.map((brand) => brand.yearly_openings)),
-        yearly_closings: averageNullable(brands.map((brand) => brand.yearly_closings))
-      },
-      brands
-    };
-  }
-
-  return output;
-}
-
 function mergeSuppliers() {
   const canonicalSuppliers = readJson("DB_real/branch_supplier_db/suppliers.json");
   const canonicalProducts = readJson("DB_real/branch_supplier_db/supplier_products.json");
@@ -812,8 +725,6 @@ function main() {
   const ownerConversionDemo = readJson("src/data/branch/real/owner_conversion_demo.json");
   const consultationRfpTemplates = readJson("src/data/branch/real/consultation_rfp_templates.json");
   const marketServices = readJson("src/data/branch/real/market_services.json");
-  const resolvedBrandsByCategory = readJson("DB_real/franchise_resolved_brands/resolved_brands_by_category.json");
-  const collectedBrandDetailsByCategory = buildCollectedBrandDetails();
   const ftcCollectionReport = fs.existsSync(path.join(root, "DB_real/ftc_franchise_db/metadata/collection_report.json"))
     ? readJson("DB_real/ftc_franchise_db/metadata/collection_report.json")
     : null;
@@ -830,6 +741,8 @@ function main() {
   const costAssumptions = readJson("src/data/branch/cost/cost_assumptions.json");
   const scenario = readJson("src/data/branch/scenarios/busan_meatbowl.json");
 
+  fs.rmSync(outRoot, { recursive: true, force: true });
+
   writeJson("manifest.json", {
     generatedAt: new Date().toISOString(),
     sourceRoots: [
@@ -838,9 +751,7 @@ function main() {
       "DB_real/perplexity_supplier_db",
       "DB_real/ftc_franchise_db",
       "DB_real/sbiz_location_db",
-      "DB_real/experience_db",
-      "DB_real/franchise_resolved_brands",
-      "DB_real/franchise_collected_categories"
+      "DB_real/experience_db"
     ],
     counts: {
       franchiseBrandCount: brands.length,
@@ -852,16 +763,13 @@ function main() {
       sbizStoreCount: sbizCollectionReport?.totalStores ?? 0,
       sbizFoodServiceStoreCount: sbizCollectionReport?.foodServiceStores ?? 0,
       experienceCategoryCount: experienceSummary?.categoryCount ?? 0,
-      experienceImageTemplateCount: experienceSummary?.imageTemplateCount ?? 0,
-      collectedFranchiseBrandCount: Object.values(collectedBrandDetailsByCategory).reduce((sum, category) => sum + category.brand_count, 0)
+      experienceImageTemplateCount: experienceSummary?.imageTemplateCount ?? 0
     }
   });
   writeJson("scenario/busan_meatbowl.json", { ...scenario, real_data_enabled: true });
   writeJson("franchise/franchise_brands.json", brands);
   writeJson("franchise/franchise_cohorts.json", cohorts);
   writeJson("franchise/franchise_benchmark_summary.json", benchmarkSummary);
-  writeJson("franchise/resolved_brands_by_category.json", resolvedBrandsByCategory);
-  writeJson("franchise/collected_brand_details_by_category.json", collectedBrandDetailsByCategory);
   writeJson("franchise/franchise_data_quality.json", {
     directCohortBrandCount: directBrandNames.length,
     quantifiedDirectBrandCount: brands.filter((brand) => brand.comparisonGroup === "direct" && brand.monthlyAverageSales != null).length,

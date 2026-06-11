@@ -13,7 +13,6 @@ export function FinanceSaveToReportButton({ result, scenarioKey, scenario }: { r
       targetDailyOrders: scenario.targetDailyOrders,
       deliveryShare: result.input.delivery_share ?? result.assumptions.delivery_share,
       endingCash: scenario.endingCashMonth4,
-      selectedLocation: result.locationContext ?? null,
       updatedAt: new Date().toISOString()
     });
   }
